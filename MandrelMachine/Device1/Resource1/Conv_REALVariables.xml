@@ -1,0 +1,90 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Manifest
+  Version="1.0.0">
+  <Variables>
+    <Variable
+      Name="mConv"
+      Comment=""
+      AccessRights="ReadWrite"
+      DataType="REAL"
+      Kind="Var"
+      IO="false"
+      Protocol="false"
+      UI="false"
+      Default="false"
+      LogPV="false"
+      Alarm="false"
+      UoM="NoUnits"
+      IsRetained="false" />
+    <Variable
+      Name="qConv"
+      Comment=""
+      AccessRights="ReadWrite"
+      DataType="REAL"
+      Kind="Var"
+      IO="false"
+      Protocol="false"
+      UI="false"
+      Default="false"
+      LogPV="false"
+      Alarm="false"
+      UoM="NoUnits"
+      IsRetained="false" />
+    <Variable
+      Name="In"
+      Comment="Value to convert"
+      AccessRights="Read"
+      DataType="REAL"
+      Kind="VarInput"
+      IO="false"
+      Protocol="false"
+      UI="false"
+      Default="false"
+      LogPV="false"
+      Alarm="false"
+      UoM="NoUnits"
+      IsRetained="false" />
+    <Variable
+      Name="In0"
+      Comment="Value of In in which output takes value of 0"
+      AccessRights="Read"
+      DataType="REAL"
+      Kind="VarInput"
+      IO="false"
+      Protocol="false"
+      UI="false"
+      Default="false"
+      LogPV="false"
+      Alarm="false"
+      UoM="NoUnits"
+      IsRetained="false" />
+    <Variable
+      Name="In100"
+      Comment="Value of In in which output takes value of 100"
+      AccessRights="Read"
+      DataType="REAL"
+      Kind="VarInput"
+      IO="false"
+      Protocol="false"
+      UI="false"
+      Default="false"
+      LogPV="false"
+      Alarm="false"
+      UoM="NoUnits"
+      IsRetained="false" />
+    <Variable
+      Name="Conv_REAL"
+      Comment="Converted value"
+      AccessRights="Write"
+      DataType="REAL"
+      Kind="VarOutput"
+      IO="false"
+      Protocol="false"
+      UI="false"
+      Default="false"
+      LogPV="false"
+      Alarm="false"
+      UoM="NoUnits"
+      IsRetained="false" />
+  </Variables>
+</Manifest>

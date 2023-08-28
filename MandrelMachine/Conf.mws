@@ -1,0 +1,17 @@
+[MAIN]
+NET=1
+CONF=1
+RES=1
+
+
+[NET]
+N1=HSD_1, HSD
+
+
+[CONF]
+C1=Device1, 1
+I1=1
+
+
+[RES]
+R1=1, Resource1, 1

@@ -1,0 +1,104 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Manifest
+  Version="1.0.0">
+  <Variables>
+    <Variable
+      Name="In"
+      Comment="Input trigger"
+      AccessRights="Read"
+      DataType="BOOL"
+      Kind="VarInput"
+      IO="false"
+      Protocol="false"
+      UI="false"
+      Default="false"
+      LogPV="false"
+      Alarm="false"
+      UoM="NoUnits"
+      IsRetained="false" />
+    <Variable
+      Name="Du"
+      Comment="Down/Up, indicate the direction of count"
+      AccessRights="Read"
+      DataType="BOOL"
+      Kind="VarInput"
+      IO="false"
+      Protocol="false"
+      UI="false"
+      Default="false"
+      LogPV="false"
+      Alarm="false"
+      UoM="NoUnits"
+      IsRetained="false" />
+    <Variable
+      Name="Reset"
+      Comment="Reset the count"
+      AccessRights="Read"
+      DataType="BOOL"
+      Kind="VarInput"
+      IO="false"
+      Protocol="false"
+      UI="false"
+      Default="false"
+      LogPV="false"
+      Alarm="false"
+      UoM="NoUnits"
+      IsRetained="false" />
+    <Variable
+      Name="Enable"
+      Comment="Enables the count"
+      AccessRights="Read"
+      DataType="BOOL"
+      Kind="VarInput"
+      IO="false"
+      Protocol="false"
+      UI="false"
+      Default="false"
+      LogPV="false"
+      Alarm="false"
+      UoM="NoUnits"
+      IsRetained="false" />
+    <Variable
+      Name="Out"
+      Comment="Output value"
+      AccessRights="Write"
+      DataType="INT"
+      Kind="VarOutput"
+      IO="false"
+      Protocol="false"
+      UI="false"
+      Default="false"
+      LogPV="false"
+      Alarm="false"
+      UoM="NoUnits"
+      IsRetained="false" />
+    <Variable
+      Name="In_Old"
+      Comment=""
+      AccessRights="ReadWrite"
+      DataType="BOOL"
+      Kind="Var"
+      IO="false"
+      Protocol="false"
+      UI="false"
+      Default="false"
+      LogPV="false"
+      Alarm="false"
+      UoM="NoUnits"
+      IsRetained="false" />
+    <Variable
+      Name="Count"
+      Comment=""
+      AccessRights="ReadWrite"
+      DataType="INT"
+      Kind="Var"
+      IO="false"
+      Protocol="false"
+      UI="false"
+      Default="false"
+      LogPV="false"
+      Alarm="false"
+      UoM="NoUnits"
+      IsRetained="false" />
+  </Variables>
+</Manifest>

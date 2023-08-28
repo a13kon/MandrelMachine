@@ -1,0 +1,234 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Manifest
+  Version="1.0.0">
+  <Variables>
+    <Variable
+      Name="In"
+      Comment="Input value"
+      AccessRights="Read"
+      DataType="BOOL"
+      Kind="VarInput"
+      IO="false"
+      Protocol="false"
+      UI="false"
+      Default="false"
+      LogPV="false"
+      Alarm="false"
+      UoM="NoUnits"
+      IsRetained="false" />
+    <Variable
+      Name="Time1"
+      Comment="Delay time (seconds)"
+      AccessRights="Read"
+      DataType="INT"
+      Kind="VarInput"
+      IO="false"
+      Protocol="false"
+      UI="false"
+      Default="false"
+      LogPV="false"
+      Alarm="false"
+      UoM="Seconds"
+      IsRetained="false" />
+    <Variable
+      Name="Out"
+      Comment="Output value"
+      AccessRights="Write"
+      DataType="BOOL"
+      Kind="VarOutput"
+      IO="false"
+      Protocol="false"
+      UI="false"
+      Default="false"
+      LogPV="false"
+      Alarm="false"
+      UoM="NoUnits"
+      IsRetained="false" />
+    <Variable
+      Name="SR_1"
+      Comment=""
+      AccessRights="ReadWrite"
+      DataType="SR"
+      Kind="Var">
+      <Variable
+        Name="SET1"
+        DataType="BOOL"
+        IO="false"
+        Protocol="false"
+        UI="false"
+        Default="false"
+        LogPV="false"
+        Alarm="false"
+        UoM="NoUnits"
+        IsRetained="false" />
+      <Variable
+        Name="RESET"
+        DataType="BOOL"
+        IO="false"
+        Protocol="false"
+        UI="false"
+        Default="false"
+        LogPV="false"
+        Alarm="false"
+        UoM="NoUnits"
+        IsRetained="false" />
+      <Variable
+        Name="Q1"
+        DataType="BOOL"
+        IO="false"
+        Protocol="false"
+        UI="false"
+        Default="false"
+        LogPV="false"
+        Alarm="false"
+        UoM="NoUnits"
+        IsRetained="false" />
+    </Variable>
+    <Variable
+      Name="TON_1"
+      Comment=""
+      AccessRights="ReadWrite"
+      DataType="TON"
+      Kind="Var">
+      <Variable
+        Name="IN"
+        DataType="BOOL"
+        IO="false"
+        Protocol="false"
+        UI="false"
+        Default="false"
+        LogPV="false"
+        Alarm="false"
+        UoM="NoUnits"
+        IsRetained="false" />
+      <Variable
+        Name="PT"
+        DataType="TIME"
+        IO="false"
+        Protocol="false"
+        UI="false"
+        Default="false"
+        LogPV="false"
+        Alarm="false"
+        UoM="NoUnits"
+        IsRetained="false" />
+      <Variable
+        Name="Q"
+        DataType="BOOL"
+        IO="false"
+        Protocol="false"
+        UI="false"
+        Default="false"
+        LogPV="false"
+        Alarm="false"
+        UoM="NoUnits"
+        IsRetained="false" />
+      <Variable
+        Name="ET"
+        DataType="TIME"
+        IO="false"
+        Protocol="false"
+        UI="false"
+        Default="false"
+        LogPV="false"
+        Alarm="false"
+        UoM="NoUnits"
+        IsRetained="false" />
+      <Variable
+        Name="Pdate"
+        DataType="TIME"
+        IO="false"
+        Protocol="false"
+        UI="false"
+        Default="false"
+        LogPV="false"
+        Alarm="false"
+        UoM="NoUnits"
+        IsRetained="false" />
+      <Variable
+        Name="Redge"
+        DataType="BOOL"
+        IO="false"
+        Protocol="false"
+        UI="false"
+        Default="false"
+        LogPV="false"
+        Alarm="false"
+        UoM="NoUnits"
+        IsRetained="false" />
+    </Variable>
+    <Variable
+      Name="TON_2"
+      Comment=""
+      AccessRights="ReadWrite"
+      DataType="TON"
+      Kind="Var">
+      <Variable
+        Name="IN"
+        DataType="BOOL"
+        IO="false"
+        Protocol="false"
+        UI="false"
+        Default="false"
+        LogPV="false"
+        Alarm="false"
+        UoM="NoUnits"
+        IsRetained="false" />
+      <Variable
+        Name="PT"
+        DataType="TIME"
+        IO="false"
+        Protocol="false"
+        UI="false"
+        Default="false"
+        LogPV="false"
+        Alarm="false"
+        UoM="NoUnits"
+        IsRetained="false" />
+      <Variable
+        Name="Q"
+        DataType="BOOL"
+        IO="false"
+        Protocol="false"
+        UI="false"
+        Default="false"
+        LogPV="false"
+        Alarm="false"
+        UoM="NoUnits"
+        IsRetained="false" />
+      <Variable
+        Name="ET"
+        DataType="TIME"
+        IO="false"
+        Protocol="false"
+        UI="false"
+        Default="false"
+        LogPV="false"
+        Alarm="false"
+        UoM="NoUnits"
+        IsRetained="false" />
+      <Variable
+        Name="Pdate"
+        DataType="TIME"
+        IO="false"
+        Protocol="false"
+        UI="false"
+        Default="false"
+        LogPV="false"
+        Alarm="false"
+        UoM="NoUnits"
+        IsRetained="false" />
+      <Variable
+        Name="Redge"
+        DataType="BOOL"
+        IO="false"
+        Protocol="false"
+        UI="false"
+        Default="false"
+        LogPV="false"
+        Alarm="false"
+        UoM="NoUnits"
+        IsRetained="false" />
+    </Variable>
+  </Variables>
+</Manifest>

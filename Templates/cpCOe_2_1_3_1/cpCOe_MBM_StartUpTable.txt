@@ -1,0 +1,25 @@
+Version 1.1 ModbusMasterDevice RepoVersion 3.3.6
+
+Settings
+NameLine	NetworkAddress	HostName	Status	Timeout	PeekTime	UoM	DelayCommandTime	DeviceError	DeviceErrorCode	ErrorsID	PollsID	Priority	EnableErrorDump	Endianess	ReadPoints	WritePoints	Cmd17ArrayVarName	Cmd17ReadMode	ReadBoolPoints	WriteBoolPoints	Instance
+StartUpTable	cpCOe_Mng.cpCOe_2_1.DevAddrExt_CPCOE		cpCOe_Mng.cpCOe_2_1.EnStartUpTable	200	200	0	0	cpCOe_Mng.cpCOe_2_1.CommErr_CPCOE.DevErr_StartUp	cpCOe_Mng.cpCOe_2_1.CommErr_CPCOE.ErrCode_StartUp			Normal	False	BigEndian	125	123		NoRead	2000	1968	cpCOe_Mng.cpCOe_2_1
+
+Variables
+Status	Type	Index	Variable	Occupation	ReadWriteMode	Priority	Hysteresis	Description
+True	HoldingRegister	14	cpCOe_Mng.cpCOe_2_1.AddrExt_CPCOE		NoRead_WriteChange_WriteOnline	Normal	1	
+True	HoldingRegister	15	cpCOe_Mng.cpCOe_2_1.DevCfg_CPCOE.SlvTimeout		NoRead_WriteChange_WriteOnline	Normal	1	
+True	HoldingRegister	16	cpCOe_Mng.cpCOe_2_1.DevCfg_CPCOE.SafeModeDT		NoRead_WriteChange_WriteOnline	Normal	1	
+True	HoldingRegister	17	cpCOe_Mng.cpCOe_2_1.FrameCfg		NoRead_WriteChange_WriteOnline	Normal	1	
+True	HoldingRegister	18	cpCOe_Mng.cpCOe_2_1.MasterTypFrc		NoRead_WriteChange_WriteOnline	Normal	1	
+True	InputRegister	2	cpCOe_Mng.cpCOe_2_1.MasterTypRead		ReadPoll_NoWrite	Normal	1	
+True	InputRegister	3	cpCOe_Mng.cpCOe_2_1.pCOTyp		ReadOnline_NoWrite	Normal	1	
+True	InputRegister	4	cpCOe_Mng.cpCOe_2_1.BoardTyp		ReadOnline_NoWrite	Normal	1	
+True	InputRegister	5	cpCOe_Mng.cpCOe_2_1.FwVersionH		ReadOnline_NoWrite	Normal	1	
+True	InputRegister	6	cpCOe_Mng.cpCOe_2_1.FwVersionL		ReadOnline_NoWrite	Normal	1	
+True	InputRegister	7	cpCOe_Mng.cpCOe_2_1.FwDay		ReadOnline_NoWrite	Normal	1	
+True	InputRegister	8	cpCOe_Mng.cpCOe_2_1.FwMonth		ReadOnline_NoWrite	Normal	1	
+True	InputRegister	9	cpCOe_Mng.cpCOe_2_1.FwYear		ReadOnline_NoWrite	Normal	1	
+True	InputRegister	10	cpCOe_Mng.cpCOe_2_1.Reserved1		ReadOnline_NoWrite	Normal	1	
+True	InputRegister	11	cpCOe_Mng.cpCOe_2_1.Reserved2		ReadOnline_NoWrite	Normal	1	
+True	InputRegister	12	cpCOe_Mng.cpCOe_2_1.Reserved3		ReadOnline_NoWrite	Normal	1	
+True	InputRegister	13	cpCOe_Mng.cpCOe_2_1.CfgErr_CPCOE		ReadPoll_NoWrite	Normal	1	

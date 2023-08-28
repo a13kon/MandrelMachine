@@ -1,0 +1,151 @@
+﻿<Manifest
+  Version="1.0.1"
+  IsLibrary="true">
+  <Libraries />
+  <Pou
+    Name="VersionChk_2"
+    Moniker="VersionChk_2.stf"
+    Language="ST"
+    IsIec61499="false"
+    Kind="FunctionBlock"
+    Password="E4BDBA2BEF6CC4DC"
+    GenerateDebugInfo="false"
+    GeneratingMonitoringSymbols="true"
+    UserEdited="false"
+    Deprecated="false"
+    IsVisible="true">
+    <Variable
+      Name="Version"
+      Comment=""
+      DataType="VERSIONCHK_APPVER"
+      Kind="VarInput" />
+    <Variable
+      Name="VerMismatch"
+      Comment="Check the application version every startup and inform the user if the version hes been changed (VersionMismatch = TRUE)"
+      DataType="BOOL"
+      Kind="VarOutput" />
+    <Variable
+      Name="EnVerChk"
+      Comment="VersionChk FB enable"
+      DataType="BOOL"
+      Kind="Var" />
+    <Variable
+      Name="WriteVer"
+      Comment="Enable the application version write after a wipe retain."
+      DataType="BOOL"
+      Kind="Var" />
+    <Variable
+      Name="X"
+      Comment="X version of the application"
+      DataType="UINT"
+      Kind="Var" />
+    <Variable
+      Name="Y"
+      Comment="Y version of the application"
+      DataType="UINT"
+      Kind="Var" />
+    <Variable
+      Name="Z"
+      Comment="Z version of the application"
+      DataType="UINT"
+      Kind="Var" />
+    <Variable
+      Name="D"
+      Comment="D version of the application"
+      DataType="UINT"
+      Kind="Var" />
+    <Variable
+      Name="IsBeta"
+      Comment="Beta enable"
+      DataType="BOOL"
+      Kind="Var" />
+    <Variable
+      Name="IsDemo"
+      Comment="Demo enable"
+      DataType="BOOL"
+      Kind="Var" />
+  </Pou>
+  <Pou
+    Name="VersionChk_2_str"
+    Moniker="VersionChk_2_str.stf"
+    Language="ST"
+    IsIec61499="false"
+    Kind="FunctionBlock"
+    Password="E4BDBA2BEF6CC4DC"
+    GenerateDebugInfo="true"
+    GeneratingMonitoringSymbols="true"
+    UserEdited="false"
+    Deprecated="false"
+    IsVisible="true">
+    <Variable
+      Name="Version"
+      Comment="Version string"
+      DataType="STRING"
+      Kind="VarInput" />
+    <Variable
+      Name="BetaString"
+      Comment="String that represents beta version"
+      DataType="STRING"
+      Kind="VarInput" />
+    <Variable
+      Name="VerMismatch"
+      Comment="Check the application version every startup and inform the user if the version hes been changed (VersionMismatch = TRUE)"
+      DataType="BOOL"
+      Kind="VarOutput" />
+    <Variable
+      Name="EnVerChk"
+      Comment="VersionChk FB enable"
+      DataType="BOOL"
+      Kind="Var" />
+    <Variable
+      Name="WriteVer"
+      Comment="Enable the application version write after a wipe retain."
+      DataType="BOOL"
+      Kind="Var" />
+    <Variable
+      Name="PrevVersion"
+      Comment=""
+      DataType="STRING"
+      Kind="Var" />
+    <Variable
+      Name="X"
+      Comment="X version of the application"
+      DataType="UINT"
+      Kind="Var" />
+    <Variable
+      Name="Y"
+      Comment="Y version of the application"
+      DataType="UINT"
+      Kind="Var" />
+    <Variable
+      Name="Z"
+      Comment="Z version of the application"
+      DataType="UINT"
+      Kind="Var" />
+    <Variable
+      Name="D"
+      Comment="D version of the application"
+      DataType="UINT"
+      Kind="Var" />
+    <Variable
+      Name="IsBeta"
+      Comment="Beta enable"
+      DataType="BOOL"
+      Kind="Var" />
+    <Variable
+      Name="IsDemo"
+      Comment="Demo enable"
+      DataType="BOOL"
+      Kind="Var" />
+    <Variable
+      Name="tmp_s"
+      Comment=""
+      DataType="STRING"
+      Kind="Var" />
+    <Variable
+      Name="pt_idx"
+      Comment=""
+      DataType="DINT"
+      Kind="Var" />
+  </Pou>
+</Manifest>

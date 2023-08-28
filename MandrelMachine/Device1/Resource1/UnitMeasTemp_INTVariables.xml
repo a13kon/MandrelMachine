@@ -1,0 +1,207 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Manifest
+  Version="1.0.0">
+  <Variables>
+    <Variable
+      Name="BaseTempIn"
+      Comment="Algorithm value"
+      AccessRights="Read"
+      DataType="INT"
+      Kind="VarInput"
+      IO="false"
+      Protocol="false"
+      UI="false"
+      Default="false"
+      LogPV="false"
+      Alarm="false"
+      UoM="NoUnits"
+      IsRetained="false" />
+    <Variable
+      Name="DisplayTempIn"
+      Comment="Display value"
+      AccessRights="Read"
+      DataType="INT"
+      Kind="VarInput"
+      IO="false"
+      Protocol="false"
+      UI="false"
+      Default="false"
+      LogPV="false"
+      Alarm="false"
+      UoM="NoUnits"
+      IsRetained="false" />
+    <Variable
+      Name="BaseUnit"
+      Comment="Unit of measurement of the base (false: Celsius, true: Fahrenheit)"
+      AccessRights="Read"
+      DataType="BOOL"
+      Kind="VarInput"
+      IO="false"
+      Protocol="false"
+      UI="false"
+      Default="false"
+      LogPV="false"
+      Alarm="false"
+      UoM="NoUnits"
+      IsRetained="false" />
+    <Variable
+      Name="DisplayUnit"
+      Comment="Unit of measurement of the display (false: Celsius, true: Fahrenheit)"
+      AccessRights="Read"
+      DataType="BOOL"
+      Kind="VarInput"
+      IO="false"
+      Protocol="false"
+      UI="false"
+      Default="false"
+      LogPV="false"
+      Alarm="false"
+      UoM="NoUnits"
+      IsRetained="false" />
+    <Variable
+      Name="BaseTemp"
+      Comment="Algorithm value"
+      AccessRights="Write"
+      DataType="INT"
+      Kind="VarOutput"
+      IO="false"
+      Protocol="false"
+      UI="false"
+      Default="false"
+      LogPV="false"
+      Alarm="false"
+      UoM="NoUnits"
+      IsRetained="false" />
+    <Variable
+      Name="DisplayTemp"
+      Comment="Display value"
+      AccessRights="Write"
+      DataType="INT"
+      Kind="VarOutput"
+      IO="false"
+      Protocol="false"
+      UI="false"
+      Default="false"
+      LogPV="false"
+      Alarm="false"
+      UoM="NoUnits"
+      IsRetained="false" />
+    <Variable
+      Name="UnitMeasTempAbs_REAL_1"
+      Comment=""
+      AccessRights="ReadWrite"
+      DataType="UnitMeasTemp_REAL"
+      Kind="Var">
+      <Variable
+        Name="BaseTempIn"
+        DataType="REAL"
+        IO="false"
+        Protocol="false"
+        UI="false"
+        Default="false"
+        LogPV="false"
+        Alarm="false"
+        UoM="NoUnits"
+        IsRetained="false" />
+      <Variable
+        Name="DisplayTempIn"
+        DataType="REAL"
+        IO="false"
+        Protocol="false"
+        UI="false"
+        Default="false"
+        LogPV="false"
+        Alarm="false"
+        UoM="NoUnits"
+        IsRetained="false" />
+      <Variable
+        Name="BaseUnit"
+        DataType="BOOL"
+        IO="false"
+        Protocol="false"
+        UI="false"
+        Default="false"
+        LogPV="false"
+        Alarm="false"
+        UoM="NoUnits"
+        IsRetained="false" />
+      <Variable
+        Name="DisplayUnit"
+        DataType="BOOL"
+        IO="false"
+        Protocol="false"
+        UI="false"
+        Default="false"
+        LogPV="false"
+        Alarm="false"
+        UoM="NoUnits"
+        IsRetained="false" />
+      <Variable
+        Name="BaseTemp"
+        DataType="REAL"
+        IO="false"
+        Protocol="false"
+        UI="false"
+        Default="false"
+        LogPV="false"
+        Alarm="false"
+        UoM="NoUnits"
+        IsRetained="false" />
+      <Variable
+        Name="DisplayTemp"
+        DataType="REAL"
+        IO="false"
+        Protocol="false"
+        UI="false"
+        Default="false"
+        LogPV="false"
+        Alarm="false"
+        UoM="NoUnits"
+        IsRetained="false" />
+      <Variable
+        Name="PrevBaseTemp"
+        DataType="REAL"
+        IO="false"
+        Protocol="false"
+        UI="false"
+        Default="false"
+        LogPV="false"
+        Alarm="false"
+        UoM="NoUnits"
+        IsRetained="false" />
+      <Variable
+        Name="PrevDisplayTemp"
+        DataType="REAL"
+        IO="false"
+        Protocol="false"
+        UI="false"
+        Default="false"
+        LogPV="false"
+        Alarm="false"
+        UoM="NoUnits"
+        IsRetained="false" />
+      <Variable
+        Name="PrevDisplayUnit"
+        DataType="BOOL"
+        IO="false"
+        Protocol="false"
+        UI="false"
+        Default="false"
+        LogPV="false"
+        Alarm="false"
+        UoM="NoUnits"
+        IsRetained="false" />
+      <Variable
+        Name="FirstRun"
+        DataType="BOOL"
+        IO="false"
+        Protocol="false"
+        UI="false"
+        Default="false"
+        LogPV="false"
+        Alarm="false"
+        UoM="NoUnits"
+        IsRetained="false" />
+    </Variable>
+  </Variables>
+</Manifest>

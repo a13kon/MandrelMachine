@@ -1,0 +1,104 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Manifest
+  Version="1.0.0">
+  <Variables>
+    <Variable
+      Name="In"
+      Comment="Activation"
+      AccessRights="Read"
+      DataType="BOOL"
+      Kind="VarInput"
+      IO="false"
+      Protocol="false"
+      UI="false"
+      Default="false"
+      LogPV="false"
+      Alarm="false"
+      UoM="NoUnits"
+      IsRetained="false" />
+    <Variable
+      Name="OnT"
+      Comment="Amount of time to keep the output true (seconds)"
+      AccessRights="Read"
+      DataType="INT"
+      Kind="VarInput"
+      IO="false"
+      Protocol="false"
+      UI="false"
+      Default="false"
+      LogPV="false"
+      Alarm="false"
+      UoM="Seconds"
+      IsRetained="false" />
+    <Variable
+      Name="OffT"
+      Comment="Amount of time to keep the output false (seconds)"
+      AccessRights="Read"
+      DataType="INT"
+      Kind="VarInput"
+      IO="false"
+      Protocol="false"
+      UI="false"
+      Default="false"
+      LogPV="false"
+      Alarm="false"
+      UoM="Seconds"
+      IsRetained="false" />
+    <Variable
+      Name="Out"
+      Comment="Output"
+      AccessRights="Write"
+      DataType="BOOL"
+      Kind="VarOutput"
+      IO="false"
+      Protocol="false"
+      UI="false"
+      Default="false"
+      LogPV="false"
+      Alarm="false"
+      UoM="NoUnits"
+      IsRetained="false" />
+    <Variable
+      Name="OffT_Int"
+      Comment=""
+      AccessRights="ReadWrite"
+      DataType="TIME"
+      Kind="Var"
+      IO="false"
+      Protocol="false"
+      UI="false"
+      Default="false"
+      LogPV="false"
+      Alarm="false"
+      UoM="NoUnits"
+      IsRetained="false" />
+    <Variable
+      Name="OnT_Int"
+      Comment=""
+      AccessRights="ReadWrite"
+      DataType="TIME"
+      Kind="Var"
+      IO="false"
+      Protocol="false"
+      UI="false"
+      Default="false"
+      LogPV="false"
+      Alarm="false"
+      UoM="NoUnits"
+      IsRetained="false" />
+    <Variable
+      Name="WATCH"
+      Comment=""
+      AccessRights="ReadWrite"
+      DataType="TIME"
+      Kind="Var"
+      IO="false"
+      Protocol="false"
+      UI="false"
+      Default="false"
+      LogPV="false"
+      Alarm="false"
+      UoM="NoUnits"
+      IsRetained="false" />
+  </Variables>
+</Manifest>

@@ -1,0 +1,18 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Libraries LibVersion="1.0.1">
+  <Library Name="Blackout_3" Version="1.0.1" IsSystem="true" ConcreteType="Pou" Moniker="\Libraries\Blackout_3_1_0_1.pp1" GUID="b62c8f9e-cc7e-4379-a921-10663710830d">
+    <Dependencies />
+  </Library>
+  <Library Name="CAREL_BASIC_LIB" Version="2.4.1" IsSystem="true" ConcreteType="Pou" Moniker="\Libraries\CAREL_BASIC_LIB_2_4_1.pp1" GUID="f292fa64-26a9-47bd-a221-15f28def1088">
+    <Dependencies />
+  </Library>
+  <Library Name="CheckRetainMem" Version="1.2.1" IsSystem="true" ConcreteType="Pou" Moniker="\Libraries\CheckRetainMem_1_2_1.pp1" GUID="a747e278-84e1-4c07-906a-1f8a98832d99">
+    <Dependencies />
+  </Library>
+  <Library Name="cpCOe_2" Version="1.3.1" IsSystem="true" ConcreteType="Pou" Moniker="\Libraries\cpCOe_2_1_3_1.pp1" GUID="ed8550d1-09df-4e24-80cc-71f0a31295dd">
+    <Dependencies />
+  </Library>
+  <Library Name="VersionChk_2" Version="1.1.1" IsSystem="true" ConcreteType="Pou" Moniker="\Libraries\VersionChk_2_1_1_1.pp1" GUID="9d80264e-0e16-483f-a91d-75d8edb409c0">
+    <Dependencies />
+  </Library>
+</Libraries>

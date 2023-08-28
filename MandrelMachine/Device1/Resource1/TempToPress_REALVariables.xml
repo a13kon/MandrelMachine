@@ -1,0 +1,17 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Manifest Version="1.1.0">
+  <Variables>
+    <Variable Name="Gas" Comment="Gas index" AccessRights="Read" DataType="INT" Kind="VarInput" IO="false" Protocol="false" UI="false" Default="false" LogPV="false" IsRetained="false" Alarm="false" UoM="NoUnits" Access="ReadWrite" />
+    <Variable Name="iGas" Comment="" AccessRights="ReadWrite" DataType="SINT" Kind="Var" IO="false" Protocol="false" UI="false" Default="false" LogPV="false" IsRetained="false" Alarm="false" UoM="NoUnits" Access="ReadWrite" />
+    <Variable Name="p" Comment="" AccessRights="ReadWrite" DataType="REAL" Kind="Var" IO="false" Protocol="false" UI="false" Default="false" LogPV="false" IsRetained="false" Alarm="false" UoM="NoUnits" Access="ReadWrite" Decimals="1" />
+    <Variable Name="T" Comment="" AccessRights="ReadWrite" DataType="REAL" Kind="Var" IO="false" Protocol="false" UI="false" Default="false" LogPV="false" IsRetained="false" Alarm="false" UoM="NoUnits" Access="ReadWrite" Decimals="1" />
+    <Variable Name="TempToPress_REAL" Comment="Gas pressure in barg" AccessRights="ReadWrite" DataType="REAL" Kind="VarOutput" IO="false" Protocol="false" UI="false" Default="false" LogPV="false" IsRetained="false" Alarm="false" UoM="NoUnits" Access="ReadWrite" Decimals="1" />
+    <Variable Name="TGas" Comment="Gas dew temperature in degrees (°C)" AccessRights="Read" DataType="REAL" Kind="VarInput" IO="false" Protocol="false" UI="false" Default="false" LogPV="false" IsRetained="false" Alarm="false" UoM="NoUnits" Access="ReadWrite" Decimals="1" />
+    <Variable Name="va_i" Comment="" AccessRights="ReadWrite" DataType="REAL" Kind="Var" IO="false" Protocol="false" UI="false" Default="false" LogPV="false" IsRetained="false" Alarm="false" UoM="NoUnits" Access="ReadWrite" Decimals="1" />
+    <Variable Name="vb_i" Comment="" AccessRights="ReadWrite" DataType="REAL" Kind="Var" IO="false" Protocol="false" UI="false" Default="false" LogPV="false" IsRetained="false" Alarm="false" UoM="NoUnits" Access="ReadWrite" Decimals="1" />
+    <Variable Name="vc_i" Comment="" AccessRights="ReadWrite" DataType="REAL" Kind="Var" IO="false" Protocol="false" UI="false" Default="false" LogPV="false" IsRetained="false" Alarm="false" UoM="NoUnits" Access="ReadWrite" Decimals="1" />
+    <Variable Name="vd_i" Comment="" AccessRights="ReadWrite" DataType="REAL" Kind="Var" IO="false" Protocol="false" UI="false" Default="false" LogPV="false" IsRetained="false" Alarm="false" UoM="NoUnits" Access="ReadWrite" Decimals="1" />
+    <Variable Name="ve_i" Comment="" AccessRights="ReadWrite" DataType="REAL" Kind="Var" IO="false" Protocol="false" UI="false" Default="false" LogPV="false" IsRetained="false" Alarm="false" UoM="NoUnits" Access="ReadWrite" Decimals="1" />
+    <Variable Name="vf_i" Comment="" AccessRights="ReadWrite" DataType="REAL" Kind="Var" IO="false" Protocol="false" UI="false" Default="false" LogPV="false" IsRetained="false" Alarm="false" UoM="NoUnits" Access="ReadWrite" Decimals="1" />
+  </Variables>
+</Manifest>

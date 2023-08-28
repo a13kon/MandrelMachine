@@ -1,0 +1,48 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Manifest
+  Version="1.0.0">
+  <Variables>
+    <Variable
+      Name="Minute"
+      Comment="Value in minutes"
+      AccessRights="Read"
+      DataType="INT"
+      Kind="VarInput"
+      IO="false"
+      Protocol="false"
+      UI="false"
+      Default="false"
+      LogPV="false"
+      Alarm="false"
+      UoM="Minutes"
+      IsRetained="false" />
+    <Variable
+      Name="HH"
+      Comment="Hours"
+      AccessRights="Write"
+      DataType="INT"
+      Kind="VarOutput"
+      IO="false"
+      Protocol="false"
+      UI="false"
+      Default="false"
+      LogPV="false"
+      Alarm="false"
+      UoM="Hours"
+      IsRetained="false" />
+    <Variable
+      Name="MM"
+      Comment="Minutes"
+      AccessRights="Write"
+      DataType="INT"
+      Kind="VarOutput"
+      IO="false"
+      Protocol="false"
+      UI="false"
+      Default="false"
+      LogPV="false"
+      Alarm="false"
+      UoM="Minutes"
+      IsRetained="false" />
+  </Variables>
+</Manifest>

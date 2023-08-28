@@ -1,0 +1,26 @@
+Version 1.1 ModbusMasterDevice RepoVersion 3.3.6
+
+Settings
+NameLine	NetworkAddress	HostName	Status	Timeout	PeekTime	UoM	DelayCommandTime	DeviceError	DeviceErrorCode	ErrorsID	PollsID	Priority	EnableErrorDump	Endianess	ReadPoints	WritePoints	Cmd17ArrayVarName	Cmd17ReadMode	ReadBoolPoints	WriteBoolPoints	Instance
+ExtPositTable	cpCOe_Mng.cpCOe_2_1.DevAddrExt_CPCOE		cpCOe_Mng.cpCOe_2_1.EnExtPositTable	200	200	0	0	cpCOe_Mng.cpCOe_2_1.CommErr_CPCOE.DevErr_ExtPosit	cpCOe_Mng.cpCOe_2_1.CommErr_CPCOE.ErrCode_ExtPosit			Normal	False	BigEndian	125	123		NoRead	2000	1968	cpCOe_Mng.cpCOe_2_1
+
+Variables
+Status	Type	Index	Variable	Occupation	ReadWriteMode	Priority	Hysteresis	Description
+True	HoldingRegister	257	cpCOe_Mng.cpCOe_2_1.ExtPositProtocol.PositionToSet		NoRead_WriteChange	Normal	1	
+True	HoldingRegister	258	cpCOe_Mng.cpCOe_2_1.ExtPositProtocol.VariationToSet		ReadPoll_WriteChange	Normal	1	
+True	HoldingRegister	259	cpCOe_Mng.cpCOe_2_1.ExtPositProtocol.CurrentEstimatedPosition		ReadPoll_NoWrite	Normal	1	
+True	HoldingRegister	260	cpCOe_Mng.cpCOe_2_1.ExtPositProtocol.VariationRemaining		ReadPoll_NoWrite	Normal	1	
+True	HoldingRegister	261	cpCOe_Mng.cpCOe_2_1.ExtPositProtocol.FastClosingSpeed		NoRead_WriteChange_WriteOnline	Normal	1	
+True	HoldingRegister	262	cpCOe_Mng.cpCOe_2_1.ExtPositProtocol.Alarms		ReadPoll_NoWrite	Normal	1	
+True	HoldingRegister	263	cpCOe_Mng.cpCOe_2_1.ExtPositProtocol.MaxSteps		NoRead_WriteChange_WriteOnline	Normal	1	
+True	HoldingRegister	264	cpCOe_Mng.cpCOe_2_1.ExtPositProtocol.MinSteps		NoRead_WriteChange_WriteOnline	Normal	1	
+True	HoldingRegister	265	cpCOe_Mng.cpCOe_2_1.ExtPositProtocol.ClosingSteps		NoRead_WriteChange_WriteOnline	Normal	1	
+True	HoldingRegister	266	cpCOe_Mng.cpCOe_2_1.ExtPositProtocol.NominalCurrent		NoRead_WriteChange_WriteOnline	Normal	1	
+True	HoldingRegister	267	cpCOe_Mng.cpCOe_2_1.ExtPositProtocol.HoldingCurrent		NoRead_WriteChange_WriteOnline	Normal	1	
+True	HoldingRegister	268	cpCOe_Mng.cpCOe_2_1.ExtPositProtocol.Speed		NoRead_WriteChange_WriteOnline	Normal	1	
+True	HoldingRegister	269	cpCOe_Mng.cpCOe_2_1.ExtPositProtocol.DutyCycle		NoRead_WriteChange_WriteOnline	Normal	1	
+True	HoldingRegister	270	cpCOe_Mng.cpCOe_2_1.ExtPositProtocol.Enable		NoRead_WriteChange_WriteOnline	Normal	1	
+True	HoldingRegister	271	cpCOe_Mng.cpCOe_2_1.ExtPositProtocol.FastClosingSpeedEnable		NoRead_WriteChange_WriteOnline	Normal	1	
+True	HoldingRegister	272	cpCOe_Mng.cpCOe_2_1.ExtPositProtocol.DutyCycleEnable		NoRead_WriteChange_WriteOnline	Normal	1	
+True	HoldingRegister	273	cpCOe_Mng.cpCOe_2_1.ExtPositProtocol.OpeningXSteps		NoRead_WriteChange_WriteOnline	Normal	1	
+True	HoldingRegister	274	cpCOe_Mng.cpCOe_2_1.ExtPositProtocol.ClosingXSteps		NoRead_WriteChange_WriteOnline	Normal	1	

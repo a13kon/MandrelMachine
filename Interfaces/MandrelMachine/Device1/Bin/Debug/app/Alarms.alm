@@ -1,0 +1,9 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Alarms UnitConversionZone="NoConversion">
+  <Alarm Name="Al_retain" Type="ManualReset" Trigger="Al_retain.Trigger" Active="Al_retain.Active" Description="Ошибка подсчета числа записей в постоянную память" />
+  <Alarm Name="Al_Err_retain_write" Type="ManualReset" Trigger="Al_Err_retain_write.Trigger" Active="Al_Err_retain_write.Active" Description="Ошибка записи в постоянную память" />
+  <Alarm Name="FLR_Pump" Type="ManualReset" Trigger="FLR_Pump.Trigger" Active="FLR_Pump.Active" Description="Авария насоса" />
+  <Alarm Name="FLR_Comp" Type="ManualReset" Trigger="FLR_Comp.Trigger" Active="FLR_Comp.Active" Description="Авария компрессора" />
+  <Alarm Name="FLR_EmStop" Type="AutoReset" Trigger="FLR_EmStop.Trigger" Active="FLR_EmStop.Active" Description="Аварийный стоп" />
+  <Alarm Name="FLR_DifPress" Type="ManualReset" Trigger="FLR_DifPress.Trigger" Active="FLR_DifPress.Active" Description="Авария по перепаду давления" />
+</Alarms>

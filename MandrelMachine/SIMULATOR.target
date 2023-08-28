@@ -1,0 +1,538 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Target Name="SIMULATOR" CodeType="" Model="1" ByteOrder="0" AlignNumber="8" MaxBlockSize="0" UINT16Size="2" UINT32Size="4" UCHARSize="1" PointerSize="4" FirstVa="1024" Quantum="1" EolChar="13,10" OKReal="true" OKString="true" SM="65536" T1="0" T2="0" T3="0" T4="0" T5="0" G1="0" G2="0" G3="0" G4="0" UserData="true" SingleTextLine="Windows NT Target" Help="" Keyword="" SysVarCycleDate="264" SysVarCycycTime="268" SysVarCyCurrent="272" SysVarCyMaximum="276" SysVarCyOverFlow="280" SysVarScanCnt="284" SysVarCycleCnt="288" SysVarResMode="292" SysVarCCExec="293" SysVarKVBPerr="294" SysVarKVBCErr="295" SysVarWNGNum="296" SysVarWNGarg="300" SysVarResName="4" StrictAlignt="false" MaxParam="128" SysVarWNGCMD="315" SysVarWNGCMPTNM="304" IsIsagraf3="false" Features="FeatureUnsigned=Yes,FeaturePassword=Yes,FeatureOptCode=Yes,ResNbr=255" IsEnhancedTarget="true" MaxPouSize="262144">
+  <TargetDescription>Windows NT target
+Large model
+Intel, aligned at 4, not strictly
+</TargetDescription>
+  <CodeTypes />
+  <Networks>
+    <Network Name="HSD" />
+    <Network Name="ETCP" />
+    <Network Name="ISARSI" />
+  </Networks>
+  <CustomFields />
+  <ExtendedParameters />
+  <Features>
+    <Feature Name="PASSWORD" IsSupported="true" />
+    <Feature Name="OPTCODE" IsSupported="true" />
+    <Feature Name="BINDING" IsSupported="true" />
+    <Feature Name="MULTIRESOURCES" IsSupported="true" />
+    <Feature Name="ONLINE" IsSupported="false" />
+    <Feature Name="RETAIN" IsSupported="true" />
+    <Feature Name="MICROCYCTIME" IsSupported="false" />
+    <Feature Name="INTRPT" IsSupported="false" />
+    <Feature Name="ARINPRF" IsSupported="false" />
+    <Feature Name="BIGPOUS" IsSupported="true" />
+    <Feature Name="NETWORKINST" IsSupported="false" />
+    <Feature Name="SFCPRIO" IsSupported="false" />
+    <Feature Name="COMPLEXSUBVARCONNECTEDTOIOCHAN" IsSupported="false" />
+    <Feature Name="IOCHANOEMPARAM" IsSupported="false" />
+  </Features>
+  <Languages>
+    <Language Name="ST" IsSupported="true" />
+    <Language Name="IL" IsSupported="false" />
+    <Language Name="LD" IsSupported="true" />
+    <Language Name="FBD" IsSupported="true" />
+    <Language Name="SAMA" IsSupported="false" />
+    <Language Name="61499" IsSupported="false" />
+    <Language Name="SFC" IsSupported="true" />
+    <Language Name="FC" IsSupported="false" />
+    <Language Name="C" IsSupported="true" />
+  </Languages>
+  <DataTypes>
+    <DataType Name="BOOL" IsSupported="true" />
+    <DataType Name="SINT" IsSupported="true" />
+    <DataType Name="DINT" IsSupported="true" />
+    <DataType Name="REAL" IsSupported="true" />
+    <DataType Name="TIME" IsSupported="true" />
+    <DataType Name="STRING" IsSupported="true" />
+    <DataType Name="LREAL" IsSupported="false" />
+    <DataType Name="INT" IsSupported="true" />
+    <DataType Name="LINT" IsSupported="false" />
+    <DataType Name="USINT" IsSupported="true" />
+    <DataType Name="UINT" IsSupported="true" />
+    <DataType Name="UDINT" IsSupported="true" />
+    <DataType Name="ULINT" IsSupported="false" />
+    <DataType Name="DATE" IsSupported="true" />
+    <DataType Name="BYTE" IsSupported="true" />
+    <DataType Name="WORD" IsSupported="true" />
+    <DataType Name="DWORD" IsSupported="true" />
+    <DataType Name="LWORD" IsSupported="false" />
+    <DataType Name="SAFEBOOL" IsSupported="false" />
+    <DataType Name="ANY_ELEMENTARY" IsSupported="false" />
+  </DataTypes>
+  <SystemVariables />
+  <Interrupts />
+  <StdPous>
+    <StdPou Name="SR" IsSupported="true" />
+    <StdPou Name="RS" IsSupported="true" />
+    <StdPou Name="R_TRIG" IsSupported="true" />
+    <StdPou Name="F_TRIG" IsSupported="true" />
+    <StdPou Name="CTU" IsSupported="true" />
+    <StdPou Name="CTD" IsSupported="true" />
+    <StdPou Name="CTUD" IsSupported="true" />
+    <StdPou Name="TON" IsSupported="true" />
+    <StdPou Name="TOF" IsSupported="true" />
+    <StdPou Name="CMP" IsSupported="true" />
+    <StdPou Name="STACKINT" IsSupported="true" />
+    <StdPou Name="AVERAGE" IsSupported="true" />
+    <StdPou Name="HYSTER" IsSupported="true" />
+    <StdPou Name="LIM_ALRM" IsSupported="true" />
+    <StdPou Name="INTEGRAL" IsSupported="true" />
+    <StdPou Name="DERIVATE" IsSupported="true" />
+    <StdPou Name="BLINK" IsSupported="true" />
+    <StdPou Name="SIG_GEN" IsSupported="true" />
+    <StdPou Name="ABS" IsSupported="true" />
+    <StdPou Name="EXPT" IsSupported="true" />
+    <StdPou Name="LOG" IsSupported="true" />
+    <StdPou Name="POW" IsSupported="true" />
+    <StdPou Name="SQRT" IsSupported="true" />
+    <StdPou Name="TRUNC" IsSupported="true" />
+    <StdPou Name="ACOS" IsSupported="true" />
+    <StdPou Name="ASIN" IsSupported="true" />
+    <StdPou Name="ATAN" IsSupported="true" />
+    <StdPou Name="COS" IsSupported="true" />
+    <StdPou Name="SIN" IsSupported="true" />
+    <StdPou Name="TAN" IsSupported="true" />
+    <StdPou Name="ROL" IsSupported="true" />
+    <StdPou Name="ROR" IsSupported="true" />
+    <StdPou Name="SHL" IsSupported="true" />
+    <StdPou Name="SHR" IsSupported="true" />
+    <StdPou Name="MIN" IsSupported="true" />
+    <StdPou Name="MAX" IsSupported="true" />
+    <StdPou Name="LIMIT" IsSupported="true" />
+    <StdPou Name="MOD" IsSupported="true" />
+    <StdPou Name="MUX4" IsSupported="true" />
+    <StdPou Name="MUX8" IsSupported="true" />
+    <StdPou Name="ODD" IsSupported="true" />
+    <StdPou Name="RAND" IsSupported="true" />
+    <StdPou Name="SEL" IsSupported="true" />
+    <StdPou Name="ASCII" IsSupported="true" />
+    <StdPou Name="CHAR" IsSupported="true" />
+    <StdPou Name="DELETE" IsSupported="true" />
+    <StdPou Name="FIND" IsSupported="true" />
+    <StdPou Name="INSERT" IsSupported="true" />
+    <StdPou Name="LEFT" IsSupported="true" />
+    <StdPou Name="MID" IsSupported="true" />
+    <StdPou Name="MLEN" IsSupported="true" />
+    <StdPou Name="REPLACE" IsSupported="true" />
+    <StdPou Name="RIGHT" IsSupported="true" />
+    <StdPou Name="AND_MASK" IsSupported="true" />
+    <StdPou Name="OR_MASK" IsSupported="true" />
+    <StdPou Name="XOR_MASK" IsSupported="true" />
+    <StdPou Name="NOT_MASK" IsSupported="true" />
+    <StdPou Name="TP" IsSupported="true" />
+    <StdPou Name="CONNECT" IsSupported="false" />
+    <StdPou Name="USEND_S" IsSupported="false" />
+    <StdPou Name="URCV_S" IsSupported="false" />
+    <StdPou Name="SUB_DATE_DATE" IsSupported="true" />
+    <StdPou Name="CURRENT_ISA_DATE" IsSupported="true" />
+    <StdPou Name="SEMA" IsSupported="true" />
+    <StdPou Name="LOCK_CPU" IsSupported="false" />
+    <StdPou Name="UNLOCK_CPU" IsSupported="false" />
+  </StdPous>
+  <Pous>
+    <Pou FileVersion="200.00.002" Name="LED_WRITE" ElementGuid="00000000-0000-0000-0000-000000000000" Comment="" SingleTextLine="" Language="C" CustomFbd="0" Localization="LibC" GroupName="" GenDebugInfo="false" UseResPassword="true" GenerateSymbMon="false" Is1499="false">
+      <Function IdentifierNb="0" Keyword="LED_WRITE" ConvDirection="NoConversion" DataType="DINT" />
+      <LocalVars>
+        <Variable Name="LED_WRITE" DataType="DINT" InitialValue="" Comment="" Address="" Modifier="Constant" Kind="VarOutput" Alias="" AccessRights="Write" StringSize="0" Direction="Output" Attributes="0" />
+        <Variable Name="LED_CODE" DataType="UINT" InitialValue="" Comment="Led code to command (&gt;= 100)" Address="" Modifier="Constant" Kind="VarInput" Alias="" AccessRights="Read" StringSize="0" Direction="Input" Attributes="0" />
+        <Variable Name="STATUS" DataType="BOOL" InitialValue="" Comment="(0- switch off, 1- switch on)" Address="" Modifier="Constant" Kind="VarInput" Alias="" AccessRights="Read" StringSize="0" Direction="Input" Attributes="0" />
+      </LocalVars>
+      <PouBody />
+      <PouUIProperties />
+    </Pou>
+    <Pou FileVersion="200.00.002" Name="DIP_READ" ElementGuid="00000000-0000-0000-0000-000000000000" Comment="" SingleTextLine="" Language="C" CustomFbd="0" Localization="LibC" GroupName="" GenDebugInfo="false" UseResPassword="true" GenerateSymbMon="false" Is1499="false">
+      <Function IdentifierNb="0" Keyword="DIP_READ" ConvDirection="NoConversion" DataType="DINT" />
+      <LocalVars>
+        <Variable Name="DIP_READ" DataType="DINT" InitialValue="" Comment="" Address="" Modifier="Constant" Kind="VarOutput" Alias="" AccessRights="Write" StringSize="0" Direction="Output" Attributes="0" />
+        <Variable Name="DIP_CODE" DataType="UINT" InitialValue="" Comment="Dipswitch code to read (&gt;= 100)" Address="" Modifier="Constant" Kind="VarInput" Alias="" AccessRights="Read" StringSize="0" Direction="Input" Attributes="0" />
+      </LocalVars>
+      <PouBody />
+      <PouUIProperties />
+    </Pou>
+    <Pou FileVersion="200.00.002" Name="ALARM_RESET_ALL" ElementGuid="00000000-0000-0000-0000-000000000000" Comment="Reset all alarms; returns 0 if succesful&#xD;&#xA;" SingleTextLine="" Language="C" CustomFbd="0" Localization="LibC" GroupName="" GenDebugInfo="false" UseResPassword="true" GenerateSymbMon="false" Is1499="false">
+      <Function IdentifierNb="0" Keyword="ALARM_RESET_ALL" ConvDirection="NoConversion" DataType="DINT" />
+      <LocalVars>
+        <Variable Name="ALARM_RESET_ALL" DataType="DINT" InitialValue="" Comment="" Address="" Modifier="Constant" Kind="VarOutput" Alias="" AccessRights="Write" StringSize="0" Direction="Output" Attributes="0" />
+        <Variable Name="ENABLE" DataType="BOOL" InitialValue="" Comment="Enable reset (TRUE=reset all alarms, FALSE=do nothing)" Address="" Modifier="Constant" Kind="VarInput" Alias="" AccessRights="Read" StringSize="0" Direction="Input" Attributes="0" />
+      </LocalVars>
+      <PouBody />
+      <PouUIProperties />
+    </Pou>
+    <Pou FileVersion="200.00.002" Name="NFC_WRITE" ElementGuid="00000000-0000-0000-0000-000000000000" Comment="Write/read a USINT variable to/from nonvolatile RAM&#xD;&#xA;" SingleTextLine="" Language="C" CustomFbd="0" Localization="LibC" GroupName="System" GenDebugInfo="false" UseResPassword="true" GenerateSymbMon="false" Is1499="false">
+      <FunctionBlock IdentifierNb="0" Keyword="NFC_WRITE" InitInstance="true" SymbMonExtraBytes="128" />
+      <LocalVars>
+        <Variable Name="ADDR_IN" DataType="UINT" InitialValue="" Comment="Address to write to" Address="" Modifier="Constant" Kind="VarInput" Alias="" AccessRights="Read" StringSize="0" Direction="Input" Attributes="0" />
+        <Variable Name="VALUE_IN" DataType="BYTE" InitialValue="" Comment="Value to write" Address="" Modifier="Constant" Kind="VarInput" Alias="" AccessRights="Read" StringSize="0" Direction="Input" Attributes="0" />
+        <Variable Name="ENABLE" DataType="BOOL" InitialValue="" Comment="Enable pin (TRUE=write, FALSE=do nothing)" Address="" Modifier="Constant" Kind="VarInput" Alias="" AccessRights="Read" StringSize="0" Direction="Input" Attributes="0" />
+        <Variable Name="TIMEOUT" DataType="UDINT" InitialValue="" Comment="time limit to write operation" Address="" Modifier="Constant" Kind="VarInput" Alias="" AccessRights="Read" StringSize="0" Direction="Input" Attributes="0" />
+        <Variable Name="ERROR" DataType="DINT" InitialValue="" Comment="Operation result (ERR_xxx error code)" Address="" Modifier="Constant" Kind="VarOutput" Alias="" AccessRights="Write" StringSize="0" Direction="Output" Attributes="0" />
+        <Variable Name="PrevEnable" DataType="BOOL" InitialValue="" Comment="Previous enable state" Address="" Modifier="Constant" Kind="Var" Alias="" AccessRights="ReadWrite" StringSize="0" Direction="Local" Attributes="0" />
+      </LocalVars>
+      <PouBody />
+      <PouUIProperties />
+    </Pou>
+    <Pou FileVersion="200.00.002" Name="NVRAM_UINT" ElementGuid="00000000-0000-0000-0000-000000000000" Comment="Write/read a UINT variable to/from nonvolatile RAM&#xD;&#xA;" SingleTextLine="" Language="C" CustomFbd="0" Localization="LibC" GroupName="System" GenDebugInfo="false" UseResPassword="true" GenerateSymbMon="false" Is1499="false">
+      <FunctionBlock IdentifierNb="0" Keyword="NVRAM_UINT" InitInstance="true" SymbMonExtraBytes="128" />
+      <LocalVars>
+        <Variable Name="ADDR_IN" DataType="UINT" InitialValue="" Comment="Address to write to" Address="" Modifier="Constant" Kind="VarInput" Alias="" AccessRights="Read" StringSize="0" Direction="Input" Attributes="0" />
+        <Variable Name="VALUE_IN" DataType="UINT" InitialValue="" Comment="Value to write" Address="" Modifier="Constant" Kind="VarInput" Alias="" AccessRights="Read" StringSize="0" Direction="Input" Attributes="0" />
+        <Variable Name="WRITE" DataType="BOOL" InitialValue="" Comment="Operation selector (TRUE=write, FALSE=read)" Address="" Modifier="Constant" Kind="VarInput" Alias="" AccessRights="Read" StringSize="0" Direction="Input" Attributes="0" />
+        <Variable Name="ADDR_OUT" DataType="UINT" InitialValue="" Comment="Next free address" Address="" Modifier="Constant" Kind="VarOutput" Alias="" AccessRights="Write" StringSize="0" Direction="Output" Attributes="0" />
+        <Variable Name="VALUE_OUT" DataType="UINT" InitialValue="" Comment="Value read" Address="" Modifier="Constant" Kind="VarOutput" Alias="" AccessRights="Write" StringSize="0" Direction="Output" Attributes="0" />
+        <Variable Name="ERROR" DataType="DINT" InitialValue="" Comment="Operation result (ERR_xxx error code)" Address="" Modifier="Constant" Kind="VarOutput" Alias="" AccessRights="Write" StringSize="0" Direction="Output" Attributes="0" />
+        <Variable Name="PrevValue" DataType="UINT" InitialValue="" Comment="Previous input value" Address="" Modifier="Constant" Kind="Var" Alias="" AccessRights="ReadWrite" StringSize="0" Direction="Local" Attributes="0" />
+        <Variable Name="PrevAddr" DataType="UINT" InitialValue="" Comment="Previous input address" Address="" Modifier="Constant" Kind="Var" Alias="" AccessRights="ReadWrite" StringSize="0" Direction="Local" Attributes="0" />
+      </LocalVars>
+      <PouBody />
+      <PouUIProperties />
+    </Pou>
+    <Pou FileVersion="200.00.002" Name="IMPORT_PARAMS" ElementGuid="00000000-0000-0000-0000-000000000000" Comment="" SingleTextLine="" Language="C" CustomFbd="0" Localization="LibC" GroupName="" GenDebugInfo="false" UseResPassword="true" GenerateSymbMon="false" Is1499="false">
+      <FunctionBlock IdentifierNb="0" Keyword="IMPORT_PARAMS" InitInstance="true" SymbMonExtraBytes="128" />
+      <LocalVars>
+        <Variable Name="DRIVE" DataType="BYTE" InitialValue="" Comment="1 = usb pen drive | 0 = internal public flash" Address="" Modifier="Constant" Kind="VarInput" Alias="" AccessRights="Read" StringSize="0" Direction="Input" Attributes="0" />
+        <Variable Name="ENABLE" DataType="BOOL" InitialValue="" Comment="Enable import (TRUE=import params, FALSE=do nothing)" Address="" Modifier="Constant" Kind="VarInput" Alias="" AccessRights="Read" StringSize="0" Direction="Input" Attributes="0" />
+        <Variable Name="FILENAME" DataType="STRING" InitialValue="" Comment="Filename to import" Address="" Modifier="Constant" Kind="VarInput" Alias="" AccessRights="Read" StringSize="19" Direction="Input" Attributes="0" />
+        <Variable Name="ERROR" DataType="DINT" InitialValue="" Comment="Operation result (ERR_xxx error code)" Address="" Modifier="Constant" Kind="VarOutput" Alias="" AccessRights="Write" StringSize="0" Direction="Output" Attributes="0" />
+        <Variable Name="ENABLE_PREV" DataType="BOOL" InitialValue="" Comment="" Address="" Modifier="Constant" Kind="Var" Alias="" AccessRights="ReadWrite" StringSize="0" Direction="Local" Attributes="0" />
+      </LocalVars>
+      <PouBody />
+      <PouUIProperties />
+    </Pou>
+    <Pou FileVersion="200.00.002" Name="EXPORT_LOGS" ElementGuid="00000000-0000-0000-0000-000000000000" Comment="" SingleTextLine="" Language="C" CustomFbd="0" Localization="LibC" GroupName="" GenDebugInfo="false" UseResPassword="true" GenerateSymbMon="false" Is1499="false">
+      <FunctionBlock IdentifierNb="0" Keyword="EXPORT_LOGS" InitInstance="true" SymbMonExtraBytes="128" />
+      <LocalVars>
+        <Variable Name="DRIVE" DataType="BYTE" InitialValue="" Comment="1 = usb pen drive | 0 = internal public flash" Address="" Modifier="Constant" Kind="VarInput" Alias="" AccessRights="Read" StringSize="0" Direction="Input" Attributes="0" />
+        <Variable Name="ENABLE" DataType="BOOL" InitialValue="" Comment="Enable export (TRUE=export logs, FALSE=do nothing)" Address="" Modifier="Constant" Kind="VarInput" Alias="" AccessRights="Read" StringSize="0" Direction="Input" Attributes="0" />
+        <Variable Name="START" DataType="DINT" InitialValue="" Comment="Start date" Address="" Modifier="Constant" Kind="VarInput" Alias="" AccessRights="Read" StringSize="0" Direction="Input" Attributes="0" />
+        <Variable Name="STOP" DataType="DINT" InitialValue="" Comment="Stop date" Address="" Modifier="Constant" Kind="VarInput" Alias="" AccessRights="Read" StringSize="0" Direction="Input" Attributes="0" />
+        <Variable Name="LOG_INDEX" DataType="SINT" InitialValue="" Comment="Index of log to export (-1 = all logs)" Address="" Modifier="Constant" Kind="VarInput" Alias="" AccessRights="Read" StringSize="0" Direction="Input" Attributes="0" />
+        <Variable Name="ERROR" DataType="DINT" InitialValue="" Comment="Operation result (ERR_xxx error code)" Address="" Modifier="Constant" Kind="VarOutput" Alias="" AccessRights="Write" StringSize="0" Direction="Output" Attributes="0" />
+        <Variable Name="PROGRESS" DataType="SINT" InitialValue="" Comment="1 = export processing | 100 = export finished" Address="" Modifier="Constant" Kind="VarOutput" Alias="" AccessRights="Write" StringSize="0" Direction="Output" Attributes="0" />
+        <Variable Name="ENABLE_PREV" DataType="BOOL" InitialValue="" Comment="" Address="" Modifier="Constant" Kind="Var" Alias="" AccessRights="ReadWrite" StringSize="0" Direction="Local" Attributes="0" />
+        <Variable Name="ACTIVATED" DataType="BOOL" InitialValue="" Comment="" Address="" Modifier="Constant" Kind="Var" Alias="" AccessRights="ReadWrite" StringSize="0" Direction="Local" Attributes="0" />
+      </LocalVars>
+      <PouBody />
+      <PouUIProperties />
+    </Pou>
+    <Pou FileVersion="200.00.002" Name="RTC_WRITE" ElementGuid="00000000-0000-0000-0000-000000000000" Comment="" SingleTextLine="" Language="C" CustomFbd="0" Localization="LibC" GroupName="System" GenDebugInfo="false" UseResPassword="true" GenerateSymbMon="false" Is1499="false">
+      <FunctionBlock IdentifierNb="0" Keyword="RTC_WRITE" InitInstance="false" SymbMonExtraBytes="128" />
+      <LocalVars>
+        <Variable Name="CURR_DATE" DataType="DATE" InitialValue="" Comment="Current Date and time in ISA format" Address="" Modifier="Constant" Kind="VarInput" Alias="" AccessRights="Read" StringSize="0" Direction="Input" Attributes="0" />
+        <Variable Name="ENABLE" DataType="BOOL" InitialValue="" Comment="Enable write (TRUE=update RTC time, FALSE=do nothing)" Address="" Modifier="Constant" Kind="VarInput" Alias="" AccessRights="Read" StringSize="0" Direction="Input" Attributes="0" />
+        <Variable Name="ERROR" DataType="DINT" InitialValue="" Comment="Operation result (ERR_xxx error code)" Address="" Modifier="Constant" Kind="VarOutput" Alias="" AccessRights="Write" StringSize="0" Direction="Output" Attributes="0" />
+      </LocalVars>
+      <PouBody />
+      <PouUIProperties />
+    </Pou>
+    <Pou FileVersion="200.00.002" Name="SYS_UPGRADE" ElementGuid="00000000-0000-0000-0000-000000000000" Comment="" SingleTextLine="" Language="C" CustomFbd="0" Localization="LibC" GroupName="" GenDebugInfo="false" UseResPassword="true" GenerateSymbMon="false" Is1499="false">
+      <FunctionBlock IdentifierNb="0" Keyword="SYS_UPGRADE" InitInstance="true" SymbMonExtraBytes="128" />
+      <LocalVars>
+        <Variable Name="ENABLE" DataType="BOOL" InitialValue="" Comment="trigger (TRUE = start upgrade, FALSE = do nothing)" Address="" Modifier="Constant" Kind="VarInput" Alias="" AccessRights="Read" StringSize="0" Direction="Input" Attributes="0" />
+        <Variable Name="REBOOT" DataType="BOOL" InitialValue="" Comment="reboot/restart trigger (TRUE = reboot, FALSE = wait)" Address="" Modifier="Constant" Kind="VarInput" Alias="" AccessRights="Read" StringSize="0" Direction="Input" Attributes="0" />
+        <Variable Name="ERROR" DataType="DINT" InitialValue="" Comment="Operation result (ERR_xxx error code)" Address="" Modifier="Constant" Kind="VarOutput" Alias="" AccessRights="Write" StringSize="0" Direction="Output" Attributes="0" />
+        <Variable Name="UPG_STATE" DataType="SINT" InitialValue="" Comment="state of upgrade action (see the help)" Address="" Modifier="Constant" Kind="VarOutput" Alias="" AccessRights="Write" StringSize="0" Direction="Output" Attributes="0" />
+        <Variable Name="ENABLE_PREV" DataType="BOOL" InitialValue="" Comment="" Address="" Modifier="Constant" Kind="Var" Alias="" AccessRights="ReadWrite" StringSize="0" Direction="Local" Attributes="0" />
+        <Variable Name="ACTIVATED" DataType="BOOL" InitialValue="" Comment="" Address="" Modifier="Constant" Kind="Var" Alias="" AccessRights="ReadWrite" StringSize="0" Direction="Local" Attributes="0" />
+      </LocalVars>
+      <PouBody />
+      <PouUIProperties />
+    </Pou>
+    <Pou FileVersion="200.00.002" Name="UNION_REAL" ElementGuid="00000000-0000-0000-0000-000000000000" Comment="" SingleTextLine="" Language="C" CustomFbd="0" Localization="LibC" GroupName="" GenDebugInfo="false" UseResPassword="true" GenerateSymbMon="false" Is1499="false">
+      <FunctionBlock IdentifierNb="0" Keyword="UNION_REAL" InitInstance="true" SymbMonExtraBytes="128" />
+      <LocalVars>
+        <Variable Name="byte1" DataType="BYTE" InitialValue="" Comment="first eight bit that will compose the output bitmask" Address="" Modifier="Constant" Kind="VarInput" Alias="" AccessRights="Read" StringSize="0" Direction="Input" Attributes="0" />
+        <Variable Name="byte2" DataType="BYTE" InitialValue="" Comment="second eight bit that will compose the output bitmask" Address="" Modifier="Constant" Kind="VarInput" Alias="" AccessRights="Read" StringSize="0" Direction="Input" Attributes="0" />
+        <Variable Name="byte3" DataType="BYTE" InitialValue="" Comment="third eight bit that will compose the output bitmask" Address="" Modifier="Constant" Kind="VarInput" Alias="" AccessRights="Read" StringSize="0" Direction="Input" Attributes="0" />
+        <Variable Name="byte4" DataType="BYTE" InitialValue="" Comment="fourth eight bit that will compose the output bitmask" Address="" Modifier="Constant" Kind="VarInput" Alias="" AccessRights="Read" StringSize="0" Direction="Input" Attributes="0" />
+        <Variable Name="OUT" DataType="REAL" InitialValue="" Comment="Real number result from the bitmask composition of the input" Address="" Modifier="Constant" Kind="VarOutput" Alias="" AccessRights="Write" StringSize="0" Direction="Output" Attributes="0" />
+      </LocalVars>
+      <PouBody />
+      <PouUIProperties />
+    </Pou>
+    <Pou FileVersion="200.00.002" Name="NVRAM_REAL" ElementGuid="00000000-0000-0000-0000-000000000000" Comment="Write/read a REAL variable to/from nonvolatile RAM&#xD;&#xA;" SingleTextLine="" Language="C" CustomFbd="0" Localization="LibC" GroupName="System" GenDebugInfo="false" UseResPassword="true" GenerateSymbMon="false" Is1499="false">
+      <FunctionBlock IdentifierNb="0" Keyword="NVRAM_REAL" InitInstance="true" SymbMonExtraBytes="128" />
+      <LocalVars>
+        <Variable Name="ADDR_IN" DataType="UINT" InitialValue="" Comment="Address to write to" Address="" Modifier="Constant" Kind="VarInput" Alias="" AccessRights="Read" StringSize="0" Direction="Input" Attributes="0" />
+        <Variable Name="VALUE_IN" DataType="REAL" InitialValue="" Comment="Value to write" Address="" Modifier="Constant" Kind="VarInput" Alias="" AccessRights="Read" StringSize="0" Direction="Input" Attributes="0" />
+        <Variable Name="WRITE" DataType="BOOL" InitialValue="" Comment="Operation selector (TRUE=write, FALSE=read)" Address="" Modifier="Constant" Kind="VarInput" Alias="" AccessRights="Read" StringSize="0" Direction="Input" Attributes="0" />
+        <Variable Name="ADDR_OUT" DataType="UINT" InitialValue="" Comment="Next free address" Address="" Modifier="Constant" Kind="VarOutput" Alias="" AccessRights="Write" StringSize="0" Direction="Output" Attributes="0" />
+        <Variable Name="VALUE_OUT" DataType="REAL" InitialValue="" Comment="Value read" Address="" Modifier="Constant" Kind="VarOutput" Alias="" AccessRights="Write" StringSize="0" Direction="Output" Attributes="0" />
+        <Variable Name="ERROR" DataType="DINT" InitialValue="" Comment="Operation result (ERR_xxx error code)" Address="" Modifier="Constant" Kind="VarOutput" Alias="" AccessRights="Write" StringSize="0" Direction="Output" Attributes="0" />
+        <Variable Name="PrevValue" DataType="REAL" InitialValue="" Comment="Previous input value" Address="" Modifier="Constant" Kind="Var" Alias="" AccessRights="ReadWrite" StringSize="0" Direction="Local" Attributes="0" />
+        <Variable Name="PrevAddr" DataType="UINT" InitialValue="" Comment="Previous input address" Address="" Modifier="Constant" Kind="Var" Alias="" AccessRights="ReadWrite" StringSize="0" Direction="Local" Attributes="0" />
+      </LocalVars>
+      <PouBody />
+      <PouUIProperties />
+    </Pou>
+    <Pou FileVersion="200.00.002" Name="EXPORT_ALARMS" ElementGuid="00000000-0000-0000-0000-000000000000" Comment="" SingleTextLine="" Language="C" CustomFbd="0" Localization="LibC" GroupName="" GenDebugInfo="false" UseResPassword="true" GenerateSymbMon="false" Is1499="false">
+      <FunctionBlock IdentifierNb="0" Keyword="EXPORT_ALARMS" InitInstance="true" SymbMonExtraBytes="128" />
+      <LocalVars>
+        <Variable Name="DRIVE" DataType="BYTE" InitialValue="" Comment="1 = usb pen drive | 0 = internal public flash" Address="" Modifier="Constant" Kind="VarInput" Alias="" AccessRights="Read" StringSize="0" Direction="Input" Attributes="0" />
+        <Variable Name="ENABLE" DataType="BOOL" InitialValue="" Comment="Enable export (TRUE=export alarms, FALSE=do nothing)" Address="" Modifier="Constant" Kind="VarInput" Alias="" AccessRights="Read" StringSize="0" Direction="Input" Attributes="0" />
+        <Variable Name="FILENAME" DataType="STRING" InitialValue="" Comment="Filename to export" Address="" Modifier="Constant" Kind="VarInput" Alias="" AccessRights="Read" StringSize="19" Direction="Input" Attributes="0" />
+        <Variable Name="ERROR" DataType="DINT" InitialValue="" Comment="Operation result (ERR_xxx error code)" Address="" Modifier="Constant" Kind="VarOutput" Alias="" AccessRights="Write" StringSize="0" Direction="Output" Attributes="0" />
+        <Variable Name="ENABLE_PREV" DataType="BOOL" InitialValue="" Comment="" Address="" Modifier="Constant" Kind="Var" Alias="" AccessRights="ReadWrite" StringSize="0" Direction="Local" Attributes="0" />
+      </LocalVars>
+      <PouBody />
+      <PouUIProperties />
+    </Pou>
+    <Pou FileVersion="200.00.002" Name="UINT_TO_DATE" ElementGuid="00000000-0000-0000-0000-000000000000" Comment="Join years, months, days, hours, minutes, seconds into date&#xD;&#xA;" SingleTextLine="" Language="C" CustomFbd="0" Localization="LibC" GroupName="System" GenDebugInfo="false" UseResPassword="true" GenerateSymbMon="false" Is1499="false">
+      <FunctionBlock IdentifierNb="0" Keyword="UINT_TO_DATE" InitInstance="false" SymbMonExtraBytes="128" />
+      <LocalVars>
+        <Variable Name="SECOND" DataType="UINT" InitialValue="" Comment="Seconds for date" Address="" Modifier="Constant" Kind="VarInput" Alias="" AccessRights="Read" StringSize="0" Direction="Input" Attributes="0" />
+        <Variable Name="MINUTE" DataType="UINT" InitialValue="" Comment="Minutes for date" Address="" Modifier="Constant" Kind="VarInput" Alias="" AccessRights="Read" StringSize="0" Direction="Input" Attributes="0" />
+        <Variable Name="HOUR" DataType="UINT" InitialValue="" Comment="Hours for date" Address="" Modifier="Constant" Kind="VarInput" Alias="" AccessRights="Read" StringSize="0" Direction="Input" Attributes="0" />
+        <Variable Name="DAY" DataType="UINT" InitialValue="" Comment="Days for date" Address="" Modifier="Constant" Kind="VarInput" Alias="" AccessRights="Read" StringSize="0" Direction="Input" Attributes="0" />
+        <Variable Name="MONTH" DataType="UINT" InitialValue="" Comment="Months for date" Address="" Modifier="Constant" Kind="VarInput" Alias="" AccessRights="Read" StringSize="0" Direction="Input" Attributes="0" />
+        <Variable Name="YEAR" DataType="UINT" InitialValue="" Comment="Years for date" Address="" Modifier="Constant" Kind="VarInput" Alias="" AccessRights="Read" StringSize="0" Direction="Input" Attributes="0" />
+        <Variable Name="DATE_OUT" DataType="DATE" InitialValue="" Comment="Resulting date" Address="" Modifier="Constant" Kind="VarOutput" Alias="" AccessRights="Write" StringSize="0" Direction="Output" Attributes="0" />
+      </LocalVars>
+      <PouBody />
+      <PouUIProperties />
+    </Pou>
+    <Pou FileVersion="200.00.002" Name="SYS_READ" ElementGuid="00000000-0000-0000-0000-000000000000" Comment="Get system parameter&#xD;&#xA;" SingleTextLine="" Language="C" CustomFbd="0" Localization="LibC" GroupName="System" GenDebugInfo="false" UseResPassword="true" GenerateSymbMon="false" Is1499="false">
+      <FunctionBlock IdentifierNb="0" Keyword="SYS_READ" InitInstance="false" SymbMonExtraBytes="128" />
+      <LocalVars>
+        <Variable Name="PARAM" DataType="UINT" InitialValue="" Comment="Index of parameter to read (SYS_PARAM_xxx)" Address="" Modifier="Constant" Kind="VarInput" Alias="" AccessRights="Read" StringSize="0" Direction="Input" Attributes="0" />
+        <Variable Name="ENABLE" DataType="BOOL" InitialValue="" Comment="Enable read (TRUE=read parameter, FALSE=do nothing)" Address="" Modifier="Constant" Kind="VarInput" Alias="" AccessRights="Read" StringSize="0" Direction="Input" Attributes="0" />
+        <Variable Name="VALUE" DataType="UDINT" InitialValue="" Comment="Value of requested parameter" Address="" Modifier="Constant" Kind="VarOutput" Alias="" AccessRights="Write" StringSize="0" Direction="Output" Attributes="0">
+          <Dimension Lower="1" Upper="5" />
+        </Variable>
+        <Variable Name="ERROR" DataType="DINT" InitialValue="" Comment="Operation result (ERR_xxx error code)" Address="" Modifier="Constant" Kind="VarOutput" Alias="" AccessRights="Write" StringSize="0" Direction="Output" Attributes="0" />
+      </LocalVars>
+      <PouBody />
+      <PouUIProperties />
+    </Pou>
+    <Pou FileVersion="200.00.002" Name="SYS_WRITE" ElementGuid="00000000-0000-0000-0000-000000000000" Comment="Set system parameter&#xD;&#xA;" SingleTextLine="" Language="C" CustomFbd="0" Localization="LibC" GroupName="" GenDebugInfo="false" UseResPassword="true" GenerateSymbMon="false" Is1499="false">
+      <FunctionBlock IdentifierNb="0" Keyword="SYS_WRITE" InitInstance="true" SymbMonExtraBytes="128" />
+      <LocalVars>
+        <Variable Name="PARAM" DataType="UINT" InitialValue="" Comment="Index of parameter to write (SYS_PARAM_xxx)" Address="" Modifier="Constant" Kind="VarInput" Alias="" AccessRights="Read" StringSize="0" Direction="Input" Attributes="0" />
+        <Variable Name="VALUE" DataType="UDINT" InitialValue="" Comment="Value of parameter to write" Address="" Modifier="Constant" Kind="VarInput" Alias="" AccessRights="Read" StringSize="0" Direction="Input" Attributes="0">
+          <Dimension Lower="1" Upper="5" />
+        </Variable>
+        <Variable Name="ENABLE" DataType="BOOL" InitialValue="" Comment="Enable write (TRUE=write parameters, FALSE=do nothing)" Address="" Modifier="Constant" Kind="VarInput" Alias="" AccessRights="Read" StringSize="0" Direction="Input" Attributes="0" />
+        <Variable Name="__ADI_VALUE" DataType="UINT" InitialValue="0" Comment="ADI hidden parameter for &lt;VALUE&gt; array input" Address="" Modifier="Constant" Kind="VarInput" Alias="_ADI" AccessRights="Read" StringSize="0" Direction="Hidden" Attributes="0" />
+        <Variable Name="ERROR" DataType="DINT" InitialValue="" Comment="Operation result (ERR_xxx error code)" Address="" Modifier="Constant" Kind="VarOutput" Alias="" AccessRights="Write" StringSize="0" Direction="Output" Attributes="0" />
+        <Variable Name="ENABLE_PREV" DataType="BOOL" InitialValue="" Comment="" Address="" Modifier="Constant" Kind="Var" Alias="" AccessRights="ReadWrite" StringSize="0" Direction="Local" Attributes="0" />
+      </LocalVars>
+      <PouBody />
+      <PouUIProperties />
+    </Pou>
+    <Pou FileVersion="200.00.002" Name="NVRAM_UDINT" ElementGuid="00000000-0000-0000-0000-000000000000" Comment="Write/read a UDINT variable to/from nonvolatile RAM&#xD;&#xA;" SingleTextLine="" Language="C" CustomFbd="0" Localization="LibC" GroupName="System" GenDebugInfo="false" UseResPassword="true" GenerateSymbMon="false" Is1499="false">
+      <FunctionBlock IdentifierNb="0" Keyword="NVRAM_UDINT" InitInstance="true" SymbMonExtraBytes="128" />
+      <LocalVars>
+        <Variable Name="ADDR_IN" DataType="UINT" InitialValue="" Comment="Address to write to" Address="" Modifier="Constant" Kind="VarInput" Alias="" AccessRights="Read" StringSize="0" Direction="Input" Attributes="0" />
+        <Variable Name="VALUE_IN" DataType="UDINT" InitialValue="" Comment="Value to write" Address="" Modifier="Constant" Kind="VarInput" Alias="" AccessRights="Read" StringSize="0" Direction="Input" Attributes="0" />
+        <Variable Name="WRITE" DataType="BOOL" InitialValue="" Comment="Operation selector (TRUE=write, FALSE=read)" Address="" Modifier="Constant" Kind="VarInput" Alias="" AccessRights="Read" StringSize="0" Direction="Input" Attributes="0" />
+        <Variable Name="ADDR_OUT" DataType="UINT" InitialValue="" Comment="Next free address" Address="" Modifier="Constant" Kind="VarOutput" Alias="" AccessRights="Write" StringSize="0" Direction="Output" Attributes="0" />
+        <Variable Name="VALUE_OUT" DataType="UDINT" InitialValue="" Comment="Value read" Address="" Modifier="Constant" Kind="VarOutput" Alias="" AccessRights="Write" StringSize="0" Direction="Output" Attributes="0" />
+        <Variable Name="ERROR" DataType="DINT" InitialValue="" Comment="Operation result (ERR_xxx error code)" Address="" Modifier="Constant" Kind="VarOutput" Alias="" AccessRights="Write" StringSize="0" Direction="Output" Attributes="0" />
+        <Variable Name="PrevValue" DataType="UDINT" InitialValue="" Comment="Previous input value" Address="" Modifier="Constant" Kind="Var" Alias="" AccessRights="ReadWrite" StringSize="0" Direction="Local" Attributes="0" />
+        <Variable Name="PrevAddr" DataType="UINT" InitialValue="" Comment="Previous input address" Address="" Modifier="Constant" Kind="Var" Alias="" AccessRights="ReadWrite" StringSize="0" Direction="Local" Attributes="0" />
+      </LocalVars>
+      <PouBody />
+      <PouUIProperties />
+    </Pou>
+    <Pou FileVersion="200.00.002" Name="COM_READ" ElementGuid="00000000-0000-0000-0000-000000000000" Comment="Receive one byte from COM channel&#xD;&#xA;" SingleTextLine="" Language="C" CustomFbd="0" Localization="LibC" GroupName="System" GenDebugInfo="false" UseResPassword="true" GenerateSymbMon="false" Is1499="false">
+      <FunctionBlock IdentifierNb="0" Keyword="COM_READ" InitInstance="false" SymbMonExtraBytes="128" />
+      <LocalVars>
+        <Variable Name="CHANNEL" DataType="USINT" InitialValue="" Comment="Channel Number (COM_CHANNEL_xxx)" Address="" Modifier="Constant" Kind="VarInput" Alias="" AccessRights="Read" StringSize="0" Direction="Input" Attributes="0" />
+        <Variable Name="ENABLE" DataType="BOOL" InitialValue="" Comment="Enable read (TRUE=read, FALSE=report only waiting data size)" Address="" Modifier="Constant" Kind="VarInput" Alias="" AccessRights="Read" StringSize="0" Direction="Input" Attributes="0" />
+        <Variable Name="DATA_READY" DataType="BOOL" InitialValue="" Comment="TRUE=data received, FALSE=no data received" Address="" Modifier="Constant" Kind="VarOutput" Alias="" AccessRights="Write" StringSize="0" Direction="Output" Attributes="0" />
+        <Variable Name="DATA" DataType="BYTE" InitialValue="" Comment="Data byte received" Address="" Modifier="Constant" Kind="VarOutput" Alias="" AccessRights="Write" StringSize="0" Direction="Output" Attributes="0" />
+        <Variable Name="DATA_LEFT" DataType="BYTE" InitialValue="" Comment="Number of bytes waiting in RX buffer (excluding the one just read)" Address="" Modifier="Constant" Kind="VarOutput" Alias="" AccessRights="Write" StringSize="0" Direction="Output" Attributes="0" />
+      </LocalVars>
+      <PouBody />
+      <PouUIProperties />
+    </Pou>
+    <Pou FileVersion="200.00.002" Name="DATE_TO_UINT" ElementGuid="00000000-0000-0000-0000-000000000000" Comment="Split date into years, months, days, hours, minutes, seconds&#xD;&#xA;" SingleTextLine="" Language="C" CustomFbd="0" Localization="LibC" GroupName="System" GenDebugInfo="false" UseResPassword="true" GenerateSymbMon="false" Is1499="false">
+      <FunctionBlock IdentifierNb="0" Keyword="DATE_TO_UINT" InitInstance="false" SymbMonExtraBytes="128" />
+      <LocalVars>
+        <Variable Name="DATE_IN" DataType="DATE" InitialValue="" Comment="Input date" Address="" Modifier="Constant" Kind="VarInput" Alias="" AccessRights="Read" StringSize="0" Direction="Input" Attributes="0" />
+        <Variable Name="SECOND" DataType="UINT" InitialValue="" Comment="Seconds from date" Address="" Modifier="Constant" Kind="VarOutput" Alias="" AccessRights="Write" StringSize="0" Direction="Output" Attributes="0" />
+        <Variable Name="MINUTE" DataType="UINT" InitialValue="" Comment="Minutes from date" Address="" Modifier="Constant" Kind="VarOutput" Alias="" AccessRights="Write" StringSize="0" Direction="Output" Attributes="0" />
+        <Variable Name="HOUR" DataType="UINT" InitialValue="" Comment="Hours from date" Address="" Modifier="Constant" Kind="VarOutput" Alias="" AccessRights="Write" StringSize="0" Direction="Output" Attributes="0" />
+        <Variable Name="DAY" DataType="UINT" InitialValue="" Comment="Days from date" Address="" Modifier="Constant" Kind="VarOutput" Alias="" AccessRights="Write" StringSize="0" Direction="Output" Attributes="0" />
+        <Variable Name="MONTH" DataType="UINT" InitialValue="" Comment="Months from date" Address="" Modifier="Constant" Kind="VarOutput" Alias="" AccessRights="Write" StringSize="0" Direction="Output" Attributes="0" />
+        <Variable Name="YEAR" DataType="UINT" InitialValue="" Comment="Years from date" Address="" Modifier="Constant" Kind="VarOutput" Alias="" AccessRights="Write" StringSize="0" Direction="Output" Attributes="0" />
+      </LocalVars>
+      <PouBody />
+      <PouUIProperties />
+    </Pou>
+    <Pou FileVersion="200.00.002" Name="SPLIT_REAL" ElementGuid="00000000-0000-0000-0000-000000000000" Comment="" SingleTextLine="" Language="C" CustomFbd="0" Localization="LibC" GroupName="" GenDebugInfo="false" UseResPassword="true" GenerateSymbMon="false" Is1499="false">
+      <FunctionBlock IdentifierNb="0" Keyword="SPLIT_REAL" InitInstance="true" SymbMonExtraBytes="128" />
+      <LocalVars>
+        <Variable Name="IN" DataType="REAL" InitialValue="" Comment="real which have to be split" Address="" Modifier="Constant" Kind="VarInput" Alias="" AccessRights="Read" StringSize="0" Direction="Input" Attributes="0" />
+        <Variable Name="byte1" DataType="BYTE" InitialValue="" Comment="first eight bit of the input's bitmask" Address="" Modifier="Constant" Kind="VarOutput" Alias="" AccessRights="Write" StringSize="0" Direction="Output" Attributes="0" />
+        <Variable Name="byte2" DataType="BYTE" InitialValue="" Comment="second eight bit of the input's bitmask" Address="" Modifier="Constant" Kind="VarOutput" Alias="" AccessRights="Write" StringSize="0" Direction="Output" Attributes="0" />
+        <Variable Name="byte3" DataType="BYTE" InitialValue="" Comment="third eight bit of the input's bitmask" Address="" Modifier="Constant" Kind="VarOutput" Alias="" AccessRights="Write" StringSize="0" Direction="Output" Attributes="0" />
+        <Variable Name="byte4" DataType="BYTE" InitialValue="" Comment="fourth eight bit of the input's bitmask" Address="" Modifier="Constant" Kind="VarOutput" Alias="" AccessRights="Write" StringSize="0" Direction="Output" Attributes="0" />
+      </LocalVars>
+      <PouBody />
+      <PouUIProperties />
+    </Pou>
+    <Pou FileVersion="200.00.002" Name="NVRAM_USINT" ElementGuid="00000000-0000-0000-0000-000000000000" Comment="Write/read a USINT variable to/from nonvolatile RAM&#xD;&#xA;" SingleTextLine="" Language="C" CustomFbd="0" Localization="LibC" GroupName="System" GenDebugInfo="false" UseResPassword="true" GenerateSymbMon="false" Is1499="false">
+      <FunctionBlock IdentifierNb="0" Keyword="NVRAM_USINT" InitInstance="true" SymbMonExtraBytes="128" />
+      <LocalVars>
+        <Variable Name="ADDR_IN" DataType="UINT" InitialValue="" Comment="Address to write to" Address="" Modifier="Constant" Kind="VarInput" Alias="" AccessRights="Read" StringSize="0" Direction="Input" Attributes="0" />
+        <Variable Name="VALUE_IN" DataType="USINT" InitialValue="" Comment="Value to write" Address="" Modifier="Constant" Kind="VarInput" Alias="" AccessRights="Read" StringSize="0" Direction="Input" Attributes="0" />
+        <Variable Name="WRITE" DataType="BOOL" InitialValue="" Comment="Operation selector (TRUE=write, FALSE=read)" Address="" Modifier="Constant" Kind="VarInput" Alias="" AccessRights="Read" StringSize="0" Direction="Input" Attributes="0" />
+        <Variable Name="ADDR_OUT" DataType="UINT" InitialValue="" Comment="Next free address" Address="" Modifier="Constant" Kind="VarOutput" Alias="" AccessRights="Write" StringSize="0" Direction="Output" Attributes="0" />
+        <Variable Name="VALUE_OUT" DataType="USINT" InitialValue="" Comment="Value read" Address="" Modifier="Constant" Kind="VarOutput" Alias="" AccessRights="Write" StringSize="0" Direction="Output" Attributes="0" />
+        <Variable Name="ERROR" DataType="DINT" InitialValue="" Comment="Operation result (ERR_xxx error code)" Address="" Modifier="Constant" Kind="VarOutput" Alias="" AccessRights="Write" StringSize="0" Direction="Output" Attributes="0" />
+        <Variable Name="PrevValue" DataType="USINT" InitialValue="" Comment="Previous input value" Address="" Modifier="Constant" Kind="Var" Alias="" AccessRights="ReadWrite" StringSize="0" Direction="Local" Attributes="0" />
+        <Variable Name="PrevAddr" DataType="UINT" InitialValue="" Comment="Previous input address" Address="" Modifier="Constant" Kind="Var" Alias="" AccessRights="ReadWrite" StringSize="0" Direction="Local" Attributes="0" />
+      </LocalVars>
+      <PouBody />
+      <PouUIProperties />
+    </Pou>
+    <Pou FileVersion="200.00.002" Name="UNIPVLV_DRV" ElementGuid="00000000-0000-0000-0000-000000000000" Comment="" SingleTextLine="" Language="C" CustomFbd="0" Localization="LibC" GroupName="" GenDebugInfo="false" UseResPassword="true" GenerateSymbMon="false" Is1499="false">
+      <FunctionBlock IdentifierNb="0" Keyword="UNIPVLV_DRV" InitInstance="true" SymbMonExtraBytes="128" />
+      <LocalVars>
+        <Variable Name="ValveNum" DataType="BYTE" InitialValue="" Comment="" Address="" Modifier="Constant" Kind="VarInput" Alias="" AccessRights="Read" StringSize="0" Direction="Input" Attributes="0" />
+        <Variable Name="EEVIN" DataType="TEEV" InitialValue="" Comment="" Address="" Modifier="Constant" Kind="VarInput" Alias="" AccessRights="Read" StringSize="0" Direction="Input" Attributes="0" />
+        <Variable Name="EEVOUT" DataType="TEEV" InitialValue="" Comment="" Address="" Modifier="Constant" Kind="VarOutput" Alias="" AccessRights="Write" StringSize="0" Direction="Output" Attributes="0" />
+      </LocalVars>
+      <PouBody />
+      <PouUIProperties />
+    </Pou>
+    <Pou FileVersion="200.00.002" Name="NFC_READ" ElementGuid="00000000-0000-0000-0000-000000000000" Comment="Write/read a USINT variable to/from nonvolatile RAM&#xD;&#xA;" SingleTextLine="" Language="C" CustomFbd="0" Localization="LibC" GroupName="System" GenDebugInfo="false" UseResPassword="true" GenerateSymbMon="false" Is1499="false">
+      <FunctionBlock IdentifierNb="0" Keyword="NFC_READ" InitInstance="true" SymbMonExtraBytes="128" />
+      <LocalVars>
+        <Variable Name="ADDR_IN" DataType="UINT" InitialValue="" Comment="Address to write to" Address="" Modifier="Constant" Kind="VarInput" Alias="" AccessRights="Read" StringSize="0" Direction="Input" Attributes="0" />
+        <Variable Name="ENABLE" DataType="BOOL" InitialValue="" Comment="Enable pin (TRUE=read, FALSE=do nothing)" Address="" Modifier="Constant" Kind="VarInput" Alias="" AccessRights="Read" StringSize="0" Direction="Input" Attributes="0" />
+        <Variable Name="TIMEOUT" DataType="UDINT" InitialValue="" Comment="time limit to read operation" Address="" Modifier="Constant" Kind="VarInput" Alias="" AccessRights="Read" StringSize="0" Direction="Input" Attributes="0" />
+        <Variable Name="VALUE_OUT" DataType="BYTE" InitialValue="" Comment="Value read" Address="" Modifier="Constant" Kind="VarOutput" Alias="" AccessRights="Write" StringSize="0" Direction="Output" Attributes="0" />
+        <Variable Name="ERROR" DataType="DINT" InitialValue="" Comment="Operation result (ERR_xxx error code)" Address="" Modifier="Constant" Kind="VarOutput" Alias="" AccessRights="Write" StringSize="0" Direction="Output" Attributes="0" />
+        <Variable Name="PrevEnable" DataType="BOOL" InitialValue="" Comment="previous enable value" Address="" Modifier="Constant" Kind="Var" Alias="" AccessRights="ReadWrite" StringSize="0" Direction="Local" Attributes="0" />
+      </LocalVars>
+      <PouBody />
+      <PouUIProperties />
+    </Pou>
+    <Pou FileVersion="200.00.002" Name="EXPORT_PARAMS" ElementGuid="00000000-0000-0000-0000-000000000000" Comment="" SingleTextLine="" Language="C" CustomFbd="0" Localization="LibC" GroupName="" GenDebugInfo="false" UseResPassword="true" GenerateSymbMon="false" Is1499="false">
+      <FunctionBlock IdentifierNb="0" Keyword="EXPORT_PARAMS" InitInstance="true" SymbMonExtraBytes="128" />
+      <LocalVars>
+        <Variable Name="DRIVE" DataType="BYTE" InitialValue="" Comment="1 = usb pen drive | 0 = internal public flash" Address="" Modifier="Constant" Kind="VarInput" Alias="" AccessRights="Read" StringSize="0" Direction="Input" Attributes="0" />
+        <Variable Name="ENABLE" DataType="BOOL" InitialValue="" Comment="Enable export (TRUE=export params, FALSE=do nothing)" Address="" Modifier="Constant" Kind="VarInput" Alias="" AccessRights="Read" StringSize="0" Direction="Input" Attributes="0" />
+        <Variable Name="FILENAME" DataType="STRING" InitialValue="" Comment="Filename to export" Address="" Modifier="Constant" Kind="VarInput" Alias="" AccessRights="Read" StringSize="19" Direction="Input" Attributes="0" />
+        <Variable Name="ERROR" DataType="DINT" InitialValue="" Comment="Operation result (ERR_xxx error code)" Address="" Modifier="Constant" Kind="VarOutput" Alias="" AccessRights="Write" StringSize="0" Direction="Output" Attributes="0" />
+        <Variable Name="ENABLE_PREV" DataType="BOOL" InitialValue="" Comment="" Address="" Modifier="Constant" Kind="Var" Alias="" AccessRights="ReadWrite" StringSize="0" Direction="Local" Attributes="0" />
+      </LocalVars>
+      <PouBody />
+      <PouUIProperties />
+    </Pou>
+    <Pou FileVersion="200.00.002" Name="COM_CTRL" ElementGuid="00000000-0000-0000-0000-000000000000" Comment="COM Control: configure/open/close/purge COM channel&#xD;&#xA;" SingleTextLine="" Language="C" CustomFbd="0" Localization="LibC" GroupName="System" GenDebugInfo="false" UseResPassword="true" GenerateSymbMon="false" Is1499="false">
+      <FunctionBlock IdentifierNb="0" Keyword="COM_CTRL" InitInstance="false" SymbMonExtraBytes="128" />
+      <LocalVars>
+        <Variable Name="CHANNEL" DataType="USINT" InitialValue="" Comment="Channel Number (COM_CHANNEL_xxx)" Address="" Modifier="Constant" Kind="VarInput" Alias="" AccessRights="Read" StringSize="0" Direction="Input" Attributes="0" />
+        <Variable Name="SPEED" DataType="UDINT" InitialValue="" Comment="Baud rate (up to 115200)" Address="" Modifier="Constant" Kind="VarInput" Alias="" AccessRights="Read" StringSize="0" Direction="Input" Attributes="0" />
+        <Variable Name="BITS" DataType="USINT" InitialValue="" Comment="Data bits (7, 8)" Address="" Modifier="Constant" Kind="VarInput" Alias="" AccessRights="Read" StringSize="0" Direction="Input" Attributes="0" />
+        <Variable Name="PARITY" DataType="USINT" InitialValue="" Comment="Parity (0=no, 1=odd, 2=even)" Address="" Modifier="Constant" Kind="VarInput" Alias="" AccessRights="Read" StringSize="0" Direction="Input" Attributes="0" />
+        <Variable Name="STOP" DataType="USINT" InitialValue="" Comment="Stop bits (1, 2)" Address="" Modifier="Constant" Kind="VarInput" Alias="" AccessRights="Read" StringSize="0" Direction="Input" Attributes="0" />
+        <Variable Name="OPEN" DataType="BOOL" InitialValue="" Comment="Open (TRUE) or close (FALSE) channel" Address="" Modifier="Constant" Kind="VarInput" Alias="" AccessRights="Read" StringSize="0" Direction="Input" Attributes="0" />
+        <Variable Name="PURGE" DataType="BOOL" InitialValue="" Comment="Purge all buffers (TRUE)" Address="" Modifier="Constant" Kind="VarInput" Alias="" AccessRights="Read" StringSize="0" Direction="Input" Attributes="0" />
+        <Variable Name="STATUS" DataType="BOOL" InitialValue="" Comment="COM status (TRUE=open, FALSE=closed)" Address="" Modifier="Constant" Kind="VarOutput" Alias="" AccessRights="Write" StringSize="0" Direction="Output" Attributes="0" />
+        <Variable Name="ERROR" DataType="DINT" InitialValue="" Comment="Operation result (0ERR_xxx error code)" Address="" Modifier="Constant" Kind="VarOutput" Alias="" AccessRights="Write" StringSize="0" Direction="Output" Attributes="0" />
+        <Variable Name="IsOpen" DataType="BOOL" InitialValue="" Comment="Current channel status (TRUE=open, FALSE=closed)" Address="" Modifier="Constant" Kind="Var" Alias="" AccessRights="ReadWrite" StringSize="0" Direction="Local" Attributes="0" />
+        <Variable Name="CurChannel" DataType="USINT" InitialValue="" Comment="Currently open channel" Address="" Modifier="Constant" Kind="Var" Alias="" AccessRights="ReadWrite" StringSize="0" Direction="Local" Attributes="0" />
+      </LocalVars>
+      <PouBody />
+      <PouUIProperties />
+    </Pou>
+    <Pou FileVersion="200.00.002" Name="COM_WRITE" ElementGuid="00000000-0000-0000-0000-000000000000" Comment="Transmit one byte to COM Channel&#xD;&#xA;" SingleTextLine="" Language="C" CustomFbd="0" Localization="LibC" GroupName="System" GenDebugInfo="false" UseResPassword="true" GenerateSymbMon="false" Is1499="false">
+      <FunctionBlock IdentifierNb="0" Keyword="COM_WRITE" InitInstance="false" SymbMonExtraBytes="128" />
+      <LocalVars>
+        <Variable Name="CHANNEL" DataType="USINT" InitialValue="" Comment="Channel Number (COM_CHANNEL_xxx)" Address="" Modifier="Constant" Kind="VarInput" Alias="" AccessRights="Read" StringSize="0" Direction="Input" Attributes="0" />
+        <Variable Name="DATA" DataType="BYTE" InitialValue="" Comment="Data byte to transmit" Address="" Modifier="Constant" Kind="VarInput" Alias="" AccessRights="Read" StringSize="0" Direction="Input" Attributes="0" />
+        <Variable Name="ENABLE" DataType="BOOL" InitialValue="" Comment="Enable write (TRUE=transmit, FALSE=do nothing)" Address="" Modifier="Constant" Kind="VarInput" Alias="" AccessRights="Read" StringSize="0" Direction="Input" Attributes="0" />
+        <Variable Name="ERROR" DataType="DINT" InitialValue="" Comment="Operation result (ERR_xxx error code)" Address="" Modifier="Constant" Kind="VarOutput" Alias="" AccessRights="Write" StringSize="0" Direction="Output" Attributes="0" />
+        <Variable Name="DATA_LEFT" DataType="DINT" InitialValue="" Comment="Number of bytes waiting in RX buffer" Address="" Modifier="Constant" Kind="VarOutput" Alias="" AccessRights="Write" StringSize="0" Direction="Output" Attributes="0" />
+      </LocalVars>
+      <PouBody />
+      <PouUIProperties />
+    </Pou>
+    <Pou FileVersion="200.00.002" Name="RTC_TZ_WRITE" ElementGuid="00000000-0000-0000-0000-000000000000" Comment="" SingleTextLine="" Language="C" CustomFbd="0" Localization="LibC" GroupName="" GenDebugInfo="false" UseResPassword="true" GenerateSymbMon="false" Is1499="false">
+      <FunctionBlock IdentifierNb="0" Keyword="RTC_TZ_WRITE" InitInstance="true" SymbMonExtraBytes="128" />
+      <LocalVars>
+        <Variable Name="TIMEZONE" DataType="STRING" InitialValue="" Comment="Timezone POSIX.1 string" Address="" Modifier="Constant" Kind="VarInput" Alias="" AccessRights="Read" StringSize="80" Direction="Input" Attributes="0" />
+        <Variable Name="ENABLE" DataType="BOOL" InitialValue="" Comment="Enable write (TRUE=write timezone, FALSE=do nothing)" Address="" Modifier="Constant" Kind="VarInput" Alias="" AccessRights="Read" StringSize="0" Direction="Input" Attributes="0" />
+        <Variable Name="ERROR" DataType="DINT" InitialValue="" Comment="Operation result (ERR_xxx error code)" Address="" Modifier="Constant" Kind="VarOutput" Alias="" AccessRights="Write" StringSize="0" Direction="Output" Attributes="0" />
+        <Variable Name="ENABLE_PREV" DataType="BOOL" InitialValue="" Comment="" Address="" Modifier="Constant" Kind="Var" Alias="" AccessRights="ReadWrite" StringSize="0" Direction="Local" Attributes="0" />
+      </LocalVars>
+      <PouBody />
+      <PouUIProperties />
+    </Pou>
+    <Pou FileVersion="200.00.002" Name="NFC_WRITE_4" ElementGuid="00000000-0000-0000-0000-000000000000" Comment="Write/read a USINT variable to/from nonvolatile RAM&#xD;&#xA;" SingleTextLine="" Language="C" CustomFbd="0" Localization="LibC" GroupName="System" GenDebugInfo="false" UseResPassword="true" GenerateSymbMon="false" Is1499="false">
+      <FunctionBlock IdentifierNb="0" Keyword="NFC_WRITE_4" InitInstance="true" SymbMonExtraBytes="128" />
+      <LocalVars>
+        <Variable Name="ADDR_IN" DataType="UINT" InitialValue="" Comment="Address to write to" Address="" Modifier="Constant" Kind="VarInput" Alias="" AccessRights="Read" StringSize="0" Direction="Input" Attributes="0" />
+        <Variable Name="DATA_IN" DataType="BYTE" InitialValue="" Comment="Data to write" Address="" Modifier="Constant" Kind="VarInput" Alias="" AccessRights="Read" StringSize="0" Direction="Input" Attributes="0">
+          <Dimension Lower="1" Upper="4" />
+        </Variable>
+        <Variable Name="ENABLE" DataType="BOOL" InitialValue="" Comment="Enable pin (TRUE=write, FALSE=do nothing)" Address="" Modifier="Constant" Kind="VarInput" Alias="" AccessRights="Read" StringSize="0" Direction="Input" Attributes="0" />
+        <Variable Name="TIMEOUT" DataType="UDINT" InitialValue="" Comment="time limit to write operation" Address="" Modifier="Constant" Kind="VarInput" Alias="" AccessRights="Read" StringSize="0" Direction="Input" Attributes="0" />
+        <Variable Name="__ADI_DATA_IN" DataType="UINT" InitialValue="0" Comment="ADI hidden parameter for &lt;DATA_IN&gt; array input" Address="" Modifier="Constant" Kind="VarInput" Alias="_ADI" AccessRights="Read" StringSize="0" Direction="Hidden" Attributes="0" />
+        <Variable Name="ERROR" DataType="DINT" InitialValue="" Comment="Operation result (ERR_xxx error code)" Address="" Modifier="Constant" Kind="VarOutput" Alias="" AccessRights="Write" StringSize="0" Direction="Output" Attributes="0" />
+        <Variable Name="PrevEnable" DataType="BOOL" InitialValue="" Comment="Previous enable state" Address="" Modifier="Constant" Kind="Var" Alias="" AccessRights="ReadWrite" StringSize="0" Direction="Local" Attributes="0" />
+      </LocalVars>
+      <PouBody />
+      <PouUIProperties />
+    </Pou>
+    <Pou FileVersion="200.00.002" Name="NFC_SECURITY_MANAGER" ElementGuid="00000000-0000-0000-0000-000000000000" Comment="Write/read a USINT variable to/from nonvolatile RAM&#xD;&#xA;" SingleTextLine="" Language="C" CustomFbd="0" Localization="LibC" GroupName="System" GenDebugInfo="false" UseResPassword="true" GenerateSymbMon="false" Is1499="false">
+      <FunctionBlock IdentifierNb="0" Keyword="NFC_SECURITY_MANAGER" InitInstance="true" SymbMonExtraBytes="128" />
+      <LocalVars>
+        <Variable Name="REG_START" DataType="UDINT" InitialValue="" Comment="Reg start [0 - 63]" Address="" Modifier="Constant" Kind="VarInput" Alias="" AccessRights="Read" StringSize="0" Direction="Input" Attributes="0" />
+        <Variable Name="REG_STOP" DataType="UDINT" InitialValue="" Comment="Reg stop" Address="" Modifier="Constant" Kind="VarInput" Alias="" AccessRights="Read" StringSize="0" Direction="Input" Attributes="0" />
+        <Variable Name="PERMISSION" DataType="BYTE" InitialValue="" Comment="see NFC_PERMISSION_xxx code" Address="" Modifier="Constant" Kind="VarInput" Alias="" AccessRights="Read" StringSize="0" Direction="Input" Attributes="0" />
+        <Variable Name="PASSWORD_SEL" DataType="BYTE" InitialValue="" Comment="see NFC_PASSWORD_xxx code" Address="" Modifier="Constant" Kind="VarInput" Alias="" AccessRights="Read" StringSize="0" Direction="Input" Attributes="0" />
+        <Variable Name="TIMEOUT" DataType="UDINT" InitialValue="" Comment="timeout" Address="" Modifier="Constant" Kind="VarInput" Alias="" AccessRights="Read" StringSize="0" Direction="Input" Attributes="0" />
+        <Variable Name="ENABLE" DataType="BOOL" InitialValue="" Comment="Enable pin (TRUE=read, FALSE=do nothing)" Address="" Modifier="Constant" Kind="VarInput" Alias="" AccessRights="Read" StringSize="0" Direction="Input" Attributes="0" />
+        <Variable Name="ERROR" DataType="DINT" InitialValue="" Comment="Operation result (ERR_xxx error code)" Address="" Modifier="Constant" Kind="VarOutput" Alias="" AccessRights="Write" StringSize="0" Direction="Output" Attributes="0" />
+        <Variable Name="PrevEnable" DataType="BOOL" InitialValue="" Comment="previous enable value" Address="" Modifier="Constant" Kind="Var" Alias="" AccessRights="ReadWrite" StringSize="0" Direction="Local" Attributes="0" />
+      </LocalVars>
+      <PouBody />
+      <PouUIProperties />
+    </Pou>
+    <Pou FileVersion="200.00.002" Name="NFC_READ_4" ElementGuid="00000000-0000-0000-0000-000000000000" Comment="Write/read a USINT variable to/from nonvolatile RAM&#xD;&#xA;" SingleTextLine="" Language="C" CustomFbd="0" Localization="LibC" GroupName="System" GenDebugInfo="false" UseResPassword="true" GenerateSymbMon="false" Is1499="false">
+      <FunctionBlock IdentifierNb="0" Keyword="NFC_READ_4" InitInstance="true" SymbMonExtraBytes="128" />
+      <LocalVars>
+        <Variable Name="ADDR_IN" DataType="UINT" InitialValue="" Comment="Address to read" Address="" Modifier="Constant" Kind="VarInput" Alias="" AccessRights="Read" StringSize="0" Direction="Input" Attributes="0" />
+        <Variable Name="ENABLE" DataType="BOOL" InitialValue="" Comment="Enable pin (TRUE=read, FALSE=do nothing)" Address="" Modifier="Constant" Kind="VarInput" Alias="" AccessRights="Read" StringSize="0" Direction="Input" Attributes="0" />
+        <Variable Name="TIMEOUT" DataType="UDINT" InitialValue="" Comment="time limit to read operation" Address="" Modifier="Constant" Kind="VarInput" Alias="" AccessRights="Read" StringSize="0" Direction="Input" Attributes="0" />
+        <Variable Name="DATA_OUT" DataType="BYTE" InitialValue="" Comment="Data read" Address="" Modifier="Constant" Kind="VarOutput" Alias="" AccessRights="Write" StringSize="0" Direction="Output" Attributes="0">
+          <Dimension Lower="1" Upper="4" />
+        </Variable>
+        <Variable Name="ERROR" DataType="DINT" InitialValue="" Comment="Operation result (ERR_xxx error code)" Address="" Modifier="Constant" Kind="VarOutput" Alias="" AccessRights="Write" StringSize="0" Direction="Output" Attributes="0" />
+        <Variable Name="PrevEnable" DataType="BOOL" InitialValue="" Comment="previous enable value" Address="" Modifier="Constant" Kind="Var" Alias="" AccessRights="ReadWrite" StringSize="0" Direction="Local" Attributes="0" />
+      </LocalVars>
+      <PouBody />
+      <PouUIProperties />
+    </Pou>
+    <Pou FileVersion="200.00.002" Name="RTC_TZ_READ" ElementGuid="00000000-0000-0000-0000-000000000000" Comment="" SingleTextLine="" Language="C" CustomFbd="0" Localization="LibC" GroupName="System" GenDebugInfo="false" UseResPassword="true" GenerateSymbMon="false" Is1499="false">
+      <FunctionBlock IdentifierNb="0" Keyword="RTC_TZ_READ" InitInstance="false" SymbMonExtraBytes="128" />
+      <LocalVars>
+        <Variable Name="ENABLE" DataType="BOOL" InitialValue="" Comment="Enable read (TRUE=read timezone, FALSE=do nothing)" Address="" Modifier="Constant" Kind="VarInput" Alias="" AccessRights="Read" StringSize="0" Direction="Input" Attributes="0" />
+        <Variable Name="TIMEZONE" DataType="STRING" InitialValue="" Comment="Timezone POSIX.1 string" Address="" Modifier="Constant" Kind="VarOutput" Alias="" AccessRights="Write" StringSize="80" Direction="Output" Attributes="0" />
+        <Variable Name="ERROR" DataType="DINT" InitialValue="" Comment="Operation result (ERR_xxx error code)" Address="" Modifier="Constant" Kind="VarOutput" Alias="" AccessRights="Write" StringSize="0" Direction="Output" Attributes="0" />
+        <Variable Name="ENABLE_PREV" DataType="BOOL" InitialValue="" Comment="" Address="" Modifier="Constant" Kind="Var" Alias="" AccessRights="ReadWrite" StringSize="0" Direction="Local" Attributes="0" />
+      </LocalVars>
+      <PouBody />
+      <PouUIProperties />
+    </Pou>
+    <Pou FileVersion="200.00.002" Name="NFC_STATUS" ElementGuid="00000000-0000-0000-0000-000000000000" Comment="Write/read a USINT variable to/from nonvolatile RAM&#xD;&#xA;" SingleTextLine="" Language="C" CustomFbd="0" Localization="LibC" GroupName="System" GenDebugInfo="false" UseResPassword="true" GenerateSymbMon="false" Is1499="false">
+      <FunctionBlock IdentifierNb="0" Keyword="NFC_STATUS" InitInstance="true" SymbMonExtraBytes="128" />
+      <LocalVars>
+        <Variable Name="ENABLE" DataType="BOOL" InitialValue="" Comment="Enable pin (TRUE=read, FALSE=do nothing)" Address="" Modifier="Constant" Kind="VarInput" Alias="" AccessRights="Read" StringSize="0" Direction="Input" Attributes="0" />
+        <Variable Name="PRESENCE" DataType="BOOL" InitialValue="" Comment="Data read" Address="" Modifier="Constant" Kind="VarOutput" Alias="" AccessRights="Write" StringSize="0" Direction="Output" Attributes="0" />
+        <Variable Name="WRITING_NUMBER" DataType="UDINT" InitialValue="" Comment="" Address="" Modifier="Constant" Kind="VarOutput" Alias="" AccessRights="Write" StringSize="0" Direction="Output" Attributes="0" />
+        <Variable Name="ERROR" DataType="DINT" InitialValue="" Comment="Operation result (ERR_xxx error code)" Address="" Modifier="Constant" Kind="VarOutput" Alias="" AccessRights="Write" StringSize="0" Direction="Output" Attributes="0" />
+        <Variable Name="PrevEnable" DataType="BOOL" InitialValue="" Comment="previous enable value" Address="" Modifier="Constant" Kind="Var" Alias="" AccessRights="ReadWrite" StringSize="0" Direction="Local" Attributes="0" />
+      </LocalVars>
+      <PouBody />
+      <PouUIProperties />
+    </Pou>
+  </Pous>
+  <IODevices />
+</Target>

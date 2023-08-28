@@ -1,0 +1,9 @@
+[VARIABLE]
+VarWithLREALType = 0
+VarWithLINTType = 0
+VarWithNewDataType = 1
+VarROInitValChanged = 0
+[FUNCTION]
+UseExtGstartGrst = 0
+[TARGET]
+IsEnhancedTarget = 1

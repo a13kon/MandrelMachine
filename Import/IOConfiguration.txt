@@ -1,0 +1,41 @@
+Version 1.1 IOConfiguration RepoVersion 3.6.4
+Name	Direction	Type	Variable	ErrorVariable	Variable2	AverageVariable	Min	Max	PulseWidth
+ID1	DIN	DIN_Standard	DIn[1].Value			2			
+ID10	DIN	DIN_Standard	DIn[10].Value			2			
+ID11	DIN	DIN_Standard	DIn[11].Value			2			
+ID12	DIN	DIN_Standard	DIn[12].Value			2			
+ID13	DIN	DIN_Standard	DIn[13].Value			2			
+ID14	DIN	DIN_Standard	DIn[14].Value			2			
+ID2	DIN	DIN_Standard	DIn[2].Value			2			
+ID3	DIN	DIN_Standard	DIn[3].Value			2			
+ID4	DIN	DIN_Standard	DIn[4].Value			2			
+ID5	DIN	DIN_Standard	DIn[5].Value			2			
+ID6	DIN	DIN_Standard	DIn[6].Value			2			
+ID7	DIN	DIN_Standard	DIn[7].Value			2			
+ID8	DIN	DIN_Standard	DIn[8].Value			2			
+ID9	DIN	DIN_Standard	DIn[9].Value			2			
+NO1	DOUT	DOUT_Standard	DOut[1].Value						
+NO10	DOUT	DOUT_Standard	DOut[10].Value						
+NO11	DOUT	DOUT_Standard	DOut[11].Value						
+NO12	DOUT	DOUT_Standard	DOut[12].Value						
+NO13	DOUT	DOUT_Standard	DOut[13].Value						
+NO2	DOUT	DOUT_Standard	DOut[2].Value						
+NO3	DOUT	DOUT_Standard	DOut[3].Value						
+NO4	DOUT	DOUT_Standard	DOut[4].Value						
+NO5	DOUT	DOUT_Standard	DOut[5].Value						
+NO6	DOUT	DOUT_Standard	DOut[6].Value						
+NO7	DOUT	DOUT_Standard	DOut[7].Value						
+NO8	DOUT	DOUT_Standard	DOut[8].Value						
+NO9	DOUT	DOUT_Standard	DOut[9].Value						
+U1	U[1].Direction	U[1].IOType	U[1].Value	U[1].Error		U[1].Filter	U[1].IOMin	U[1].IOMax	
+U2	U[2].Direction	U[2].IOType	U[2].Value	U[2].Error		U[2].Filter	U[2].IOMin	U[2].IOMax	
+U3	U[3].Direction	U[3].IOType	U[3].Value	U[3].Error		U[3].Filter	U[3].IOMin	U[3].IOMax	
+U4	U[4].Direction	U[4].IOType	U[4].Value	U[4].Error		U[4].Filter	U[4].IOMin	U[4].IOMax	
+U5	U[5].Direction	U[5].IOType	U[5].Value	U[5].Error		U[5].Filter	U[5].IOMin	U[5].IOMax	
+U6	U[6].Direction	U[6].IOType	U[6].Value	U[6].Error		U[6].Filter	U[6].IOMin	U[6].IOMax	
+U7	U[7].Direction	U[7].IOType	U[7].Value	U[7].Error		U[7].Filter	U[7].IOMin	U[7].IOMax	
+U8	U[8].Direction	U[8].IOType	U[8].Value	U[8].Error		U[8].Filter	U[8].IOMin	U[8].IOMax	
+Y1	AOUT	Y[1].IOType	Y[1].Value						
+Y2	AOUT	Y[2].IOType	Y[2].Value						
+Y3	AOUT	Y[3].IOType	Y[3].Value						
+Y4	AOUT	Y[4].IOType	Y[4].Value						

@@ -1,0 +1,207 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Manifest
+  Version="1.0.0">
+  <Variables>
+    <Variable
+      Name="BasePIn"
+      Comment="Algorithm value"
+      AccessRights="Read"
+      DataType="INT"
+      Kind="VarInput"
+      IO="false"
+      Protocol="false"
+      UI="false"
+      Default="false"
+      LogPV="false"
+      Alarm="false"
+      UoM="NoUnits"
+      IsRetained="false" />
+    <Variable
+      Name="DisplayPIn"
+      Comment="Display value"
+      AccessRights="Read"
+      DataType="INT"
+      Kind="VarInput"
+      IO="false"
+      Protocol="false"
+      UI="false"
+      Default="false"
+      LogPV="false"
+      Alarm="false"
+      UoM="NoUnits"
+      IsRetained="false" />
+    <Variable
+      Name="BaseUnit"
+      Comment="Unit of measurement of the base (false: Bar, true: Psi)"
+      AccessRights="Read"
+      DataType="BOOL"
+      Kind="VarInput"
+      IO="false"
+      Protocol="false"
+      UI="false"
+      Default="false"
+      LogPV="false"
+      Alarm="false"
+      UoM="NoUnits"
+      IsRetained="false" />
+    <Variable
+      Name="DisplayUnit"
+      Comment="Unit of measurement of the display (false: Bar, true: Psi)"
+      AccessRights="Read"
+      DataType="BOOL"
+      Kind="VarInput"
+      IO="false"
+      Protocol="false"
+      UI="false"
+      Default="false"
+      LogPV="false"
+      Alarm="false"
+      UoM="NoUnits"
+      IsRetained="false" />
+    <Variable
+      Name="BaseP"
+      Comment="Algorithm value"
+      AccessRights="Write"
+      DataType="INT"
+      Kind="VarOutput"
+      IO="false"
+      Protocol="false"
+      UI="false"
+      Default="false"
+      LogPV="false"
+      Alarm="false"
+      UoM="NoUnits"
+      IsRetained="false" />
+    <Variable
+      Name="DisplayP"
+      Comment="Display value"
+      AccessRights="Write"
+      DataType="INT"
+      Kind="VarOutput"
+      IO="false"
+      Protocol="false"
+      UI="false"
+      Default="false"
+      LogPV="false"
+      Alarm="false"
+      UoM="NoUnits"
+      IsRetained="false" />
+    <Variable
+      Name="UnitMeasPressAbs_REAL_1"
+      Comment=""
+      AccessRights="ReadWrite"
+      DataType="UnitMeas_P_REAL"
+      Kind="Var">
+      <Variable
+        Name="BasePIn"
+        DataType="REAL"
+        IO="false"
+        Protocol="false"
+        UI="false"
+        Default="false"
+        LogPV="false"
+        Alarm="false"
+        UoM="NoUnits"
+        IsRetained="false" />
+      <Variable
+        Name="DisplayPIn"
+        DataType="REAL"
+        IO="false"
+        Protocol="false"
+        UI="false"
+        Default="false"
+        LogPV="false"
+        Alarm="false"
+        UoM="NoUnits"
+        IsRetained="false" />
+      <Variable
+        Name="BaseUnit"
+        DataType="BOOL"
+        IO="false"
+        Protocol="false"
+        UI="false"
+        Default="false"
+        LogPV="false"
+        Alarm="false"
+        UoM="NoUnits"
+        IsRetained="false" />
+      <Variable
+        Name="DisplayUnit"
+        DataType="BOOL"
+        IO="false"
+        Protocol="false"
+        UI="false"
+        Default="false"
+        LogPV="false"
+        Alarm="false"
+        UoM="NoUnits"
+        IsRetained="false" />
+      <Variable
+        Name="BaseP"
+        DataType="REAL"
+        IO="false"
+        Protocol="false"
+        UI="false"
+        Default="false"
+        LogPV="false"
+        Alarm="false"
+        UoM="NoUnits"
+        IsRetained="false" />
+      <Variable
+        Name="DisplayP"
+        DataType="REAL"
+        IO="false"
+        Protocol="false"
+        UI="false"
+        Default="false"
+        LogPV="false"
+        Alarm="false"
+        UoM="NoUnits"
+        IsRetained="false" />
+      <Variable
+        Name="PrevBaseP"
+        DataType="REAL"
+        IO="false"
+        Protocol="false"
+        UI="false"
+        Default="false"
+        LogPV="false"
+        Alarm="false"
+        UoM="NoUnits"
+        IsRetained="false" />
+      <Variable
+        Name="PrevDisplayP"
+        DataType="REAL"
+        IO="false"
+        Protocol="false"
+        UI="false"
+        Default="false"
+        LogPV="false"
+        Alarm="false"
+        UoM="NoUnits"
+        IsRetained="false" />
+      <Variable
+        Name="PrevDisplayUnit"
+        DataType="BOOL"
+        IO="false"
+        Protocol="false"
+        UI="false"
+        Default="false"
+        LogPV="false"
+        Alarm="false"
+        UoM="NoUnits"
+        IsRetained="false" />
+      <Variable
+        Name="FirstRun"
+        DataType="BOOL"
+        IO="false"
+        Protocol="false"
+        UI="false"
+        Default="false"
+        LogPV="false"
+        Alarm="false"
+        UoM="NoUnits"
+        IsRetained="false" />
+    </Variable>
+  </Variables>
+</Manifest>

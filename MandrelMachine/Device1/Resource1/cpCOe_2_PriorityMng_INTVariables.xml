@@ -1,0 +1,86 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Manifest
+  Version="1.0.0">
+  <Variables>
+    <Variable
+      Name="VariableIn"
+      Comment="Variable used on the strategy"
+      AccessRights="Read"
+      DataType="INT"
+      Kind="VarInput"
+      IO="false"
+      Protocol="false"
+      UI="false"
+      Default="false"
+      LogPV="false"
+      Alarm="false"
+      UoM="NoUnits"
+      IsRetained="false"
+      Access="ReadWrite"
+      Decimals="1" />
+    <Variable
+      Name="SerialIn"
+      Comment="Variable flag as Protocol"
+      AccessRights="Read"
+      DataType="INT"
+      Kind="VarInput"
+      IO="false"
+      Protocol="false"
+      UI="false"
+      Default="false"
+      LogPV="false"
+      Alarm="false"
+      UoM="NoUnits"
+      IsRetained="false"
+      Access="ReadWrite"
+      Decimals="1" />
+    <Variable
+      Name="Variable"
+      Comment="Variable flag as Protocol"
+      AccessRights="Write"
+      DataType="INT"
+      Kind="VarOutput"
+      IO="false"
+      Protocol="false"
+      UI="false"
+      Default="false"
+      LogPV="false"
+      Alarm="false"
+      UoM="NoUnits"
+      IsRetained="false"
+      Access="ReadWrite"
+      Decimals="1" />
+    <Variable
+      Name="Serial"
+      Comment="Variable used on the strategy"
+      AccessRights="Write"
+      DataType="INT"
+      Kind="VarOutput"
+      IO="false"
+      Protocol="false"
+      UI="false"
+      Default="false"
+      LogPV="false"
+      Alarm="false"
+      UoM="NoUnits"
+      IsRetained="false"
+      Access="ReadWrite"
+      Decimals="1" />
+    <Variable
+      Name="UpdtDn"
+      Comment="Update done"
+      AccessRights="ReadWrite"
+      DataType="BOOL"
+      Kind="Var"
+      IO="false"
+      Protocol="false"
+      UI="false"
+      Default="false"
+      LogPV="false"
+      Alarm="false"
+      UoM="NoUnits"
+      IsRetained="false"
+      Access="ReadWrite"
+      Decimals="1" />
+  </Variables>
+</Manifest>

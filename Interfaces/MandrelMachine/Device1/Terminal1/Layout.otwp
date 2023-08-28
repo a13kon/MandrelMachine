@@ -1,0 +1,17 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Terminal Name="Terminal1" Display="PGD1" Language="EN" BeginFromMask="Main_1" Layout="SixKeys" Font="CAREL_TERM_EAST" ZoomCode="0" LoopFunction="TIMED_LOOP" Version="1.0">
+  <ShortCuts>
+    <ShortCut Name="ALARM" Code="12" />
+    <ShortCut Name="PRG" Code="5" />
+    <ShortCut Name="ESC" Code="0" />
+    <ShortCut Name="UP" Code="14" />
+    <ShortCut Name="ENTER" Code="13" />
+    <ShortCut Name="DOWN" Code="15" />
+  </ShortCuts>
+  <KeyBindings>
+    <KeyBinding Key="ESC" BindOn="Terminal1_ESC" />
+    <KeyBinding Key="ALARM" BindOn="CheckActiveAlarm" />
+    <KeyBinding Key="DOWN" BindOn="Move_DOWN" />
+    <KeyBinding Key="UP" BindOn="Move_UP" />
+  </KeyBindings>
+</Terminal>

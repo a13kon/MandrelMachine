@@ -1,0 +1,7 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Configuration FileVersion="200.00.003" Name="Device1" ElementGuid="e5619c74-aed5-4bfa-87ad-8e4823a88b2d" onlineBehavior="Always" TargetName="CAREL_PCO" Comment="&#xD;&#xA;&#xD;&#xA;Resources 1" SingleTextLine="This is the Device 1" Password="" IsEnhanced="false" IsEnhancedTarget="true" IsIsagraf3="false">
+  <Connections>
+    <Connection NetworkName="USB1" />
+  </Connections>
+  <Resource Name="Resource1" ElementGuid="aaa250d1-8b67-4330-9ca3-1e445abf6648" />
+</Configuration>

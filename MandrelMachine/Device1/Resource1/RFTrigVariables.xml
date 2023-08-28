@@ -1,0 +1,114 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Manifest
+  Version="1.0.0">
+  <Variables>
+    <Variable
+      Name="In"
+      Comment="Input trigger"
+      AccessRights="Read"
+      DataType="BOOL"
+      Kind="VarInput"
+      IO="false"
+      Protocol="false"
+      UI="false"
+      Default="false"
+      LogPV="false"
+      Alarm="false"
+      UoM="NoUnits"
+      IsRetained="false" />
+    <Variable
+      Name="Out"
+      Comment=""
+      AccessRights="Write"
+      DataType="BOOL"
+      Kind="VarOutput"
+      IO="false"
+      Protocol="false"
+      UI="false"
+      Default="false"
+      LogPV="false"
+      Alarm="false"
+      UoM="NoUnits"
+      IsRetained="false" />
+    <Variable
+      Name="R_TRIG_1"
+      Comment=""
+      AccessRights="ReadWrite"
+      DataType="R_TRIG"
+      Kind="Var">
+      <Variable
+        Name="CLK"
+        DataType="BOOL"
+        IO="false"
+        Protocol="false"
+        UI="false"
+        Default="false"
+        LogPV="false"
+        Alarm="false"
+        UoM="NoUnits"
+        IsRetained="false" />
+      <Variable
+        Name="Q"
+        DataType="BOOL"
+        IO="false"
+        Protocol="false"
+        UI="false"
+        Default="false"
+        LogPV="false"
+        Alarm="false"
+        UoM="NoUnits"
+        IsRetained="false" />
+      <Variable
+        Name="Redge"
+        DataType="BOOL"
+        IO="false"
+        Protocol="false"
+        UI="false"
+        Default="false"
+        LogPV="false"
+        Alarm="false"
+        UoM="NoUnits"
+        IsRetained="false" />
+    </Variable>
+    <Variable
+      Name="F_TRIG_1"
+      Comment=""
+      AccessRights="ReadWrite"
+      DataType="F_TRIG"
+      Kind="Var">
+      <Variable
+        Name="CLK"
+        DataType="BOOL"
+        IO="false"
+        Protocol="false"
+        UI="false"
+        Default="false"
+        LogPV="false"
+        Alarm="false"
+        UoM="NoUnits"
+        IsRetained="false" />
+      <Variable
+        Name="Q"
+        DataType="BOOL"
+        IO="false"
+        Protocol="false"
+        UI="false"
+        Default="false"
+        LogPV="false"
+        Alarm="false"
+        UoM="NoUnits"
+        IsRetained="false" />
+      <Variable
+        Name="Fedge"
+        DataType="BOOL"
+        IO="false"
+        Protocol="false"
+        UI="false"
+        Default="false"
+        LogPV="false"
+        Alarm="false"
+        UoM="NoUnits"
+        IsRetained="false" />
+    </Variable>
+  </Variables>
+</Manifest>

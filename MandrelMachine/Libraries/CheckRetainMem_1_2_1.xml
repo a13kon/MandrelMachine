@@ -1,0 +1,96 @@
+﻿<Manifest
+  Version="1.0.0"
+  IsLibrary="true">
+  <Libraries />
+  <Pou
+    Name="CheckRetainMem"
+    Moniker="CheckRetainMem.stf"
+    Language="ST"
+    IsIec61499="false"
+    Kind="FunctionBlock"
+    Password="E4BDBA2BEF6CC4DC"
+    GenerateDebugInfo="false"
+    GeneratingMonitoringSymbols="true"
+    UserEdited="false"
+    Deprecated="false"
+    IsVisible="true">
+    <Variable
+      Name="CheckT"
+      Comment="Period of time to check"
+      AccessRights="Read"
+      DataType="TIME"
+      Kind="VarInput" />
+    <Variable
+      Name="MaxWritingsNo"
+      Comment="Max number of writings for each CheckT period"
+      AccessRights="Read"
+      DataType="UDINT"
+      Kind="VarInput" />
+    <Variable
+      Name="CountToTrig"
+      Comment="Number of warnings before trigger an error (0 means 1)"
+      AccessRights="Read"
+      DataType="UINT"
+      Kind="VarInput" />
+    <Variable
+      Name="En_CheckRetainMem"
+      Comment="Enables the block"
+      AccessRights="Read"
+      DataType="BOOL"
+      Kind="VarInput" />
+    <Variable
+      Name="MemWarning"
+      Comment="The last sample has shown a number of writings in retain memory greater than MaxWritingsNo"
+      AccessRights="Write"
+      DataType="BOOL"
+      Kind="VarOutput" />
+    <Variable
+      Name="MemError"
+      Comment="Error due to too much writings in retain memory"
+      AccessRights="Write"
+      DataType="BOOL"
+      Kind="VarOutput" />
+    <Variable
+      Name="MemWritingsNo"
+      Comment="Absolute number of writings in retain memory during the entire device life"
+      AccessRights="Write"
+      DataType="UDINT"
+      Kind="VarOutput" />
+    <Variable
+      Name="Init"
+      Comment=""
+      AccessRights="ReadWrite"
+      DataType="BOOL"
+      Kind="Var" />
+    <Variable
+      Name="SYS_READ_1"
+      Comment=""
+      AccessRights="ReadWrite"
+      DataType="SYS_READ"
+      Kind="Var" />
+    <Variable
+      Name="TON_1"
+      Comment=""
+      AccessRights="ReadWrite"
+      DataType="TON"
+      Kind="Var" />
+    <Variable
+      Name="PredSample"
+      Comment=""
+      AccessRights="ReadWrite"
+      DataType="UDINT"
+      Kind="Var" />
+    <Variable
+      Name="WarningsCount"
+      Comment=""
+      AccessRights="ReadWrite"
+      DataType="UINT"
+      Kind="Var" />
+    <Variable
+      Name="F_TRIG_Res"
+      Comment=""
+      AccessRights="ReadWrite"
+      DataType="F_TRIG"
+      Kind="Var" />
+  </Pou>
+</Manifest>

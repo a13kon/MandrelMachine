@@ -1,0 +1,358 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Manifest
+  Version="1.0.0">
+  <Variables>
+    <Variable
+      Name="CheckT"
+      Comment="Period of time to check"
+      AccessRights="Read"
+      DataType="TIME"
+      Kind="VarInput"
+      IO="false"
+      Protocol="false"
+      UI="false"
+      Default="false"
+      LogPV="false"
+      Alarm="false"
+      UoM="NoUnits"
+      IsRetained="false" />
+    <Variable
+      Name="MaxWritingsNo"
+      Comment="Max number of writings for each CheckT period"
+      AccessRights="Read"
+      DataType="UDINT"
+      Kind="VarInput"
+      IO="false"
+      Protocol="false"
+      UI="false"
+      Default="false"
+      LogPV="false"
+      Alarm="false"
+      UoM="NoUnits"
+      IsRetained="false" />
+    <Variable
+      Name="CountToTrig"
+      Comment="Number of warnings before trigger an error (0 means 1)"
+      AccessRights="Read"
+      DataType="UINT"
+      Kind="VarInput"
+      IO="false"
+      Protocol="false"
+      UI="false"
+      Default="false"
+      LogPV="false"
+      Alarm="false"
+      UoM="NoUnits"
+      IsRetained="false" />
+    <Variable
+      Name="En_CheckRetainMem"
+      Comment="Enables the block"
+      AccessRights="Read"
+      DataType="BOOL"
+      Kind="VarInput"
+      IO="false"
+      Protocol="false"
+      UI="false"
+      Default="false"
+      LogPV="false"
+      Alarm="false"
+      UoM="NoUnits"
+      IsRetained="false" />
+    <Variable
+      Name="MemWarning"
+      Comment="The last sample has shown a number of writings in retain memory greater than MaxWritingsNo"
+      AccessRights="Write"
+      DataType="BOOL"
+      Kind="VarOutput"
+      IO="false"
+      Protocol="false"
+      UI="false"
+      Default="false"
+      LogPV="false"
+      Alarm="false"
+      UoM="NoUnits"
+      IsRetained="false" />
+    <Variable
+      Name="MemError"
+      Comment="Error due to too much writings in retain memory"
+      AccessRights="Write"
+      DataType="BOOL"
+      Kind="VarOutput"
+      IO="false"
+      Protocol="false"
+      UI="false"
+      Default="false"
+      LogPV="false"
+      Alarm="false"
+      UoM="NoUnits"
+      IsRetained="false" />
+    <Variable
+      Name="MemWritingsNo"
+      Comment="Absolute number of writings in retain memory during the entire device life"
+      AccessRights="Write"
+      DataType="UDINT"
+      Kind="VarOutput"
+      IO="false"
+      Protocol="false"
+      UI="false"
+      Default="false"
+      LogPV="false"
+      Alarm="false"
+      UoM="NoUnits"
+      IsRetained="false" />
+    <Variable
+      Name="Init"
+      Comment=""
+      AccessRights="ReadWrite"
+      DataType="BOOL"
+      Kind="Var"
+      IO="false"
+      Protocol="false"
+      UI="false"
+      Default="false"
+      LogPV="false"
+      Alarm="false"
+      UoM="NoUnits"
+      IsRetained="false" />
+    <Variable
+      Name="SYS_READ_1"
+      Comment=""
+      AccessRights="ReadWrite"
+      DataType="SYS_READ"
+      Kind="Var">
+      <Variable
+        Name="PARAM"
+        DataType="UINT"
+        IO="false"
+        Protocol="false"
+        UI="false"
+        Default="false"
+        LogPV="false"
+        Alarm="false"
+        UoM="NoUnits"
+        IsRetained="false" />
+      <Variable
+        Name="ENABLE"
+        DataType="BOOL"
+        IO="false"
+        Protocol="false"
+        UI="false"
+        Default="false"
+        LogPV="false"
+        Alarm="false"
+        UoM="NoUnits"
+        IsRetained="false" />
+      <Variable
+        Name="VALUE"
+        DataType="UDINT,1-5">
+        <Variable
+          Name="VALUE[1]"
+          DataType="UDINT"
+          IO="false"
+          Protocol="false"
+          UI="false"
+          Default="false"
+          LogPV="false"
+          Alarm="false"
+          UoM="NoUnits"
+          IsRetained="false" />
+        <Variable
+          Name="VALUE[2]"
+          DataType="UDINT"
+          IO="false"
+          Protocol="false"
+          UI="false"
+          Default="false"
+          LogPV="false"
+          Alarm="false"
+          UoM="NoUnits"
+          IsRetained="false" />
+        <Variable
+          Name="VALUE[3]"
+          DataType="UDINT"
+          IO="false"
+          Protocol="false"
+          UI="false"
+          Default="false"
+          LogPV="false"
+          Alarm="false"
+          UoM="NoUnits"
+          IsRetained="false" />
+        <Variable
+          Name="VALUE[4]"
+          DataType="UDINT"
+          IO="false"
+          Protocol="false"
+          UI="false"
+          Default="false"
+          LogPV="false"
+          Alarm="false"
+          UoM="NoUnits"
+          IsRetained="false" />
+        <Variable
+          Name="VALUE[5]"
+          DataType="UDINT"
+          IO="false"
+          Protocol="false"
+          UI="false"
+          Default="false"
+          LogPV="false"
+          Alarm="false"
+          UoM="NoUnits"
+          IsRetained="false" />
+      </Variable>
+      <Variable
+        Name="ERROR"
+        DataType="DINT"
+        IO="false"
+        Protocol="false"
+        UI="false"
+        Default="false"
+        LogPV="false"
+        Alarm="false"
+        UoM="NoUnits"
+        IsRetained="false" />
+    </Variable>
+    <Variable
+      Name="TON_1"
+      Comment=""
+      AccessRights="ReadWrite"
+      DataType="TON"
+      Kind="Var">
+      <Variable
+        Name="IN"
+        DataType="BOOL"
+        IO="false"
+        Protocol="false"
+        UI="false"
+        Default="false"
+        LogPV="false"
+        Alarm="false"
+        UoM="NoUnits"
+        IsRetained="false" />
+      <Variable
+        Name="PT"
+        DataType="TIME"
+        IO="false"
+        Protocol="false"
+        UI="false"
+        Default="false"
+        LogPV="false"
+        Alarm="false"
+        UoM="NoUnits"
+        IsRetained="false" />
+      <Variable
+        Name="Q"
+        DataType="BOOL"
+        IO="false"
+        Protocol="false"
+        UI="false"
+        Default="false"
+        LogPV="false"
+        Alarm="false"
+        UoM="NoUnits"
+        IsRetained="false" />
+      <Variable
+        Name="ET"
+        DataType="TIME"
+        IO="false"
+        Protocol="false"
+        UI="false"
+        Default="false"
+        LogPV="false"
+        Alarm="false"
+        UoM="NoUnits"
+        IsRetained="false" />
+      <Variable
+        Name="Pdate"
+        DataType="TIME"
+        IO="false"
+        Protocol="false"
+        UI="false"
+        Default="false"
+        LogPV="false"
+        Alarm="false"
+        UoM="NoUnits"
+        IsRetained="false" />
+      <Variable
+        Name="Redge"
+        DataType="BOOL"
+        IO="false"
+        Protocol="false"
+        UI="false"
+        Default="false"
+        LogPV="false"
+        Alarm="false"
+        UoM="NoUnits"
+        IsRetained="false" />
+    </Variable>
+    <Variable
+      Name="PredSample"
+      Comment=""
+      AccessRights="ReadWrite"
+      DataType="UDINT"
+      Kind="Var"
+      IO="false"
+      Protocol="false"
+      UI="false"
+      Default="false"
+      LogPV="false"
+      Alarm="false"
+      UoM="NoUnits"
+      IsRetained="false" />
+    <Variable
+      Name="WarningsCount"
+      Comment=""
+      AccessRights="ReadWrite"
+      DataType="UINT"
+      Kind="Var"
+      IO="false"
+      Protocol="false"
+      UI="false"
+      Default="false"
+      LogPV="false"
+      Alarm="false"
+      UoM="NoUnits"
+      IsRetained="false" />
+    <Variable
+      Name="F_TRIG_Res"
+      Comment=""
+      AccessRights="ReadWrite"
+      DataType="F_TRIG"
+      Kind="Var">
+      <Variable
+        Name="CLK"
+        DataType="BOOL"
+        IO="false"
+        Protocol="false"
+        UI="false"
+        Default="false"
+        LogPV="false"
+        Alarm="false"
+        UoM="NoUnits"
+        IsRetained="false" />
+      <Variable
+        Name="Q"
+        DataType="BOOL"
+        IO="false"
+        Protocol="false"
+        UI="false"
+        Default="false"
+        LogPV="false"
+        Alarm="false"
+        UoM="NoUnits"
+        IsRetained="false" />
+      <Variable
+        Name="Fedge"
+        DataType="BOOL"
+        IO="false"
+        Protocol="false"
+        UI="false"
+        Default="false"
+        LogPV="false"
+        Alarm="false"
+        UoM="NoUnits"
+        IsRetained="false" />
+    </Variable>
+  </Variables>
+</Manifest>

@@ -1,0 +1,10 @@
+[HSS]
+Port=6001
+
+[HXL]
+Conf=Config1
+Config1=HSD
+
+[HCS]
+Res=1
+Res1=Config1

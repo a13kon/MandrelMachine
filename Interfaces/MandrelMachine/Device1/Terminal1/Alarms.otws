@@ -1,0 +1,108 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Worksheet Name="Alarms" Version="1.0.0">
+  <Loop Name="ACTIVEALARMS" Type="Normal" X="0" Y="2">
+    <Mask Name="Alrms_Active" Type="Normal" X="0" Y="3" Color="Red">
+      <Fields>
+        <Field Name="ImageField_1" Type="Image" Row="0" Column="0" Content="BLACK_ROWS_132X8.BMP" />
+        <Field Name="Field_1" Type="Text" Row="0" Column="0" Content=" AÆaÃ¼¼:           /" />
+        <Field Name="AlrmIdx_1" Type="Variable" Row="0" Column="17" Content="AlrmIdx" Class="CL_DINT" Format="o2z" Min="0" Max="99" />
+        <Field Name="TotAlrm_1" Type="Variable" Row="0" Column="20" Content="N_Alrms" Class="CL_DINT" Format="o2z" Min="0" Max="99" />
+        <Field Name="AlrmCode_1" Type="Variable" Row="1" Column="0" Content="AlrmCode" Class="AlrmNo" Format="o1" Min="0" Max="9" SimulationValue="0" />
+        <Field Name="ALrmDay_1" Type="Variable" Row="1" Column="14" Content="Alarms.AlrmDay" Class="CL_UINT" Format="o2z" Min="0" Max="99" />
+        <Field Name="AlrmMonth_1" Type="Variable" Row="1" Column="17" Content="Alarms.AlrmMonth" Class="CL_UINT" Format="o2z" Min="0" Max="99" />
+        <Field Name="AlrmYear_1" Type="Variable" Row="1" Column="20" Content="Alarms.AlrmYear" Class="CL_UINT" Format="o2z" Min="0" Max="99" />
+        <Field Name="AlrmHour_1" Type="Variable" Row="1" Column="8" Content="Alarms.AlrmHour" Class="CL_UINT" Format="o2z" Min="0" Max="99" />
+        <Field Name="AlrmMin_1" Type="Variable" Row="1" Column="11" Content="Alarms.AlrmMinute" Class="CL_UINT" Format="o2z" Min="0" Max="99" />
+        <Field Name="Field_4" Type="Text" Row="1" Column="10" Content=":     /  /" />
+        <Field Type="Variable" Name="Variable" Row="3" Column="0" Content="AlrmCode" Class="AlrmDescr" Format="o2" Min="0" Max="99" SimulationValue="4" />
+      </Fields>
+      <KeyBindings>
+        <KeyBinding Key="ALARM" BindOn="ResetGlobalAlarm" />
+        <KeyBinding Key="UP" BindOn="ScrollAlarm_UP" />
+        <KeyBinding Key="DOWN" BindOn="ScrollAlarm_DOWN" />
+      </KeyBindings>
+      <EnableOn />
+      <ResourceUsedOnInt />
+      <ResourceUsedOnBool />
+    </Mask>
+    <Mask Name="Alrms_Res" Type="Normal" X="0" Y="4" ReferToMask="" Color="Red">
+      <Fields>
+        <Field Name="BLACK_ROWS_132X8_BMP_1" Type="Image" Row="0" Column="0" Content="BLACK_ROWS_132X8.BMP" />
+        <Field Name="Field_3" Type="Text" Row="0" Column="7" Content=" AÆaÃ¼¼" />
+        <Field Name="Field_1" Type="Text" Row="3" Column="4" Content="aÆaÃ¼É Å·¸Ã½¼ÆaÉÄ¸" />
+        <Field Name="Field_2" Type="Text" Row="2" Column="4" Content="£¿Ó cµÃoca ­CEX " />
+        <Field Name="ImageField_1" Type="Image" Row="2" Column="0" Content="alarm_pGD.bmp" />
+        <Field Type="Image" Name="Image_1" Row="6" Column="0" Content="History.bmp" />
+        <Field Type="Text" Name="Text_1" Row="4" Column="3" Content=" " />
+        <Field Name="Text_2" Type="Text" Row="4" Column="3" Content=" ALARM Æ Ä¸Â¸ú¼¼ 3c" />
+        <Field Name="Text_3" Type="Text" Row="6" Column="2" Content="£¿Ó Æxo·a Æ §ÅÃúa¿" />
+        <Field Name="Text_4" Type="Text" Row="7" Column="2" Content="aÆaÃ¼É úa½À¼Ä¸ ENTER" />
+      </Fields>
+      <KeyBindings>
+        <KeyBinding Key="ENTER" BindOn="gotoAlarmLog" />
+        <KeyBinding Key="UP" BindOn="ScrollAlarm_UP" />
+        <KeyBinding Key="DOWN" BindOn="ScrollAlarm_DOWN" />
+        <KeyBinding Key="ALARM" BindOn="ResetGlobalAlarm" />
+      </KeyBindings>
+      <EnableOn />
+      <ResourceUsedOnInt />
+      <ResourceUsedOnBool />
+    </Mask>
+  </Loop>
+  <Loop Name="ALRMLOGS" Type="Normal" X="1" Y="2">
+    <Mask Name="Alrms_Log" Type="Normal" X="1" Y="3" Color="255, 128, 128">
+      <Fields>
+        <Field Name="ImageField_1" Type="Image" Row="0" Column="0" Content="BLACK_ROWS_132X8.BMP" />
+        <Field Name="AlrmIdx_1" Type="Variable" Row="7" Column="20" Content="AlrmLogsIdx" Class="CL_DINT" Format="o2z" Min="0" Max="64" />
+        <Field Name="AlrmCode_1" Type="Variable" Row="1" Column="0" Content="AlrmLogCode" Class="AlrmNo" Format="o1" Min="0" Max="9" />
+        <Field Name="ALrmDay_1" Type="Variable" Row="1" Column="14" Content="Alarms.AlrmLogDay" Class="CL_UINT" Format="o2z" Min="0" Max="99" />
+        <Field Name="AlrmMonth_1" Type="Variable" Row="1" Column="17" Content="Alarms.AlrmLogMonth" Class="CL_UINT" Format="o2z" Min="0" Max="99" />
+        <Field Name="AlrmYear_1" Type="Variable" Row="1" Column="20" Content="Alarms.AlrmLogYear" Class="CL_UINT" Format="o2z" Min="0" Max="99" />
+        <Field Name="AlrmHour_1" Type="Variable" Row="1" Column="8" Content="Alarms.AlrmLogHour" Class="CL_UINT" Format="o2z" Min="0" Max="99" />
+        <Field Name="AlrmMin_1" Type="Variable" Row="1" Column="11" Content="Alarms.AlrmLogMinute" Class="CL_UINT" Format="o2z" Min="0" Max="99" />
+        <Field Name="Field_5" Type="Text" Row="0" Column="4" Content="§ÅÃúa¿ aÆaÃ¼É" />
+        <Field Name="Data_logger_1" Type="Text" Row="7" Column="11" Content="  ±aÁ¼cÎ:" />
+        <Field Type="Variable" Name="Variable_3" Row="7" Column="1" Content="AlrmLogEventType" Class="AlrmLogEvent" Format="o1" Min="0" Max="9" SimulationValue="1" />
+        <Field Type="Text" Name="Text_1" Row="1" Column="9" Content=" :     /  /" />
+        <Field Name="Image_2" Type="Image" Row="7" Column="0" Content="BLACK_ROWS_132X8.BMP" />
+        <Field Type="Variable" Name="Variable" Row="3" Column="0" Content="AlrmLogCode" Class="AlrmDescr" Format="o2" Min="0" Max="99" SimulationValue="4" />
+      </Fields>
+      <KeyBindings>
+        <KeyBinding Key="UP" BindOn="ScrollAlarmLog_UP" />
+        <KeyBinding Key="DOWN" BindOn="ScrollAlarmLog_DOWN" />
+      </KeyBindings>
+      <EnableOn />
+      <ResourceUsedOnInt />
+      <ResourceUsedOnBool />
+    </Mask>
+  </Loop>
+  <Mask Name="Alrms_NoLog" Type="Normal" X="1" Y="1" ZoomCode="17">
+    <Fields>
+      <Field Name="NO_ACTIVE_ALAMRS_1" Type="Text" Row="2" Column="0" Content="±Aª¦CE° HET" />
+      <Field Name="BLACK_ROWS_132X8_BMP_1" Type="Image" Row="0" Column="0" Content="BLACK_ROWS_132X8.BMP" />
+      <Field Name="Field_1" Type="Text" Row="0" Column="4" Content=" §ÅÃúa¿ aÆaÃ¼É" />
+      <Field Type="Text" Name="Text_1" Row="3" Column="0" Content=" " />
+      <Field Name="Image_2" Type="Image" Row="7" Column="0" Content="BLACK_ROWS_132X8.BMP" />
+    </Fields>
+    <KeyBindings />
+    <EnableOn />
+    <ResourceUsedOnInt />
+    <ResourceUsedOnBool />
+  </Mask>
+  <Mask Name="Alrms_NoAlrms" Type="Normal" X="0" Y="1" ZoomCode="3" ReferToMask="">
+    <Fields>
+      <Field Name="ImageField_1" Type="Image" Row="0" Column="0" Content="BLACK_ROWS_132X8.BMP" />
+      <Field Name="Field_1" Type="Text" Row="2" Column="0" Content="A­AP¦° HET" />
+      <Field Name="to_DATA_LOGGER_1" Type="Text" Row="5" Column="2" Content="£¿Ó Æxo·a Æ §ÅÃúa¿" />
+      <Field Name="Press_ENTER_1" Type="Text" Row="6" Column="2" Content="aÆaÃ¼É úa½À¼Ä¸ ENTER" />
+      <Field Type="Image" Name="Image_1" Row="6" Column="0" Content="History.bmp" />
+      <Field Name="Text_2" Type="Text" Row="0" Column="4" Content=" CÁ¼co¾ aÆaÃ¼É" />
+    </Fields>
+    <KeyBindings>
+      <KeyBinding Key="ENTER" BindOn="gotoAlarmLog" />
+    </KeyBindings>
+    <EnableOn />
+    <ResourceUsedOnInt />
+    <ResourceUsedOnBool />
+  </Mask>
+</Worksheet>

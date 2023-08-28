@@ -1,0 +1,188 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Manifest
+  Version="1.0.0">
+  <Variables>
+    <Variable
+      Name="Second"
+      Comment="Current second (0-59)"
+      AccessRights="Write"
+      DataType="UINT"
+      Kind="VarOutput"
+      IO="false"
+      Protocol="false"
+      UI="false"
+      Default="false"
+      LogPV="false"
+      Alarm="false"
+      UoM="Seconds"
+      IsRetained="false" />
+    <Variable
+      Name="Minute"
+      Comment="Current minute (0-59)"
+      AccessRights="Write"
+      DataType="UINT"
+      Kind="VarOutput"
+      IO="false"
+      Protocol="false"
+      UI="false"
+      Default="false"
+      LogPV="false"
+      Alarm="false"
+      UoM="Minutes"
+      IsRetained="false" />
+    <Variable
+      Name="Hour"
+      Comment="Current hour (0-23)"
+      AccessRights="Write"
+      DataType="UINT"
+      Kind="VarOutput"
+      IO="false"
+      Protocol="false"
+      UI="false"
+      Default="false"
+      LogPV="false"
+      Alarm="false"
+      UoM="Hours"
+      IsRetained="false" />
+    <Variable
+      Name="Day"
+      Comment="Current day (1-31)"
+      AccessRights="Write"
+      DataType="UINT"
+      Kind="VarOutput"
+      IO="false"
+      Protocol="false"
+      UI="false"
+      Default="false"
+      LogPV="false"
+      Alarm="false"
+      UoM="Days"
+      IsRetained="false" />
+    <Variable
+      Name="Month"
+      Comment="Current month (1-12)"
+      AccessRights="Write"
+      DataType="UINT"
+      Kind="VarOutput"
+      IO="false"
+      Protocol="false"
+      UI="false"
+      Default="false"
+      LogPV="false"
+      Alarm="false"
+      UoM="Months"
+      IsRetained="false" />
+    <Variable
+      Name="Year"
+      Comment="Current year"
+      AccessRights="Write"
+      DataType="UINT"
+      Kind="VarOutput"
+      IO="false"
+      Protocol="false"
+      UI="false"
+      Default="false"
+      LogPV="false"
+      Alarm="false"
+      UoM="Years"
+      IsRetained="false" />
+    <Variable
+      Name="DayOfWeek"
+      Comment="Current day of the week (between 1 and 7)"
+      AccessRights="Write"
+      DataType="UINT"
+      Kind="VarOutput"
+      IO="false"
+      Protocol="false"
+      UI="false"
+      Default="false"
+      LogPV="false"
+      Alarm="false"
+      UoM="NoUnits"
+      IsRetained="false" />
+    <Variable
+      Name="DateToUint"
+      Comment=""
+      AccessRights="ReadWrite"
+      DataType="DATE_TO_UINT"
+      Kind="Var">
+      <Variable
+        Name="DATE_IN"
+        DataType="DATE"
+        IO="false"
+        Protocol="false"
+        UI="false"
+        Default="false"
+        LogPV="false"
+        Alarm="false"
+        UoM="NoUnits"
+        IsRetained="false" />
+      <Variable
+        Name="SECOND"
+        DataType="UINT"
+        IO="false"
+        Protocol="false"
+        UI="false"
+        Default="false"
+        LogPV="false"
+        Alarm="false"
+        UoM="NoUnits"
+        IsRetained="false" />
+      <Variable
+        Name="MINUTE"
+        DataType="UINT"
+        IO="false"
+        Protocol="false"
+        UI="false"
+        Default="false"
+        LogPV="false"
+        Alarm="false"
+        UoM="NoUnits"
+        IsRetained="false" />
+      <Variable
+        Name="HOUR"
+        DataType="UINT"
+        IO="false"
+        Protocol="false"
+        UI="false"
+        Default="false"
+        LogPV="false"
+        Alarm="false"
+        UoM="NoUnits"
+        IsRetained="false" />
+      <Variable
+        Name="DAY"
+        DataType="UINT"
+        IO="false"
+        Protocol="false"
+        UI="false"
+        Default="false"
+        LogPV="false"
+        Alarm="false"
+        UoM="NoUnits"
+        IsRetained="false" />
+      <Variable
+        Name="MONTH"
+        DataType="UINT"
+        IO="false"
+        Protocol="false"
+        UI="false"
+        Default="false"
+        LogPV="false"
+        Alarm="false"
+        UoM="NoUnits"
+        IsRetained="false" />
+      <Variable
+        Name="YEAR"
+        DataType="UINT"
+        IO="false"
+        Protocol="false"
+        UI="false"
+        Default="false"
+        LogPV="false"
+        Alarm="false"
+        UoM="NoUnits"
+        IsRetained="false" />
+    </Variable>
+  </Variables>
+</Manifest>

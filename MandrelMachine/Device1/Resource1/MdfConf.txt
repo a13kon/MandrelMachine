@@ -1,0 +1,13 @@
+[__DEFIO_CPXDVC]
+Nb = 0
+
+
+[__DEFIO_SPLDVC]
+Nb = 0
+
+
+[__DEFIO_CHAN]
+
+
+[__READONLY_VALUES]
+Nb = 0

@@ -1,0 +1,96 @@
+﻿<Manifest
+  Version="1.0.0"
+  IsLibrary="true">
+  <Libraries />
+  <Pou
+    Name="Blackout_3"
+    Moniker="Blackout_3.stf"
+    Language="ST"
+    IsIec61499="false"
+    Kind="FunctionBlock"
+    Password="E4BDBA2BEF6CC4DC"
+    GenerateDebugInfo="false"
+    GeneratingMonitoringSymbols="true"
+    UserEdited="false"
+    Deprecated="false"
+    IsVisible="true">
+    <Variable
+      Name="PwrOffDate_BLKO"
+      Comment="Date of the last power off expressed in seconds (Unix Timestamp, seconds from January 1st 1970) "
+      AccessRights="Read"
+      DataType="UDINT"
+      Kind="VarInput" />
+    <Variable
+      Name="OffMins_BLKO"
+      Comment="Duration of the power off in minutes"
+      AccessRights="Write"
+      DataType="UINT"
+      Kind="VarOutput" />
+    <Variable
+      Name="OffHours_BLKO"
+      Comment="Duration of the power off in hours"
+      AccessRights="Write"
+      DataType="UINT"
+      Kind="VarOutput" />
+    <Variable
+      Name="OffDays_BLKO"
+      Comment="Duration of the power off in days"
+      AccessRights="Write"
+      DataType="UINT"
+      Kind="VarOutput" />
+    <Variable
+      Name="LastOnSec_BLKO"
+      Comment="Last second in which pCO was on"
+      AccessRights="Write"
+      DataType="UINT"
+      Kind="VarOutput" />
+    <Variable
+      Name="LastOnMin_BLKO"
+      Comment="Last minute in which pCO was on"
+      AccessRights="Write"
+      DataType="UINT"
+      Kind="VarOutput" />
+    <Variable
+      Name="LastOnHour_BLKO"
+      Comment="Last hour in which pCO was on"
+      AccessRights="Write"
+      DataType="UINT"
+      Kind="VarOutput" />
+    <Variable
+      Name="LastOnDay_BLKO"
+      Comment="Last day in which pCO was on"
+      AccessRights="Write"
+      DataType="UINT"
+      Kind="VarOutput" />
+    <Variable
+      Name="LastOnMonth_BLKO"
+      Comment="Last month in which pCO was on"
+      AccessRights="Write"
+      DataType="UINT"
+      Kind="VarOutput" />
+    <Variable
+      Name="LastOnYear_BLKO"
+      Comment="Last year in which pCO was on"
+      AccessRights="Write"
+      DataType="UINT"
+      Kind="VarOutput" />
+    <Variable
+      Name="DATE_TO_UINT_1"
+      Comment=""
+      AccessRights="ReadWrite"
+      DataType="DATE_TO_UINT"
+      Kind="Var" />
+    <Variable
+      Name="En_Blackout"
+      Comment=""
+      AccessRights="ReadWrite"
+      DataType="BOOL"
+      Kind="Var" />
+    <Variable
+      Name="SecondsOff"
+      Comment="Seconds of blackout"
+      AccessRights="ReadWrite"
+      DataType="UDINT"
+      Kind="Var" />
+  </Pou>
+</Manifest>

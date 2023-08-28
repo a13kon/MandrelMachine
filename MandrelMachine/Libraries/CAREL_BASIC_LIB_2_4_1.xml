@@ -1,0 +1,4429 @@
+﻿<Manifest
+  Version="1.0.0"
+  IsLibrary="true">
+  <Libraries />
+  <Pou
+    Name="AbsHumidity_INT"
+    Moniker="AbsHumidity_INT.stf"
+    Language="FBD"
+    IsIec61499="false"
+    Kind="Function"
+    Password="E4BDBA2BEF6CC4DC"
+    GenerateDebugInfo="false"
+    GeneratingMonitoringSymbols="true"
+    UserEdited="false"
+    Deprecated="false"
+    IsVisible="true">
+    <Variable
+      Name="TAmb"
+      Comment="Ambient temperature in tenth of degrees (°C/10)"
+      AccessRights="Read"
+      DataType="INT"
+      Kind="VarInput" />
+    <Variable
+      Name="Hum"
+      Comment="Relative humidity in tenths (100%=1000)"
+      AccessRights="Read"
+      DataType="INT"
+      Kind="VarInput" />
+    <Variable
+      Name="AtmP"
+      Comment="Atmospheric pressure in mbar"
+      AccessRights="Read"
+      DataType="INT"
+      Kind="VarInput" />
+    <Variable
+      Name="AbsHumidity_INT"
+      Comment="Absolute humidity in (water Kg/dry air Kg)/10"
+      AccessRights="ReadWrite"
+      DataType="INT"
+      Kind="VarOutput" />
+  </Pou>
+  <Pou
+    Name="And2Com"
+    Moniker="And2Com.stf"
+    Language="FBD"
+    IsIec61499="false"
+    Kind="FunctionBlock"
+    Password="E4BDBA2BEF6CC4DC"
+    GenerateDebugInfo="false"
+    GeneratingMonitoringSymbols="true"
+    UserEdited="false"
+    Deprecated="false"
+    IsVisible="true">
+    <Variable
+      Name="In1"
+      Comment=""
+      AccessRights="Read"
+      DataType="BOOL"
+      Kind="VarInput" />
+    <Variable
+      Name="In2"
+      Comment=""
+      AccessRights="Read"
+      DataType="BOOL"
+      Kind="VarInput" />
+    <Variable
+      Name="Com"
+      Comment="Common value"
+      AccessRights="Read"
+      DataType="BOOL"
+      Kind="VarInput" />
+    <Variable
+      Name="Out1"
+      Comment=""
+      AccessRights="ReadWrite"
+      DataType="BOOL"
+      Kind="VarOutput" />
+    <Variable
+      Name="Out2"
+      Comment=""
+      AccessRights="ReadWrite"
+      DataType="BOOL"
+      Kind="VarOutput" />
+  </Pou>
+  <Pou
+    Name="AbsHumidity_REAL"
+    Moniker="AbsHumidity_REAL.stf"
+    Language="ST"
+    IsIec61499="false"
+    Kind="Function"
+    Password="E4BDBA2BEF6CC4DC"
+    GenerateDebugInfo="true"
+    GeneratingMonitoringSymbols="true"
+    UserEdited="false"
+    Deprecated="false"
+    IsVisible="true">
+    <Variable
+      Name="pvap"
+      Comment=""
+      AccessRights="ReadWrite"
+      DataType="REAL"
+      Kind="Var" />
+    <Variable
+      Name="TAmb"
+      Comment="Ambient temperature in degrees (°C)"
+      AccessRights="Read"
+      DataType="REAL"
+      Kind="VarInput" />
+    <Variable
+      Name="Hum"
+      Comment="Relative humidity (100%=100.0)"
+      AccessRights="Read"
+      DataType="REAL"
+      Kind="VarInput" />
+    <Variable
+      Name="AtmP"
+      Comment="Atmospheric pressure in mbar"
+      AccessRights="Read"
+      DataType="REAL"
+      Kind="VarInput" />
+    <Variable
+      Name="AbsHumidity_REAL"
+      Comment="Absolute humidity in (water Kg/dry air Kg)"
+      AccessRights="ReadWrite"
+      DataType="REAL"
+      Kind="VarOutput" />
+  </Pou>
+  <Pou
+    Name="And5Com"
+    Moniker="And5Com.stf"
+    Language="FBD"
+    IsIec61499="false"
+    Kind="FunctionBlock"
+    Password="E4BDBA2BEF6CC4DC"
+    GenerateDebugInfo="false"
+    GeneratingMonitoringSymbols="true"
+    UserEdited="false"
+    Deprecated="false"
+    IsVisible="true">
+    <Variable
+      Name="In1"
+      Comment=""
+      AccessRights="Read"
+      DataType="BOOL"
+      Kind="VarInput" />
+    <Variable
+      Name="In2"
+      Comment=""
+      AccessRights="Read"
+      DataType="BOOL"
+      Kind="VarInput" />
+    <Variable
+      Name="In3"
+      Comment=""
+      AccessRights="Read"
+      DataType="BOOL"
+      Kind="VarInput" />
+    <Variable
+      Name="In4"
+      Comment=""
+      AccessRights="Read"
+      DataType="BOOL"
+      Kind="VarInput" />
+    <Variable
+      Name="In5"
+      Comment=""
+      AccessRights="Read"
+      DataType="BOOL"
+      Kind="VarInput" />
+    <Variable
+      Name="Com"
+      Comment="Common value"
+      AccessRights="Read"
+      DataType="BOOL"
+      Kind="VarInput" />
+    <Variable
+      Name="Out1"
+      Comment=""
+      AccessRights="ReadWrite"
+      DataType="BOOL"
+      Kind="VarOutput" />
+    <Variable
+      Name="Out2"
+      Comment=""
+      AccessRights="ReadWrite"
+      DataType="BOOL"
+      Kind="VarOutput" />
+    <Variable
+      Name="Out3"
+      Comment=""
+      AccessRights="ReadWrite"
+      DataType="BOOL"
+      Kind="VarOutput" />
+    <Variable
+      Name="Out4"
+      Comment=""
+      AccessRights="ReadWrite"
+      DataType="BOOL"
+      Kind="VarOutput" />
+    <Variable
+      Name="Out5"
+      Comment=""
+      AccessRights="ReadWrite"
+      DataType="BOOL"
+      Kind="VarOutput" />
+  </Pou>
+  <Pou
+    Name="BarToPsi_INT"
+    Moniker="BarToPsi_INT.stf"
+    Language="FBD"
+    IsIec61499="false"
+    Kind="Function"
+    Password="E4BDBA2BEF6CC4DC"
+    GenerateDebugInfo="false"
+    GeneratingMonitoringSymbols="true"
+    UserEdited="false"
+    Deprecated="false"
+    IsVisible="true">
+    <Variable
+      Name="In"
+      Comment="Value in Bar"
+      AccessRights="Read"
+      DataType="INT"
+      Kind="VarInput" />
+    <Variable
+      Name="BarToPsi_INT"
+      Comment="Value in Psi"
+      AccessRights="ReadWrite"
+      DataType="INT"
+      Kind="VarOutput" />
+  </Pou>
+  <Pou
+    Name="And10Com"
+    Moniker="And10Com.stf"
+    Language="FBD"
+    IsIec61499="false"
+    Kind="FunctionBlock"
+    Password="E4BDBA2BEF6CC4DC"
+    GenerateDebugInfo="false"
+    GeneratingMonitoringSymbols="true"
+    UserEdited="false"
+    Deprecated="false"
+    IsVisible="true">
+    <Variable
+      Name="In1"
+      Comment=""
+      AccessRights="Read"
+      DataType="BOOL"
+      Kind="VarInput" />
+    <Variable
+      Name="In2"
+      Comment=""
+      AccessRights="Read"
+      DataType="BOOL"
+      Kind="VarInput" />
+    <Variable
+      Name="In3"
+      Comment=""
+      AccessRights="Read"
+      DataType="BOOL"
+      Kind="VarInput" />
+    <Variable
+      Name="In4"
+      Comment=""
+      AccessRights="Read"
+      DataType="BOOL"
+      Kind="VarInput" />
+    <Variable
+      Name="In5"
+      Comment=""
+      AccessRights="Read"
+      DataType="BOOL"
+      Kind="VarInput" />
+    <Variable
+      Name="In6"
+      Comment=""
+      AccessRights="Read"
+      DataType="BOOL"
+      Kind="VarInput" />
+    <Variable
+      Name="In7"
+      Comment=""
+      AccessRights="Read"
+      DataType="BOOL"
+      Kind="VarInput" />
+    <Variable
+      Name="In8"
+      Comment=""
+      AccessRights="Read"
+      DataType="BOOL"
+      Kind="VarInput" />
+    <Variable
+      Name="In9"
+      Comment=""
+      AccessRights="Read"
+      DataType="BOOL"
+      Kind="VarInput" />
+    <Variable
+      Name="In10"
+      Comment=""
+      AccessRights="Read"
+      DataType="BOOL"
+      Kind="VarInput" />
+    <Variable
+      Name="Com"
+      Comment="Common value"
+      AccessRights="Read"
+      DataType="BOOL"
+      Kind="VarInput" />
+    <Variable
+      Name="Out1"
+      Comment=""
+      AccessRights="ReadWrite"
+      DataType="BOOL"
+      Kind="VarOutput" />
+    <Variable
+      Name="Out2"
+      Comment=""
+      AccessRights="ReadWrite"
+      DataType="BOOL"
+      Kind="VarOutput" />
+    <Variable
+      Name="Out3"
+      Comment=""
+      AccessRights="ReadWrite"
+      DataType="BOOL"
+      Kind="VarOutput" />
+    <Variable
+      Name="Out4"
+      Comment=""
+      AccessRights="ReadWrite"
+      DataType="BOOL"
+      Kind="VarOutput" />
+    <Variable
+      Name="Out5"
+      Comment=""
+      AccessRights="ReadWrite"
+      DataType="BOOL"
+      Kind="VarOutput" />
+    <Variable
+      Name="Out6"
+      Comment=""
+      AccessRights="ReadWrite"
+      DataType="BOOL"
+      Kind="VarOutput" />
+    <Variable
+      Name="Out7"
+      Comment=""
+      AccessRights="ReadWrite"
+      DataType="BOOL"
+      Kind="VarOutput" />
+    <Variable
+      Name="Out8"
+      Comment=""
+      AccessRights="ReadWrite"
+      DataType="BOOL"
+      Kind="VarOutput" />
+    <Variable
+      Name="Out9"
+      Comment=""
+      AccessRights="ReadWrite"
+      DataType="BOOL"
+      Kind="VarOutput" />
+    <Variable
+      Name="Out10"
+      Comment=""
+      AccessRights="ReadWrite"
+      DataType="BOOL"
+      Kind="VarOutput" />
+  </Pou>
+  <Pou
+    Name="BarToPsi_REAL"
+    Moniker="BarToPsi_REAL.stf"
+    Language="ST"
+    IsIec61499="false"
+    Kind="Function"
+    Password="E4BDBA2BEF6CC4DC"
+    GenerateDebugInfo="false"
+    GeneratingMonitoringSymbols="true"
+    UserEdited="false"
+    Deprecated="false"
+    IsVisible="true">
+    <Variable
+      Name="In"
+      Comment="Value in Bar"
+      AccessRights="Read"
+      DataType="REAL"
+      Kind="VarInput" />
+    <Variable
+      Name="BarToPsi_REAL"
+      Comment="Value in Psi"
+      AccessRights="ReadWrite"
+      DataType="REAL"
+      Kind="VarOutput" />
+  </Pou>
+  <Pou
+    Name="BlinkOnOff_INT"
+    Moniker="BlinkOnOff_INT.stf"
+    Language="ST"
+    IsIec61499="false"
+    Kind="FunctionBlock"
+    Password="E4BDBA2BEF6CC4DC"
+    GenerateDebugInfo="false"
+    GeneratingMonitoringSymbols="true"
+    UserEdited="false"
+    Deprecated="false"
+    IsVisible="true">
+    <Variable
+      Name="In"
+      Comment="Activation"
+      AccessRights="Read"
+      DataType="BOOL"
+      Kind="VarInput" />
+    <Variable
+      Name="OnT"
+      Comment="Amount of time to keep the output true (seconds)"
+      AccessRights="Read"
+      DataType="INT"
+      Kind="VarInput" />
+    <Variable
+      Name="OffT"
+      Comment="Amount of time to keep the output false (seconds)"
+      AccessRights="Read"
+      DataType="INT"
+      Kind="VarInput" />
+    <Variable
+      Name="Out"
+      Comment="Output"
+      AccessRights="ReadWrite"
+      DataType="BOOL"
+      Kind="VarOutput" />
+    <Variable
+      Name="OffT_Int"
+      Comment=""
+      AccessRights="ReadWrite"
+      DataType="TIME"
+      Kind="Var" />
+    <Variable
+      Name="OnT_Int"
+      Comment=""
+      AccessRights="ReadWrite"
+      DataType="TIME"
+      Kind="Var" />
+    <Variable
+      Name="WATCH"
+      Comment=""
+      AccessRights="ReadWrite"
+      DataType="TIME"
+      Kind="Var" />
+  </Pou>
+  <Pou
+    Name="CelToFahr_INT"
+    Moniker="CelToFahr_INT.stf"
+    Language="FBD"
+    IsIec61499="false"
+    Kind="Function"
+    Password="E4BDBA2BEF6CC4DC"
+    GenerateDebugInfo="false"
+    GeneratingMonitoringSymbols="true"
+    UserEdited="false"
+    Deprecated="false"
+    IsVisible="true">
+    <Variable
+      Name="In"
+      Comment="Value in Celsius"
+      AccessRights="Read"
+      DataType="INT"
+      Kind="VarInput" />
+    <Variable
+      Name="CelToFahr_INT"
+      Comment="Value in Fahrenheit"
+      AccessRights="ReadWrite"
+      DataType="INT"
+      Kind="VarOutput" />
+  </Pou>
+  <Pou
+    Name="ConvMinToHour_INT"
+    Moniker="ConvMinToHour_INT.stf"
+    Language="ST"
+    IsIec61499="false"
+    Kind="FunctionBlock"
+    Password="E4BDBA2BEF6CC4DC"
+    GenerateDebugInfo="false"
+    GeneratingMonitoringSymbols="true"
+    UserEdited="false"
+    Deprecated="false"
+    IsVisible="true">
+    <Variable
+      Name="Minute"
+      Comment="Value in minutes"
+      AccessRights="Read"
+      DataType="INT"
+      Kind="VarInput" />
+    <Variable
+      Name="HH"
+      Comment="Hours"
+      AccessRights="ReadWrite"
+      DataType="INT"
+      Kind="VarOutput" />
+    <Variable
+      Name="MM"
+      Comment="Minutes"
+      AccessRights="ReadWrite"
+      DataType="INT"
+      Kind="VarOutput" />
+  </Pou>
+  <Pou
+    Name="CelToFahr_REAL"
+    Moniker="CelToFahr_REAL.stf"
+    Language="ST"
+    IsIec61499="false"
+    Kind="Function"
+    Password="E4BDBA2BEF6CC4DC"
+    GenerateDebugInfo="false"
+    GeneratingMonitoringSymbols="true"
+    UserEdited="false"
+    Deprecated="false"
+    IsVisible="true">
+    <Variable
+      Name="In"
+      Comment="Value in Celsius"
+      AccessRights="Read"
+      DataType="REAL"
+      Kind="VarInput" />
+    <Variable
+      Name="CelToFahr_REAL"
+      Comment="Value in Fahrenheit"
+      AccessRights="ReadWrite"
+      DataType="REAL"
+      Kind="VarOutput" />
+  </Pou>
+  <Pou
+    Name="CurrDateTime"
+    Moniker="CurrDateTime.stf"
+    Language="ST"
+    IsIec61499="false"
+    Kind="FunctionBlock"
+    Password="E4BDBA2BEF6CC4DC"
+    GenerateDebugInfo="false"
+    GeneratingMonitoringSymbols="true"
+    UserEdited="false"
+    Deprecated="false"
+    IsVisible="true">
+    <Variable
+      Name="Second"
+      Comment="Current second (0-59)"
+      AccessRights="ReadWrite"
+      DataType="UINT"
+      Kind="VarOutput" />
+    <Variable
+      Name="Minute"
+      Comment="Current minute (0-59)"
+      AccessRights="ReadWrite"
+      DataType="UINT"
+      Kind="VarOutput" />
+    <Variable
+      Name="Hour"
+      Comment="Current hour (0-23)"
+      AccessRights="ReadWrite"
+      DataType="UINT"
+      Kind="VarOutput" />
+    <Variable
+      Name="Day"
+      Comment="Current day (1-31)"
+      AccessRights="ReadWrite"
+      DataType="UINT"
+      Kind="VarOutput" />
+    <Variable
+      Name="Month"
+      Comment="Current month (1-12)"
+      AccessRights="ReadWrite"
+      DataType="UINT"
+      Kind="VarOutput" />
+    <Variable
+      Name="Year"
+      Comment="Current year"
+      AccessRights="ReadWrite"
+      DataType="UINT"
+      Kind="VarOutput" />
+    <Variable
+      Name="DayOfWeek"
+      Comment="Current day of the week (between 1 and 7)"
+      AccessRights="ReadWrite"
+      DataType="UINT"
+      Kind="VarOutput" />
+    <Variable
+      Name="DateToUint"
+      Comment=""
+      AccessRights="ReadWrite"
+      DataType="DATE_TO_UINT"
+      Kind="Var" />
+  </Pou>
+  <Pou
+    Name="CelToFahrDelta_INT"
+    Moniker="CelToFahrDelta_INT.stf"
+    Language="FBD"
+    IsIec61499="false"
+    Kind="Function"
+    Password="E4BDBA2BEF6CC4DC"
+    GenerateDebugInfo="false"
+    GeneratingMonitoringSymbols="true"
+    UserEdited="false"
+    Deprecated="false"
+    IsVisible="true">
+    <Variable
+      Name="In"
+      Comment="Differential in Celsius"
+      AccessRights="Read"
+      DataType="INT"
+      Kind="VarInput" />
+    <Variable
+      Name="CelToFahrDelta_INT"
+      Comment="Differential in Fahrenheit"
+      AccessRights="ReadWrite"
+      DataType="INT"
+      Kind="VarOutput" />
+  </Pou>
+  <Pou
+    Name="DelayOnOff_INT"
+    Moniker="DelayOnOff_INT.stf"
+    Language="FBD"
+    IsIec61499="false"
+    Kind="FunctionBlock"
+    Password="E4BDBA2BEF6CC4DC"
+    GenerateDebugInfo="false"
+    GeneratingMonitoringSymbols="true"
+    UserEdited="false"
+    Deprecated="false"
+    IsVisible="true">
+    <Variable
+      Name="In"
+      Comment="Input value"
+      AccessRights="Read"
+      DataType="BOOL"
+      Kind="VarInput" />
+    <Variable
+      Name="Time1"
+      Comment="Delay time (seconds)"
+      AccessRights="Read"
+      DataType="INT"
+      Kind="VarInput" />
+    <Variable
+      Name="Out"
+      Comment="Output value"
+      AccessRights="ReadWrite"
+      DataType="BOOL"
+      Kind="VarOutput" />
+    <Variable
+      Name="SR_1"
+      Comment=""
+      AccessRights="ReadWrite"
+      DataType="SR"
+      Kind="Var" />
+    <Variable
+      Name="TON_1"
+      Comment=""
+      AccessRights="ReadWrite"
+      DataType="TON"
+      Kind="Var" />
+    <Variable
+      Name="TON_2"
+      Comment=""
+      AccessRights="ReadWrite"
+      DataType="TON"
+      Kind="Var" />
+  </Pou>
+  <Pou
+    Name="CelToFahrDelta_REAL"
+    Moniker="CelToFahrDelta_REAL.stf"
+    Language="ST"
+    IsIec61499="false"
+    Kind="Function"
+    Password="E4BDBA2BEF6CC4DC"
+    GenerateDebugInfo="false"
+    GeneratingMonitoringSymbols="true"
+    UserEdited="false"
+    Deprecated="false"
+    IsVisible="true">
+    <Variable
+      Name="In"
+      Comment="Differential in Celsius"
+      AccessRights="Read"
+      DataType="REAL"
+      Kind="VarInput" />
+    <Variable
+      Name="CelToFahrDelta_REAL"
+      Comment="Differential in Fahrenheit"
+      AccessRights="ReadWrite"
+      DataType="REAL"
+      Kind="VarOutput" />
+  </Pou>
+  <Pou
+    Name="DigitConv_INT"
+    Moniker="DigitConv_INT.stf"
+    Language="ST"
+    IsIec61499="false"
+    Kind="FunctionBlock"
+    Password="E4BDBA2BEF6CC4DC"
+    GenerateDebugInfo="false"
+    GeneratingMonitoringSymbols="true"
+    UserEdited="false"
+    Deprecated="false"
+    IsVisible="true">
+    <Variable
+      Name="Input"
+      Comment="Int value"
+      AccessRights="Read"
+      DataType="INT"
+      Kind="VarInput" />
+    <Variable
+      Name="Digit_0"
+      Comment="Unit value of the Input variable expressed in decimal notation. "
+      AccessRights="ReadWrite"
+      DataType="INT"
+      Kind="VarOutput" />
+    <Variable
+      Name="Digit_1"
+      Comment="Tenths value of the Input variable expressed in decimal notation. "
+      AccessRights="ReadWrite"
+      DataType="INT"
+      Kind="VarOutput" />
+    <Variable
+      Name="Digit_2"
+      Comment="Hundreds value of the Input variable expressed in decimal notation. "
+      AccessRights="ReadWrite"
+      DataType="INT"
+      Kind="VarOutput" />
+    <Variable
+      Name="Digit_3"
+      Comment="Thousands value of the Input variable expressed in decimal notation. "
+      AccessRights="ReadWrite"
+      DataType="INT"
+      Kind="VarOutput" />
+    <Variable
+      Name="Digit_4"
+      Comment="Tens of thousand value of the Input variable expressed in decimal notation. "
+      AccessRights="ReadWrite"
+      DataType="INT"
+      Kind="VarOutput" />
+    <Variable
+      Name="Digit_Sign"
+      Comment="Indicates if the input is negative (if true) or not"
+      AccessRights="ReadWrite"
+      DataType="BOOL"
+      Kind="VarOutput" />
+    <Variable
+      Name="Input_Int"
+      Comment=""
+      AccessRights="ReadWrite"
+      DataType="INT"
+      Kind="Var" />
+    <Variable
+      Name="i"
+      Comment=""
+      AccessRights="ReadWrite"
+      DataType="INT"
+      Kind="Var" />
+  </Pou>
+  <Pou
+    Name="Enthalpy_INT"
+    Moniker="Enthalpy_INT.stf"
+    Language="FBD"
+    IsIec61499="false"
+    Kind="FunctionBlock"
+    Password="E4BDBA2BEF6CC4DC"
+    GenerateDebugInfo="false"
+    GeneratingMonitoringSymbols="true"
+    UserEdited="false"
+    Deprecated="false"
+    IsVisible="true">
+    <Variable
+      Name="TAmb"
+      Comment="Ambient temperature in thenths of degrees (°C/10)"
+      AccessRights="Read"
+      DataType="INT"
+      Kind="VarInput" />
+    <Variable
+      Name="Hum"
+      Comment="Relative humidity in tenths (100%=1000)"
+      AccessRights="Read"
+      DataType="INT"
+      Kind="VarInput" />
+    <Variable
+      Name="AtmP"
+      Comment="Atmospheric pressure in mbar"
+      AccessRights="Read"
+      DataType="INT"
+      Kind="VarInput" />
+    <Variable
+      Name="Kcal_Enth"
+      Comment="Enthalpy in kcal/kg"
+      AccessRights="ReadWrite"
+      DataType="INT"
+      Kind="VarOutput" />
+    <Variable
+      Name="KJ_Enth"
+      Comment="Enthalpy in kJ/kg"
+      AccessRights="ReadWrite"
+      DataType="INT"
+      Kind="VarOutput" />
+    <Variable
+      Name="Enthalpy_REAL_1"
+      Comment=""
+      AccessRights="ReadWrite"
+      DataType="Enthalpy_REAL"
+      Kind="Var" />
+  </Pou>
+  <Pou
+    Name="CompensSetp_INT"
+    Moniker="CompensSetp_INT.stf"
+    Language="ST"
+    IsIec61499="false"
+    Kind="Function"
+    Password="E4BDBA2BEF6CC4DC"
+    GenerateDebugInfo="false"
+    GeneratingMonitoringSymbols="true"
+    UserEdited="false"
+    Deprecated="false"
+    IsVisible="true">
+    <Variable
+      Name="ExtT"
+      Comment="External temperature"
+      AccessRights="Read"
+      DataType="INT"
+      Kind="VarInput" />
+    <Variable
+      Name="ExtTSetP"
+      Comment="External temperature set point"
+      AccessRights="Read"
+      DataType="INT"
+      Kind="VarInput" />
+    <Variable
+      Name="ExtTDiff"
+      Comment="External temperature differential"
+      AccessRights="Read"
+      DataType="INT"
+      Kind="VarInput" />
+    <Variable
+      Name="SetP"
+      Comment="Setpoint"
+      AccessRights="Read"
+      DataType="INT"
+      Kind="VarInput" />
+    <Variable
+      Name="MaxComp"
+      Comment="Maximum compensation"
+      AccessRights="Read"
+      DataType="INT"
+      Kind="VarInput" />
+    <Variable
+      Name="Enable"
+      Comment="Enables the compensation"
+      AccessRights="Read"
+      DataType="BOOL"
+      Kind="VarInput" />
+    <Variable
+      Name="CompensSetp_INT"
+      Comment="Setpoint corrected by the compensation"
+      AccessRights="ReadWrite"
+      DataType="INT"
+      Kind="VarOutput" />
+  </Pou>
+  <Pou
+    Name="Enthalpy_REAL"
+    Moniker="Enthalpy_REAL.stf"
+    Language="ST"
+    IsIec61499="false"
+    Kind="FunctionBlock"
+    Password="E4BDBA2BEF6CC4DC"
+    GenerateDebugInfo="true"
+    GeneratingMonitoringSymbols="true"
+    UserEdited="false"
+    Deprecated="false"
+    IsVisible="true">
+    <Variable
+      Name="TAmb"
+      Comment="Ambient temperature in degrees (°C)"
+      AccessRights="Read"
+      DataType="REAL"
+      Kind="VarInput" />
+    <Variable
+      Name="Hum"
+      Comment="Relative humidity (100%=100.0)"
+      AccessRights="Read"
+      DataType="REAL"
+      Kind="VarInput" />
+    <Variable
+      Name="AtmP"
+      Comment="Atmospheric pressure in mbar"
+      AccessRights="Read"
+      DataType="REAL"
+      Kind="VarInput" />
+    <Variable
+      Name="Kcal_Enth"
+      Comment="Enthalpy in kcal/kg"
+      AccessRights="ReadWrite"
+      DataType="REAL"
+      Kind="VarOutput" />
+    <Variable
+      Name="KJ_Enth"
+      Comment="Enthalpy in kJ/kg"
+      AccessRights="ReadWrite"
+      DataType="REAL"
+      Kind="VarOutput" />
+    <Variable
+      Name="abshum"
+      Comment=""
+      AccessRights="ReadWrite"
+      DataType="REAL"
+      Kind="Var" />
+    <Variable
+      Name="tmp"
+      Comment=""
+      AccessRights="ReadWrite"
+      DataType="REAL"
+      Kind="Var" />
+  </Pou>
+  <Pou
+    Name="CompensSetp_REAL"
+    Moniker="CompensSetp_REAL.stf"
+    Language="ST"
+    IsIec61499="false"
+    Kind="Function"
+    Password="E4BDBA2BEF6CC4DC"
+    GenerateDebugInfo="false"
+    GeneratingMonitoringSymbols="true"
+    UserEdited="false"
+    Deprecated="false"
+    IsVisible="true">
+    <Variable
+      Name="var1"
+      Comment=""
+      AccessRights="ReadWrite"
+      DataType="REAL"
+      Kind="Var" />
+    <Variable
+      Name="var2"
+      Comment=""
+      AccessRights="ReadWrite"
+      DataType="REAL"
+      Kind="Var" />
+    <Variable
+      Name="var3"
+      Comment=""
+      AccessRights="ReadWrite"
+      DataType="REAL"
+      Kind="Var" />
+    <Variable
+      Name="ExtT"
+      Comment="External temperature"
+      AccessRights="Read"
+      DataType="REAL"
+      Kind="VarInput" />
+    <Variable
+      Name="ExtTSetP"
+      Comment="External temperature set point"
+      AccessRights="Read"
+      DataType="REAL"
+      Kind="VarInput" />
+    <Variable
+      Name="ExtTDiff"
+      Comment="External temperature differential"
+      AccessRights="Read"
+      DataType="REAL"
+      Kind="VarInput" />
+    <Variable
+      Name="SetP"
+      Comment="Setpoint"
+      AccessRights="Read"
+      DataType="REAL"
+      Kind="VarInput" />
+    <Variable
+      Name="MaxComp"
+      Comment="Maximum compensation"
+      AccessRights="Read"
+      DataType="REAL"
+      Kind="VarInput" />
+    <Variable
+      Name="Enable"
+      Comment="Enables the compensation"
+      AccessRights="Read"
+      DataType="BOOL"
+      Kind="VarInput" />
+    <Variable
+      Name="CompensSetp_REAL"
+      Comment="Setpoint corrected by the compensation"
+      AccessRights="ReadWrite"
+      DataType="REAL"
+      Kind="VarOutput" />
+  </Pou>
+  <Pou
+    Name="FEdge"
+    Moniker="FEdge.stf"
+    Language="ST"
+    IsIec61499="false"
+    Kind="FunctionBlock"
+    Password="E4BDBA2BEF6CC4DC"
+    GenerateDebugInfo="false"
+    GeneratingMonitoringSymbols="true"
+    UserEdited="false"
+    Deprecated="false"
+    IsVisible="true">
+    <Variable
+      Name="In"
+      Comment="Input value"
+      AccessRights="Read"
+      DataType="BOOL"
+      Kind="VarInput" />
+    <Variable
+      Name="Reset"
+      Comment="Reset"
+      AccessRights="Read"
+      DataType="BOOL"
+      Kind="VarInput" />
+    <Variable
+      Name="Out"
+      Comment="Edge"
+      AccessRights="ReadWrite"
+      DataType="BOOL"
+      Kind="VarOutput" />
+    <Variable
+      Name="In_Old"
+      Comment=""
+      AccessRights="ReadWrite"
+      DataType="BOOL"
+      Kind="Var" />
+  </Pou>
+  <Pou
+    Name="Conv_INT"
+    Moniker="Conv_INT.stf"
+    Language="FBD"
+    IsIec61499="false"
+    Kind="Function"
+    Password="E4BDBA2BEF6CC4DC"
+    GenerateDebugInfo="false"
+    GeneratingMonitoringSymbols="true"
+    UserEdited="false"
+    Deprecated="false"
+    IsVisible="true">
+    <Variable
+      Name="In"
+      Comment="Value to convert"
+      AccessRights="Read"
+      DataType="INT"
+      Kind="VarInput" />
+    <Variable
+      Name="In0"
+      Comment="Value of In in which output takes value of 0"
+      AccessRights="Read"
+      DataType="INT"
+      Kind="VarInput" />
+    <Variable
+      Name="In1000"
+      Comment="Value of In in which output takes value of 1000"
+      AccessRights="Read"
+      DataType="INT"
+      Kind="VarInput" />
+    <Variable
+      Name="Conv_INT"
+      Comment="Converted value"
+      AccessRights="ReadWrite"
+      DataType="INT"
+      Kind="VarOutput" />
+  </Pou>
+  <Pou
+    Name="FlipFlop"
+    Moniker="FlipFlop.stf"
+    Language="ST"
+    IsIec61499="false"
+    Kind="FunctionBlock"
+    Password="E4BDBA2BEF6CC4DC"
+    GenerateDebugInfo="false"
+    GeneratingMonitoringSymbols="true"
+    UserEdited="false"
+    Deprecated="false"
+    IsVisible="true">
+    <Variable
+      Name="In"
+      Comment="Input value"
+      AccessRights="Read"
+      DataType="BOOL"
+      Kind="VarInput" />
+    <Variable
+      Name="Ck"
+      Comment="Clock"
+      AccessRights="Read"
+      DataType="BOOL"
+      Kind="VarInput" />
+    <Variable
+      Name="Reset"
+      Comment="Reset"
+      AccessRights="Read"
+      DataType="BOOL"
+      Kind="VarInput" />
+    <Variable
+      Name="Out"
+      Comment="Output value"
+      AccessRights="ReadWrite"
+      DataType="BOOL"
+      Kind="VarOutput" />
+    <Variable
+      Name="Ck_old"
+      Comment=""
+      AccessRights="ReadWrite"
+      DataType="BOOL"
+      Kind="Var" />
+  </Pou>
+  <Pou
+    Name="Conv_REAL"
+    Moniker="Conv_REAL.stf"
+    Language="ST"
+    IsIec61499="false"
+    Kind="Function"
+    Password="E4BDBA2BEF6CC4DC"
+    GenerateDebugInfo="false"
+    GeneratingMonitoringSymbols="true"
+    UserEdited="false"
+    Deprecated="false"
+    IsVisible="true">
+    <Variable
+      Name="mConv"
+      Comment=""
+      AccessRights="ReadWrite"
+      DataType="REAL"
+      Kind="Var" />
+    <Variable
+      Name="qConv"
+      Comment=""
+      AccessRights="ReadWrite"
+      DataType="REAL"
+      Kind="Var" />
+    <Variable
+      Name="In"
+      Comment="Value to convert"
+      AccessRights="Read"
+      DataType="REAL"
+      Kind="VarInput" />
+    <Variable
+      Name="In0"
+      Comment="Value of In in which output takes value of 0"
+      AccessRights="Read"
+      DataType="REAL"
+      Kind="VarInput" />
+    <Variable
+      Name="In100"
+      Comment="Value of In in which output takes value of 100"
+      AccessRights="Read"
+      DataType="REAL"
+      Kind="VarInput" />
+    <Variable
+      Name="Conv_REAL"
+      Comment="Converted value"
+      AccessRights="ReadWrite"
+      DataType="REAL"
+      Kind="VarOutput" />
+  </Pou>
+  <Pou
+    Name="Grad_INT"
+    Moniker="Grad_INT.stf"
+    Language="ST"
+    IsIec61499="false"
+    Kind="FunctionBlock"
+    Password="E4BDBA2BEF6CC4DC"
+    GenerateDebugInfo="false"
+    GeneratingMonitoringSymbols="true"
+    UserEdited="false"
+    Deprecated="false"
+    IsVisible="true">
+    <Variable
+      Name="In"
+      Comment="Input value"
+      AccessRights="Read"
+      DataType="INT"
+      Kind="VarInput" />
+    <Variable
+      Name="Thrsh"
+      Comment="Threshold"
+      AccessRights="Read"
+      DataType="INT"
+      Kind="VarInput" />
+    <Variable
+      Name="Reset"
+      Comment="Reset the output"
+      AccessRights="Read"
+      DataType="BOOL"
+      Kind="VarInput" />
+    <Variable
+      Name="Out"
+      Comment="If In has changed more than Thrsh"
+      AccessRights="ReadWrite"
+      DataType="BOOL"
+      Kind="VarOutput" />
+    <Variable
+      Name="InOld"
+      Comment=""
+      AccessRights="ReadWrite"
+      DataType="INT"
+      Kind="Var" />
+  </Pou>
+  <Pou
+    Name="ConvHourToMin_INT"
+    Moniker="ConvHourToMin_INT.stf"
+    Language="ST"
+    IsIec61499="false"
+    Kind="Function"
+    Password="E4BDBA2BEF6CC4DC"
+    GenerateDebugInfo="false"
+    GeneratingMonitoringSymbols="true"
+    UserEdited="false"
+    Deprecated="false"
+    IsVisible="true">
+    <Variable
+      Name="HH"
+      Comment="Hours"
+      AccessRights="Read"
+      DataType="INT"
+      Kind="VarInput" />
+    <Variable
+      Name="MM"
+      Comment="Hours"
+      AccessRights="Read"
+      DataType="INT"
+      Kind="VarInput" />
+    <Variable
+      Name="ConvHourToMin_INT"
+      Comment="Converted minutes"
+      AccessRights="ReadWrite"
+      DataType="INT"
+      Kind="VarOutput" />
+  </Pou>
+  <Pou
+    Name="Counter4_INT"
+    Moniker="Counter4_INT.stf"
+    Language="ST"
+    IsIec61499="false"
+    Kind="Function"
+    Password="E4BDBA2BEF6CC4DC"
+    GenerateDebugInfo="false"
+    GeneratingMonitoringSymbols="true"
+    UserEdited="false"
+    Deprecated="false"
+    IsVisible="true">
+    <Variable
+      Name="Out_Int"
+      Comment=""
+      AccessRights="ReadWrite"
+      DataType="INT"
+      Kind="Var" />
+    <Variable
+      Name="Carry"
+      Comment="Offset to add to the output"
+      AccessRights="Read"
+      DataType="INT"
+      Kind="VarInput" />
+    <Variable
+      Name="In1"
+      Comment=""
+      AccessRights="Read"
+      DataType="BOOL"
+      Kind="VarInput" />
+    <Variable
+      Name="In2"
+      Comment=""
+      AccessRights="Read"
+      DataType="BOOL"
+      Kind="VarInput" />
+    <Variable
+      Name="In3"
+      Comment=""
+      AccessRights="Read"
+      DataType="BOOL"
+      Kind="VarInput" />
+    <Variable
+      Name="In4"
+      Comment=""
+      AccessRights="Read"
+      DataType="BOOL"
+      Kind="VarInput" />
+    <Variable
+      Name="Counter4_INT"
+      Comment="Number of active inputs plus carry"
+      AccessRights="ReadWrite"
+      DataType="INT"
+      Kind="VarOutput" />
+  </Pou>
+  <Pou
+    Name="Grad_REAL"
+    Moniker="Grad_REAL.stf"
+    Language="ST"
+    IsIec61499="false"
+    Kind="FunctionBlock"
+    Password="E4BDBA2BEF6CC4DC"
+    GenerateDebugInfo="false"
+    GeneratingMonitoringSymbols="true"
+    UserEdited="false"
+    Deprecated="false"
+    IsVisible="true">
+    <Variable
+      Name="In"
+      Comment="Input value"
+      AccessRights="Read"
+      DataType="REAL"
+      Kind="VarInput" />
+    <Variable
+      Name="Thrsh"
+      Comment="Threshold"
+      AccessRights="Read"
+      DataType="REAL"
+      Kind="VarInput" />
+    <Variable
+      Name="Reset"
+      Comment="Reset the output"
+      AccessRights="Read"
+      DataType="BOOL"
+      Kind="VarInput" />
+    <Variable
+      Name="Out"
+      Comment="If In has changed more than Thrsh"
+      AccessRights="ReadWrite"
+      DataType="BOOL"
+      Kind="VarOutput" />
+    <Variable
+      Name="InOld"
+      Comment=""
+      AccessRights="ReadWrite"
+      DataType="REAL"
+      Kind="Var" />
+  </Pou>
+  <Pou
+    Name="Counter8_INT"
+    Moniker="Counter8_INT.stf"
+    Language="ST"
+    IsIec61499="false"
+    Kind="Function"
+    Password="E4BDBA2BEF6CC4DC"
+    GenerateDebugInfo="false"
+    GeneratingMonitoringSymbols="true"
+    UserEdited="false"
+    Deprecated="false"
+    IsVisible="true">
+    <Variable
+      Name="Out_Int"
+      Comment=""
+      AccessRights="ReadWrite"
+      DataType="INT"
+      Kind="Var" />
+    <Variable
+      Name="Carry"
+      Comment="Offset to add to the output"
+      AccessRights="Read"
+      DataType="INT"
+      Kind="VarInput" />
+    <Variable
+      Name="In1"
+      Comment=""
+      AccessRights="Read"
+      DataType="BOOL"
+      Kind="VarInput" />
+    <Variable
+      Name="In2"
+      Comment=""
+      AccessRights="Read"
+      DataType="BOOL"
+      Kind="VarInput" />
+    <Variable
+      Name="In3"
+      Comment=""
+      AccessRights="Read"
+      DataType="BOOL"
+      Kind="VarInput" />
+    <Variable
+      Name="In4"
+      Comment=""
+      AccessRights="Read"
+      DataType="BOOL"
+      Kind="VarInput" />
+    <Variable
+      Name="In5"
+      Comment=""
+      AccessRights="Read"
+      DataType="BOOL"
+      Kind="VarInput" />
+    <Variable
+      Name="In6"
+      Comment=""
+      AccessRights="Read"
+      DataType="BOOL"
+      Kind="VarInput" />
+    <Variable
+      Name="In7"
+      Comment=""
+      AccessRights="Read"
+      DataType="BOOL"
+      Kind="VarInput" />
+    <Variable
+      Name="In8"
+      Comment=""
+      AccessRights="Read"
+      DataType="BOOL"
+      Kind="VarInput" />
+    <Variable
+      Name="Counter8_INT"
+      Comment="Number of active inputs plus carry"
+      AccessRights="ReadWrite"
+      DataType="INT"
+      Kind="VarOutput" />
+  </Pou>
+  <Pou
+    Name="HysterAdv_INT"
+    Moniker="HysterAdv_INT.stf"
+    Language="FBD"
+    IsIec61499="false"
+    Kind="FunctionBlock"
+    Password="E4BDBA2BEF6CC4DC"
+    GenerateDebugInfo="false"
+    GeneratingMonitoringSymbols="true"
+    UserEdited="false"
+    Deprecated="false"
+    IsVisible="true">
+    <Variable
+      Name="In"
+      Comment="Input value"
+      AccessRights="Read"
+      DataType="INT"
+      Kind="VarInput" />
+    <Variable
+      Name="SetP"
+      Comment="Setpoint"
+      AccessRights="Read"
+      DataType="INT"
+      Kind="VarInput" />
+    <Variable
+      Name="DiffLeft"
+      Comment="Differential to the left of the setpoint (extreme included)"
+      AccessRights="Read"
+      DataType="INT"
+      Kind="VarInput" />
+    <Variable
+      Name="DiffRight"
+      Comment="Differential to the right of the setpoint (extreme included)"
+      AccessRights="Read"
+      DataType="INT"
+      Kind="VarInput" />
+    <Variable
+      Name="Reverse"
+      Comment="If true, the function is reverted"
+      AccessRights="Read"
+      DataType="BOOL"
+      Kind="VarInput" />
+    <Variable
+      Name="Out"
+      Comment="Output value"
+      AccessRights="ReadWrite"
+      DataType="BOOL"
+      Kind="VarOutput" />
+    <Variable
+      Name="HysterAdv_REAL_1"
+      Comment=""
+      AccessRights="ReadWrite"
+      DataType="HysterAdv_REAL"
+      Kind="Var" />
+  </Pou>
+  <Pou
+    Name="DewPoint_INT"
+    Moniker="DewPoint_INT.stf"
+    Language="FBD"
+    IsIec61499="false"
+    Kind="Function"
+    Password="E4BDBA2BEF6CC4DC"
+    GenerateDebugInfo="false"
+    GeneratingMonitoringSymbols="true"
+    UserEdited="false"
+    Deprecated="false"
+    IsVisible="true">
+    <Variable
+      Name="TAmb"
+      Comment="Ambient temperature in thents of degrees (°C/10)"
+      AccessRights="Read"
+      DataType="INT"
+      Kind="VarInput" />
+    <Variable
+      Name="Hum"
+      Comment="Relative humidity in tenths"
+      AccessRights="Read"
+      DataType="INT"
+      Kind="VarInput" />
+    <Variable
+      Name="DewPoint_INT"
+      Comment="Dew point in thents of degrees (°C/10)"
+      AccessRights="ReadWrite"
+      DataType="INT"
+      Kind="VarOutput" />
+  </Pou>
+  <Pou
+    Name="HysterAdv_REAL"
+    Moniker="HysterAdv_REAL.stf"
+    Language="ST"
+    IsIec61499="false"
+    Kind="FunctionBlock"
+    Password="E4BDBA2BEF6CC4DC"
+    GenerateDebugInfo="false"
+    GeneratingMonitoringSymbols="true"
+    UserEdited="false"
+    Deprecated="false"
+    IsVisible="true">
+    <Variable
+      Name="In"
+      Comment="Input value"
+      AccessRights="Read"
+      DataType="REAL"
+      Kind="VarInput" />
+    <Variable
+      Name="SetP"
+      Comment="Setpoint"
+      AccessRights="Read"
+      DataType="REAL"
+      Kind="VarInput" />
+    <Variable
+      Name="DiffLeft"
+      Comment="Differential to the left of the setpoint (extreme included)"
+      AccessRights="Read"
+      DataType="REAL"
+      Kind="VarInput" />
+    <Variable
+      Name="DiffRight"
+      Comment="Differential to the right of the setpoint (extreme included)"
+      AccessRights="Read"
+      DataType="REAL"
+      Kind="VarInput" />
+    <Variable
+      Name="Reverse"
+      Comment="If true, the function is reverted"
+      AccessRights="Read"
+      DataType="BOOL"
+      Kind="VarInput" />
+    <Variable
+      Name="Out"
+      Comment="Hysteresis on/off"
+      AccessRights="ReadWrite"
+      DataType="BOOL"
+      Kind="VarOutput" />
+  </Pou>
+  <Pou
+    Name="DewPoint_REAL"
+    Moniker="DewPoint_REAL.stf"
+    Language="ST"
+    IsIec61499="false"
+    Kind="Function"
+    Password="E4BDBA2BEF6CC4DC"
+    GenerateDebugInfo="false"
+    GeneratingMonitoringSymbols="true"
+    UserEdited="false"
+    Deprecated="false"
+    IsVisible="true">
+    <Variable
+      Name="pvap"
+      Comment=""
+      AccessRights="ReadWrite"
+      DataType="REAL"
+      Kind="Var" />
+    <Variable
+      Name="tmp"
+      Comment=""
+      AccessRights="ReadWrite"
+      DataType="REAL"
+      Kind="Var" />
+    <Variable
+      Name="Quadr"
+      Comment=""
+      AccessRights="ReadWrite"
+      DataType="REAL"
+      Kind="Var" />
+    <Variable
+      Name="TAmb"
+      Comment="Ambient temperature in degrees (°C)"
+      AccessRights="Read"
+      DataType="REAL"
+      Kind="VarInput" />
+    <Variable
+      Name="Hum"
+      Comment="Relative humidity"
+      AccessRights="Read"
+      DataType="REAL"
+      Kind="VarInput" />
+    <Variable
+      Name="DewPoint_REAL"
+      Comment="Dew point in degrees (°C)"
+      AccessRights="ReadWrite"
+      DataType="REAL"
+      Kind="VarOutput" />
+  </Pou>
+  <Pou
+    Name="Interpolate_REAL"
+    Moniker="Interpolate_REAL.stf"
+    Language="ST"
+    IsIec61499="false"
+    Kind="FunctionBlock"
+    Password="E4BDBA2BEF6CC4DC"
+    GenerateDebugInfo="false"
+    GeneratingMonitoringSymbols="true"
+    UserEdited="false"
+    Deprecated="false"
+    IsVisible="true">
+    <Variable
+      Name="X"
+      Comment="Input value"
+      AccessRights="Read"
+      DataType="REAL"
+      Kind="VarInput" />
+    <Variable
+      Name="XDot"
+      Comment="Array of x-coordinates of points"
+      AccessRights="Read"
+      DataType="REAL,0-127"
+      Kind="VarInput" />
+    <Variable
+      Name="YDot"
+      Comment="Array of y-coordinates of points"
+      AccessRights="Read"
+      DataType="REAL,0-127"
+      Kind="VarInput" />
+    <Variable
+      Name="MaxIdx"
+      Comment="Number of points"
+      AccessRights="Read"
+      DataType="USINT"
+      Kind="VarInput" />
+    <Variable
+      Name="Out"
+      Comment="Output value"
+      AccessRights="ReadWrite"
+      DataType="REAL"
+      Kind="VarOutput" />
+    <Variable
+      Name="Index"
+      Comment=""
+      AccessRights="ReadWrite"
+      DataType="DINT"
+      Kind="Var" />
+  </Pou>
+  <Pou
+    Name="Eq_REAL"
+    Moniker="Eq_REAL.stf"
+    Language="ST"
+    IsIec61499="false"
+    Kind="Function"
+    Password="E4BDBA2BEF6CC4DC"
+    GenerateDebugInfo="false"
+    GeneratingMonitoringSymbols="true"
+    UserEdited="false"
+    Deprecated="false"
+    IsVisible="true">
+    <Variable
+      Name="Value1"
+      Comment="First value"
+      AccessRights="Read"
+      DataType="REAL"
+      Kind="VarInput" />
+    <Variable
+      Name="Value2"
+      Comment="Second value"
+      AccessRights="Read"
+      DataType="REAL"
+      Kind="VarInput" />
+    <Variable
+      Name="Error"
+      Comment="Tollerance (±error) of the function"
+      AccessRights="Read"
+      DataType="REAL"
+      Kind="VarInput" />
+    <Variable
+      Name="Eq_REAL"
+      Comment="If the two values are closer than the error"
+      AccessRights="ReadWrite"
+      DataType="BOOL"
+      Kind="VarOutput" />
+  </Pou>
+  <Pou
+    Name="Not2"
+    Moniker="Not2.stf"
+    Language="FBD"
+    IsIec61499="false"
+    Kind="FunctionBlock"
+    Password="E4BDBA2BEF6CC4DC"
+    GenerateDebugInfo="false"
+    GeneratingMonitoringSymbols="true"
+    UserEdited="false"
+    Deprecated="false"
+    IsVisible="true">
+    <Variable
+      Name="In1"
+      Comment=""
+      AccessRights="Read"
+      DataType="BOOL"
+      Kind="VarInput" />
+    <Variable
+      Name="In2"
+      Comment=""
+      AccessRights="Read"
+      DataType="BOOL"
+      Kind="VarInput" />
+    <Variable
+      Name="Out1"
+      Comment=""
+      AccessRights="ReadWrite"
+      DataType="BOOL"
+      Kind="VarOutput" />
+    <Variable
+      Name="Out2"
+      Comment=""
+      AccessRights="ReadWrite"
+      DataType="BOOL"
+      Kind="VarOutput" />
+  </Pou>
+  <Pou
+    Name="FahrToCel_INT"
+    Moniker="FahrToCel_INT.stf"
+    Language="FBD"
+    IsIec61499="false"
+    Kind="Function"
+    Password="E4BDBA2BEF6CC4DC"
+    GenerateDebugInfo="false"
+    GeneratingMonitoringSymbols="true"
+    UserEdited="false"
+    Deprecated="false"
+    IsVisible="true">
+    <Variable
+      Name="In"
+      Comment="Value in Fahrenheit"
+      AccessRights="Read"
+      DataType="INT"
+      Kind="VarInput" />
+    <Variable
+      Name="FahrToCel_INT"
+      Comment="Value in Celsius"
+      AccessRights="ReadWrite"
+      DataType="INT"
+      Kind="VarOutput" />
+  </Pou>
+  <Pou
+    Name="Not5"
+    Moniker="Not5.stf"
+    Language="FBD"
+    IsIec61499="false"
+    Kind="FunctionBlock"
+    Password="E4BDBA2BEF6CC4DC"
+    GenerateDebugInfo="false"
+    GeneratingMonitoringSymbols="true"
+    UserEdited="false"
+    Deprecated="false"
+    IsVisible="true">
+    <Variable
+      Name="In1"
+      Comment=""
+      AccessRights="Read"
+      DataType="BOOL"
+      Kind="VarInput" />
+    <Variable
+      Name="In2"
+      Comment=""
+      AccessRights="Read"
+      DataType="BOOL"
+      Kind="VarInput" />
+    <Variable
+      Name="In3"
+      Comment=""
+      AccessRights="Read"
+      DataType="BOOL"
+      Kind="VarInput" />
+    <Variable
+      Name="In4"
+      Comment=""
+      AccessRights="Read"
+      DataType="BOOL"
+      Kind="VarInput" />
+    <Variable
+      Name="In5"
+      Comment=""
+      AccessRights="Read"
+      DataType="BOOL"
+      Kind="VarInput" />
+    <Variable
+      Name="Out1"
+      Comment=""
+      AccessRights="ReadWrite"
+      DataType="BOOL"
+      Kind="VarOutput" />
+    <Variable
+      Name="Out2"
+      Comment=""
+      AccessRights="ReadWrite"
+      DataType="BOOL"
+      Kind="VarOutput" />
+    <Variable
+      Name="Out3"
+      Comment=""
+      AccessRights="ReadWrite"
+      DataType="BOOL"
+      Kind="VarOutput" />
+    <Variable
+      Name="Out4"
+      Comment=""
+      AccessRights="ReadWrite"
+      DataType="BOOL"
+      Kind="VarOutput" />
+    <Variable
+      Name="Out5"
+      Comment=""
+      AccessRights="ReadWrite"
+      DataType="BOOL"
+      Kind="VarOutput" />
+  </Pou>
+  <Pou
+    Name="FahrToCel_REAL"
+    Moniker="FahrToCel_REAL.stf"
+    Language="ST"
+    IsIec61499="false"
+    Kind="Function"
+    Password="E4BDBA2BEF6CC4DC"
+    GenerateDebugInfo="false"
+    GeneratingMonitoringSymbols="true"
+    UserEdited="false"
+    Deprecated="false"
+    IsVisible="true">
+    <Variable
+      Name="In"
+      Comment="Value in Fahrenheit"
+      AccessRights="Read"
+      DataType="REAL"
+      Kind="VarInput" />
+    <Variable
+      Name="FahrToCel_REAL"
+      Comment="Value in Celsius"
+      AccessRights="ReadWrite"
+      DataType="REAL"
+      Kind="VarOutput" />
+  </Pou>
+  <Pou
+    Name="Not10"
+    Moniker="Not10.stf"
+    Language="FBD"
+    IsIec61499="false"
+    Kind="FunctionBlock"
+    Password="E4BDBA2BEF6CC4DC"
+    GenerateDebugInfo="false"
+    GeneratingMonitoringSymbols="true"
+    UserEdited="false"
+    Deprecated="false"
+    IsVisible="true">
+    <Variable
+      Name="In1"
+      Comment=""
+      AccessRights="Read"
+      DataType="BOOL"
+      Kind="VarInput" />
+    <Variable
+      Name="In2"
+      Comment=""
+      AccessRights="Read"
+      DataType="BOOL"
+      Kind="VarInput" />
+    <Variable
+      Name="In3"
+      Comment=""
+      AccessRights="Read"
+      DataType="BOOL"
+      Kind="VarInput" />
+    <Variable
+      Name="In4"
+      Comment=""
+      AccessRights="Read"
+      DataType="BOOL"
+      Kind="VarInput" />
+    <Variable
+      Name="In5"
+      Comment=""
+      AccessRights="Read"
+      DataType="BOOL"
+      Kind="VarInput" />
+    <Variable
+      Name="In6"
+      Comment=""
+      AccessRights="Read"
+      DataType="BOOL"
+      Kind="VarInput" />
+    <Variable
+      Name="In7"
+      Comment=""
+      AccessRights="Read"
+      DataType="BOOL"
+      Kind="VarInput" />
+    <Variable
+      Name="In8"
+      Comment=""
+      AccessRights="Read"
+      DataType="BOOL"
+      Kind="VarInput" />
+    <Variable
+      Name="In9"
+      Comment=""
+      AccessRights="Read"
+      DataType="BOOL"
+      Kind="VarInput" />
+    <Variable
+      Name="In10"
+      Comment=""
+      AccessRights="Read"
+      DataType="BOOL"
+      Kind="VarInput" />
+    <Variable
+      Name="Out1"
+      Comment=""
+      AccessRights="ReadWrite"
+      DataType="BOOL"
+      Kind="VarOutput" />
+    <Variable
+      Name="Out2"
+      Comment=""
+      AccessRights="ReadWrite"
+      DataType="BOOL"
+      Kind="VarOutput" />
+    <Variable
+      Name="Out3"
+      Comment=""
+      AccessRights="ReadWrite"
+      DataType="BOOL"
+      Kind="VarOutput" />
+    <Variable
+      Name="Out4"
+      Comment=""
+      AccessRights="ReadWrite"
+      DataType="BOOL"
+      Kind="VarOutput" />
+    <Variable
+      Name="Out5"
+      Comment=""
+      AccessRights="ReadWrite"
+      DataType="BOOL"
+      Kind="VarOutput" />
+    <Variable
+      Name="Out6"
+      Comment=""
+      AccessRights="ReadWrite"
+      DataType="BOOL"
+      Kind="VarOutput" />
+    <Variable
+      Name="Out7"
+      Comment=""
+      AccessRights="ReadWrite"
+      DataType="BOOL"
+      Kind="VarOutput" />
+    <Variable
+      Name="Out8"
+      Comment=""
+      AccessRights="ReadWrite"
+      DataType="BOOL"
+      Kind="VarOutput" />
+    <Variable
+      Name="Out9"
+      Comment=""
+      AccessRights="ReadWrite"
+      DataType="BOOL"
+      Kind="VarOutput" />
+    <Variable
+      Name="Out10"
+      Comment=""
+      AccessRights="ReadWrite"
+      DataType="BOOL"
+      Kind="VarOutput" />
+  </Pou>
+  <Pou
+    Name="FahrToCelDelta_INT"
+    Moniker="FahrToCelDelta_INT.stf"
+    Language="FBD"
+    IsIec61499="false"
+    Kind="Function"
+    Password="E4BDBA2BEF6CC4DC"
+    GenerateDebugInfo="false"
+    GeneratingMonitoringSymbols="true"
+    UserEdited="false"
+    Deprecated="false"
+    IsVisible="true">
+    <Variable
+      Name="In"
+      Comment="Differential in Fahrenheit"
+      AccessRights="Read"
+      DataType="INT"
+      Kind="VarInput" />
+    <Variable
+      Name="FahrToCelDelta_INT"
+      Comment="Differential in Celsius"
+      AccessRights="ReadWrite"
+      DataType="INT"
+      Kind="VarOutput" />
+  </Pou>
+  <Pou
+    Name="PulseCounter_INT"
+    Moniker="PulseCounter_INT.stf"
+    Language="ST"
+    IsIec61499="false"
+    Kind="FunctionBlock"
+    Password="E4BDBA2BEF6CC4DC"
+    GenerateDebugInfo="false"
+    GeneratingMonitoringSymbols="true"
+    UserEdited="false"
+    Deprecated="false"
+    IsVisible="true">
+    <Variable
+      Name="In"
+      Comment="Input trigger"
+      AccessRights="Read"
+      DataType="BOOL"
+      Kind="VarInput" />
+    <Variable
+      Name="Du"
+      Comment="Down/Up, indicate the direction of count"
+      AccessRights="Read"
+      DataType="BOOL"
+      Kind="VarInput" />
+    <Variable
+      Name="Reset"
+      Comment="Reset the count"
+      AccessRights="Read"
+      DataType="BOOL"
+      Kind="VarInput" />
+    <Variable
+      Name="Enable"
+      Comment="Enables the count"
+      AccessRights="Read"
+      DataType="BOOL"
+      Kind="VarInput" />
+    <Variable
+      Name="Out"
+      Comment="Output value"
+      AccessRights="ReadWrite"
+      DataType="INT"
+      Kind="VarOutput" />
+    <Variable
+      Name="In_Old"
+      Comment=""
+      AccessRights="ReadWrite"
+      DataType="BOOL"
+      Kind="Var" />
+    <Variable
+      Name="Count"
+      Comment=""
+      AccessRights="ReadWrite"
+      DataType="INT"
+      Kind="Var" />
+  </Pou>
+  <Pou
+    Name="FahrToCelDelta_REAL"
+    Moniker="FahrToCelDelta_REAL.stf"
+    Language="ST"
+    IsIec61499="false"
+    Kind="Function"
+    Password="E4BDBA2BEF6CC4DC"
+    GenerateDebugInfo="false"
+    GeneratingMonitoringSymbols="true"
+    UserEdited="false"
+    Deprecated="false"
+    IsVisible="true">
+    <Variable
+      Name="In"
+      Comment="Differential in Fahrenheit"
+      AccessRights="Read"
+      DataType="REAL"
+      Kind="VarInput" />
+    <Variable
+      Name="FahrToCelDelta_REAL"
+      Comment="Differential in Celsius"
+      AccessRights="ReadWrite"
+      DataType="REAL"
+      Kind="VarOutput" />
+  </Pou>
+  <Pou
+    Name="REdge"
+    Moniker="REdge.stf"
+    Language="ST"
+    IsIec61499="false"
+    Kind="FunctionBlock"
+    Password="E4BDBA2BEF6CC4DC"
+    GenerateDebugInfo="false"
+    GeneratingMonitoringSymbols="true"
+    UserEdited="false"
+    Deprecated="false"
+    IsVisible="true">
+    <Variable
+      Name="In"
+      Comment="Input value"
+      AccessRights="Read"
+      DataType="BOOL"
+      Kind="VarInput" />
+    <Variable
+      Name="Reset"
+      Comment="Reset"
+      AccessRights="Read"
+      DataType="BOOL"
+      Kind="VarInput" />
+    <Variable
+      Name="Out"
+      Comment="Edge"
+      AccessRights="ReadWrite"
+      DataType="BOOL"
+      Kind="VarOutput" />
+    <Variable
+      Name="In_Old"
+      Comment=""
+      AccessRights="ReadWrite"
+      DataType="BOOL"
+      Kind="Var" />
+  </Pou>
+  <Pou
+    Name="Limit_INT"
+    Moniker="Limit_INT.stf"
+    Language="ST"
+    IsIec61499="false"
+    Kind="Function"
+    Password="E4BDBA2BEF6CC4DC"
+    GenerateDebugInfo="false"
+    GeneratingMonitoringSymbols="true"
+    UserEdited="false"
+    Deprecated="false"
+    IsVisible="true">
+    <Variable
+      Name="MinVal"
+      Comment="Minimum value"
+      AccessRights="Read"
+      DataType="INT"
+      Kind="VarInput" />
+    <Variable
+      Name="In"
+      Comment="Input value"
+      AccessRights="Read"
+      DataType="INT"
+      Kind="VarInput" />
+    <Variable
+      Name="MaxVal"
+      Comment="Maximum value"
+      AccessRights="Read"
+      DataType="INT"
+      Kind="VarInput" />
+    <Variable
+      Name="Limit_INT"
+      Comment="Limited value"
+      AccessRights="ReadWrite"
+      DataType="INT"
+      Kind="VarOutput" />
+  </Pou>
+  <Pou
+    Name="RFTrig"
+    Moniker="RFTrig.stf"
+    Language="FBD"
+    IsIec61499="false"
+    Kind="FunctionBlock"
+    Password="E4BDBA2BEF6CC4DC"
+    GenerateDebugInfo="false"
+    GeneratingMonitoringSymbols="true"
+    UserEdited="false"
+    Deprecated="false"
+    IsVisible="true">
+    <Variable
+      Name="In"
+      Comment="Input trigger"
+      AccessRights="Read"
+      DataType="BOOL"
+      Kind="VarInput" />
+    <Variable
+      Name="Out"
+      Comment=""
+      AccessRights="ReadWrite"
+      DataType="BOOL"
+      Kind="VarOutput" />
+    <Variable
+      Name="R_TRIG_1"
+      Comment=""
+      AccessRights="ReadWrite"
+      DataType="R_TRIG"
+      Kind="Var" />
+    <Variable
+      Name="F_TRIG_1"
+      Comment=""
+      AccessRights="ReadWrite"
+      DataType="F_TRIG"
+      Kind="Var" />
+  </Pou>
+  <Pou
+    Name="Limit_REAL"
+    Moniker="Limit_REAL.stf"
+    Language="ST"
+    IsIec61499="false"
+    Kind="Function"
+    Password="E4BDBA2BEF6CC4DC"
+    GenerateDebugInfo="false"
+    GeneratingMonitoringSymbols="true"
+    UserEdited="false"
+    Deprecated="false"
+    IsVisible="true">
+    <Variable
+      Name="MinVal"
+      Comment="Minimum value"
+      AccessRights="Read"
+      DataType="REAL"
+      Kind="VarInput" />
+    <Variable
+      Name="In"
+      Comment="Input value"
+      AccessRights="Read"
+      DataType="REAL"
+      Kind="VarInput" />
+    <Variable
+      Name="MaxVal"
+      Comment="Maximum value"
+      AccessRights="Read"
+      DataType="REAL"
+      Kind="VarInput" />
+    <Variable
+      Name="Limit_REAL"
+      Comment="Limited value"
+      AccessRights="ReadWrite"
+      DataType="REAL"
+      Kind="VarOutput" />
+  </Pou>
+  <Pou
+    Name="TimeCounter_INT"
+    Moniker="TimeCounter_INT.stf"
+    Language="ST"
+    IsIec61499="false"
+    Kind="FunctionBlock"
+    Password="E4BDBA2BEF6CC4DC"
+    GenerateDebugInfo="false"
+    GeneratingMonitoringSymbols="true"
+    UserEdited="false"
+    Deprecated="false"
+    IsVisible="true">
+    <Variable
+      Name="In"
+      Comment="Enables the count"
+      AccessRights="Read"
+      DataType="BOOL"
+      Kind="VarInput" />
+    <Variable
+      Name="Du"
+      Comment="Down/Up, indicate the direction of count"
+      AccessRights="Read"
+      DataType="BOOL"
+      Kind="VarInput" />
+    <Variable
+      Name="Reset"
+      Comment="Resets the count"
+      AccessRights="Read"
+      DataType="BOOL"
+      Kind="VarInput" />
+    <Variable
+      Name="Enable"
+      Comment="Enables the update of the output"
+      AccessRights="Read"
+      DataType="BOOL"
+      Kind="VarInput" />
+    <Variable
+      Name="Out"
+      Comment="Count"
+      AccessRights="ReadWrite"
+      DataType="INT"
+      Kind="VarOutput" />
+    <Variable
+      Name="Time_Cont"
+      Comment=""
+      AccessRights="ReadWrite"
+      DataType="TIME"
+      Kind="Var" />
+    <Variable
+      Name="Time_Old"
+      Comment=""
+      AccessRights="ReadWrite"
+      DataType="TIME"
+      Kind="Var" />
+    <Variable
+      Name="Out_Int"
+      Comment=""
+      AccessRights="ReadWrite"
+      DataType="INT"
+      Kind="Var" />
+    <Variable
+      Name="InOld"
+      Comment=""
+      AccessRights="ReadWrite"
+      DataType="BOOL"
+      Kind="Var" />
+  </Pou>
+  <Pou
+    Name="Loge_REAL"
+    Moniker="Loge_REAL.stf"
+    Language="ST"
+    IsIec61499="false"
+    Kind="Function"
+    Password="E4BDBA2BEF6CC4DC"
+    GenerateDebugInfo="false"
+    GeneratingMonitoringSymbols="true"
+    UserEdited="false"
+    Deprecated="false"
+    IsVisible="true">
+    <Variable
+      Name="Arg"
+      Comment="Argument of the logarithm"
+      AccessRights="Read"
+      DataType="REAL"
+      Kind="VarInput" />
+    <Variable
+      Name="Loge_REAL"
+      Comment="Result of the logarithm"
+      AccessRights="ReadWrite"
+      DataType="REAL"
+      Kind="VarOutput" />
+  </Pou>
+  <Pou
+    Name="UnitMeas_P_INT"
+    Moniker="UnitMeas_P_INT.stf"
+    Language="FBD"
+    IsIec61499="false"
+    Kind="FunctionBlock"
+    Password="E4BDBA2BEF6CC4DC"
+    GenerateDebugInfo="false"
+    GeneratingMonitoringSymbols="true"
+    UserEdited="false"
+    Deprecated="false"
+    IsVisible="true">
+    <Variable
+      Name="BasePIn"
+      Comment="Algorithm value"
+      AccessRights="Read"
+      DataType="INT"
+      Kind="VarInput" />
+    <Variable
+      Name="DisplayPIn"
+      Comment="Display value"
+      AccessRights="Read"
+      DataType="INT"
+      Kind="VarInput" />
+    <Variable
+      Name="BaseUnit"
+      Comment="Unit of measurement of the base (false: Bar, true: Psi)"
+      AccessRights="Read"
+      DataType="BOOL"
+      Kind="VarInput" />
+    <Variable
+      Name="DisplayUnit"
+      Comment="Unit of measurement of the display (false: Bar, true: Psi)"
+      AccessRights="Read"
+      DataType="BOOL"
+      Kind="VarInput" />
+    <Variable
+      Name="BaseP"
+      Comment="Algorithm value"
+      AccessRights="ReadWrite"
+      DataType="INT"
+      Kind="VarOutput" />
+    <Variable
+      Name="DisplayP"
+      Comment="Display value"
+      AccessRights="ReadWrite"
+      DataType="INT"
+      Kind="VarOutput" />
+    <Variable
+      Name="UnitMeasPressAbs_REAL_1"
+      Comment=""
+      AccessRights="ReadWrite"
+      DataType="UnitMeas_P_REAL"
+      Kind="Var" />
+  </Pou>
+  <Pou
+    Name="Max_INT"
+    Moniker="Max_INT.stf"
+    Language="ST"
+    IsIec61499="false"
+    Kind="Function"
+    Password="E4BDBA2BEF6CC4DC"
+    GenerateDebugInfo="false"
+    GeneratingMonitoringSymbols="true"
+    UserEdited="false"
+    Deprecated="false"
+    IsVisible="true">
+    <Variable
+      Name="In1"
+      Comment="Input value 1"
+      AccessRights="Read"
+      DataType="INT"
+      Kind="VarInput" />
+    <Variable
+      Name="In2"
+      Comment="Input value 2"
+      AccessRights="Read"
+      DataType="INT"
+      Kind="VarInput" />
+    <Variable
+      Name="Max_INT"
+      Comment="The largest of the two values"
+      AccessRights="ReadWrite"
+      DataType="INT"
+      Kind="VarOutput" />
+  </Pou>
+  <Pou
+    Name="UnitMeas_P_REAL"
+    Moniker="UnitMeas_P_REAL.stf"
+    Language="ST"
+    IsIec61499="false"
+    Kind="FunctionBlock"
+    Password="E4BDBA2BEF6CC4DC"
+    GenerateDebugInfo="false"
+    GeneratingMonitoringSymbols="true"
+    UserEdited="false"
+    Deprecated="false"
+    IsVisible="true">
+    <Variable
+      Name="BasePIn"
+      Comment="Algorithm value"
+      AccessRights="Read"
+      DataType="REAL"
+      Kind="VarInput" />
+    <Variable
+      Name="DisplayPIn"
+      Comment="Display value"
+      AccessRights="Read"
+      DataType="REAL"
+      Kind="VarInput" />
+    <Variable
+      Name="BaseUnit"
+      Comment="Unit of measurement of the base (false: Bar, true: Psi)"
+      AccessRights="Read"
+      DataType="BOOL"
+      Kind="VarInput" />
+    <Variable
+      Name="DisplayUnit"
+      Comment="Unit of measurement of the display (false: Bar, true: Psi)"
+      AccessRights="Read"
+      DataType="BOOL"
+      Kind="VarInput" />
+    <Variable
+      Name="BaseP"
+      Comment="Algorithm value"
+      AccessRights="ReadWrite"
+      DataType="REAL"
+      Kind="VarOutput" />
+    <Variable
+      Name="DisplayP"
+      Comment="Display value"
+      AccessRights="ReadWrite"
+      DataType="REAL"
+      Kind="VarOutput" />
+    <Variable
+      Name="PrevBaseP"
+      Comment=""
+      AccessRights="ReadWrite"
+      DataType="REAL"
+      Kind="Var" />
+    <Variable
+      Name="PrevDisplayP"
+      Comment=""
+      AccessRights="ReadWrite"
+      DataType="REAL"
+      Kind="Var" />
+    <Variable
+      Name="PrevDisplayUnit"
+      Comment=""
+      AccessRights="ReadWrite"
+      DataType="BOOL"
+      Kind="Var" />
+    <Variable
+      Name="FirstRun"
+      Comment=""
+      AccessRights="ReadWrite"
+      DataType="BOOL"
+      Kind="Var" />
+  </Pou>
+  <Pou
+    Name="Max_REAL"
+    Moniker="Max_REAL.stf"
+    Language="ST"
+    IsIec61499="false"
+    Kind="Function"
+    Password="E4BDBA2BEF6CC4DC"
+    GenerateDebugInfo="false"
+    GeneratingMonitoringSymbols="true"
+    UserEdited="false"
+    Deprecated="false"
+    IsVisible="true">
+    <Variable
+      Name="In1"
+      Comment="Input value 2"
+      AccessRights="Read"
+      DataType="REAL"
+      Kind="VarInput" />
+    <Variable
+      Name="In2"
+      Comment="Input value 2"
+      AccessRights="Read"
+      DataType="REAL"
+      Kind="VarInput" />
+    <Variable
+      Name="Max_REAL"
+      Comment="The largest of the two values"
+      AccessRights="ReadWrite"
+      DataType="REAL"
+      Kind="VarOutput" />
+  </Pou>
+  <Pou
+    Name="UnitMeasTemp_INT"
+    Moniker="UnitMeasTemp_INT.stf"
+    Language="FBD"
+    IsIec61499="false"
+    Kind="FunctionBlock"
+    Password="E4BDBA2BEF6CC4DC"
+    GenerateDebugInfo="false"
+    GeneratingMonitoringSymbols="true"
+    UserEdited="false"
+    Deprecated="false"
+    IsVisible="true">
+    <Variable
+      Name="BaseTempIn"
+      Comment="Algorithm value"
+      AccessRights="Read"
+      DataType="INT"
+      Kind="VarInput" />
+    <Variable
+      Name="DisplayTempIn"
+      Comment="Display value"
+      AccessRights="Read"
+      DataType="INT"
+      Kind="VarInput" />
+    <Variable
+      Name="BaseUnit"
+      Comment="Unit of measurement of the base (false: Celsius, true: Fahrenheit)"
+      AccessRights="Read"
+      DataType="BOOL"
+      Kind="VarInput" />
+    <Variable
+      Name="DisplayUnit"
+      Comment="Unit of measurement of the display (false: Celsius, true: Fahrenheit)"
+      AccessRights="Read"
+      DataType="BOOL"
+      Kind="VarInput" />
+    <Variable
+      Name="BaseTemp"
+      Comment="Algorithm value"
+      AccessRights="ReadWrite"
+      DataType="INT"
+      Kind="VarOutput" />
+    <Variable
+      Name="DisplayTemp"
+      Comment="Display value"
+      AccessRights="ReadWrite"
+      DataType="INT"
+      Kind="VarOutput" />
+    <Variable
+      Name="UnitMeasTempAbs_REAL_1"
+      Comment=""
+      AccessRights="ReadWrite"
+      DataType="UnitMeasTemp_REAL"
+      Kind="Var" />
+  </Pou>
+  <Pou
+    Name="Min_INT"
+    Moniker="Min_INT.stf"
+    Language="ST"
+    IsIec61499="false"
+    Kind="Function"
+    Password="E4BDBA2BEF6CC4DC"
+    GenerateDebugInfo="false"
+    GeneratingMonitoringSymbols="true"
+    UserEdited="false"
+    Deprecated="false"
+    IsVisible="true">
+    <Variable
+      Name="In1"
+      Comment="Input value 1"
+      AccessRights="Read"
+      DataType="INT"
+      Kind="VarInput" />
+    <Variable
+      Name="In2"
+      Comment="Input value 2"
+      AccessRights="Read"
+      DataType="INT"
+      Kind="VarInput" />
+    <Variable
+      Name="Min_INT"
+      Comment="The smallest of the two values"
+      AccessRights="ReadWrite"
+      DataType="INT"
+      Kind="VarOutput" />
+  </Pou>
+  <Pou
+    Name="UnitMeasTemp_REAL"
+    Moniker="UnitMeasTemp_REAL.stf"
+    Language="ST"
+    IsIec61499="false"
+    Kind="FunctionBlock"
+    Password="E4BDBA2BEF6CC4DC"
+    GenerateDebugInfo="false"
+    GeneratingMonitoringSymbols="true"
+    UserEdited="false"
+    Deprecated="false"
+    IsVisible="true">
+    <Variable
+      Name="BaseTempIn"
+      Comment="Algorithm value"
+      AccessRights="Read"
+      DataType="REAL"
+      Kind="VarInput" />
+    <Variable
+      Name="DisplayTempIn"
+      Comment="Display value"
+      AccessRights="Read"
+      DataType="REAL"
+      Kind="VarInput" />
+    <Variable
+      Name="BaseUnit"
+      Comment="Unit of measurement of the base (false: Celsius, true: Fahrenheit)"
+      AccessRights="Read"
+      DataType="BOOL"
+      Kind="VarInput" />
+    <Variable
+      Name="DisplayUnit"
+      Comment="Unit of measurement of the display (false: Celsius, true: Fahrenheit)"
+      AccessRights="Read"
+      DataType="BOOL"
+      Kind="VarInput" />
+    <Variable
+      Name="BaseTemp"
+      Comment="Algorithm value"
+      AccessRights="ReadWrite"
+      DataType="REAL"
+      Kind="VarOutput" />
+    <Variable
+      Name="DisplayTemp"
+      Comment="Display value"
+      AccessRights="ReadWrite"
+      DataType="REAL"
+      Kind="VarOutput" />
+    <Variable
+      Name="PrevBaseTemp"
+      Comment=""
+      AccessRights="ReadWrite"
+      DataType="REAL"
+      Kind="Var" />
+    <Variable
+      Name="PrevDisplayTemp"
+      Comment=""
+      AccessRights="ReadWrite"
+      DataType="REAL"
+      Kind="Var" />
+    <Variable
+      Name="PrevDisplayUnit"
+      Comment=""
+      AccessRights="ReadWrite"
+      DataType="BOOL"
+      Kind="Var" />
+    <Variable
+      Name="FirstRun"
+      Comment=""
+      AccessRights="ReadWrite"
+      DataType="BOOL"
+      Kind="Var" />
+  </Pou>
+  <Pou
+    Name="Min_REAL"
+    Moniker="Min_REAL.stf"
+    Language="ST"
+    IsIec61499="false"
+    Kind="Function"
+    Password="E4BDBA2BEF6CC4DC"
+    GenerateDebugInfo="false"
+    GeneratingMonitoringSymbols="true"
+    UserEdited="false"
+    Deprecated="false"
+    IsVisible="true">
+    <Variable
+      Name="In1"
+      Comment="Input value 1"
+      AccessRights="Read"
+      DataType="REAL"
+      Kind="VarInput" />
+    <Variable
+      Name="In2"
+      Comment="Input value 2"
+      AccessRights="Read"
+      DataType="REAL"
+      Kind="VarInput" />
+    <Variable
+      Name="Min_REAL"
+      Comment="The smallest of the two values"
+      AccessRights="ReadWrite"
+      DataType="REAL"
+      Kind="VarOutput" />
+  </Pou>
+  <Pou
+    Name="UnitMeasTempDelta_INT"
+    Moniker="UnitMeasTempDelta_INT.stf"
+    Language="FBD"
+    IsIec61499="false"
+    Kind="FunctionBlock"
+    Password="E4BDBA2BEF6CC4DC"
+    GenerateDebugInfo="false"
+    GeneratingMonitoringSymbols="true"
+    UserEdited="false"
+    Deprecated="false"
+    IsVisible="true">
+    <Variable
+      Name="BaseTempIn"
+      Comment="Algorithm value"
+      AccessRights="Read"
+      DataType="INT"
+      Kind="VarInput" />
+    <Variable
+      Name="DisplayTempIn"
+      Comment="Display value"
+      AccessRights="Read"
+      DataType="INT"
+      Kind="VarInput" />
+    <Variable
+      Name="BaseUnit"
+      Comment="Unit of measurement of the base (false: Celsius, true: Fahrenheit)"
+      AccessRights="Read"
+      DataType="BOOL"
+      Kind="VarInput" />
+    <Variable
+      Name="DisplayUnit"
+      Comment="Unit of measurement of the display (false: Celsius, true: Fahrenheit)"
+      AccessRights="Read"
+      DataType="BOOL"
+      Kind="VarInput" />
+    <Variable
+      Name="BaseTemp"
+      Comment="Algorithm value"
+      AccessRights="ReadWrite"
+      DataType="INT"
+      Kind="VarOutput" />
+    <Variable
+      Name="DisplayTemp"
+      Comment="Display value"
+      AccessRights="ReadWrite"
+      DataType="INT"
+      Kind="VarOutput" />
+    <Variable
+      Name="UnitMeasTempDelta_REAL_1"
+      Comment=""
+      AccessRights="ReadWrite"
+      DataType="UnitMeasTempDelta_REAL"
+      Kind="Var" />
+  </Pou>
+  <Pou
+    Name="Mux5_INT"
+    Moniker="Mux5_INT.stf"
+    Language="ST"
+    IsIec61499="false"
+    Kind="Function"
+    Password="E4BDBA2BEF6CC4DC"
+    GenerateDebugInfo="false"
+    GeneratingMonitoringSymbols="true"
+    UserEdited="false"
+    Deprecated="false"
+    IsVisible="true">
+    <Variable
+      Name="In0"
+      Comment=""
+      AccessRights="Read"
+      DataType="INT"
+      Kind="VarInput" />
+    <Variable
+      Name="In1"
+      Comment=""
+      AccessRights="Read"
+      DataType="INT"
+      Kind="VarInput" />
+    <Variable
+      Name="In2"
+      Comment=""
+      AccessRights="Read"
+      DataType="INT"
+      Kind="VarInput" />
+    <Variable
+      Name="In3"
+      Comment=""
+      AccessRights="Read"
+      DataType="INT"
+      Kind="VarInput" />
+    <Variable
+      Name="In4"
+      Comment=""
+      AccessRights="Read"
+      DataType="INT"
+      Kind="VarInput" />
+    <Variable
+      Name="Select"
+      Comment=""
+      AccessRights="Read"
+      DataType="SINT"
+      Kind="VarInput" />
+    <Variable
+      Name="Mux5_INT"
+      Comment="Selected value"
+      AccessRights="ReadWrite"
+      DataType="INT"
+      Kind="VarOutput" />
+  </Pou>
+  <Pou
+    Name="UnitMeasTempDelta_REAL"
+    Moniker="UnitMeasTempDelta_REAL.stf"
+    Language="ST"
+    IsIec61499="false"
+    Kind="FunctionBlock"
+    Password="E4BDBA2BEF6CC4DC"
+    GenerateDebugInfo="false"
+    GeneratingMonitoringSymbols="true"
+    UserEdited="false"
+    Deprecated="false"
+    IsVisible="true">
+    <Variable
+      Name="BaseTempIn"
+      Comment="Algorithm value"
+      AccessRights="Read"
+      DataType="REAL"
+      Kind="VarInput" />
+    <Variable
+      Name="DisplayTempIn"
+      Comment="Display value"
+      AccessRights="Read"
+      DataType="REAL"
+      Kind="VarInput" />
+    <Variable
+      Name="BaseUnit"
+      Comment="Unit of measurement of the base (false: Celsius, true: Fahrenheit)"
+      AccessRights="Read"
+      DataType="BOOL"
+      Kind="VarInput" />
+    <Variable
+      Name="DisplayUnit"
+      Comment="Unit of measurement of the display (false: Celsius, true: Fahrenheit)"
+      AccessRights="Read"
+      DataType="BOOL"
+      Kind="VarInput" />
+    <Variable
+      Name="BaseTemp"
+      Comment="Algorithm value"
+      AccessRights="ReadWrite"
+      DataType="REAL"
+      Kind="VarOutput" />
+    <Variable
+      Name="DisplayTemp"
+      Comment="Display value"
+      AccessRights="ReadWrite"
+      DataType="REAL"
+      Kind="VarOutput" />
+    <Variable
+      Name="PrevBaseTemp"
+      Comment=""
+      AccessRights="ReadWrite"
+      DataType="REAL"
+      Kind="Var" />
+    <Variable
+      Name="PrevDisplayTemp"
+      Comment=""
+      AccessRights="ReadWrite"
+      DataType="REAL"
+      Kind="Var" />
+    <Variable
+      Name="PrevDisplayUnit"
+      Comment=""
+      AccessRights="ReadWrite"
+      DataType="BOOL"
+      Kind="Var" />
+    <Variable
+      Name="FirstRun"
+      Comment=""
+      AccessRights="ReadWrite"
+      DataType="BOOL"
+      Kind="Var" />
+  </Pou>
+  <Pou
+    Name="PsiToBar_INT"
+    Moniker="PsiToBar_INT.stf"
+    Language="FBD"
+    IsIec61499="false"
+    Kind="Function"
+    Password="E4BDBA2BEF6CC4DC"
+    GenerateDebugInfo="false"
+    GeneratingMonitoringSymbols="true"
+    UserEdited="false"
+    Deprecated="false"
+    IsVisible="true">
+    <Variable
+      Name="In"
+      Comment="Value in Psi"
+      AccessRights="Read"
+      DataType="INT"
+      Kind="VarInput" />
+    <Variable
+      Name="PsiToBar_INT"
+      Comment="Value in Bar"
+      AccessRights="ReadWrite"
+      DataType="INT"
+      Kind="VarOutput" />
+  </Pou>
+  <Pou
+    Name="CntDwnSafT"
+    Moniker="CntDwnSafT.stf"
+    Language="ST"
+    IsIec61499="false"
+    Kind="FunctionBlock"
+    Password="E4BDBA2BEF6CC4DC"
+    GenerateDebugInfo="true"
+    GeneratingMonitoringSymbols="true"
+    UserEdited="false"
+    Deprecated="false"
+    IsVisible="true">
+    <Variable
+      Name="DevReq"
+      Comment="Device request"
+      AccessRights="Read"
+      DataType="BOOL"
+      Kind="VarInput" />
+    <Variable
+      Name="DevStatus"
+      Comment="Device status"
+      AccessRights="Read"
+      DataType="BOOL"
+      Kind="VarInput" />
+    <Variable
+      Name="MinOnT"
+      Comment="Minimum on time, in seconds. It starts to count when DevStatus = TRUE"
+      AccessRights="Read"
+      DataType="UINT"
+      Kind="VarInput" />
+    <Variable
+      Name="MinOffT"
+      Comment="Minimum off time, in seconds. It starts to count when DevStatus = FALSE"
+      AccessRights="Read"
+      DataType="UINT"
+      Kind="VarInput" />
+    <Variable
+      Name="MinOnOnSameT"
+      Comment="Minimum time between two on, in seconds. It starts when DevStatus = TRUE"
+      AccessRights="Read"
+      DataType="UINT"
+      Kind="VarInput" />
+    <Variable
+      Name="ResSafT"
+      Comment="Reset all safety times. If fixed to TRUE, the reset works only 1 time. It works on the rising edge."
+      AccessRights="Read"
+      DataType="BOOL"
+      Kind="VarInput" />
+    <Variable
+      Name="DevAlrm"
+      Comment="Device alarm status"
+      AccessRights="Read"
+      DataType="BOOL"
+      Kind="VarInput" />
+    <Variable
+      Name="En_CntDwnSafT"
+      Comment="Enables the block"
+      AccessRights="Read"
+      DataType="BOOL"
+      Kind="VarInput" />
+    <Variable
+      Name="DevOn"
+      Comment="Device output"
+      AccessRights="ReadWrite"
+      DataType="BOOL"
+      Kind="VarOutput" />
+    <Variable
+      Name="FrcdOffByT"
+      Comment="If true, the device is forced off due to minimum off time or MinOnOnSameT"
+      AccessRights="ReadWrite"
+      DataType="BOOL"
+      Kind="VarOutput" />
+    <Variable
+      Name="FrcdOnByT"
+      Comment="If true, the device is forced on due to minimum on time"
+      AccessRights="ReadWrite"
+      DataType="BOOL"
+      Kind="VarOutput" />
+    <Variable
+      Name="CntDwnTSaf"
+      Comment="Remaining time until the device is able to start, in seconds"
+      AccessRights="ReadWrite"
+      DataType="UINT"
+      Kind="VarOutput" />
+    <Variable
+      Name="CntDwnTMinOn"
+      Comment="Remaining time until the device is able to stop, in seconds"
+      AccessRights="ReadWrite"
+      DataType="UINT"
+      Kind="VarOutput" />
+    <Variable
+      Name="AbleToOn"
+      Comment="Device ready to be switched on"
+      AccessRights="ReadWrite"
+      DataType="BOOL"
+      Kind="VarOutput" />
+    <Variable
+      Name="AbleToOff"
+      Comment="Device ready to be switched off"
+      AccessRights="ReadWrite"
+      DataType="BOOL"
+      Kind="VarOutput" />
+    <Variable
+      Name="F_TRIG_1"
+      Comment=""
+      AccessRights="ReadWrite"
+      DataType="F_TRIG"
+      Kind="Var" />
+    <Variable
+      Name="TON_MinOn"
+      Comment=""
+      AccessRights="ReadWrite"
+      DataType="TON"
+      Kind="Var" />
+    <Variable
+      Name="TON_MinSame"
+      Comment=""
+      AccessRights="ReadWrite"
+      DataType="TON"
+      Kind="Var" />
+    <Variable
+      Name="TOF_MinOff"
+      Comment=""
+      AccessRights="ReadWrite"
+      DataType="TOF"
+      Kind="Var" />
+    <Variable
+      Name="TMinOnT"
+      Comment=""
+      AccessRights="ReadWrite"
+      DataType="TIME"
+      Kind="Var" />
+    <Variable
+      Name="TMinOnOnSameT"
+      Comment=""
+      AccessRights="ReadWrite"
+      DataType="TIME"
+      Kind="Var" />
+    <Variable
+      Name="TMinOffT"
+      Comment=""
+      AccessRights="ReadWrite"
+      DataType="TIME"
+      Kind="Var" />
+    <Variable
+      Name="MinOnTRun"
+      Comment="Minimum on time is running"
+      AccessRights="ReadWrite"
+      DataType="BOOL"
+      Kind="Var" />
+    <Variable
+      Name="MinOnCntDwnT"
+      Comment=""
+      AccessRights="ReadWrite"
+      DataType="DINT"
+      Kind="Var" />
+    <Variable
+      Name="MinSameOnTRun"
+      Comment="Minimum on on same T is running"
+      AccessRights="ReadWrite"
+      DataType="BOOL"
+      Kind="Var" />
+    <Variable
+      Name="MinSameOnCntDwnT"
+      Comment=""
+      AccessRights="ReadWrite"
+      DataType="DINT"
+      Kind="Var" />
+    <Variable
+      Name="MinOffTRun"
+      Comment="Minimum off time is running"
+      AccessRights="ReadWrite"
+      DataType="BOOL"
+      Kind="Var" />
+    <Variable
+      Name="MinOffCntDwnT"
+      Comment=""
+      AccessRights="ReadWrite"
+      DataType="DINT"
+      Kind="Var" />
+    <Variable
+      Name="ResT"
+      Comment=""
+      AccessRights="ReadWrite"
+      DataType="BOOL"
+      Kind="Var" />
+    <Variable
+      Name="R_TRIG_1"
+      Comment=""
+      AccessRights="ReadWrite"
+      DataType="R_TRIG"
+      Kind="Var" />
+    <Variable
+      Name="Max_In1"
+      Comment=""
+      AccessRights="ReadWrite"
+      DataType="DINT"
+      Kind="Var" />
+    <Variable
+      Name="Max_In2"
+      Comment=""
+      AccessRights="ReadWrite"
+      DataType="DINT"
+      Kind="Var" />
+    <Variable
+      Name="SR_1"
+      Comment=""
+      AccessRights="ReadWrite"
+      DataType="SR"
+      Kind="Var" />
+  </Pou>
+  <Pou
+    Name="PsiToBar_REAL"
+    Moniker="PsiToBar_REAL.stf"
+    Language="ST"
+    IsIec61499="false"
+    Kind="Function"
+    Password="E4BDBA2BEF6CC4DC"
+    GenerateDebugInfo="false"
+    GeneratingMonitoringSymbols="true"
+    UserEdited="false"
+    Deprecated="false"
+    IsVisible="true">
+    <Variable
+      Name="In"
+      Comment="Value in Psi"
+      AccessRights="Read"
+      DataType="REAL"
+      Kind="VarInput" />
+    <Variable
+      Name="PsiToBar_REAL"
+      Comment="Value in Bar"
+      AccessRights="ReadWrite"
+      DataType="REAL"
+      Kind="VarOutput" />
+  </Pou>
+  <Pou
+    Name="HoursCounter"
+    Moniker="HoursCounter.stf"
+    Language="ST"
+    IsIec61499="false"
+    Kind="FunctionBlock"
+    Password="E4BDBA2BEF6CC4DC"
+    GenerateDebugInfo="true"
+    GeneratingMonitoringSymbols="true"
+    UserEdited="false"
+    Deprecated="false"
+    IsVisible="true">
+    <Variable
+      Name="In"
+      Comment="Enables hours count"
+      AccessRights="Read"
+      DataType="BOOL"
+      Kind="VarInput" />
+    <Variable
+      Name="Thrsh"
+      Comment="Threshold of alarm"
+      AccessRights="Read"
+      DataType="UDINT"
+      Kind="VarInput" />
+    <Variable
+      Name="HoursNo"
+      Comment="HoursRetain update rate (according to Adjust)"
+      AccessRights="Read"
+      DataType="UINT"
+      Kind="VarInput" />
+    <Variable
+      Name="Adjust"
+      Comment="Number of seconds per hour (set 0 to indicate 3600)"
+      AccessRights="Read"
+      DataType="UINT"
+      Kind="VarInput" />
+    <Variable
+      Name="HoursRetainIn"
+      Comment="Feedback from HoursRetain (VAR_IN_OUT simulation)"
+      AccessRights="Read"
+      DataType="UDINT"
+      Kind="VarInput" />
+    <Variable
+      Name="Reset"
+      Comment="Reset of internal counter"
+      AccessRights="Read"
+      DataType="BOOL"
+      Kind="VarInput" />
+    <Variable
+      Name="Hours"
+      Comment="Count of hours"
+      AccessRights="ReadWrite"
+      DataType="UDINT"
+      Kind="VarOutput" />
+    <Variable
+      Name="HoursRetain"
+      Comment="Count of hours (updated only every HoursNo hours)"
+      AccessRights="ReadWrite"
+      DataType="UDINT"
+      Kind="VarOutput" />
+    <Variable
+      Name="Alrm"
+      Comment="Signals that the maximum number of operating hours have been reached"
+      AccessRights="ReadWrite"
+      DataType="BOOL"
+      Kind="VarOutput" />
+    <Variable
+      Name="old"
+      Comment=""
+      AccessRights="ReadWrite"
+      DataType="TIME"
+      Kind="Var" />
+    <Variable
+      Name="first"
+      Comment=""
+      AccessRights="ReadWrite"
+      DataType="BOOL"
+      Kind="Var" />
+    <Variable
+      Name="tmp"
+      Comment=""
+      AccessRights="ReadWrite"
+      DataType="UINT"
+      Kind="Var" />
+    <Variable
+      Name="adj"
+      Comment=""
+      AccessRights="ReadWrite"
+      DataType="UINT"
+      Kind="Var" />
+    <Variable
+      Name="TempHours"
+      Comment=""
+      AccessRights="ReadWrite"
+      DataType="UDINT"
+      Kind="Var" />
+    <Variable
+      Name="EnOverwrite"
+      Comment=""
+      AccessRights="ReadWrite"
+      DataType="BOOL"
+      Kind="Var" />
+    <Variable
+      Name="Res_Trig"
+      Comment=""
+      AccessRights="ReadWrite"
+      DataType="R_TRIG"
+      Kind="Var" />
+    <Variable
+      Name="TimeCounter_Hours"
+      Comment=""
+      AccessRights="ReadWrite"
+      DataType="TimeCounter_INT"
+      Kind="Var" />
+  </Pou>
+  <Pou
+    Name="PressToTemp_INT"
+    Moniker="PressToTemp_INT.stf"
+    Language="FBD"
+    IsIec61499="false"
+    Kind="Function"
+    Password="E4BDBA2BEF6CC4DC"
+    GenerateDebugInfo="false"
+    GeneratingMonitoringSymbols="true"
+    UserEdited="false"
+    Deprecated="false"
+    IsVisible="true">
+    <Variable
+      Name="PGas"
+      Comment="Gas pressure in tenths of bar"
+      AccessRights="Read"
+      DataType="INT"
+      Kind="VarInput" />
+    <Variable
+      Name="Gas"
+      Comment="Gas index "
+      AccessRights="Read"
+      DataType="INT"
+      Kind="VarInput" />
+    <Variable
+      Name="DewBub"
+      Comment="Type of temperature required (TRUE=Bubble point, FALSE=Dew point)"
+      AccessRights="Read"
+      DataType="BOOL"
+      Kind="VarInput" />
+    <Variable
+      Name="PressToTemp_INT"
+      Comment="Gas temperature in tenths of degrees (°C/10)"
+      AccessRights="ReadWrite"
+      DataType="INT"
+      Kind="VarOutput" />
+  </Pou>
+  <Pou
+    Name="PressToTemp_REAL"
+    Moniker="PressToTemp_REAL.stf"
+    Language="ST"
+    IsIec61499="false"
+    Kind="Function"
+    Password="E4BDBA2BEF6CC4DC"
+    GenerateDebugInfo="false"
+    GeneratingMonitoringSymbols="true"
+    UserEdited="false"
+    Deprecated="false"
+    IsVisible="true">
+    <Variable
+      Name="P_ABS"
+      Comment=""
+      AccessRights="ReadWrite"
+      DataType="REAL"
+      Kind="Var" />
+    <Variable
+      Name="ka"
+      Comment=""
+      AccessRights="ReadWrite"
+      DataType="REAL"
+      Kind="Var" />
+    <Variable
+      Name="kb"
+      Comment=""
+      AccessRights="ReadWrite"
+      DataType="REAL"
+      Kind="Var" />
+    <Variable
+      Name="kc"
+      Comment=""
+      AccessRights="ReadWrite"
+      DataType="REAL"
+      Kind="Var" />
+    <Variable
+      Name="kd"
+      Comment=""
+      AccessRights="ReadWrite"
+      DataType="REAL"
+      Kind="Var" />
+    <Variable
+      Name="ke"
+      Comment=""
+      AccessRights="ReadWrite"
+      DataType="REAL"
+      Kind="Var" />
+    <Variable
+      Name="kf"
+      Comment=""
+      AccessRights="ReadWrite"
+      DataType="REAL"
+      Kind="Var" />
+    <Variable
+      Name="Gas_K_Vect"
+      Comment=""
+      AccessRights="ReadWrite"
+      DataType="REAL,0-5"
+      Kind="Var" />
+    <Variable
+      Name="lnVal"
+      Comment=""
+      AccessRights="ReadWrite"
+      DataType="REAL"
+      Kind="Var" />
+    <Variable
+      Name="lnVal2"
+      Comment=""
+      AccessRights="ReadWrite"
+      DataType="REAL"
+      Kind="Var" />
+    <Variable
+      Name="lnVal3"
+      Comment=""
+      AccessRights="ReadWrite"
+      DataType="REAL"
+      Kind="Var" />
+    <Variable
+      Name="lnVal4"
+      Comment=""
+      AccessRights="ReadWrite"
+      DataType="REAL"
+      Kind="Var" />
+    <Variable
+      Name="lnVal5"
+      Comment=""
+      AccessRights="ReadWrite"
+      DataType="REAL"
+      Kind="Var" />
+    <Variable
+      Name="PGas"
+      Comment="Gas pressure in barg"
+      AccessRights="Read"
+      DataType="REAL"
+      Kind="VarInput" />
+    <Variable
+      Name="Gas"
+      Comment="Gas index"
+      AccessRights="Read"
+      DataType="INT"
+      Kind="VarInput" />
+    <Variable
+      Name="DewBub"
+      Comment="Type of temperature required (TRUE = Bubble point, FALSE = Dew point)"
+      AccessRights="Read"
+      DataType="BOOL"
+      Kind="VarInput" />
+    <Variable
+      Name="PressToTemp_REAL"
+      Comment="Gas temperature in degrees (°C)"
+      AccessRights="ReadWrite"
+      DataType="REAL"
+      Kind="VarOutput" />
+  </Pou>
+  <Pou
+    Name="Range"
+    Moniker="Range.stf"
+    Language="FBD"
+    IsIec61499="false"
+    Kind="Function"
+    Password="E4BDBA2BEF6CC4DC"
+    GenerateDebugInfo="false"
+    GeneratingMonitoringSymbols="true"
+    UserEdited="false"
+    Deprecated="false"
+    IsVisible="true">
+    <Variable
+      Name="In"
+      Comment="Value to check"
+      AccessRights="Read"
+      DataType="DINT"
+      Kind="VarInput" />
+    <Variable
+      Name="Min_Val"
+      Comment="Minimum value of the interval"
+      AccessRights="Read"
+      DataType="DINT"
+      Kind="VarInput" />
+    <Variable
+      Name="Max_Val"
+      Comment="Maximum value of the interval"
+      AccessRights="Read"
+      DataType="DINT"
+      Kind="VarInput" />
+    <Variable
+      Name="Range"
+      Comment="If the value is in the range or not"
+      AccessRights="ReadWrite"
+      DataType="BOOL"
+      Kind="VarOutput" />
+  </Pou>
+  <Pou
+    Name="Range_INT"
+    Moniker="Range_INT.stf"
+    Language="FBD"
+    IsIec61499="false"
+    Kind="Function"
+    Password="E4BDBA2BEF6CC4DC"
+    GenerateDebugInfo="false"
+    GeneratingMonitoringSymbols="true"
+    UserEdited="false"
+    Deprecated="false"
+    IsVisible="true">
+    <Variable
+      Name="In"
+      Comment="Value to check"
+      AccessRights="Read"
+      DataType="INT"
+      Kind="VarInput" />
+    <Variable
+      Name="Min_Val"
+      Comment="Minimum value of the interval"
+      AccessRights="Read"
+      DataType="INT"
+      Kind="VarInput" />
+    <Variable
+      Name="Max_Val"
+      Comment="Maximum value of the interval"
+      AccessRights="Read"
+      DataType="INT"
+      Kind="VarInput" />
+    <Variable
+      Name="Range_INT"
+      Comment="If the value is in the range or not"
+      AccessRights="ReadWrite"
+      DataType="BOOL"
+      Kind="VarOutput" />
+  </Pou>
+  <Pou
+    Name="Range_REAL"
+    Moniker="Range_REAL.stf"
+    Language="ST"
+    IsIec61499="false"
+    Kind="Function"
+    Password="E4BDBA2BEF6CC4DC"
+    GenerateDebugInfo="false"
+    GeneratingMonitoringSymbols="true"
+    UserEdited="false"
+    Deprecated="false"
+    IsVisible="true">
+    <Variable
+      Name="In"
+      Comment="Value to check"
+      AccessRights="Read"
+      DataType="REAL"
+      Kind="VarInput" />
+    <Variable
+      Name="Min_Val"
+      Comment="Minimum value of the interval"
+      AccessRights="Read"
+      DataType="REAL"
+      Kind="VarInput" />
+    <Variable
+      Name="Max_Val"
+      Comment="Maximum value of the interval"
+      AccessRights="Read"
+      DataType="REAL"
+      Kind="VarInput" />
+    <Variable
+      Name="Range_REAL"
+      Comment="If the value is in the range or not"
+      AccessRights="ReadWrite"
+      DataType="BOOL"
+      Kind="VarOutput" />
+  </Pou>
+  <Pou
+    Name="RangeUniv"
+    Moniker="RangeUniv.stf"
+    Language="FBD"
+    IsIec61499="false"
+    Kind="Function"
+    Password="E4BDBA2BEF6CC4DC"
+    GenerateDebugInfo="false"
+    GeneratingMonitoringSymbols="true"
+    UserEdited="false"
+    Deprecated="false"
+    IsVisible="true">
+    <Variable
+      Name="In"
+      Comment="Dint Value to check"
+      AccessRights="Read"
+      DataType="DINT"
+      Kind="VarInput" />
+    <Variable
+      Name="Min_Val"
+      Comment="Start value of the interval"
+      AccessRights="Read"
+      DataType="DINT"
+      Kind="VarInput" />
+    <Variable
+      Name="Max_Val"
+      Comment="End value of the interval"
+      AccessRights="Read"
+      DataType="DINT"
+      Kind="VarInput" />
+    <Variable
+      Name="RangeUniv"
+      Comment="If the value is in the range or not"
+      AccessRights="ReadWrite"
+      DataType="BOOL"
+      Kind="VarOutput" />
+  </Pou>
+  <Pou
+    Name="RangeUniv_INT"
+    Moniker="RangeUniv_INT.stf"
+    Language="FBD"
+    IsIec61499="false"
+    Kind="Function"
+    Password="E4BDBA2BEF6CC4DC"
+    GenerateDebugInfo="true"
+    GeneratingMonitoringSymbols="true"
+    UserEdited="false"
+    Deprecated="false"
+    IsVisible="true">
+    <Variable
+      Name="In"
+      Comment="Dint Value to check"
+      AccessRights="Read"
+      DataType="INT"
+      Kind="VarInput" />
+    <Variable
+      Name="Min_Val"
+      Comment="Start value of the interval"
+      AccessRights="Read"
+      DataType="INT"
+      Kind="VarInput" />
+    <Variable
+      Name="Max_Val"
+      Comment="End value of the interval"
+      AccessRights="Read"
+      DataType="INT"
+      Kind="VarInput" />
+    <Variable
+      Name="RangeUniv_INT"
+      Comment="If the value is in the range or not"
+      AccessRights="ReadWrite"
+      DataType="BOOL"
+      Kind="VarOutput" />
+  </Pou>
+  <Pou
+    Name="RangeUniv_REAL"
+    Moniker="RangeUniv_REAL.stf"
+    Language="ST"
+    IsIec61499="false"
+    Kind="Function"
+    Password="E4BDBA2BEF6CC4DC"
+    GenerateDebugInfo="true"
+    GeneratingMonitoringSymbols="true"
+    UserEdited="false"
+    Deprecated="false"
+    IsVisible="true">
+    <Variable
+      Name="In"
+      Comment="Dint Value to check"
+      AccessRights="Read"
+      DataType="REAL"
+      Kind="VarInput" />
+    <Variable
+      Name="Min_Val"
+      Comment="Start value of the interval"
+      AccessRights="Read"
+      DataType="REAL"
+      Kind="VarInput" />
+    <Variable
+      Name="Max_Val"
+      Comment="End value of the interval"
+      AccessRights="Read"
+      DataType="REAL"
+      Kind="VarInput" />
+    <Variable
+      Name="RangeUniv_REAL"
+      Comment="If the value is in the range or not"
+      AccessRights="ReadWrite"
+      DataType="BOOL"
+      Kind="VarOutput" />
+  </Pou>
+  <Pou
+    Name="RealToInt"
+    Moniker="RealToInt.stf"
+    Language="FBD"
+    IsIec61499="false"
+    Kind="Function"
+    Password="E4BDBA2BEF6CC4DC"
+    GenerateDebugInfo="false"
+    GeneratingMonitoringSymbols="true"
+    UserEdited="false"
+    Deprecated="false"
+    IsVisible="true">
+    <Variable
+      Name="In"
+      Comment="Input value"
+      AccessRights="Read"
+      DataType="REAL"
+      Kind="VarInput" />
+    <Variable
+      Name="RealToInt"
+      Comment="Rounded and casted input"
+      AccessRights="ReadWrite"
+      DataType="INT"
+      Kind="VarOutput" />
+  </Pou>
+  <Pou
+    Name="RealToDint"
+    Moniker="RealToDint.stf"
+    Language="ST"
+    IsIec61499="false"
+    Kind="Function"
+    Password="E4BDBA2BEF6CC4DC"
+    GenerateDebugInfo="false"
+    GeneratingMonitoringSymbols="true"
+    UserEdited="false"
+    Deprecated="false"
+    IsVisible="true">
+    <Variable
+      Name="Var1"
+      Comment=""
+      AccessRights="ReadWrite"
+      DataType="DINT"
+      Kind="Var" />
+    <Variable
+      Name="Var2"
+      Comment=""
+      AccessRights="ReadWrite"
+      DataType="DINT"
+      Kind="Var" />
+    <Variable
+      Name="In"
+      Comment="Input value"
+      AccessRights="Read"
+      DataType="REAL"
+      Kind="VarInput" />
+    <Variable
+      Name="RealToDint"
+      Comment="Rounded and casted input"
+      AccessRights="ReadWrite"
+      DataType="DINT"
+      Kind="VarOutput" />
+  </Pou>
+  <Pou
+    Name="RealToUdint"
+    Moniker="RealToUdint.stf"
+    Language="FBD"
+    IsIec61499="false"
+    Kind="Function"
+    Password="E4BDBA2BEF6CC4DC"
+    GenerateDebugInfo="false"
+    GeneratingMonitoringSymbols="true"
+    UserEdited="false"
+    Deprecated="false"
+    IsVisible="true">
+    <Variable
+      Name="In"
+      Comment="Input value"
+      AccessRights="Read"
+      DataType="REAL"
+      Kind="VarInput" />
+    <Variable
+      Name="RealToUdint"
+      Comment="Rounded and casted input"
+      AccessRights="ReadWrite"
+      DataType="UDINT"
+      Kind="VarOutput" />
+  </Pou>
+  <Pou
+    Name="RealToUint"
+    Moniker="RealToUint.stf"
+    Language="FBD"
+    IsIec61499="false"
+    Kind="Function"
+    Password="E4BDBA2BEF6CC4DC"
+    GenerateDebugInfo="false"
+    GeneratingMonitoringSymbols="true"
+    UserEdited="false"
+    Deprecated="false"
+    IsVisible="true">
+    <Variable
+      Name="In"
+      Comment="Input value"
+      AccessRights="Read"
+      DataType="REAL"
+      Kind="VarInput" />
+    <Variable
+      Name="RealToUint"
+      Comment="Rounded and casted input"
+      AccessRights="ReadWrite"
+      DataType="UINT"
+      Kind="VarOutput" />
+  </Pou>
+  <Pou
+    Name="RelHumidity_INT"
+    Moniker="RelHumidity_INT.stf"
+    Language="FBD"
+    IsIec61499="false"
+    Kind="Function"
+    Password="E4BDBA2BEF6CC4DC"
+    GenerateDebugInfo="false"
+    GeneratingMonitoringSymbols="true"
+    UserEdited="false"
+    Deprecated="false"
+    IsVisible="true">
+    <Variable
+      Name="TDryBulb"
+      Comment="Dry bulb temperature in tenth of degrees (°C/10)"
+      AccessRights="Read"
+      DataType="INT"
+      Kind="VarInput" />
+    <Variable
+      Name="TWetBulb"
+      Comment="Wet bulb temperature in tenth of degrees (°C/10)"
+      AccessRights="Read"
+      DataType="INT"
+      Kind="VarInput" />
+    <Variable
+      Name="AtmP"
+      Comment="Atmospheric pressure in mbar"
+      AccessRights="Read"
+      DataType="INT"
+      Kind="VarInput" />
+    <Variable
+      Name="RelHumidity_INT"
+      Comment="Relative humidity in tenths (100%=1000)"
+      AccessRights="ReadWrite"
+      DataType="INT"
+      Kind="VarOutput" />
+  </Pou>
+  <Pou
+    Name="RelHumidity_REAL"
+    Moniker="RelHumidity_REAL.stf"
+    Language="ST"
+    IsIec61499="false"
+    Kind="Function"
+    Password="E4BDBA2BEF6CC4DC"
+    GenerateDebugInfo="true"
+    GeneratingMonitoringSymbols="true"
+    UserEdited="false"
+    Deprecated="false"
+    IsVisible="true">
+    <Variable
+      Name="pAtm_tmp"
+      Comment=""
+      AccessRights="ReadWrite"
+      DataType="REAL"
+      Kind="Var" />
+    <Variable
+      Name="pSat_Wet"
+      Comment=""
+      AccessRights="ReadWrite"
+      DataType="REAL"
+      Kind="Var" />
+    <Variable
+      Name="a"
+      Comment=""
+      AccessRights="ReadWrite"
+      DataType="REAL"
+      Kind="Var" />
+    <Variable
+      Name="pSat_Dry"
+      Comment=""
+      AccessRights="ReadWrite"
+      DataType="REAL"
+      Kind="Var" />
+    <Variable
+      Name="b"
+      Comment=""
+      AccessRights="ReadWrite"
+      DataType="REAL"
+      Kind="Var" />
+    <Variable
+      Name="TDryBulb"
+      Comment="Dry bulb temperature in degrees (°C)"
+      AccessRights="Read"
+      DataType="REAL"
+      Kind="VarInput" />
+    <Variable
+      Name="TWetBulb"
+      Comment="Wet bulb temperature in degrees (°C)"
+      AccessRights="Read"
+      DataType="REAL"
+      Kind="VarInput" />
+    <Variable
+      Name="AtmP"
+      Comment="Atmospheric pressure in mbar"
+      AccessRights="Read"
+      DataType="REAL"
+      Kind="VarInput" />
+    <Variable
+      Name="RelHumidity_REAL"
+      Comment="Relative humidity (100%=100.0)"
+      AccessRights="ReadWrite"
+      DataType="REAL"
+      Kind="VarOutput" />
+  </Pou>
+  <Pou
+    Name="Round_REAL"
+    Moniker="Round_REAL.stf"
+    Language="ST"
+    IsIec61499="false"
+    Kind="Function"
+    Password="E4BDBA2BEF6CC4DC"
+    GenerateDebugInfo="false"
+    GeneratingMonitoringSymbols="true"
+    UserEdited="false"
+    Deprecated="false"
+    IsVisible="true">
+    <Variable
+      Name="In"
+      Comment="Input value"
+      AccessRights="Read"
+      DataType="REAL"
+      Kind="VarInput" />
+    <Variable
+      Name="Round_REAL"
+      Comment="Rounded input"
+      AccessRights="ReadWrite"
+      DataType="REAL"
+      Kind="VarOutput" />
+  </Pou>
+  <Pou
+    Name="Scaler_REAL"
+    Moniker="Scaler_REAL.stf"
+    Language="ST"
+    IsIec61499="false"
+    Kind="Function"
+    Password="E4BDBA2BEF6CC4DC"
+    GenerateDebugInfo="false"
+    GeneratingMonitoringSymbols="true"
+    UserEdited="false"
+    Deprecated="false"
+    IsVisible="true">
+    <Variable
+      Name="X"
+      Comment="Value to convert"
+      AccessRights="Read"
+      DataType="REAL"
+      Kind="VarInput" />
+    <Variable
+      Name="X1"
+      Comment="X-coordinate of the first point"
+      AccessRights="Read"
+      DataType="REAL"
+      Kind="VarInput" />
+    <Variable
+      Name="X2"
+      Comment="X-coordinate of the second point"
+      AccessRights="Read"
+      DataType="REAL"
+      Kind="VarInput" />
+    <Variable
+      Name="Y1"
+      Comment="Y-coordinate of the first point"
+      AccessRights="Read"
+      DataType="REAL"
+      Kind="VarInput" />
+    <Variable
+      Name="Y2"
+      Comment="Y-coordinate of the second point"
+      AccessRights="Read"
+      DataType="REAL"
+      Kind="VarInput" />
+    <Variable
+      Name="Scaler_REAL"
+      Comment="Value converted"
+      AccessRights="ReadWrite"
+      DataType="REAL"
+      Kind="VarOutput" />
+  </Pou>
+  <Pou
+    Name="SchedDailyTime"
+    Moniker="SchedDailyTime.stf"
+    Language="ST"
+    IsIec61499="false"
+    Kind="Function"
+    Password="E4BDBA2BEF6CC4DC"
+    GenerateDebugInfo="false"
+    GeneratingMonitoringSymbols="true"
+    UserEdited="false"
+    Deprecated="false"
+    IsVisible="true">
+    <Variable
+      Name="Inside"
+      Comment=""
+      AccessRights="ReadWrite"
+      DataType="BOOL"
+      Kind="Var" />
+    <Variable
+      Name="NowHourMin"
+      Comment="Current time"
+      AccessRights="Read"
+      DataType="TIME"
+      Kind="VarInput" />
+    <Variable
+      Name="StartHourMin"
+      Comment="Start time"
+      AccessRights="Read"
+      DataType="TIME"
+      Kind="VarInput" />
+    <Variable
+      Name="EndHourMin"
+      Comment="End time"
+      AccessRights="Read"
+      DataType="TIME"
+      Kind="VarInput" />
+    <Variable
+      Name="Enable"
+      Comment="Enable the function"
+      AccessRights="Read"
+      DataType="BOOL"
+      Kind="VarInput" />
+    <Variable
+      Name="SchedDailyTime"
+      Comment="If or not the time is inside the band"
+      AccessRights="ReadWrite"
+      DataType="BOOL"
+      Kind="VarOutput" />
+  </Pou>
+  <Pou
+    Name="SchedDailyTime_INT"
+    Moniker="SchedDailyTime_INT.stf"
+    Language="FBD"
+    IsIec61499="false"
+    Kind="Function"
+    Password="E4BDBA2BEF6CC4DC"
+    GenerateDebugInfo="false"
+    GeneratingMonitoringSymbols="true"
+    UserEdited="false"
+    Deprecated="false"
+    IsVisible="true">
+    <Variable
+      Name="Inside"
+      Comment=""
+      AccessRights="ReadWrite"
+      DataType="BOOL"
+      Kind="Var" />
+    <Variable
+      Name="NowHour"
+      Comment="Current hour"
+      AccessRights="Read"
+      DataType="INT"
+      Kind="VarInput" />
+    <Variable
+      Name="NowMin"
+      Comment="Current minute"
+      AccessRights="Read"
+      DataType="INT"
+      Kind="VarInput" />
+    <Variable
+      Name="StartHour"
+      Comment="Start hour"
+      AccessRights="Read"
+      DataType="INT"
+      Kind="VarInput" />
+    <Variable
+      Name="StartMin"
+      Comment="Start minute"
+      AccessRights="Read"
+      DataType="INT"
+      Kind="VarInput" />
+    <Variable
+      Name="EndHour"
+      Comment="End hour"
+      AccessRights="Read"
+      DataType="INT"
+      Kind="VarInput" />
+    <Variable
+      Name="EndMin"
+      Comment="End minute"
+      AccessRights="Read"
+      DataType="INT"
+      Kind="VarInput" />
+    <Variable
+      Name="Enable"
+      Comment="Enable the function"
+      AccessRights="Read"
+      DataType="BOOL"
+      Kind="VarInput" />
+    <Variable
+      Name="SchedDailyTime_INT"
+      Comment="If or not the time is inside the band"
+      AccessRights="ReadWrite"
+      DataType="BOOL"
+      Kind="VarOutput" />
+  </Pou>
+  <Pou
+    Name="SecToTime"
+    Moniker="SecToTime.stf"
+    Language="ST"
+    IsIec61499="false"
+    Kind="Function"
+    Password="E4BDBA2BEF6CC4DC"
+    GenerateDebugInfo="false"
+    GeneratingMonitoringSymbols="true"
+    UserEdited="false"
+    Deprecated="false"
+    IsVisible="true">
+    <Variable
+      Name="Input"
+      Comment=""
+      AccessRights="Read"
+      DataType="INT"
+      Kind="VarInput" />
+    <Variable
+      Name="SecToTime"
+      Comment=""
+      AccessRights="ReadWrite"
+      DataType="TIME"
+      Kind="VarOutput" />
+  </Pou>
+  <Pou
+    Name="Sel_BOOL"
+    Moniker="Sel_BOOL.stf"
+    Language="ST"
+    IsIec61499="false"
+    Kind="Function"
+    Password="E4BDBA2BEF6CC4DC"
+    GenerateDebugInfo="false"
+    GeneratingMonitoringSymbols="true"
+    UserEdited="false"
+    Deprecated="false"
+    IsVisible="true">
+    <Variable
+      Name="Sel1"
+      Comment="Selector"
+      AccessRights="Read"
+      DataType="BOOL"
+      Kind="VarInput" />
+    <Variable
+      Name="In1"
+      Comment="Value returned if Select = FALSE."
+      AccessRights="Read"
+      DataType="BOOL"
+      Kind="VarInput" />
+    <Variable
+      Name="In2"
+      Comment="Value returned if Select = TRUE."
+      AccessRights="Read"
+      DataType="BOOL"
+      Kind="VarInput" />
+    <Variable
+      Name="Sel_BOOL"
+      Comment="Value selected"
+      AccessRights="ReadWrite"
+      DataType="BOOL"
+      Kind="VarOutput" />
+  </Pou>
+  <Pou
+    Name="Sel_INT"
+    Moniker="Sel_INT.stf"
+    Language="ST"
+    IsIec61499="false"
+    Kind="Function"
+    Password="E4BDBA2BEF6CC4DC"
+    GenerateDebugInfo="false"
+    GeneratingMonitoringSymbols="true"
+    UserEdited="false"
+    Deprecated="false"
+    IsVisible="true">
+    <Variable
+      Name="Sel1"
+      Comment="Selector"
+      AccessRights="Read"
+      DataType="BOOL"
+      Kind="VarInput" />
+    <Variable
+      Name="In1"
+      Comment="Value returned if Select = FALSE."
+      AccessRights="Read"
+      DataType="INT"
+      Kind="VarInput" />
+    <Variable
+      Name="In2"
+      Comment="Value returned if Select = TRUE."
+      AccessRights="Read"
+      DataType="INT"
+      Kind="VarInput" />
+    <Variable
+      Name="Sel_INT"
+      Comment="Value selected"
+      AccessRights="ReadWrite"
+      DataType="INT"
+      Kind="VarOutput" />
+  </Pou>
+  <Pou
+    Name="Sel_REAL"
+    Moniker="Sel_REAL.stf"
+    Language="ST"
+    IsIec61499="false"
+    Kind="Function"
+    Password="E4BDBA2BEF6CC4DC"
+    GenerateDebugInfo="false"
+    GeneratingMonitoringSymbols="true"
+    UserEdited="false"
+    Deprecated="false"
+    IsVisible="true">
+    <Variable
+      Name="Sel1"
+      Comment="Selector"
+      AccessRights="Read"
+      DataType="BOOL"
+      Kind="VarInput" />
+    <Variable
+      Name="In1"
+      Comment="Value returned if Select = FALSE."
+      AccessRights="Read"
+      DataType="REAL"
+      Kind="VarInput" />
+    <Variable
+      Name="In2"
+      Comment="Value returned if Select = TRUE."
+      AccessRights="Read"
+      DataType="REAL"
+      Kind="VarInput" />
+    <Variable
+      Name="Sel_REAL"
+      Comment="Value selected"
+      AccessRights="ReadWrite"
+      DataType="REAL"
+      Kind="VarOutput" />
+  </Pou>
+  <Pou
+    Name="Sign_REAL"
+    Moniker="Sign_REAL.stf"
+    Language="ST"
+    IsIec61499="false"
+    Kind="Function"
+    Password="E4BDBA2BEF6CC4DC"
+    GenerateDebugInfo="false"
+    GeneratingMonitoringSymbols="true"
+    UserEdited="false"
+    Deprecated="false"
+    IsVisible="true">
+    <Variable
+      Name="Arg"
+      Comment="Argument of the function"
+      AccessRights="Read"
+      DataType="REAL"
+      Kind="VarInput" />
+    <Variable
+      Name="Sign_REAL"
+      Comment="Result. 1 if Arg is positive, -1 if it is negative, 0 otherwise"
+      AccessRights="ReadWrite"
+      DataType="SINT"
+      Kind="VarOutput" />
+  </Pou>
+  <Pou
+    Name="TempToPress_INT"
+    Moniker="TempToPress_INT.stf"
+    Language="FBD"
+    IsIec61499="false"
+    Kind="Function"
+    Password="E4BDBA2BEF6CC4DC"
+    GenerateDebugInfo="false"
+    GeneratingMonitoringSymbols="true"
+    UserEdited="false"
+    Deprecated="false"
+    IsVisible="true">
+    <Variable
+      Name="TGas"
+      Comment="Gas dew temperature in tenths of degrees (°C/10)"
+      AccessRights="Read"
+      DataType="INT"
+      Kind="VarInput" />
+    <Variable
+      Name="Gas"
+      Comment="Gas index"
+      AccessRights="Read"
+      DataType="INT"
+      Kind="VarInput" />
+    <Variable
+      Name="TempToPress_INT"
+      Comment="Gas pressure in  tenths of barg"
+      AccessRights="ReadWrite"
+      DataType="INT"
+      Kind="VarOutput" />
+  </Pou>
+  <Pou
+    Name="TempToPress_REAL"
+    Moniker="TempToPress_REAL.stf"
+    Language="ST"
+    IsIec61499="false"
+    Kind="Function"
+    Password="E4BDBA2BEF6CC4DC"
+    GenerateDebugInfo="false"
+    GeneratingMonitoringSymbols="true"
+    UserEdited="false"
+    Deprecated="false"
+    IsVisible="true">
+    <Variable
+      Name="p"
+      Comment=""
+      AccessRights="ReadWrite"
+      DataType="REAL"
+      Kind="Var" />
+    <Variable
+      Name="iGas"
+      Comment=""
+      AccessRights="ReadWrite"
+      DataType="SINT"
+      Kind="Var" />
+    <Variable
+      Name="va_i"
+      Comment=""
+      AccessRights="ReadWrite"
+      DataType="REAL"
+      Kind="Var" />
+    <Variable
+      Name="vb_i"
+      Comment=""
+      AccessRights="ReadWrite"
+      DataType="REAL"
+      Kind="Var" />
+    <Variable
+      Name="vc_i"
+      Comment=""
+      AccessRights="ReadWrite"
+      DataType="REAL"
+      Kind="Var" />
+    <Variable
+      Name="vd_i"
+      Comment=""
+      AccessRights="ReadWrite"
+      DataType="REAL"
+      Kind="Var" />
+    <Variable
+      Name="ve_i"
+      Comment=""
+      AccessRights="ReadWrite"
+      DataType="REAL"
+      Kind="Var" />
+    <Variable
+      Name="vf_i"
+      Comment=""
+      AccessRights="ReadWrite"
+      DataType="REAL"
+      Kind="Var" />
+    <Variable
+      Name="T"
+      Comment=""
+      AccessRights="ReadWrite"
+      DataType="REAL"
+      Kind="Var" />
+    <Variable
+      Name="TGas"
+      Comment="Gas dew temperature in degrees (°C)"
+      AccessRights="Read"
+      DataType="REAL"
+      Kind="VarInput" />
+    <Variable
+      Name="Gas"
+      Comment="Gas index"
+      AccessRights="Read"
+      DataType="INT"
+      Kind="VarInput" />
+    <Variable
+      Name="TempToPress_REAL"
+      Comment="Gas pressure in barg"
+      AccessRights="ReadWrite"
+      DataType="REAL"
+      Kind="VarOutput" />
+  </Pou>
+  <Pou
+    Name="TimeToSec"
+    Moniker="TimeToSec.stf"
+    Language="ST"
+    IsIec61499="false"
+    Kind="Function"
+    Password="E4BDBA2BEF6CC4DC"
+    GenerateDebugInfo="false"
+    GeneratingMonitoringSymbols="true"
+    UserEdited="false"
+    Deprecated="false"
+    IsVisible="true">
+    <Variable
+      Name="Input"
+      Comment=""
+      AccessRights="Read"
+      DataType="TIME"
+      Kind="VarInput" />
+    <Variable
+      Name="TimeToSec"
+      Comment=""
+      AccessRights="ReadWrite"
+      DataType="INT"
+      Kind="VarOutput" />
+  </Pou>
+  <Pou
+    Name="VapourSatPress_REAL"
+    Moniker="VapourSatPress_REAL.stf"
+    Language="ST"
+    IsIec61499="false"
+    Kind="Function"
+    Password="E4BDBA2BEF6CC4DC"
+    GenerateDebugInfo="true"
+    GeneratingMonitoringSymbols="true"
+    UserEdited="false"
+    Deprecated="false"
+    IsVisible="true">
+    <Variable
+      Name="a"
+      Comment=""
+      AccessRights="ReadWrite"
+      DataType="REAL"
+      Kind="Var" />
+    <Variable
+      Name="T_abs"
+      Comment=""
+      AccessRights="ReadWrite"
+      DataType="REAL"
+      Kind="Var" />
+    <Variable
+      Name="Quadr"
+      Comment=""
+      AccessRights="ReadWrite"
+      DataType="REAL"
+      Kind="Var" />
+    <Variable
+      Name="TAmb"
+      Comment="Ambient temperature in degrees (°C)"
+      AccessRights="Read"
+      DataType="REAL"
+      Kind="VarInput" />
+    <Variable
+      Name="VapourSatPress_REAL"
+      Comment="Vapor saturation pressure in kPa"
+      AccessRights="ReadWrite"
+      DataType="REAL"
+      Kind="VarOutput" />
+  </Pou>
+  <Pou
+    Name="WeekDay_UINT"
+    Moniker="WeekDay_UINT.stf"
+    Language="ST"
+    IsIec61499="false"
+    Kind="Function"
+    Password="E4BDBA2BEF6CC4DC"
+    GenerateDebugInfo="false"
+    GeneratingMonitoringSymbols="true"
+    UserEdited="false"
+    Deprecated="false"
+    IsVisible="true">
+    <Variable
+      Name="MonthTmp"
+      Comment=""
+      AccessRights="ReadWrite"
+      DataType="UINT"
+      Kind="Var" />
+    <Variable
+      Name="YearTmp"
+      Comment=""
+      AccessRights="ReadWrite"
+      DataType="UINT"
+      Kind="Var" />
+    <Variable
+      Name="Day"
+      Comment="Number of the day (between 1 and 31)"
+      AccessRights="Read"
+      DataType="UINT"
+      Kind="VarInput" />
+    <Variable
+      Name="Month"
+      Comment="Number of the month (between 1 and 12)"
+      AccessRights="Read"
+      DataType="UINT"
+      Kind="VarInput" />
+    <Variable
+      Name="Year"
+      Comment="Number of the year, in form 20YY or YYYY"
+      AccessRights="Read"
+      DataType="UINT"
+      Kind="VarInput" />
+    <Variable
+      Name="WeekDay_UINT"
+      Comment="Day of the week (between 1 and 7)"
+      AccessRights="ReadWrite"
+      DataType="UINT"
+      Kind="VarOutput" />
+  </Pou>
+</Manifest>

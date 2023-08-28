@@ -1,0 +1,35 @@
+Version 1.1 ModbusMasterDevice RepoVersion 3.3.6
+
+Settings
+NameLine	NetworkAddress	HostName	Status	Timeout	PeekTime	UoM	DelayCommandTime	DeviceError	DeviceErrorCode	ErrorsID	PollsID	Priority	EnableErrorDump	Endianess	ReadPoints	WritePoints	Cmd17ArrayVarName	Cmd17ReadMode	ReadBoolPoints	WriteBoolPoints	Instance
+IOTable	cpCOe_Mng.cpCOe_2_1.DevAddrExt_CPCOE		cpCOe_Mng.cpCOe_2_1.EnIOTable	200	200	0	0	cpCOe_Mng.cpCOe_2_1.CommErr_CPCOE.DevErr_IO	cpCOe_Mng.cpCOe_2_1.CommErr_CPCOE.ErrCode_IO			Normal	False	BigEndian	125	123		NoRead	2000	1968	cpCOe_Mng.cpCOe_2_1
+
+Variables
+Status	Type	Index	Variable	Occupation	ReadWriteMode	Priority	Hysteresis	Description
+True	HoldingRegister	51	cpCOe_Mng.cpCOe_2_1.cpCOe_IOMng_1.UnivChsVals[1]	2	ReadPoll_WriteChange_WriteOnline	Normal	0	
+True	HoldingRegister	53	cpCOe_Mng.cpCOe_2_1.cpCOe_IOMng_1.UnivChsVals[2]	2	ReadPoll_WriteChange_WriteOnline	Normal	0	
+True	HoldingRegister	55	cpCOe_Mng.cpCOe_2_1.cpCOe_IOMng_1.UnivChsVals[3]	2	ReadPoll_WriteChange_WriteOnline	Normal	0	
+True	HoldingRegister	57	cpCOe_Mng.cpCOe_2_1.cpCOe_IOMng_1.UnivChsVals[4]	2	ReadPoll_WriteChange_WriteOnline	Normal	0	
+True	HoldingRegister	59	cpCOe_Mng.cpCOe_2_1.cpCOe_IOMng_1.UnivChsVals[5]	2	ReadPoll_WriteChange_WriteOnline	Normal	0	
+True	HoldingRegister	61	cpCOe_Mng.cpCOe_2_1.cpCOe_IOMng_1.UnivChsVals[6]	2	ReadPoll_WriteChange_WriteOnline	Normal	0	
+True	HoldingRegister	63	cpCOe_Mng.cpCOe_2_1.cpCOe_IOMng_1.UnivChsVals[7]	2	ReadPoll_WriteChange_WriteOnline	Normal	0	
+True	HoldingRegister	65	cpCOe_Mng.cpCOe_2_1.cpCOe_IOMng_1.UnivChsVals[8]	2	ReadPoll_WriteChange_WriteOnline	Normal	0	
+True	HoldingRegister	67	cpCOe_Mng.cpCOe_2_1.cpCOe_IOMng_1.UnivChsVals[9]	2	ReadPoll_WriteChange_WriteOnline	Normal	0	
+True	HoldingRegister	69	cpCOe_Mng.cpCOe_2_1.cpCOe_IOMng_1.UnivChsVals[10]	2	ReadPoll_WriteChange_WriteOnline	Normal	0	
+True	HoldingRegister	71	cpCOe_Mng.cpCOe_2_1.cpCOe_IOMng_1.DOutVals[1]		NoRead_WriteChange_WriteOnline	Normal	0	
+True	HoldingRegister	72	cpCOe_Mng.cpCOe_2_1.cpCOe_IOMng_1.DOutVals[2]		NoRead_WriteChange_WriteOnline	Normal	0	
+True	HoldingRegister	73	cpCOe_Mng.cpCOe_2_1.cpCOe_IOMng_1.DOutVals[3]		NoRead_WriteChange_WriteOnline	Normal	0	
+True	HoldingRegister	74	cpCOe_Mng.cpCOe_2_1.cpCOe_IOMng_1.DOutVals[4]		NoRead_WriteChange_WriteOnline	Normal	0	
+True	HoldingRegister	75	cpCOe_Mng.cpCOe_2_1.cpCOe_IOMng_1.DOutVals[5]		NoRead_WriteChange_WriteOnline	Normal	0	
+True	HoldingRegister	76	cpCOe_Mng.cpCOe_2_1.cpCOe_IOMng_1.DOutVals[6]		NoRead_WriteChange_WriteOnline	Normal	0	
+True	HoldingRegister	77	cpCOe_Mng.cpCOe_2_1.ChkDevPres	2	ReadPoll_WriteChange_WriteOnline	Normal	1	
+True	InputRegister	83	cpCOe_Mng.cpCOe_2_1.Errors_CPCOE[1]		ReadPoll_NoWrite	Normal	0	
+True	InputRegister	84	cpCOe_Mng.cpCOe_2_1.Errors_CPCOE[2]		ReadPoll_NoWrite	Normal	0	
+True	InputRegister	85	cpCOe_Mng.cpCOe_2_1.Errors_CPCOE[3]		ReadPoll_NoWrite	Normal	0	
+True	InputRegister	86	cpCOe_Mng.cpCOe_2_1.Errors_CPCOE[4]		ReadPoll_NoWrite	Normal	0	
+True	InputRegister	87	cpCOe_Mng.cpCOe_2_1.Errors_CPCOE[5]		ReadPoll_NoWrite	Normal	0	
+True	InputRegister	88	cpCOe_Mng.cpCOe_2_1.Errors_CPCOE[6]		ReadPoll_NoWrite	Normal	0	
+True	InputRegister	89	cpCOe_Mng.cpCOe_2_1.Errors_CPCOE[7]		ReadPoll_NoWrite	Normal	0	
+True	InputRegister	90	cpCOe_Mng.cpCOe_2_1.Errors_CPCOE[8]		ReadPoll_NoWrite	Normal	0	
+True	InputRegister	91	cpCOe_Mng.cpCOe_2_1.Errors_CPCOE[9]		ReadPoll_NoWrite	Normal	0	
+True	InputRegister	92	cpCOe_Mng.cpCOe_2_1.Errors_CPCOE[10]		ReadPoll_NoWrite	Normal	0	

@@ -1,0 +1,849 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: \n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 07/05/2015 11:48:26\n"
+"PO-Revision-Date: \n"
+"Last-Translator: \n"
+"Language-Team: \n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Language: RU\n"
+"Language-Id: 0\n"
+
+#: Classes.otsf
+msgctxt "[Class:AlrmDescr][Resource:0]"
+msgid "C¿¼Ç¾oÀ Àúoºo ÊaÁ¼c¸É Æ ÁocÄoÓúúÅÌ ÁaÀÓÄÎ"
+msgstr "C¿¼Ç¾oÀ Àúoºo ÊaÁ¼c¸É Æ ÁocÄoÓúúÅÌ ÁaÀÓÄÎ"
+
+#: Classes.otsf
+msgctxt "[Class:AlrmDescr][Resource:1]"
+msgid "OÇ¼µ¾a ÊaÁ¼c¼ Æ       ÁocÄoÓúúÅÌ ÁaÀÓÄÎ"
+msgstr "OÇ¼µ¾a ÊaÁ¼c¼ Æ ÁocÄoÓúúÅÌ ÁaÀÓÄÎ"
+
+#: Classes.otsf
+msgctxt "[Class:AlrmDescr][Resource:2]"
+msgid "Cú¼½¸ú¼¸ ·aÆ¿¸ú¼Ó Áo  £H£"
+msgstr "AÆaÃ¼Ó úacoca"
+
+#: Classes.otsf
+msgctxt "[Class:AlrmDescr][Resource:3]"
+msgid "ªÃ¸ÆËÇ¸ú¼¸ ·aÆ¿¸ú¼Ó Áo£­£1"
+msgstr "AÆaÃ¼Ó ¾oÀÁÃ¸ccoÃa"
+
+#: Classes.otsf
+msgctxt "[Class:AlrmDescr][Resource:4]"
+msgid "ªÃ¸ÆËÇ¸ú¼¸ ·aÆ¿¸ú¼Ó Áo£­£2"
+msgstr "AÆaÃ¼ÉúËÉ cÄoÁ"
+
+#: Classes.otsf
+msgctxt "[Class:AlrmDescr][Resource:5]"
+msgid "AÆaÃ¼Ó Áo Áa·¸ú¼Ì     ·aÆ¿¸ú¼Ó"
+msgstr "AÆaÃ¼Ó Áo Áa·¸ú¼Ì     ·aÆ¿¸ú¼Ó"
+
+#: Classes.otsf
+msgctxt "[Class:AlrmLogEvent][Resource:0]"
+msgid "A¾Ä¼Æa¶¼Ó"
+msgstr "A¾Ä¼Æa¶¼Ó"
+
+#: Classes.otsf
+msgctxt "[Class:AlrmLogEvent][Resource:1]"
+msgid "£¸a¾Ä¼Æ."
+msgstr "£¸a¾Ä¼Æ."
+
+#: Classes.otsf
+msgctxt "[Class:AlrmNo][Resource:0]"
+msgid "AL#01"
+msgstr "AL#01"
+
+#: Classes.otsf
+msgctxt "[Class:AlrmNo][Resource:1]"
+msgid "AL#02"
+msgstr "AL#02"
+
+#: Classes.otsf
+msgctxt "[Class:AlrmNo][Resource:2]"
+msgid "FLR#01"
+msgstr "AL#03"
+
+#: Classes.otsf
+msgctxt "[Class:AlrmNo][Resource:3]"
+msgid "FLR#02"
+msgstr "AL#04"
+
+#: Classes.otsf
+msgctxt "[Class:AlrmNo][Resource:4]"
+msgid "FLR#03"
+msgstr "AL#05"
+
+#: Classes.otsf
+msgctxt "[Class:AlrmNo][Resource:5]"
+msgid "AL#06"
+msgstr "AL#06"
+
+#: Classes.otsf
+#| msgctxt "[Class:Copy_UoM_Class][Resource:0]"
+msgctxt "[Class:AnalogType_Class][Resource:0]"
+msgid ""
+msgstr ""
+
+#: Classes.otsf
+#| msgctxt "[Class:Copy_UoM_Class][Resource:1]"
+msgctxt "[Class:AnalogType_Class][Resource:1]"
+msgid ""
+msgstr ""
+
+#: Classes.otsf
+#| msgctxt "[Class:Copy_UoM_Class][Resource:2]"
+msgctxt "[Class:AnalogType_Class][Resource:2]"
+msgid ""
+msgstr ""
+
+#: Classes.otsf
+#| msgctxt "[Class:Copy_UoM_Class][Resource:3]"
+msgctxt "[Class:AnalogType_Class][Resource:3]"
+msgid " ­"
+msgstr "0-10 ­"
+
+#: Classes.otsf
+#| msgctxt "[Class:Copy_UoM_Class][Resource:4]"
+msgctxt "[Class:AnalogType_Class][Resource:4]"
+msgid "ÀA"
+msgstr "4-20 ÀA"
+
+#: Classes.otsf
+#| msgctxt "[Class:Copy_UoM_Class][Resource:5]"
+msgctxt "[Class:AnalogType_Class][Resource:5]"
+msgid ""
+msgstr ""
+
+#: Classes.otsf
+msgctxt "[Class:CntCycle_Class][ClassText:Text]"
+msgid ""
+msgstr "¢¼¾¿:    c¸¾"
+
+#: Classes.otsf
+#| msgctxt "[Class:Copy_SV_State_Class][Resource:0]"
+msgctxt "[Class:Hide_SV_State_Class][Resource:0]"
+msgid "Êa¾Ã"
+msgstr "Êa¾Ã"
+
+#: Classes.otsf
+#| msgctxt "[Class:Copy_SV_State_Class][Resource:1]"
+msgctxt "[Class:Hide_SV_State_Class][Resource:1]"
+msgid "oÄ¾Ã"
+msgstr "oÄ¾Ã"
+
+#: Classes.otsf
+msgctxt "[Class:OnOff_Class][Resource:0]"
+msgid "ÆË¾¿"
+msgstr "ÆË¾¿"
+
+#: Classes.otsf
+msgctxt "[Class:OnOff_Class][Resource:1]"
+msgid " Æ¾¿"
+msgstr " Æ¾¿"
+
+#: Classes.otsf
+msgctxt "[Class:Settings_1_Row_Basement_Class][Resource:0]"
+msgid ""
+msgstr "ÁÃ¸·.Ð¾Ãaú, c¿.Ð¾ÃaúEnter - Ã¸·a¾Ä¼ÃoÆaú¼¸"
+
+#: Classes.otsf
+msgctxt "[Class:Settings_1_Row_Basement_Class][Resource:1]"
+msgid "¬cÄaÆ¾a ·aÆ¿¸ú¼Ó"
+msgstr "                         ¬cÄaÆ¾a ·aÆ¿¸ú¼Ó"
+
+#: Classes.otsf
+msgctxt "[Class:Settings_1_Row_Basement_Class][Resource:2]"
+msgid "±a·¸Ã½¾a Æ¾¿. Ð/À ¾¿.1"
+msgstr "±a·¸Ã½¾a Æ¾¿.Ð/À ¾¿.1   ·¿Ó úaµoÃa ·aÆ¿¸ú¼Ó"
+
+#: Classes.otsf
+msgctxt "[Class:Settings_1_Row_Basement_Class][Resource:3]"
+msgid ""
+msgstr "±a·¸Ã½¾a Æ¾¿.Ð/À ¾¿.2   ·¿Ó ÊaÁo¿ú¸ú¼Ó Ä/o"
+
+#: Classes.otsf
+msgctxt "[Class:Settings_1_Row_Basement_Class][Resource:4]"
+msgid ""
+msgstr " ­Ã¸ÀÓ oÄ¾Ã. Ð/À ¾¿.2   ·¿Ó ÆË·aÆ¿.ÆoÊ·Åxa"
+
+#: Classes.otsf
+msgctxt "[Class:Settings_1_Row_Basement_Class][Resource:5]"
+msgid ""
+msgstr "                         ­Ã¸ÀÓ ·oÃúoÆaú¼Ó"
+
+#: Classes.otsf
+msgctxt "[Class:Settings_1_Row_Basement_Class][Resource:6]"
+msgid ""
+msgstr ""
+
+#: Classes.otsf
+msgctxt "[Class:Settings_1_Row_Basement_Class][Resource:7]"
+msgid ""
+msgstr ""
+
+#: Classes.otsf
+#| msgctxt "[Class:Copy_Settings_1_Row_Basement_Class][Resource:0]"
+msgctxt "[Class:Settings_2_Row_Basement_Class][Resource:0]"
+msgid ""
+msgstr "ÁÃ¸·.Ð¾Ãaú, c¿.Ð¾ÃaúEnter - Ã¸·a¾Ä¼ÃoÆaú¼¸"
+
+#: Classes.otsf
+#| msgctxt "[Class:Copy_Settings_1_Row_Basement_Class][Resource:1]"
+msgctxt "[Class:Settings_2_Row_Basement_Class][Resource:1]"
+msgid "   ¬cÄaÆ¾a ·aÆ¿¸ú¼Ó"
+msgstr "   ±a·¸Ã½¾a ÁÃo·ÅÆ¾¼      ·¿Ó c¿¼Æa Æo·Ë"
+
+#: Classes.otsf
+#| msgctxt "[Class:Copy_Settings_1_Row_Basement_Class][Resource:2]"
+msgctxt "[Class:Settings_2_Row_Basement_Class][Resource:2]"
+msgid "±a·¸Ã½¾a Æ¾¿.Ð/À ¾¿.1   ·¿Ó úaµoÃa ·aÆ¿¸ú¼Ó"
+msgstr "                          ­Ã¸ÀÓ ÁÃo·ÅÆ¾¼"
+
+#: Classes.otsf
+#| msgctxt "[Class:Copy_Settings_1_Row_Basement_Class][Resource:3]"
+msgctxt "[Class:Settings_2_Row_Basement_Class][Resource:3]"
+msgid "±a·¸Ã½¾a Æ¾¿.Ð/À ¾¿.2   ·¿Ó ÊaÁo¿ú¸ú¼Ó Ä/o"
+msgstr "                          ªaÅÊa ÁÃo·ÅÆ¾¼"
+
+#: Classes.otsf
+#| msgctxt "[Class:Copy_Settings_1_Row_Basement_Class][Resource:4]"
+msgctxt "[Class:Settings_2_Row_Basement_Class][Resource:4]"
+msgid " ­Ã¸ÀÓ oÄ¾Ã. Ð/À ¾¿.2   ·¿Ó ÆË·aÆ¿.ÆoÊ·Åxa"
+msgstr "      ¨o¿-Æo ¶¼¾¿oÆ           ÁÃo·ÅÆ¾¼"
+
+#: Classes.otsf
+#| msgctxt "[Class:Copy_Settings_1_Row_Basement_Class][Resource:5]"
+msgctxt "[Class:Settings_2_Row_Basement_Class][Resource:5]"
+msgid "   ­Ã¸ÀÓ ·oÃúoÆaú¼Ó"
+msgstr "±a·¸Ã½¾a Êa¾Ã.Ð/À ¾¿.2 ·¿Ó cµÃoca ·aÆ¿.ÆoÊ·."
+
+#: Classes.otsf
+#| msgctxt "[Class:Copy_Settings_1_Row_Basement_Class][Resource:6]"
+msgctxt "[Class:Settings_2_Row_Basement_Class][Resource:6]"
+msgid ""
+msgstr ""
+
+#: Classes.otsf
+#| msgctxt "[Class:Copy_Settings_1_Row_Basement_Class][Resource:7]"
+msgctxt "[Class:Settings_2_Row_Basement_Class][Resource:7]"
+msgid ""
+msgstr ""
+
+#: Classes.otsf
+#| msgctxt "[Class:Copy_Settings_2_Row_Basement_Class][Resource:0]"
+msgctxt "[Class:Settings_3_Row_Basement_Class][Resource:0]"
+msgid "ÁÃ¸·.Ð¾Ãaú, c¿.Ð¾ÃaúEnter - Ã¸·a¾Ä¼ÃoÆaú¼¸"
+msgstr "ÁÃ¸·.Ð¾Ãaú, c¿.Ð¾ÃaúEnter - Ã¸·a¾Ä¼ÃoÆaú¼¸"
+
+#: Classes.otsf
+#| msgctxt "[Class:Copy_Settings_2_Row_Basement_Class][Resource:1]"
+msgctxt "[Class:Settings_3_Row_Basement_Class][Resource:1]"
+msgid "   ±a·¸Ã½¾a ÁÃo·ÅÆ¾¼      ·¿Ó c¿¼Æa Æo·Ë"
+msgstr "                       T¼Á ·aÄÂ¼¾a ·aÆ¿¸ú¼Ó"
+
+#: Classes.otsf
+#| msgctxt "[Class:Copy_Settings_2_Row_Basement_Class][Resource:2]"
+msgctxt "[Class:Settings_3_Row_Basement_Class][Resource:2]"
+msgid "                          ­Ã¸ÀÓ ÁÃo·ÅÆ¾¼"
+msgstr "   ¦ÀÁÅ¿ÎcúËÉ Ã¸½¼À      úaµoÃa ·aÆ¿¸ú¼Ó"
+
+#: Classes.otsf
+#| msgctxt "[Class:Copy_Settings_2_Row_Basement_Class][Resource:3]"
+msgctxt "[Class:Settings_3_Row_Basement_Class][Resource:3]"
+msgid "±a·¸Ã½¾a Êa¾Ã.Ð/À ¾¿.2 ·¿Ó cµÃoca ·aÆ¿.ÆoÊ·."
+msgstr "  ­Ã¸ÀÓ oÄ¾ÃËÄ¼Ó Ð/À    ¾¿.1 Æ ¼ÀÁ. Ã¸½¼À¸"
+
+#: Classes.otsf
+#| msgctxt "[Class:Copy_Settings_2_Row_Basement_Class][Resource:4]"
+msgctxt "[Class:Settings_3_Row_Basement_Class][Resource:4]"
+msgid "±oúa ú¸ÂÅÆcÄÆ¼Ä.aÆÃ¼¼   Á¸Ã¸Áa·a ·aÆ¿¸ú¼Ó"
+msgstr "  ­Ã¸ÀÓ Êa¾ÃËÄ¼Ó Ð/À    ¾¿.1 Æ ¼ÀÁ. Ã¸½¼À¸"
+
+#: Classes.otsf
+#| msgctxt "[Class:Copy_Settings_2_Row_Basement_Class][Resource:5]"
+msgctxt "[Class:Settings_3_Row_Basement_Class][Resource:5]"
+msgid "±a·¸Ã½¾a cÃaµaÄËÆaú¼Ó aÆaÃ¼¼ Á¸Ã¸Áa·a ·aÆ¿."
+msgstr ""
+
+#: Classes.otsf
+#| msgctxt "[Class:Copy_Settings_2_Row_Basement_Class][Resource:6]"
+msgctxt "[Class:Settings_3_Row_Basement_Class][Resource:6]"
+msgid ""
+msgstr ""
+
+#: Classes.otsf
+#| msgctxt "[Class:Copy_Settings_2_Row_Basement_Class][Resource:7]"
+msgctxt "[Class:Settings_3_Row_Basement_Class][Resource:7]"
+msgid ""
+msgstr ""
+
+#: Classes.otsf
+#| msgctxt "[Class:Copy_Settings_2_Row_Basement_Class][Resource:0]"
+msgctxt "[Class:Settings_4_Row_Basement_Class][Resource:0]"
+msgid "ÁÃ¸·.Ð¾Ãaú, c¿.Ð¾ÃaúEnter - Ã¸·a¾Ä¼ÃoÆaú¼¸"
+msgstr "ÁÃ¸·.Ð¾Ãaú, c¿.Ð¾ÃaúEnter - Ã¸·a¾Ä¼ÃoÆaú¼¸"
+
+#: Classes.otsf
+#| msgctxt "[Class:Copy_Settings_2_Row_Basement_Class][Resource:1]"
+msgctxt "[Class:Settings_4_Row_Basement_Class][Resource:1]"
+msgid "   ±a·¸Ã½¾a ÁÃo·ÅÆ¾¼      ·¿Ó c¿¼Æa Æo·Ë"
+msgstr "±oúa ú¸ÂÅÆcÄÆ¼Ä.aÆÃ¼¼   Á¸Ã¸Áa·a ·aÆ¿¸ú¼Ó"
+
+#: Classes.otsf
+#| msgctxt "[Class:Copy_Settings_2_Row_Basement_Class][Resource:2]"
+msgctxt "[Class:Settings_4_Row_Basement_Class][Resource:2]"
+msgid "                          ­Ã¸ÀÓ ÁÃo·ÅÆ¾¼"
+msgstr "±a·¸Ã½¾a cÃaµaÄËÆaú¼Ó aÆaÃ¼¼ Á¸Ã¸Áa·a ·aÆ¿."
+
+#: Classes.otsf
+#| msgctxt "[Class:Copy_Settings_2_Row_Basement_Class][Resource:3]"
+msgctxt "[Class:Settings_4_Row_Basement_Class][Resource:3]"
+msgid "±a·¸Ã½¾a Êa¾Ã.Ð/À ¾¿.2 ·¿Ó cµÃoca ·aÆ¿.ÆoÊ·."
+msgstr ""
+
+#: Classes.otsf
+#| msgctxt "[Class:Copy_Settings_2_Row_Basement_Class][Resource:4]"
+msgctxt "[Class:Settings_4_Row_Basement_Class][Resource:4]"
+msgid "±oúa ú¸ÂÅÆcÄÆ¼Ä.aÆÃ¼¼   Á¸Ã¸Áa·a ·aÆ¿¸ú¼Ó"
+msgstr ""
+
+#: Classes.otsf
+#| msgctxt "[Class:Copy_Settings_2_Row_Basement_Class][Resource:5]"
+msgctxt "[Class:Settings_4_Row_Basement_Class][Resource:5]"
+msgid "±a·¸Ã½¾a cÃaµaÄËÆaú¼Ó aÆaÃ¼¼ Á¸Ã¸Áa·a ·aÆ¿."
+msgstr ""
+
+#: Classes.otsf
+#| msgctxt "[Class:Copy_Settings_2_Row_Basement_Class][Resource:6]"
+msgctxt "[Class:Settings_4_Row_Basement_Class][Resource:6]"
+msgid ""
+msgstr ""
+
+#: Classes.otsf
+#| msgctxt "[Class:Copy_Settings_2_Row_Basement_Class][Resource:7]"
+msgctxt "[Class:Settings_4_Row_Basement_Class][Resource:7]"
+msgid ""
+msgstr ""
+
+#: Classes.otsf
+msgctxt "[Class:SV_State_Class][Resource:0]"
+msgid "±A¨P"
+msgstr "Êa¾Ã"
+
+#: Classes.otsf
+msgctxt "[Class:SV_State_Class][Resource:1]"
+msgid "OT¨P"
+msgstr "oÄ¾Ã"
+
+#: Classes.otsf
+msgctxt "[Class:Unit_State_Class][Resource:0]"
+msgid "­Ë¾¿ÌÂ¸úo"
+msgstr "­Ë¾¿ÌÂ¸úo"
+
+#: Classes.otsf
+msgctxt "[Class:Unit_State_Class][Resource:1]"
+msgid "±aÁo¿ú¸ú¼¸"
+msgstr "±aÁo¿ú¸ú¼¸"
+
+#: Classes.otsf
+msgctxt "[Class:Unit_State_Class][Resource:2]"
+msgid "£oÃúoÆaú¼¸"
+msgstr "HaµoÃ ·aÆ¿¸ú¼Ó"
+
+#: Classes.otsf
+msgctxt "[Class:Unit_State_Class][Resource:3]"
+msgid "CµÃoc Æo·Ë"
+msgstr "£oÃúoÆaú¼¸"
+
+#: Classes.otsf
+msgctxt "[Class:Unit_State_Class][Resource:4]"
+msgid "ªÃo·ÅÆ¾a"
+msgstr "CµÃoc ·aÆ¿¸ú¼Ó"
+
+#: Classes.otsf
+msgctxt "[Class:Unit_State_Class][Resource:5]"
+msgid "¢¼¾¿ ÊaÆ¸ÃÇ¸ú"
+msgstr "ªÃo·ÅÆ¾a"
+
+#: Classes.otsf
+msgctxt "[Class:Unit_State_Class][Resource:6]"
+msgid ""
+msgstr "¢¼¾¿ ÊaÆ¸ÃÇ¸ú"
+
+#: Classes.otsf
+msgctxt "[Class:Unit_State_Class][Resource:7]"
+msgid ""
+msgstr "¥oÄoÆ ¾ ÁÅc¾Å"
+
+#: Classes.otsf
+msgctxt "[Class:Unit_State_Class][Resource:8]"
+msgid ""
+msgstr "AÆaÃ¼Ó!"
+
+#: Classes.otsf
+msgctxt "[Class:Unit_State_Class][Resource:9]"
+msgid "PÅÂúoÉ Ã¸½¼À"
+msgstr "PÅÂúoÉ Ã¸½¼À"
+
+#: Classes.otsf
+msgctxt "[Class:UoM_Class][Resource:0]"
+msgid ""
+msgstr ""
+
+#: Classes.otsf
+msgctxt "[Class:UoM_Class][Resource:1]"
+msgid ""
+msgstr ""
+
+#: Classes.otsf
+msgctxt "[Class:UoM_Class][Resource:2]"
+msgid ""
+msgstr ""
+
+#: Classes.otsf
+msgctxt "[Class:UoM_Class][Resource:3]"
+msgid " ­"
+msgstr " ­"
+
+#: Classes.otsf
+msgctxt "[Class:UoM_Class][Resource:4]"
+msgid "ÀA"
+msgstr "ÀA"
+
+#: Classes.otsf
+msgctxt "[Class:UoM_Class][Resource:5]"
+msgid ""
+msgstr ""
+
+#: Alarms.otws
+msgctxt "[Mask:Alrms_Active][Field:Field_1]"
+msgid " AÆaÃ¼¼:           /"
+msgstr " AÆaÃ¼¼:           /"
+
+#: Alarms.otws
+msgctxt "[Mask:Alrms_Active][Field:Field_4]"
+msgid ":     /  /"
+msgstr ":     /  /"
+
+#: Alarms.otws
+msgctxt "[Mask:Alrms_Log][Field:Data_logger_1]"
+msgid "  ±aÁ¼cÎ:"
+msgstr "  ±aÁ¼cÎ:"
+
+#: Alarms.otws
+msgctxt "[Mask:Alrms_Log][Field:Field_5]"
+msgid "§ÅÃúa¿ aÆaÃ¼É"
+msgstr "§ÅÃúa¿ aÆaÃ¼É"
+
+#: Alarms.otws
+msgctxt "[Mask:Alrms_Log][Field:Text_1]"
+msgid " :     /  /"
+msgstr " :     /  /"
+
+#: Alarms.otws
+msgctxt "[Mask:Alrms_NoAlrms][Field:Field_1]"
+msgid "A­AP¦° HET"
+msgstr "A­AP¦° HET"
+
+#: Alarms.otws
+msgctxt "[Mask:Alrms_NoAlrms][Field:Press_ENTER_1]"
+msgid "aÆaÃ¼É úa½À¼Ä¸ ENTER"
+msgstr "aÆaÃ¼É úa½À¼Ä¸ ENTER"
+
+#: Alarms.otws
+msgctxt "[Mask:Alrms_NoAlrms][Field:Text_2]"
+msgid " CÁ¼co¾ aÆaÃ¼É"
+msgstr " CÁ¼co¾ aÆaÃ¼É"
+
+#: Alarms.otws
+msgctxt "[Mask:Alrms_NoAlrms][Field:to_DATA_LOGGER_1]"
+msgid "£¿Ó Æxo·a Æ §ÅÃúa¿"
+msgstr "£¿Ó Æxo·a Æ §ÅÃúa¿"
+
+#: Alarms.otws
+msgctxt "[Mask:Alrms_NoLog][Field:Field_1]"
+msgid " §ÅÃúa¿ aÆaÃ¼É"
+msgstr " §ÅÃúa¿ aÆaÃ¼É"
+
+#: Alarms.otws
+msgctxt "[Mask:Alrms_NoLog][Field:NO_ACTIVE_ALAMRS_1]"
+msgid "±Aª¦CE° HET"
+msgstr "±Aª¦CE° HET"
+
+#: Alarms.otws
+msgctxt "[Mask:Alrms_NoLog][Field:Text_1]"
+msgid " "
+msgstr " "
+
+#: Alarms.otws
+msgctxt "[Mask:Alrms_Res][Field:Field_1]"
+msgid "aÆaÃ¼É Å·¸Ã½¼ÆaÉÄ¸"
+msgstr "aÆaÃ¼É Å·¸Ã½¼ÆaÉÄ¸"
+
+#: Alarms.otws
+msgctxt "[Mask:Alrms_Res][Field:Field_2]"
+msgid "£¿Ó cµÃoca ­CEX "
+msgstr "£¿Ó cµÃoca ­CEX "
+
+#: Alarms.otws
+msgctxt "[Mask:Alrms_Res][Field:Field_3]"
+msgid " AÆaÃ¼¼"
+msgstr " AÆaÃ¼¼"
+
+#: Alarms.otws
+msgctxt "[Mask:Alrms_Res][Field:Text_1]"
+msgid " "
+msgstr " "
+
+#: Alarms.otws
+msgctxt "[Mask:Alrms_Res][Field:Text_2]"
+msgid " ALARM Æ Ä¸Â¸ú¼¼ 3c"
+msgstr " ALARM Æ Ä¸Â¸ú¼¼ 3c"
+
+#: Alarms.otws
+msgctxt "[Mask:Alrms_Res][Field:Text_3]"
+msgid "£¿Ó Æxo·a Æ §ÅÃúa¿"
+msgstr "£¿Ó Æxo·a Æ §ÅÃúa¿"
+
+#: Alarms.otws
+msgctxt "[Mask:Alrms_Res][Field:Text_4]"
+msgid "aÆaÃ¼É úa½À¼Ä¸ ENTER"
+msgstr "aÆaÃ¼É úa½À¼Ä¸ ENTER"
+
+#: Main.otws
+msgctxt "[Mask:Info_1][Field:Text]"
+msgid "­¸Ãc¼Ó ªO"
+msgstr "­¸Ãc¼Ó ªO"
+
+#: Main.otws
+msgctxt "[Mask:Info_1][Field:Text_2]"
+msgid " . . "
+msgstr " . . "
+
+#: Main.otws
+msgctxt "[Mask:Main_1][Field:Text]"
+msgid ":"
+msgstr ":"
+
+#: Main.otws
+msgctxt "[Mask:Main_1][Field:Text_2]"
+msgid ":"
+msgstr ":"
+
+#: Main.otws
+msgctxt "[Mask:Main_1][Field:Text_3]"
+msgid "£aÆ¿¸ú¼¸:"
+msgstr "£aÆ¿¸ú¼¸ :"
+
+#: Main.otws
+msgctxt "[Mask:Main_1][Field:Text_4]"
+msgid "µaÃ"
+msgstr "µaÃ"
+
+#: Main.otws
+msgctxt "[Mask:Main_1][Field:Text_5]"
+msgid "µaÃ"
+msgstr "µaÃ"
+
+#: Main.otws
+msgctxt "[Mask:Main_1][Field:Text_6]"
+msgid "£aÆ¿¸ú¼¸:"
+msgstr "¬cÄaÆ¾a  :"
+
+#: Main.otws
+msgctxt "[Mask:Main_1][Field:Text_7]"
+msgid "¨¿aÁaú 1:"
+msgstr "¨¿.1:"
+
+#: Main.otws
+msgctxt "[Mask:Main_1][Field:Text_8]"
+msgid "¨¿.2:"
+msgstr ""
+
+#: Main.otws
+msgctxt "[Mask:Main_1][Field:Text_9]"
+msgid "¨¿.3:"
+msgstr ""
+
+#: Main.otws
+msgctxt "[Mask:Main_1][Field:Text_10]"
+msgid "Hacoc:"
+msgstr "Hacoc :"
+
+#: Main.otws
+msgctxt "[Mask:Main_1][Field:Text_11]"
+msgid "¨oÀÁÃ.:"
+msgstr "¨oÀÁÃ.:"
+
+#: Main.otws
+msgctxt "[Mask:Main_1][Field:Text_12]"
+msgid "¨oÀÁÃ.:"
+msgstr "ª«    :"
+
+#: Main.otws
+#| msgctxt "[Mask:Main_1_Clone_2][Field:Text]"
+msgctxt "[Mask:Main_2][Field:Text]"
+msgid ":"
+msgstr ":"
+
+#: Main.otws
+#| msgctxt "[Mask:Main_1_Clone_2][Field:Text_2]"
+msgctxt "[Mask:Main_2][Field:Text_2]"
+msgid ":"
+msgstr ":"
+
+#: Main.otws
+msgctxt "[Mask:Main_2][Field:Text_3]"
+msgid "Yfhf,jnrf yfcjcf^"
+msgstr "HaÃaµoÄ¾a úacoca:"
+
+#: Main.otws
+msgctxt "[Mask:Main_2][Field:Text_4]"
+msgid "Â"
+msgstr "Â"
+
+#: Main.otws
+msgctxt "[Mask:Main_2][Field:Text_5]"
+msgid "HaÃaµoÄ¾a ¾oÀÁÃ¸ccoÃa:"
+msgstr "HaÃaµoÄ¾a ¾oÀÁÃ.:"
+
+#: Main.otws
+msgctxt "[Mask:Main_2][Field:Text_6]"
+msgid "Â"
+msgstr "Â"
+
+#: Main.otws
+#| msgctxt "[Mask:Main_1_Clone_2][Field:Text]"
+msgctxt "[Mask:Main_3][Field:Text]"
+msgid ":"
+msgstr ":"
+
+#: Main.otws
+#| msgctxt "[Mask:Main_1_Clone_2][Field:Text_2]"
+msgctxt "[Mask:Main_3][Field:Text_2]"
+msgid ":"
+msgstr ":"
+
+#: Main.otws
+msgctxt "[Mask:Main_3][Field:Text_3]"
+msgid "£¿Ó úaÂa¿a ÁÃo·ÅÆ¾¼"
+msgstr "úa½À¼Ä¸ Enter"
+
+#: Main.otws
+msgctxt "[Mask:Main_3][Field:Text_4]"
+msgid "£¿Ó úaÂa¿a ÁÃo·ÅÆ¾¼"
+msgstr "£¿Ó úaÂa¿a ÁÃo·ÅÆ¾¼"
+
+#: Main.otws
+#| msgctxt "[Mask:Main_1_Clone_2][Field:Text_6]"
+msgctxt "[Mask:Main_3][Field:Text_6]"
+msgid "¬cÄaÆ¾a  :"
+msgstr "oÄ¾ÃoÉÄ¸ Æ¸úÄ¼¿Î ¼"
+
+#: Main.otws
+msgctxt "[Mask:Settings_1][Field:Text]"
+msgid "HacÄÃoÉ¾¼"
+msgstr "HacÄÃoÉ¾¼"
+
+#: Main.otws
+msgctxt "[Mask:Settings_1][Field:Text_2]"
+msgid "±a·¸Ã½¾a Æ¾¿.SV1:"
+msgstr "ªaÃaÀ.01 :"
+
+#: Main.otws
+msgctxt "[Mask:Settings_1][Field:Text_3]"
+msgid "c¸¾"
+msgstr "c¸¾"
+
+#: Main.otws
+msgctxt "[Mask:Settings_1][Field:Text_4]"
+msgid "SV01     :"
+msgstr "ªaÃaÀ.02 :"
+
+#: Main.otws
+#| msgctxt "[Mask:Main_1_Clone_2][Field:Text_5]"
+msgctxt "[Mask:Settings_1][Field:Text_5]"
+msgid "µaÃ"
+msgstr "µaÃ"
+
+#: Main.otws
+#| msgctxt "[Mask:Main_1_Clone_2][Field:Text_6]"
+msgctxt "[Mask:Settings_1][Field:Text_6]"
+msgid "¬cÄaÆ¾a  :"
+msgstr "¬cÄaÆ¾a  :"
+
+#: Main.otws
+msgctxt "[Mask:Settings_1][Field:Text_7]"
+msgid "SV01     :"
+msgstr "ªaÃaÀ.03 :"
+
+#: Main.otws
+msgctxt "[Mask:Settings_1][Field:Text_8]"
+msgid "SV01     :"
+msgstr "ªaÃaÀ.04 :"
+
+#: Main.otws
+msgctxt "[Mask:Settings_1][Field:Text_9]"
+msgid "c¸¾"
+msgstr "c¸¾"
+
+#: Main.otws
+msgctxt "[Mask:Settings_1][Field:Text_10]"
+msgid "c¸¾"
+msgstr "c¸¾"
+
+#: Main.otws
+msgctxt "[Mask:Settings_1][Field:Text_11]"
+msgid "c¸¾"
+msgstr "c¸¾"
+
+#: Main.otws
+msgctxt "[Mask:Settings_1][Field:Text_12]"
+msgid "1/2"
+msgstr "1/4"
+
+#: Main.otws
+#| msgctxt "[Mask:Settings_1_Clone_2][Field:Text]"
+msgctxt "[Mask:Settings_2][Field:Text]"
+msgid "HacÄÃoÉ¾¼"
+msgstr "HacÄÃoÉ¾¼"
+
+#: Main.otws
+#| msgctxt "[Mask:Settings_1_Clone_2][Field:Text_2]"
+msgctxt "[Mask:Settings_2][Field:Text_2]"
+msgid "ªaÃaÀ.01 :"
+msgstr "ªaÃaÀ.05 :"
+
+#: Main.otws
+#| msgctxt "[Mask:Settings_1_Clone_2][Field:Text_3]"
+msgctxt "[Mask:Settings_2][Field:Text_3]"
+msgid "c¸¾"
+msgstr "c¸¾"
+
+#: Main.otws
+#| msgctxt "[Mask:Settings_1_Clone_2][Field:Text_4]"
+msgctxt "[Mask:Settings_2][Field:Text_4]"
+msgid "ªaÃaÀ.02 :"
+msgstr "ªaÃaÀ.06 :"
+
+#: Main.otws
+msgctxt "[Mask:Settings_2][Field:Text_5]"
+msgid "ªaÃaÀ.07 :"
+msgstr "ªaÃaÀ.09 :"
+
+#: Main.otws
+msgctxt "[Mask:Settings_2][Field:Text_6]"
+msgid "ªaÃaÀ.06 :"
+msgstr "ªaÃaÀ.08 :"
+
+#: Main.otws
+#| msgctxt "[Mask:Settings_1_Clone_2][Field:Text_7]"
+msgctxt "[Mask:Settings_2][Field:Text_7]"
+msgid "ªaÃaÀ.03 :"
+msgstr "ªaÃaÀ.07 :"
+
+#: Main.otws
+msgctxt "[Mask:Settings_2][Field:Text_8]"
+msgid "c¸¾"
+msgstr "c¸¾"
+
+#: Main.otws
+#| msgctxt "[Mask:Settings_1_Clone_2][Field:Text_9]"
+msgctxt "[Mask:Settings_2][Field:Text_9]"
+msgid "c¸¾"
+msgstr "c¸¾"
+
+#: Main.otws
+#| msgctxt "[Mask:Settings_1_Clone_2][Field:Text_10]"
+msgctxt "[Mask:Settings_2][Field:Text_10]"
+msgid "c¸¾"
+msgstr "c¸¾"
+
+#: Main.otws
+msgctxt "[Mask:Settings_2][Field:Text_12]"
+msgid "1/2"
+msgstr "2/4"
+
+#: Main.otws
+#| msgctxt "[Mask:Settings_2_Clone_2][Field:Text]"
+msgctxt "[Mask:Settings_3][Field:Text]"
+msgid "HacÄÃoÉ¾¼"
+msgstr "HacÄÃoÉ¾¼"
+
+#: Main.otws
+#| msgctxt "[Mask:Settings_2_Clone_2][Field:Text_2]"
+msgctxt "[Mask:Settings_3][Field:Text_2]"
+msgid "ªaÃaÀ.05 :"
+msgstr "ªaÃaÀ.10 :"
+
+#: Main.otws
+msgctxt "[Mask:Settings_3][Field:Text_3]"
+msgid "ªaÃaÀ.10 :"
+msgstr "ªaÃaÀ.11 :"
+
+#: Main.otws
+msgctxt "[Mask:Settings_3][Field:Text_4]"
+msgid "ªaÃaÀ.10 :"
+msgstr "ªaÃaÀ.12 :"
+
+#: Main.otws
+msgctxt "[Mask:Settings_3][Field:Text_5]"
+msgid "ªaÃaÀ.10 :"
+msgstr "ªaÃaÀ.13 :"
+
+#: Main.otws
+msgctxt "[Mask:Settings_3][Field:Text_6]"
+msgid "c¸¾"
+msgstr "c¸¾"
+
+#: Main.otws
+msgctxt "[Mask:Settings_3][Field:Text_7]"
+msgid "c¸¾"
+msgstr "c¸¾"
+
+#: Main.otws
+#| msgctxt "[Mask:Settings_2_Clone_2][Field:Text_12]"
+msgctxt "[Mask:Settings_3][Field:Text_12]"
+msgid "2/2"
+msgstr "3/4"
+
+#: Main.otws
+#| msgctxt "[Mask:Settings_2_Clone_2][Field:Text]"
+msgctxt "[Mask:Settings_4][Field:Text]"
+msgid "HacÄÃoÉ¾¼"
+msgstr "HacÄÃoÉ¾¼"
+
+#: Main.otws
+#| msgctxt "[Mask:Settings_2_Clone_2][Field:Text_5]"
+msgctxt "[Mask:Settings_4][Field:Text_5]"
+msgid "ªaÃaÀ.09 :"
+msgstr "ªaÃaÀ.15 :"
+
+#: Main.otws
+#| msgctxt "[Mask:Settings_2_Clone_2][Field:Text_6]"
+msgctxt "[Mask:Settings_4][Field:Text_6]"
+msgid "ªaÃaÀ.08 :"
+msgstr "ªaÃaÀ.14 :"
+
+#: Main.otws
+#| msgctxt "[Mask:Settings_2_Clone_2][Field:Text_8]"
+msgctxt "[Mask:Settings_4][Field:Text_8]"
+msgid "Àc"
+msgstr ""
+
+#: Main.otws
+#| msgctxt "[Mask:Settings_2_Clone_2][Field:Text_11]"
+msgctxt "[Mask:Settings_4][Field:Text_11]"
+msgid "µaÃ"
+msgstr ""
+
+#: Main.otws
+#| msgctxt "[Mask:Settings_2_Clone_2][Field:Text_12]"
+msgctxt "[Mask:Settings_4][Field:Text_12]"
+msgid "2/3"
+msgstr "4/4"
+

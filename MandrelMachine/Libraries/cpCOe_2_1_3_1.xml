@@ -1,0 +1,1155 @@
+﻿<Manifest
+  Version="1.0.0"
+  IsLibrary="true">
+  <Libraries />
+  <Pou
+    Name="cpCOe_2_Limit_INT"
+    Moniker="cpCOe_2_Limit_INT.stf"
+    Language="ST"
+    IsIec61499="false"
+    Kind="Function"
+    Password="E4BDBA2BEF6CC4DC"
+    GenerateDebugInfo="false"
+    GeneratingMonitoringSymbols="true"
+    UserEdited="false"
+    Deprecated="false"
+    IsVisible="false">
+    <Variable
+      Name="MinVal"
+      Comment="Minimum value"
+      AccessRights="Read"
+      DataType="INT"
+      Kind="VarInput" />
+    <Variable
+      Name="In"
+      Comment="Input value"
+      AccessRights="Read"
+      DataType="INT"
+      Kind="VarInput" />
+    <Variable
+      Name="MaxVal"
+      Comment="Maximum value"
+      AccessRights="Read"
+      DataType="INT"
+      Kind="VarInput" />
+    <Variable
+      Name="cpCOe_2_Limit_INT"
+      Comment="Limited value"
+      AccessRights="ReadWrite"
+      DataType="INT"
+      Kind="VarOutput" />
+  </Pou>
+  <Pou
+    Name="cpCOe_2"
+    Moniker="cpCOe_2.stf"
+    Language="FBD"
+    IsIec61499="false"
+    Kind="FunctionBlock"
+    Password="E4BDBA2BEF6CC4DC"
+    GenerateDebugInfo="true"
+    GeneratingMonitoringSymbols="true"
+    UserEdited="false"
+    Deprecated="false"
+    IsVisible="true">
+    <Variable
+      Name="ExtPositIn_CPCOE"
+      Comment="Variable added for c.pCOe Enhanced valve management"
+      AccessRights="Read"
+      DataType="TEEV"
+      Kind="VarInput" />
+    <Variable
+      Name="DevAddr_CPCOE"
+      Comment="Address of cpCOe, from 1 to 15. Use 207 to go online with cpCOe in set mode."
+      AccessRights="Read"
+      DataType="UINT"
+      Kind="VarInput" />
+    <Variable
+      Name="AddrExt_CPCOE"
+      Comment="Offset of cpCOe, from 15 to 232 (Modbus) or 192 (Carel)"
+      AccessRights="Read"
+      DataType="UINT"
+      Kind="VarInput" />
+    <Variable
+      Name="ValIn_CPCOE"
+      Comment="Values to be sent to cpCOe. Only outputs are considered."
+      AccessRights="Read"
+      DataType="VAL_CPCOE"
+      Kind="VarInput" />
+    <Variable
+      Name="DevCfg_CPCOE"
+      Comment="cpCOe and I/O configuration"
+      AccessRights="Read"
+      DataType="CFG_CPCOE"
+      Kind="VarInput" />
+    <Variable
+      Name="Protocol_CPCOE"
+      Comment="0=Modbus, 1=Carel"
+      AccessRights="Read"
+      DataType="USINT"
+      Kind="VarInput" />
+    <Variable
+      Name="En_CPCOE"
+      Comment="Enables the block and the communication"
+      AccessRights="Read"
+      DataType="BOOL"
+      Kind="VarInput" />
+    <Variable
+      Name="ExtPosit_CPCOE"
+      Comment="Variable added for c.pCOe Enhanced valve management"
+      AccessRights="ReadWrite"
+      DataType="TEEV"
+      Kind="VarOutput" />
+    <Variable
+      Name="Online_CPCOE"
+      Comment="Indicates that the block is enabled, the communication is on and device is working correctly."
+      AccessRights="ReadWrite"
+      DataType="BOOL"
+      Kind="VarOutput" />
+    <Variable
+      Name="ValOut_CPCOE"
+      Comment="Values coming from cpCOe. Only inputs are considered. Outputs take the same values of ValsIn. In case of block disabled, all inputs are set to 0 or FALSE."
+      AccessRights="ReadWrite"
+      DataType="VAL_CPCOE"
+      Kind="VarOutput" />
+    <Variable
+      Name="Errors_CPCOE"
+      Comment="Array of ChipIO errors for universal channels"
+      AccessRights="ReadWrite"
+      DataType="ERR_CPCOE"
+      Kind="VarOutput" />
+    <Variable
+      Name="ActPrbAlrm_CPCOE"
+      Comment="Array of active probes alarms. If the probe is passive, its alarm is triggered after the delay when the channel has a ChipIO error."
+      AccessRights="ReadWrite"
+      DataType="ALRM_CPCOE"
+      Kind="VarOutput" />
+    <Variable
+      Name="OfflineAlrm_CPCOE"
+      Comment="Device offline alarm"
+      AccessRights="ReadWrite"
+      DataType="BOOL"
+      Kind="VarOutput" />
+    <Variable
+      Name="ThrshWarnPollTime_CPCOE"
+      Comment="Warning of exceed the max Polling time"
+      AccessRights="ReadWrite"
+      DataType="BOOL"
+      Kind="VarOutput" />
+    <Variable
+      Name="CfgErr_CPCOE"
+      Comment="Configuration error code (0: no error)"
+      AccessRights="ReadWrite"
+      DataType="UINT"
+      Kind="VarOutput" />
+    <Variable
+      Name="DevInfo_CPCOE"
+      Comment="Informations about cpCOe device (available only when online)"
+      AccessRights="ReadWrite"
+      DataType="INFO_CPCOE"
+      Kind="VarOutput" />
+    <Variable
+      Name="DevAddrExt_CPCOE"
+      Comment="Adress of device (base+extension)"
+      AccessRights="ReadWrite"
+      DataType="UDINT"
+      Kind="VarOutput" />
+    <Variable
+      Name="CommErr_CPCOE"
+      Comment="Communication errors for every template"
+      AccessRights="ReadWrite"
+      DataType="COMM_ERR_CPCOE"
+      Kind="VarOutput" />
+    <Variable
+      Name="LastPollTime"
+      Comment="Last polling loop time from configuration"
+      AccessRights="ReadWrite"
+      DataType="UINT"
+      Kind="Var" />
+    <Variable
+      Name="EnStartUpTable"
+      Comment="Enables communication table to initialize cpCOe"
+      AccessRights="ReadWrite"
+      DataType="BOOL"
+      Kind="Var" />
+    <Variable
+      Name="EnCfgTable"
+      Comment="Enables communication table to configure cpCOe"
+      AccessRights="ReadWrite"
+      DataType="BOOL"
+      Kind="Var" />
+    <Variable
+      Name="EnIOTable"
+      Comment="Enables communication table to read and write from cpCOe"
+      AccessRights="ReadWrite"
+      DataType="BOOL"
+      Kind="Var" />
+    <Variable
+      Name="FrameCfg"
+      Comment="Frame configuration (0=8n2, 1=8n1, 2=8o2, 3=8o1, 4=8e2, 5=8e1)"
+      AccessRights="ReadWrite"
+      DataType="UINT"
+      Kind="Var" />
+    <Variable
+      Name="MasterTypRead"
+      Comment="Type of master currently set, 16/32-Bit table (0=16, 1=32)"
+      AccessRights="ReadWrite"
+      DataType="USINT"
+      Kind="Var" />
+    <Variable
+      Name="MasterTypFrc"
+      Comment="Type of master wanted, 16/32-Bit table (0=16, 1=32)"
+      AccessRights="ReadWrite"
+      DataType="USINT"
+      Kind="Var" />
+    <Variable
+      Name="pCOTyp"
+      Comment="pCO type (15=cpCOe)"
+      AccessRights="ReadWrite"
+      DataType="UINT"
+      Kind="Var" />
+    <Variable
+      Name="BoardTyp"
+      Comment="cpCOe model"
+      AccessRights="ReadWrite"
+      DataType="UINT"
+      Kind="Var" />
+    <Variable
+      Name="FwDay"
+      Comment="Firmware day"
+      AccessRights="ReadWrite"
+      DataType="UINT"
+      Kind="Var" />
+    <Variable
+      Name="FwMonth"
+      Comment="Firmware month"
+      AccessRights="ReadWrite"
+      DataType="UINT"
+      Kind="Var" />
+    <Variable
+      Name="FwYear"
+      Comment="Firmware year"
+      AccessRights="ReadWrite"
+      DataType="UINT"
+      Kind="Var" />
+    <Variable
+      Name="FwVersionH"
+      Comment="Firrmware major version"
+      AccessRights="ReadWrite"
+      DataType="UINT"
+      Kind="Var" />
+    <Variable
+      Name="FwVersionL"
+      Comment="Firmware minor version"
+      AccessRights="ReadWrite"
+      DataType="UINT"
+      Kind="Var" />
+    <Variable
+      Name="Reserved1"
+      Comment="Reserved 1"
+      AccessRights="ReadWrite"
+      DataType="UINT"
+      Kind="Var" />
+    <Variable
+      Name="Reserved2"
+      Comment="Reserved 2"
+      AccessRights="ReadWrite"
+      DataType="UINT"
+      Kind="Var" />
+    <Variable
+      Name="Reserved3"
+      Comment="Reserved 3"
+      AccessRights="ReadWrite"
+      DataType="UINT"
+      Kind="Var" />
+    <Variable
+      Name="cpCOe_CommSet_1"
+      Comment="Sets communication parameters"
+      AccessRights="ReadWrite"
+      DataType="cpCOe_2_CommSet"
+      Kind="Var" />
+    <Variable
+      Name="cpCOe_IOMng_1"
+      Comment="Manages read/write to cpCOe and active probes alarms"
+      AccessRights="ReadWrite"
+      DataType="cpCOe_2_IOMng"
+      Kind="Var" />
+    <Variable
+      Name="cpCOe_StatusMng_1"
+      Comment="Calculates the satus of the communication"
+      AccessRights="ReadWrite"
+      DataType="cpCOe_2_StatusMng"
+      Kind="Var" />
+    <Variable
+      Name="F_TRIG_1"
+      Comment=""
+      AccessRights="ReadWrite"
+      DataType="F_TRIG"
+      Kind="Var" />
+    <Variable
+      Name="UINT_TO_DATE_1"
+      Comment=""
+      AccessRights="ReadWrite"
+      DataType="UINT_TO_DATE"
+      Kind="Var" />
+    <Variable
+      Name="HW_Signature"
+      Comment=""
+      AccessRights="ReadWrite"
+      DataType="UINT"
+      Kind="Var" />
+    <Variable
+      Name="SlvTimeoutCtrld"
+      Comment="slave oofline timeout controlled (in ms)"
+      AccessRights="ReadWrite"
+      DataType="UINT"
+      Kind="Var" />
+    <Variable
+      Name="ChkDevPres"
+      Comment=""
+      AccessRights="ReadWrite"
+      DataType="REAL"
+      Kind="Var" />
+    <Variable
+      Name="ExtPositProtocol"
+      Comment=""
+      AccessRights="ReadWrite"
+      DataType="TEEV"
+      Kind="Var" />
+    <Variable
+      Name="EnExtPositTable"
+      Comment="Enables communication table to read and write from valve of cpCOe"
+      AccessRights="ReadWrite"
+      DataType="BOOL"
+      Kind="Var" />
+    <Variable
+      Name="PriorityMng_INT_1"
+      Comment=""
+      AccessRights="ReadWrite"
+      DataType="cpCOe_2_PriorityMng_INT"
+      Kind="Var" />
+  </Pou>
+  <Pou
+    Name="cpCOe_2_CommSet"
+    Moniker="cpCOe_2_CommSet.stf"
+    Language="ST"
+    IsIec61499="false"
+    Kind="FunctionBlock"
+    Password="E4BDBA2BEF6CC4DC"
+    GenerateDebugInfo="true"
+    GeneratingMonitoringSymbols="true"
+    UserEdited="false"
+    Deprecated="false"
+    IsVisible="false">
+    <Variable
+      Name="DevAddr"
+      Comment="Address of cpCOe, from 1 to 15"
+      AccessRights="Read"
+      DataType="UINT"
+      Kind="VarInput" />
+    <Variable
+      Name="AddrExt"
+      Comment="Offset of cpCOe, from 15 to 232"
+      AccessRights="Read"
+      DataType="UINT"
+      Kind="VarInput" />
+    <Variable
+      Name="MasterTypIn"
+      Comment="Type of master connected (0=16 bit, 1=32 bit)"
+      AccessRights="Read"
+      DataType="USINT"
+      Kind="VarInput" />
+    <Variable
+      Name="DevCfg"
+      Comment="cpCOe and I/O configuration"
+      AccessRights="Read"
+      DataType="CFG_CPCOE"
+      Kind="VarInput" />
+    <Variable
+      Name="ProtocolIn"
+      Comment="0=Modbus, 1=Carel"
+      AccessRights="Read"
+      DataType="USINT"
+      Kind="VarInput" />
+    <Variable
+      Name="Enable"
+      Comment="Enables the block"
+      AccessRights="Read"
+      DataType="BOOL"
+      Kind="VarInput" />
+    <Variable
+      Name="Err_StartUpTable"
+      Comment=""
+      AccessRights="Read"
+      DataType="INT"
+      Kind="VarInput" />
+    <Variable
+      Name="BoardTyp"
+      Comment="Board type  (20 = basic; 21 = enhanced)"
+      AccessRights="Read"
+      DataType="UINT"
+      Kind="VarInput" />
+    <Variable
+      Name="DevAddrExt"
+      Comment="Adress of cpCOe (base+extension)"
+      AccessRights="ReadWrite"
+      DataType="UDINT"
+      Kind="VarOutput" />
+    <Variable
+      Name="MasterTyp"
+      Comment="Type of master needed (0=16 bit, 1=32 bit)"
+      AccessRights="ReadWrite"
+      DataType="USINT"
+      Kind="VarOutput" />
+    <Variable
+      Name="FrameCfg"
+      Comment=""
+      AccessRights="ReadWrite"
+      DataType="UINT"
+      Kind="VarOutput" />
+    <Variable
+      Name="EnStartUpTable"
+      Comment="Enables initialize table to initialize cpCOe"
+      AccessRights="ReadWrite"
+      DataType="BOOL"
+      Kind="VarOutput" />
+    <Variable
+      Name="EnCfgTable"
+      Comment="Enables communication table to initialize cpCOe"
+      AccessRights="ReadWrite"
+      DataType="BOOL"
+      Kind="VarOutput" />
+    <Variable
+      Name="EnIOTable"
+      Comment="Enables communication table to read and write from cpCOe"
+      AccessRights="ReadWrite"
+      DataType="BOOL"
+      Kind="VarOutput" />
+    <Variable
+      Name="EnExtPositTable"
+      Comment="Enables communication table to read and write from valve of cpCOe"
+      AccessRights="ReadWrite"
+      DataType="BOOL"
+      Kind="VarOutput" />
+    <Variable
+      Name="SetMode"
+      Comment=""
+      AccessRights="ReadWrite"
+      DataType="BOOL"
+      Kind="VarOutput" />
+    <Variable
+      Name="SlvTimeoutCtrld"
+      Comment="slave offline timeout controlled (in ms)"
+      AccessRights="ReadWrite"
+      DataType="UINT"
+      Kind="VarOutput" />
+    <Variable
+      Name="CfgLock"
+      Comment=""
+      AccessRights="ReadWrite"
+      DataType="BOOL"
+      Kind="Var" />
+  </Pou>
+  <Pou
+    Name="cpCOe_2_StatusMng"
+    Moniker="cpCOe_2_StatusMng.stf"
+    Language="ST"
+    IsIec61499="false"
+    Kind="FunctionBlock"
+    Password="E4BDBA2BEF6CC4DC"
+    GenerateDebugInfo="true"
+    GeneratingMonitoringSymbols="true"
+    UserEdited="false"
+    Deprecated="false"
+    IsVisible="false">
+    <Variable
+      Name="ChkDevPres_In"
+      Comment=""
+      AccessRights="Read"
+      DataType="REAL"
+      Kind="VarInput" />
+    <Variable
+      Name="EnStartUpTable_In"
+      Comment="Startup table enable"
+      AccessRights="Read"
+      DataType="BOOL"
+      Kind="VarInput" />
+    <Variable
+      Name="EnConfTable_In"
+      Comment="Configuration table enable"
+      AccessRights="Read"
+      DataType="BOOL"
+      Kind="VarInput" />
+    <Variable
+      Name="EnIOTable_In"
+      Comment="IO table enable"
+      AccessRights="Read"
+      DataType="BOOL"
+      Kind="VarInput" />
+    <Variable
+      Name="EnExtPositTable_In"
+      Comment="External position enable"
+      AccessRights="Read"
+      DataType="BOOL"
+      Kind="VarInput" />
+    <Variable
+      Name="ErrStartUpTable"
+      Comment="Error in the startup table"
+      AccessRights="Read"
+      DataType="INT"
+      Kind="VarInput" />
+    <Variable
+      Name="ErrConfTable"
+      Comment="Error in the configuration table"
+      AccessRights="Read"
+      DataType="INT"
+      Kind="VarInput" />
+    <Variable
+      Name="ErrIOTable"
+      Comment="Error in the IO table"
+      AccessRights="Read"
+      DataType="INT"
+      Kind="VarInput" />
+    <Variable
+      Name="ErrExtPositTable"
+      Comment="Error in the External position table"
+      AccessRights="Read"
+      DataType="INT"
+      Kind="VarInput" />
+    <Variable
+      Name="ProtocolIn"
+      Comment=""
+      AccessRights="Read"
+      DataType="USINT"
+      Kind="VarInput" />
+    <Variable
+      Name="pCOTyp"
+      Comment="pCO type readed from cpCOe"
+      AccessRights="Read"
+      DataType="UINT"
+      Kind="VarInput" />
+    <Variable
+      Name="BoardTyp"
+      Comment="Board type  (20 = basic; 21 = enhanced)"
+      AccessRights="Read"
+      DataType="UINT"
+      Kind="VarInput" />
+    <Variable
+      Name="SetMode"
+      Comment=""
+      AccessRights="Read"
+      DataType="BOOL"
+      Kind="VarInput" />
+    <Variable
+      Name="En_cpCOe"
+      Comment="Enables the block"
+      AccessRights="Read"
+      DataType="BOOL"
+      Kind="VarInput" />
+    <Variable
+      Name="ChkDevPres"
+      Comment=""
+      AccessRights="ReadWrite"
+      DataType="REAL"
+      Kind="VarOutput" />
+    <Variable
+      Name="EnStartUpTable"
+      Comment=""
+      AccessRights="ReadWrite"
+      DataType="BOOL"
+      Kind="VarOutput" />
+    <Variable
+      Name="EnConfTable"
+      Comment=""
+      AccessRights="ReadWrite"
+      DataType="BOOL"
+      Kind="VarOutput" />
+    <Variable
+      Name="EnIOTable"
+      Comment=""
+      AccessRights="ReadWrite"
+      DataType="BOOL"
+      Kind="VarOutput" />
+    <Variable
+      Name="EnExtPositTable"
+      Comment=""
+      AccessRights="ReadWrite"
+      DataType="BOOL"
+      Kind="VarOutput" />
+    <Variable
+      Name="Online"
+      Comment="Indicates that the block is enabled, the communication is on and device is working correctly"
+      AccessRights="ReadWrite"
+      DataType="BOOL"
+      Kind="VarOutput" />
+    <Variable
+      Name="OfflineAlrm"
+      Comment="Device offline alarm"
+      AccessRights="ReadWrite"
+      DataType="BOOL"
+      Kind="VarOutput" />
+    <Variable
+      Name="TypChk"
+      Comment=""
+      AccessRights="ReadWrite"
+      DataType="BOOL"
+      Kind="Var" />
+    <Variable
+      Name="StartUpChk"
+      Comment=""
+      AccessRights="ReadWrite"
+      DataType="BOOL"
+      Kind="Var" />
+    <Variable
+      Name="ConfChk"
+      Comment=""
+      AccessRights="ReadWrite"
+      DataType="BOOL"
+      Kind="Var" />
+    <Variable
+      Name="IOChk"
+      Comment=""
+      AccessRights="ReadWrite"
+      DataType="BOOL"
+      Kind="Var" />
+    <Variable
+      Name="FirstCycle"
+      Comment=""
+      AccessRights="ReadWrite"
+      DataType="BOOL"
+      Kind="Var" />
+    <Variable
+      Name="ExtPositChk"
+      Comment=""
+      AccessRights="ReadWrite"
+      DataType="BOOL"
+      Kind="Var" />
+  </Pou>
+  <Pou
+    Name="cpCOe_2_IOMng"
+    Moniker="cpCOe_2_IOMng.stf"
+    Language="ST"
+    IsIec61499="false"
+    Kind="FunctionBlock"
+    Password="E4BDBA2BEF6CC4DC"
+    GenerateDebugInfo="true"
+    GeneratingMonitoringSymbols="true"
+    UserEdited="false"
+    Deprecated="false"
+    IsVisible="false">
+    <Variable
+      Name="ValIn"
+      Comment="Values to be sent to cpCOe. Only outputs are considered."
+      AccessRights="Read"
+      DataType="VAL_CPCOE"
+      Kind="VarInput" />
+    <Variable
+      Name="Errors"
+      Comment="ChipIO errors"
+      AccessRights="Read"
+      DataType="ERR_CPCOE"
+      Kind="VarInput" />
+    <Variable
+      Name="DevCfg"
+      Comment="cpCOe and I/O configuration"
+      AccessRights="Read"
+      DataType="CFG_CPCOE"
+      Kind="VarInput" />
+    <Variable
+      Name="Enable"
+      Comment="Enables the block"
+      AccessRights="Read"
+      DataType="BOOL"
+      Kind="VarInput" />
+    <Variable
+      Name="ValOut"
+      Comment="Values coming from cpCOe. Only inputs are considered. Outputs take the same values of ValsIn. In case of block disabled, all inputs are set to 0 or FALSE."
+      AccessRights="ReadWrite"
+      DataType="VAL_CPCOE"
+      Kind="VarOutput" />
+    <Variable
+      Name="ActPrbAlrm"
+      Comment="List of active probes alarms"
+      AccessRights="ReadWrite"
+      DataType="ALRM_CPCOE"
+      Kind="VarOutput" />
+    <Variable
+      Name="k"
+      Comment=""
+      AccessRights="ReadWrite"
+      DataType="DINT"
+      Kind="Var" />
+    <Variable
+      Name="UnivChsVals"
+      Comment=""
+      AccessRights="ReadWrite"
+      DataType="UNIVCH_CPCOE"
+      Kind="Var" />
+    <Variable
+      Name="DOutVals"
+      Comment=""
+      AccessRights="ReadWrite"
+      DataType="DOUT_CPCOE"
+      Kind="Var" />
+    <Variable
+      Name="ActPrbAlrm_1"
+      Comment=""
+      AccessRights="ReadWrite"
+      DataType="cpCOe_2_PrbAlrm"
+      Kind="Var" />
+    <Variable
+      Name="ActPrbAlrm_2"
+      Comment=""
+      AccessRights="ReadWrite"
+      DataType="cpCOe_2_PrbAlrm"
+      Kind="Var" />
+    <Variable
+      Name="ActPrbAlrm_3"
+      Comment=""
+      AccessRights="ReadWrite"
+      DataType="cpCOe_2_PrbAlrm"
+      Kind="Var" />
+    <Variable
+      Name="ActPrbAlrm_4"
+      Comment=""
+      AccessRights="ReadWrite"
+      DataType="cpCOe_2_PrbAlrm"
+      Kind="Var" />
+    <Variable
+      Name="ActPrbAlrm_5"
+      Comment=""
+      AccessRights="ReadWrite"
+      DataType="cpCOe_2_PrbAlrm"
+      Kind="Var" />
+    <Variable
+      Name="ActPrbAlrm_6"
+      Comment=""
+      AccessRights="ReadWrite"
+      DataType="cpCOe_2_PrbAlrm"
+      Kind="Var" />
+    <Variable
+      Name="ActPrbAlrm_7"
+      Comment=""
+      AccessRights="ReadWrite"
+      DataType="cpCOe_2_PrbAlrm"
+      Kind="Var" />
+    <Variable
+      Name="ActPrbAlrm_8"
+      Comment=""
+      AccessRights="ReadWrite"
+      DataType="cpCOe_2_PrbAlrm"
+      Kind="Var" />
+    <Variable
+      Name="ActPrbAlrm_9"
+      Comment=""
+      AccessRights="ReadWrite"
+      DataType="cpCOe_2_PrbAlrm"
+      Kind="Var" />
+    <Variable
+      Name="ActPrbAlrm_10"
+      Comment=""
+      AccessRights="ReadWrite"
+      DataType="cpCOe_2_PrbAlrm"
+      Kind="Var" />
+  </Pou>
+  <Pou
+    Name="cpCOe_2_PrbAlrm"
+    Moniker="cpCOe_2_PrbAlrm.stf"
+    Language="ST"
+    IsIec61499="false"
+    Kind="FunctionBlock"
+    Password="E4BDBA2BEF6CC4DC"
+    GenerateDebugInfo="true"
+    GeneratingMonitoringSymbols="true"
+    UserEdited="false"
+    Deprecated="false"
+    IsVisible="false">
+    <Variable
+      Name="In"
+      Comment="Value of probe"
+      AccessRights="Read"
+      DataType="REAL"
+      Kind="VarInput" />
+    <Variable
+      Name="ErrIn"
+      Comment="Error variable"
+      AccessRights="Read"
+      DataType="INT"
+      Kind="VarInput" />
+    <Variable
+      Name="MinVal"
+      Comment="Minimum probe value"
+      AccessRights="Read"
+      DataType="REAL"
+      Kind="VarInput" />
+    <Variable
+      Name="MaxVal"
+      Comment="Maximum probe value"
+      AccessRights="Read"
+      DataType="REAL"
+      Kind="VarInput" />
+    <Variable
+      Name="IsActive"
+      Comment="Type or probe (FALSE=passive, TRUE=active)"
+      AccessRights="Read"
+      DataType="BOOL"
+      Kind="VarInput" />
+    <Variable
+      Name="AlrmDT"
+      Comment="Alarm delay time"
+      AccessRights="Read"
+      DataType="TIME"
+      Kind="VarInput" />
+    <Variable
+      Name="ActPrbAlrmDelta"
+      Comment="Range of tolerance on the input for active probe control"
+      AccessRights="Read"
+      DataType="REAL"
+      Kind="VarInput" />
+    <Variable
+      Name="ActPrbAlrmDT"
+      Comment="Active probe disconnection alarm delay time"
+      AccessRights="Read"
+      DataType="TIME"
+      Kind="VarInput" />
+    <Variable
+      Name="En_PrbAlrm"
+      Comment="Enable PrbAlrm function block"
+      AccessRights="Read"
+      DataType="BOOL"
+      Kind="VarInput" />
+    <Variable
+      Name="Alrm"
+      Comment="Probe alarm presence"
+      AccessRights="ReadWrite"
+      DataType="BOOL"
+      Kind="VarOutput" />
+    <Variable
+      Name="PredIn"
+      Comment=""
+      AccessRights="ReadWrite"
+      DataType="REAL"
+      Kind="Var" />
+    <Variable
+      Name="DelayOn"
+      Comment=""
+      AccessRights="ReadWrite"
+      DataType="TON"
+      Kind="Var" />
+    <Variable
+      Name="AlrmDelay"
+      Comment=""
+      AccessRights="ReadWrite"
+      DataType="TON"
+      Kind="Var" />
+  </Pou>
+  <Pou
+    Name="cpCOe_2_UIMng"
+    Moniker="cpCOe_2_UIMng.stf"
+    Language="ST"
+    IsIec61499="false"
+    Kind="FunctionBlock"
+    Password="E4BDBA2BEF6CC4DC"
+    GenerateDebugInfo="true"
+    GeneratingMonitoringSymbols="true"
+    UserEdited="false"
+    Deprecated="false"
+    IsVisible="true">
+    <Variable
+      Name="CfgUnivChsIn"
+      Comment="cpCOe universal channels configuration"
+      AccessRights="Read"
+      DataType="CFGUNIVCH_ARRAY_CPCOE"
+      Kind="VarInput" />
+    <Variable
+      Name="UI_CurrUnivChIn"
+      Comment="Configuration of current universal channel"
+      AccessRights="Read"
+      DataType="CFGUNIVCH_CPCOE"
+      Kind="VarInput" />
+    <Variable
+      Name="UI_CurrUnivChIndex"
+      Comment="Current universal channel being modified from UI (0-10, different values means no one)"
+      AccessRights="Read"
+      DataType="UINT"
+      Kind="VarInput" />
+    <Variable
+      Name="CfgUnivChs"
+      Comment="cpCOe universal channels configuration"
+      AccessRights="ReadWrite"
+      DataType="CFGUNIVCH_ARRAY_CPCOE"
+      Kind="VarOutput" />
+    <Variable
+      Name="UI_CurrUnivCh"
+      Comment="Configuration of current universal channel"
+      AccessRights="ReadWrite"
+      DataType="CFGUNIVCH_CPCOE"
+      Kind="VarOutput" />
+    <Variable
+      Name="UI_EnFilterDin"
+      Comment="Used in the enable of the class FilterDin_CPCOE"
+      AccessRights="ReadWrite"
+      DataType="BOOL"
+      Kind="VarOutput" />
+    <Variable
+      Name="UI_EnFilterDinCountFreq"
+      Comment="Used in the enable of the class FilterDinCountFreq_CPCOE"
+      AccessRights="ReadWrite"
+      DataType="BOOL"
+      Kind="VarOutput" />
+    <Variable
+      Name="UI_EnFilter"
+      Comment="Used in the enable of the class Filter_CPCOE"
+      AccessRights="ReadWrite"
+      DataType="BOOL"
+      Kind="VarOutput" />
+    <Variable
+      Name="UI_EnUnivChDirIn"
+      Comment="Used in the enable of the class UnivChTypIn_CPCOE"
+      AccessRights="ReadWrite"
+      DataType="BOOL"
+      Kind="VarOutput" />
+    <Variable
+      Name="UI_EnUnivChDirOut"
+      Comment="Used in the enable of the class UnivChTypOut_CPCOE"
+      AccessRights="ReadWrite"
+      DataType="BOOL"
+      Kind="VarOutput" />
+    <Variable
+      Name="UI_UnivChsDirIn"
+      Comment="Enable fields for universal channels values configured as inputs (R)"
+      AccessRights="ReadWrite"
+      DataType="BOOL,1-10"
+      Kind="VarOutput" />
+    <Variable
+      Name="UI_UnivChsDirOut"
+      Comment="Enable fields for universal channels values configured as outputs (R/W)"
+      AccessRights="ReadWrite"
+      DataType="BOOL,1-10"
+      Kind="VarOutput" />
+    <Variable
+      Name="UI_PredUnivChIndex"
+      Comment="Previous channel index"
+      AccessRights="ReadWrite"
+      DataType="UINT"
+      Kind="Var" />
+    <Variable
+      Name="k"
+      Comment=""
+      AccessRights="ReadWrite"
+      DataType="DINT"
+      Kind="Var" />
+  </Pou>
+  <Pou
+    Name="cpCOe_2_AddrChangeWizard"
+    Moniker="cpCOe_2_AddrChangeWizard.stf"
+    Language="ST"
+    IsIec61499="false"
+    Kind="FunctionBlock"
+    Password="E4BDBA2BEF6CC4DC"
+    GenerateDebugInfo="true"
+    GeneratingMonitoringSymbols="true"
+    UserEdited="false"
+    Deprecated="false"
+    IsVisible="true">
+    <Variable
+      Name="ParityIn"
+      Comment="Parity variable linked to the cpCOe_2 block"
+      AccessRights="Read"
+      DataType="USINT"
+      Kind="VarInput" />
+    <Variable
+      Name="StopBitsIn"
+      Comment="StopBit variable linked to the cpCOe_2 block"
+      AccessRights="Read"
+      DataType="USINT"
+      Kind="VarInput" />
+    <Variable
+      Name="CfgChgStepIn"
+      Comment="Current step of the wizard"
+      AccessRights="Read"
+      DataType="USINT"
+      Kind="VarInput" />
+    <Variable
+      Name="DevAddrIn"
+      Comment="DevAddr variable linked to the cpCOe_2 block"
+      AccessRights="Read"
+      DataType="UINT"
+      Kind="VarInput" />
+    <Variable
+      Name="AddrExtIn"
+      Comment="AddrExt variable linked to the cpCOe_2 block"
+      AccessRights="Read"
+      DataType="UINT"
+      Kind="VarInput" />
+    <Variable
+      Name="Online"
+      Comment="Online variable coming from cpCOe_2 block"
+      AccessRights="Read"
+      DataType="BOOL"
+      Kind="VarInput" />
+    <Variable
+      Name="Parity"
+      Comment="Parity variable linked to the cpCOe_2 block"
+      AccessRights="ReadWrite"
+      DataType="USINT"
+      Kind="VarOutput" />
+    <Variable
+      Name="StopBits"
+      Comment="StopBit variable linked to the cpCOe_2 block"
+      AccessRights="ReadWrite"
+      DataType="USINT"
+      Kind="VarOutput" />
+    <Variable
+      Name="CfgChgStep"
+      Comment="Current step of the wizard"
+      AccessRights="ReadWrite"
+      DataType="USINT"
+      Kind="VarOutput" />
+    <Variable
+      Name="DevAddr"
+      Comment="DevAddr variable linked to the cpCOe_2 block"
+      AccessRights="ReadWrite"
+      DataType="UINT"
+      Kind="VarOutput" />
+    <Variable
+      Name="AddrExt"
+      Comment="AddrExt variable linked to the cpCOe_2 block"
+      AccessRights="ReadWrite"
+      DataType="UINT"
+      Kind="VarOutput" />
+    <Variable
+      Name="CfgActive"
+      Comment="Indicates if the wizard is in use to the loop in c.mask"
+      AccessRights="ReadWrite"
+      DataType="BOOL"
+      Kind="VarOutput" />
+    <Variable
+      Name="CfgFrameChg"
+      Comment="Indicates if a restart was necessary and it has been done."
+      AccessRights="ReadWrite"
+      DataType="BOOL"
+      Kind="VarOutput" />
+    <Variable
+      Name="FirstCycle"
+      Comment=""
+      AccessRights="ReadWrite"
+      DataType="BOOL"
+      Kind="Var" />
+    <Variable
+      Name="OnlineTrig"
+      Comment=""
+      AccessRights="ReadWrite"
+      DataType="cpCOe_2_REdge"
+      Kind="Var" />
+    <Variable
+      Name="ParityMem"
+      Comment=""
+      AccessRights="ReadWrite"
+      DataType="USINT"
+      Kind="Var" />
+    <Variable
+      Name="StopBitsMem"
+      Comment=""
+      AccessRights="ReadWrite"
+      DataType="USINT"
+      Kind="Var" />
+    <Variable
+      Name="DevAddrMem"
+      Comment=""
+      AccessRights="ReadWrite"
+      DataType="UINT"
+      Kind="Var" />
+    <Variable
+      Name="AddrExtMem"
+      Comment=""
+      AccessRights="ReadWrite"
+      DataType="UINT"
+      Kind="Var" />
+    <Variable
+      Name="PrevStep"
+      Comment=""
+      AccessRights="ReadWrite"
+      DataType="USINT"
+      Kind="Var" />
+  </Pou>
+  <Pou
+    Name="cpCOe_2_REdge"
+    Moniker="cpCOe_2_REdge.stf"
+    Language="ST"
+    IsIec61499="false"
+    Kind="FunctionBlock"
+    Password="E4BDBA2BEF6CC4DC"
+    GenerateDebugInfo="true"
+    GeneratingMonitoringSymbols="true"
+    UserEdited="false"
+    Deprecated="false"
+    IsVisible="false">
+    <Variable
+      Name="In"
+      Comment="Input value"
+      AccessRights="Read"
+      DataType="BOOL"
+      Kind="VarInput" />
+    <Variable
+      Name="Reset"
+      Comment="Reset"
+      AccessRights="Read"
+      DataType="BOOL"
+      Kind="VarInput" />
+    <Variable
+      Name="Out"
+      Comment="Edge"
+      AccessRights="ReadWrite"
+      DataType="BOOL"
+      Kind="VarOutput" />
+    <Variable
+      Name="In_Old"
+      Comment=""
+      AccessRights="ReadWrite"
+      DataType="BOOL"
+      Kind="Var" />
+  </Pou>
+  <Pou
+    Name="cpCOe_2_PriorityMng_INT"
+    Moniker="cpCOe_2_PriorityMng_INT.stf"
+    Language="ST"
+    IsIec61499="false"
+    Kind="FunctionBlock"
+    Password="E4BDBA2BEF6CC4DC"
+    GenerateDebugInfo="false"
+    GeneratingMonitoringSymbols="true"
+    UserEdited="false"
+    Deprecated="false"
+    IsVisible="false">
+    <Variable
+      Name="VariableIn"
+      Comment="Variable used on the strategy"
+      AccessRights="Read"
+      DataType="INT"
+      Kind="VarInput" />
+    <Variable
+      Name="SerialIn"
+      Comment="Variable flag as Protocol"
+      AccessRights="Read"
+      DataType="INT"
+      Kind="VarInput" />
+    <Variable
+      Name="Variable"
+      Comment="Variable flag as Protocol"
+      AccessRights="ReadWrite"
+      DataType="INT"
+      Kind="VarOutput" />
+    <Variable
+      Name="Serial"
+      Comment="Variable used on the strategy"
+      AccessRights="ReadWrite"
+      DataType="INT"
+      Kind="VarOutput" />
+    <Variable
+      Name="UpdtDn"
+      Comment="Update done"
+      AccessRights="ReadWrite"
+      DataType="BOOL"
+      Kind="Var" />
+  </Pou>
+</Manifest>

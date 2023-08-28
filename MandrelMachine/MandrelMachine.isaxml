@@ -1,0 +1,682 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project Name="MandrelMachine" ElementGuid="0d779997-876c-45fc-86bf-eb6ce0842c2f" FileVersion="200.00.003" Comment="" SingleTextLine="template" DbVersion="05.50.07" LibraryType="Project" LegacyBinding="true" Password="E4BDBA2BEF6CC4DC" ReadOnly="false">
+  <FileHeader CompanyName="Rockwell Automation Canada, Ltd." ProductName="CAM ISaGRAF 5" CompanyUrl="http://www.isagraf.com" ProductVersion="0" />
+  <Libraries />
+  <DefineWords>
+    <DefineWord Name="ERR_FILE_ACCESS" Define="-3" Comment="" Access="ReadOnly" />
+    <DefineWord Name="ERR_FILE_INVALID" Define="-5" Comment="" Access="ReadOnly" />
+    <DefineWord Name="COM_CHANNEL_BMS2" Define="3" Comment="" Access="ReadOnly" />
+    <DefineWord Name="SYS_PARAM_NETWORK_SETTINGS" Define="13" Comment="" Access="ReadOnly" />
+    <DefineWord Name="SYS_PARAM_BOARD_INFO" Define="0" Comment="" Access="ReadOnly" />
+    <DefineWord Name="ERR_BUSY" Define="-10" Comment="" Access="ReadOnly" />
+    <DefineWord Name="ERR_VALUE_INVALID" Define="-6" Comment="" Access="ReadOnly" />
+    <DefineWord Name="SYS_PARAM_POWER_SUPPLY_VOLT" Define="5" Comment="" Access="ReadOnly" />
+    <DefineWord Name="SYS_PARAM_RETAINED_ERRORS" Define="8" Comment="" Access="ReadOnly" />
+    <DefineWord Name="COM_CHANNEL_FB1" Define="2" Comment="" Access="ReadOnly" />
+    <DefineWord Name="ERR_DISK_ACCESS" Define="-2" Comment="" Access="ReadOnly" />
+    <DefineWord Name="ERR_SUCCESS" Define="0" Comment="" Access="ReadOnly" />
+    <DefineWord Name="COM_CHANNEL_FB2" Define="4" Comment="" Access="ReadOnly" />
+    <DefineWord Name="SYS_PARAM_USB_STATUS" Define="16" Comment="" Access="ReadOnly" />
+    <DefineWord Name="SYS_PARAM_GET_RETAIN_WRITE_HITS" Define="11" Comment="" Access="ReadOnly" />
+    <DefineWord Name="SYS_PARAM_BUILTIN_DISPLAY_INFO" Define="1" Comment="" Access="ReadOnly" />
+    <DefineWord Name="SYS_DISK_INTERNAL" Define="0" Comment="" Access="ReadOnly" />
+    <DefineWord Name="ERR_FILE_EMPTY" Define="-8" Comment="" Access="ReadOnly" />
+    <DefineWord Name="ERR_NOT_IMPLEMENTED" Define="-14" Comment="" Access="ReadOnly" />
+    <DefineWord Name="SYS_PARAM_REMOTE_DISPLAY_3_INFO" Define="4" Comment="" Access="ReadOnly" />
+    <DefineWord Name="ERR_EXPORT_LOG" Define="-12" Comment="" Access="ReadOnly" />
+    <DefineWord Name="SYS_PARAM_ERROR_ON_DIV_BY_ZERO" Define="9" Comment="" Access="ReadOnly" />
+    <DefineWord Name="SYS_PARAM_REMOTE_DISPLAY_2_INFO" Define="3" Comment="" Access="ReadOnly" />
+    <DefineWord Name="SYS_PARAM_POWER_SUPPLY_FREQ" Define="6" Comment="" Access="ReadOnly" />
+    <DefineWord Name="SYS_PARAM_BOARD_TEMP" Define="7" Comment="" Access="ReadOnly" />
+    <DefineWord Name="SYS_PARAM_REMOTE_DISPLAY_1_INFO" Define="2" Comment="" Access="ReadOnly" />
+    <DefineWord Name="ERR_PARAM_INVALID" Define="-13" Comment="" Access="ReadOnly" />
+    <DefineWord Name="ERR_FNAME_INVALID" Define="-1" Comment="" Access="ReadOnly" />
+    <DefineWord Name="SYS_PARAM_OS_VERSION" Define="14" Comment="" Access="ReadOnly" />
+    <DefineWord Name="ERR_NO_LOGGER" Define="-11" Comment="" Access="ReadOnly" />
+    <DefineWord Name="ERR_UNKNOWN" Define="-99" Comment="" Access="ReadOnly" />
+    <DefineWord Name="ERR_DATE_FILTER" Define="-9" Comment="" Access="ReadOnly" />
+    <DefineWord Name="SYS_DISK_USB" Define="1" Comment="" Access="ReadOnly" />
+    <DefineWord Name="SYS_VALUE_WIPE_NVRAM" Define="2" Comment="" Access="ReadOnly" />
+    <DefineWord Name="ERR_BUFFER_SMALL" Define="-7" Comment="" Access="ReadOnly" />
+    <DefineWord Name="SYS_VALUE_WIPE_ALL" Define="3" Comment="" Access="ReadOnly" />
+    <DefineWord Name="SYS_PARAM_RESTART_ON_FATAL_ERROR" Define="10" Comment="" Access="ReadOnly" />
+    <DefineWord Name="ERR_FILE_IO" Define="-4" Comment="" Access="ReadOnly" />
+    <DefineWord Name="SYS_PARAM_PLAN_INFO" Define="15" Comment="" Access="ReadOnly" />
+    <DefineWord Name="COM_CHANNEL_BMS1" Define="1" Comment="" Access="ReadOnly" />
+    <DefineWord Name="SYS_PARAM_VM_QUIT" Define="12" Comment="" Access="ReadOnly" />
+    <DefineWord Name="IO_NO_ERR" Define="10" Comment="Result is a valid value" Access="UserDefined" />
+    <DefineWord Name="SYS_FMODE_OVERWRITE" Define="0" Comment="" Access="ReadOnly" />
+    <DefineWord Name="IO_ERR_UNKNOWN" Define="0" Comment="Default value" Access="UserDefined" />
+    <DefineWord Name="SYS_PARAM_IS_WATCHDOG_RESTART" Define="25" Comment="" Access="ReadOnly" />
+    <DefineWord Name="IO_ERR_OPEN" Define="-1" Comment="NTC/PTC input is open" Access="UserDefined" />
+    <DefineWord Name="IO_ERR_SHORT" Define="-2" Comment="NTC/PTC input is shorted" Access="UserDefined" />
+    <DefineWord Name="IO_ERR_OVERFLOW" Define="-3" Comment="Voltage input exceed max allowed value" Access="UserDefined" />
+    <DefineWord Name="IO_ERR_UNDERFLOW" Define="-4" Comment="Voltage input exceed min allowed value" Access="UserDefined" />
+    <DefineWord Name="IO_ERR_INVALID_PARAM" Define="-5" Comment="Channel is out of range" Access="UserDefined" />
+    <DefineWord Name="SYS_PARAM_SET_PLAN_ADDR" Define="32" Comment="" Access="ReadOnly" />
+    <DefineWord Name="IO_ERR_CHANNEL_NOTFREE" Define="-6" Comment="Channel is not readable due to previous bi-channel probe" Access="UserDefined" />
+    <DefineWord Name="SYS_PARAM_WIPE_MEMORIES" Define="29" Comment="" Access="ReadOnly" />
+    <DefineWord Name="IO_ERR_INTERNAL_TABLE" Define="-8" Comment="Only ISAI when scaling variable reference are invalid" Access="UserDefined" />
+    <DefineWord Name="SYS_PARAM_LIC_SNMP" Define="36" Comment="" Access="ReadOnly" />
+    <DefineWord Name="IO_ERR_INVALID_PROBE_TYPE" Define="-9" Comment="Out of range probe type selected" Access="UserDefined" />
+    <DefineWord Name="IO_ERR_CHIPIO_CONFIG_COMM" Define="-100" Comment="Io system has not started due to a severe error" Access="UserDefined" />
+    <DefineWord Name="SYS_PARAM_GET_PHYSICAL_RAM_SIZE" Define="27" Comment="" Access="ReadOnly" />
+    <DefineWord Name="SYS_PARAM_7SEG_MNG" Define="33" Comment="" Access="ReadOnly" />
+    <DefineWord Name="SYS_PARAM_SYSTEM_POWERDOWN" Define="18" Comment="" Access="ReadOnly" />
+    <DefineWord Name="SYS_VALUE_RTC_SRC_NTP" Define="1" Comment="" Access="ReadOnly" />
+    <DefineWord Name="SYS_PARAM_SYSTEM_REBOOT" Define="17" Comment="" Access="ReadOnly" />
+    <DefineWord Name="SYS_VALUE_WIPE_RETAIN" Define="1" Comment="" Access="ReadOnly" />
+    <DefineWord Name="ERR_CFG" Define="-15" Comment="" Access="ReadOnly" />
+    <DefineWord Name="SYS_PARAM_RTC_SRC" Define="20" Comment="" Access="ReadOnly" />
+    <DefineWord Name="NFC_PASSWORD_1" Define="1" Comment="" Access="ReadOnly" />
+    <DefineWord Name="NFC_PERMISSION_LOCK_1" Define="1" Comment="" Access="ReadOnly" />
+    <DefineWord Name="NFC_PASSWORD_2" Define="2" Comment="" Access="ReadOnly" />
+    <DefineWord Name="IO_ERR_INTERNAL_FULL" Define="-10" Comment="Linked variable already used in timed relays or no more timed relays free" Access="UserDefined" />
+    <DefineWord Name="SYS_VALUE_RTC_SRC_TERA" Define="2" Comment="" Access="ReadOnly" />
+    <DefineWord Name="NFC_PERMISSION_LOCK_2" Define="2" Comment="" Access="ReadOnly" />
+    <DefineWord Name="NFC_PASSWORD_3" Define="3" Comment="" Access="ReadOnly" />
+    <DefineWord Name="SYS_PARAM_GET_UID" Define="28" Comment="" Access="ReadOnly" />
+    <DefineWord Name="SYS_PARAM_GET_JST_INPUT" Define="26" Comment="" Access="ReadOnly" />
+    <DefineWord Name="NFC_PERMISSION_LOCK_3" Define="3" Comment="" Access="ReadOnly" />
+    <DefineWord Name="NFC_PASSWORD_NONE" Define="0" Comment="" Access="ReadOnly" />
+    <DefineWord Name="NFC_PERMISSION_NO_LOCK" Define="0" Comment="" Access="ReadOnly" />
+    <DefineWord Name="NFC_PERMISSION_LOCK_4" Define="4" Comment="" Access="ReadOnly" />
+    <DefineWord Name="SYS_PARAM_TICKS" Define="19" Comment="" Access="ReadOnly" />
+    <DefineWord Name="SYS_VALUE_RTC_SRC_MANUAL" Define="0" Comment="" Access="ReadOnly" />
+    <DefineWord Name="SYS_PARAM_LIC_BACNET" Define="35" Comment="" Access="ReadOnly" />
+    <DefineWord Name="SYS_PARAM_MEM_FREE" Define="31" Comment="" Access="ReadOnly" />
+    <DefineWord Name="SYS_PARAM_MEM_USED" Define="30" Comment="" Access="ReadOnly" />
+    <DefineWord Name="SYS_FMODE_MODIFY" Define="1" Comment="" Access="ReadOnly" />
+    <DefineWord Name="SYS_TRANSFER_PATH" Define="'HTTP\TRANSFER\'" Comment="" Access="ReadOnly" />
+    <DefineWord Name="SYS_PARAM_BOOT_VERSION" Define="34" Comment="" Access="ReadOnly" />
+    <DefineWord Name="SYS_PARAM_NETWORK_SETTINGS_IPv6_PA" Define="39" Comment="" Access="ReadOnly" />
+    <DefineWord Name="SYS_PARAM_LIC_NET" Define="42" Comment="" Access="ReadOnly" />
+    <DefineWord Name="SYS_VALUE_USBD_DISABLED" Define="0" Comment="" Access="ReadOnly" />
+    <DefineWord Name="SYS_PARAM_NETWORK_SETTINGS_IPv6_DNS" Define="41" Comment="" Access="ReadOnly" />
+    <DefineWord Name="SYS_VALUE_USBD_MSD" Define="6" Comment="" Access="ReadOnly" />
+    <DefineWord Name="SYS_PARAM_NETWORK_SETTINGS_COMMON" Define="37" Comment="" Access="ReadOnly" />
+    <DefineWord Name="SYS_VALUE_USBH_DISABLED" Define="1" Comment="" Access="ReadOnly" />
+    <DefineWord Name="SYS_PARAM_USB_CFG" Define="44" Comment="" Access="ReadOnly" />
+    <DefineWord Name="SYS_VALUE_USBD_IP" Define="5" Comment="" Access="ReadOnly" />
+    <DefineWord Name="SYS_VALUE_USBH_MSD" Define="2" Comment="" Access="ReadOnly" />
+    <DefineWord Name="SYS_VALUE_USBD_CDC" Define="4" Comment="" Access="ReadOnly" />
+    <DefineWord Name="SYS_VALUE_USBD_MSD_CDC" Define="3" Comment="" Access="ReadOnly" />
+    <DefineWord Name="SYS_PARAM_NETWORK_SETTINGS_IPv6_GW" Define="40" Comment="" Access="ReadOnly" />
+    <DefineWord Name="SYS_PARAM_NETWORK_SETTINGS_IPv6_LL" Define="38" Comment="" Access="ReadOnly" />
+    <DefineWord Name="SYS_PARAM_RETAIN_ALGORITHM_SETTINGS" Define="43" Comment="" Access="ReadOnly" />
+    <DefineWord Name="BAC_TYPE_DATA_ARRAY" Define="32" Comment="" Access="ReadOnly" />
+    <DefineWord Name="BAC_TYPE_TIME" Define="11" Comment="" Access="ReadOnly" />
+    <DefineWord Name="BAC_TYPE_REAL" Define="4" Comment="" Access="ReadOnly" />
+    <DefineWord Name="BAC_PROP_RECORDS_SINCE_NOTIFICATION" Define="140" Comment="" Access="ReadOnly" />
+    <DefineWord Name="BAC_PROP_BUFFER_SIZE" Define="126" Comment="" Access="ReadOnly" />
+    <DefineWord Name="BAC_PROP_MODEL_NAME" Define="70" Comment="" Access="ReadOnly" />
+    <DefineWord Name="BAC_PROP_MIN_PRES_VALUE" Define="69" Comment="" Access="ReadOnly" />
+    <DefineWord Name="BAC_PROP_DEVICE_ADDRESS_BINDING" Define="30" Comment="" Access="ReadOnly" />
+    <DefineWord Name="BAC_PROP_APPLICATION_SOFTWARE_VERSION" Define="12" Comment="" Access="ReadOnly" />
+    <DefineWord Name="BAC_PROP_PROP_CLIENTOFFLINEINTERVAL" Define="77018" Comment="" Access="ReadOnly" />
+    <DefineWord Name="BAC_TYPE_DATE" Define="10" Comment="" Access="ReadOnly" />
+    <DefineWord Name="BAC_PROP_PROPERTY_LIST" Define="371" Comment="" Access="ReadOnly" />
+    <DefineWord Name="BAC_PROP_RELIABILITY_EVALUATION_INHIBIT" Define="357" Comment="" Access="ReadOnly" />
+    <DefineWord Name="BAC_PROP_EVENT_ALGORITHM_INHIBIT" Define="354" Comment="" Access="ReadOnly" />
+    <DefineWord Name="BAC_PROP_EVENT_DETECTION_ENABLE" Define="353" Comment="" Access="ReadOnly" />
+    <DefineWord Name="SYS_PARAM_UPTIME" Define="47" Comment="" Access="ReadOnly" />
+    <DefineWord Name="BAC_PROP_LAST_RESTORE_TIME" Define="157" Comment="" Access="ReadOnly" />
+    <DefineWord Name="BAC_PROP_NOTIFICATION_THRESHOLD" Define="137" Comment="" Access="ReadOnly" />
+    <DefineWord Name="BAC_PROP_SEGMENTATION_SUPPORTED" Define="107" Comment="" Access="ReadOnly" />
+    <DefineWord Name="BAC_PROP_PROTOCOL_VERSION" Define="98" Comment="" Access="ReadOnly" />
+    <DefineWord Name="BAC_PROP_NUMBER_OF_APDU_RETRIES" Define="73" Comment="" Access="ReadOnly" />
+    <DefineWord Name="BAC_OBJ_CALENDAR" Define="6" Comment="" Access="ReadOnly" />
+    <DefineWord Name="BAC_PROP_PROP_MACSUBNET" Define="77002" Comment="" Access="ReadOnly" />
+    <DefineWord Name="BAC_PROP_PROP_MACUDPPORT" Define="77003" Comment="" Access="ReadOnly" />
+    <DefineWord Name="BAC_PROP_RESTART_NOTIFICATION_RECIPIENTS" Define="202" Comment="" Access="ReadOnly" />
+    <DefineWord Name="BAC_PROP_ALIGN_INTERVALS" Define="193" Comment="" Access="ReadOnly" />
+    <DefineWord Name="BAC_PROP_RECORD_COUNT" Define="141" Comment="" Access="ReadOnly" />
+    <DefineWord Name="BAC_PROP_RELINQUISH_DEFAULT" Define="104" Comment="" Access="ReadOnly" />
+    <DefineWord Name="BAC_PROP_POLARITY" Define="84" Comment="" Access="ReadOnly" />
+    <DefineWord Name="BAC_PROP_MAX_PRES_VALUE" Define="65" Comment="" Access="ReadOnly" />
+    <DefineWord Name="BAC_OBJ_BINARY_INPUT" Define="3" Comment="" Access="ReadOnly" />
+    <DefineWord Name="BAC_PROP_PROP_DUMPTRACE" Define="77019" Comment="" Access="ReadOnly" />
+    <DefineWord Name="BAC_TYPE_CHAR_STRING" Define="7" Comment="" Access="ReadOnly" />
+    <DefineWord Name="BAC_TYPE_OCTET_STRING" Define="6" Comment="" Access="ReadOnly" />
+    <DefineWord Name="BAC_PROP_RESTORE_COMPLETION_TIME" Define="340" Comment="" Access="ReadOnly" />
+    <DefineWord Name="BAC_PROP_LOGGING_TYPE" Define="197" Comment="" Access="ReadOnly" />
+    <DefineWord Name="SYS_PARAM_STRING_MAC_ADDR" Define="0" Comment="" Access="ReadOnly" />
+    <DefineWord Name="BAC_PROP_EVENT_TIME_STAMPS" Define="130" Comment="" Access="ReadOnly" />
+    <DefineWord Name="BAC_PROP_VENDOR_IDENTIFIER" Define="120" Comment="" Access="ReadOnly" />
+    <DefineWord Name="BAC_PROP_UNITS" Define="117" Comment="" Access="ReadOnly" />
+    <DefineWord Name="BAC_PROP_STATUS_FLAGS" Define="111" Comment="" Access="ReadOnly" />
+    <DefineWord Name="BAC_PROP_RESOLUTION" Define="106" Comment="" Access="ReadOnly" />
+    <DefineWord Name="BAC_PROP_OUT_OF_SERVICE" Define="81" Comment="" Access="ReadOnly" />
+    <DefineWord Name="BAC_PROP_MAX_APDU_LENGTH_ACCEPTED" Define="62" Comment="" Access="ReadOnly" />
+    <DefineWord Name="BAC_PROP_DAYLIGHT_SAVINGS_STATUS" Define="24" Comment="" Access="ReadOnly" />
+    <DefineWord Name="BAC_PROP_NOTIFICATION_CLASS" Define="17" Comment="" Access="ReadOnly" />
+    <DefineWord Name="BAC_PROP_PROP_COMPORT" Define="77006" Comment="" Access="ReadOnly" />
+    <DefineWord Name="BAC_PROP_PROP_MACBBMDTIMETOLIVE" Define="77005" Comment="" Access="ReadOnly" />
+    <DefineWord Name="BAC_PROP_PROP_MACSPEED" Define="77007" Comment="" Access="ReadOnly" />
+    <DefineWord Name="BAC_PROP_PROP_RWC" Define="77009" Comment="" Access="ReadOnly" />
+    <DefineWord Name="BAC_TYPE_CHAR_STRING_ARRAY" Define="33" Comment="" Access="ReadOnly" />
+    <DefineWord Name="BAC_TYPE_RECIPIENT_ADDR" Define="19" Comment="" Access="ReadOnly" />
+    <DefineWord Name="BAC_PROP_LOG_INTERVAL" Define="134" Comment="" Access="ReadOnly" />
+    <DefineWord Name="BAC_PROP_LIMIT_ENABLE" Define="52" Comment="" Access="ReadOnly" />
+    <DefineWord Name="BAC_PROP_DESCRIPTION" Define="28" Comment="" Access="ReadOnly" />
+    <DefineWord Name="BAC_PROP_ALARM_VALUES" Define="7" Comment="" Access="ReadOnly" />
+    <DefineWord Name="BAC_OBJ_MULTISTATE_OUTPUT" Define="14" Comment="" Access="ReadOnly" />
+    <DefineWord Name="BAC_OBJ_BINARY_OUTPUT" Define="4" Comment="" Access="ReadOnly" />
+    <DefineWord Name="BAC_TYPE_ADDRESS_BINDING" Define="18" Comment="" Access="ReadOnly" />
+    <DefineWord Name="BAC_PROP_PROTOCOL_REVISION" Define="139" Comment="" Access="ReadOnly" />
+    <DefineWord Name="BAC_PROP_UTC_OFFSET" Define="119" Comment="" Access="ReadOnly" />
+    <DefineWord Name="BAC_PROP_PRIORITY" Define="86" Comment="" Access="ReadOnly" />
+    <DefineWord Name="BAC_PROP_OBJECT_TYPE" Define="79" Comment="" Access="ReadOnly" />
+    <DefineWord Name="BAC_PROP_MAX_MASTER" Define="64" Comment="" Access="ReadOnly" />
+    <DefineWord Name="BAC_PROP_LOW_LIMIT" Define="59" Comment="" Access="ReadOnly" />
+    <DefineWord Name="BAC_PROP_LOCAL_TIME" Define="57" Comment="" Access="ReadOnly" />
+    <DefineWord Name="BAC_PROP_APDU_SEGMENT_TIMEOUT" Define="10" Comment="" Access="ReadOnly" />
+    <DefineWord Name="BAC_OBJ_SCHEDULE" Define="17" Comment="" Access="ReadOnly" />
+    <DefineWord Name="BAC_TYPE_UNSIGNED" Define="2" Comment="" Access="ReadOnly" />
+    <DefineWord Name="BAC_PROP_PROP_MACBBMDADDRESS" Define="77004" Comment="" Access="ReadOnly" />
+    <DefineWord Name="BAC_PROP_EVENT_MESSAGE_TEXTS_CONFIG" Define="352" Comment="" Access="ReadOnly" />
+    <DefineWord Name="BAC_PROP_CONFIGURATION_FILES" Define="154" Comment="" Access="ReadOnly" />
+    <DefineWord Name="SYS_PARAM_STRING_DSP_BLT_NAME" Define="1" Comment="" Access="ReadOnly" />
+    <DefineWord Name="BAC_PROP_STOP_TIME" Define="143" Comment="" Access="ReadOnly" />
+    <DefineWord Name="BAC_PROP_ENABLE" Define="133" Comment="" Access="ReadOnly" />
+    <DefineWord Name="BAC_PROP_LOCAL_DATE" Define="56" Comment="" Access="ReadOnly" />
+    <DefineWord Name="BAC_PROP_INACTIVE_TEXT" Define="46" Comment="" Access="ReadOnly" />
+    <DefineWord Name="BAC_PROP_EVENT_STATE" Define="36" Comment="" Access="ReadOnly" />
+    <DefineWord Name="BAC_OBJ_MULTISTATE_INPUT" Define="13" Comment="" Access="ReadOnly" />
+    <DefineWord Name="BAC_OBJ_DEVICE" Define="8" Comment="" Access="ReadOnly" />
+    <DefineWord Name="BAC_OBJ_ANALOG_INPUT" Define="0" Comment="" Access="ReadOnly" />
+    <DefineWord Name="BAC_PROP_PROP_MACTYPE" Define="77000" Comment="" Access="ReadOnly" />
+    <DefineWord Name="BAC_TYPE_DATE_RANGE" Define="30" Comment="" Access="ReadOnly" />
+    <DefineWord Name="BAC_TYPE_OBJECT_ID" Define="12" Comment="" Access="ReadOnly" />
+    <DefineWord Name="BAC_PROP_WEEKLY_SCHEDULE" Define="123" Comment="" Access="ReadOnly" />
+    <DefineWord Name="BAC_PROP_SYSTEM_STATUS" Define="112" Comment="" Access="ReadOnly" />
+    <DefineWord Name="BAC_PROP_RELIABILITY" Define="103" Comment="" Access="ReadOnly" />
+    <DefineWord Name="BAC_PROP_PRIORITY_ARRAY" Define="87" Comment="" Access="ReadOnly" />
+    <DefineWord Name="BAC_PROP_OBJECT_NAME" Define="77" Comment="" Access="ReadOnly" />
+    <DefineWord Name="BAC_PROP_OBJECT_IDENTIFIER" Define="75" Comment="" Access="ReadOnly" />
+    <DefineWord Name="BAC_PROP_ACKED_TRANSITIONS" Define="0" Comment="" Access="ReadOnly" />
+    <DefineWord Name="BAC_OBJ_POSITIVE_INTEGER" Define="48" Comment="" Access="ReadOnly" />
+    <DefineWord Name="BAC_PROP_PROP_SERVEROFFLINEINTERVAL" Define="77017" Comment="" Access="ReadOnly" />
+    <DefineWord Name="BAC_TYPE_DAILY_SCHEDULE" Define="26" Comment="" Access="ReadOnly" />
+    <DefineWord Name="BAC_PROP_SCHEDULE_DEFAULT" Define="174" Comment="" Access="ReadOnly" />
+    <DefineWord Name="BAC_PROP_VENDOR_NAME" Define="121" Comment="" Access="ReadOnly" />
+    <DefineWord Name="BAC_PROP_EXCEPTION_SCHEDULE" Define="38" Comment="" Access="ReadOnly" />
+    <DefineWord Name="BAC_PROP_DATE_LIST" Define="23" Comment="" Access="ReadOnly" />
+    <DefineWord Name="BAC_PROP_ACTIVE_TEXT" Define="4" Comment="" Access="ReadOnly" />
+    <DefineWord Name="BAC_TYPE_BOOLEAN" Define="1" Comment="" Access="ReadOnly" />
+    <DefineWord Name="BAC_TYPE_SPECIAL_EVENT" Define="27" Comment="" Access="ReadOnly" />
+    <DefineWord Name="BAC_TYPE_DESTINATION" Define="23" Comment="" Access="ReadOnly" />
+    <DefineWord Name="BAC_TYPE_BIT_STRING" Define="8" Comment="" Access="ReadOnly" />
+    <DefineWord Name="BAC_TYPE_NULL" Define="0" Comment="" Access="ReadOnly" />
+    <DefineWord Name="BAC_PROP_TIME_OF_DEVICE_RESTART" Define="203" Comment="" Access="ReadOnly" />
+    <DefineWord Name="SYS_PARAM_TERA_CONNSTATUS" Define="48" Comment="" Access="ReadOnly" />
+    <DefineWord Name="BAC_PROP_OBJECT_LIST" Define="76" Comment="" Access="ReadOnly" />
+    <DefineWord Name="BAC_PROP_ALARM_VALUE" Define="6" Comment="" Access="ReadOnly" />
+    <DefineWord Name="BAC_OBJ_TREND_LOG" Define="20" Comment="" Access="ReadOnly" />
+    <DefineWord Name="BAC_OBJ_BINARY_VALUE" Define="5" Comment="" Access="ReadOnly" />
+    <DefineWord Name="BAC_TYPE_COV_SUBSCRIPTION" Define="37" Comment="" Access="ReadOnly" />
+    <DefineWord Name="BAC_TYPE_DEVICE_OBJECT_PROPERTY_REFERENCE" Define="29" Comment="" Access="ReadOnly" />
+    <DefineWord Name="BAC_TYPE_INTEGER" Define="3" Comment="" Access="ReadOnly" />
+    <DefineWord Name="BAC_PROP_TIME_DELAY_NORMAL" Define="356" Comment="" Access="ReadOnly" />
+    <DefineWord Name="BAC_PROP_DATABASE_REVISION" Define="155" Comment="" Access="ReadOnly" />
+    <DefineWord Name="BAC_PROP_ACTIVE_COV_SUBSCRIPTIONS" Define="152" Comment="" Access="ReadOnly" />
+    <DefineWord Name="BAC_PROP_EFFECTIVE_PERIOD" Define="32" Comment="" Access="ReadOnly" />
+    <DefineWord Name="BAC_PROP_BACKUP_AND_RESTORE_STATE" Define="338" Comment="" Access="ReadOnly" />
+    <DefineWord Name="BAC_PROP_STOP_WHEN_FULL" Define="144" Comment="" Access="ReadOnly" />
+    <DefineWord Name="BAC_PROP_NUMBER_OF_STATES" Define="74" Comment="" Access="ReadOnly" />
+    <DefineWord Name="BAC_PROP_NOTIFY_TYPE" Define="72" Comment="" Access="ReadOnly" />
+    <DefineWord Name="BAC_TYPE_ENUMERATED" Define="9" Comment="" Access="ReadOnly" />
+    <DefineWord Name="BAC_PROP_TRIGGER" Define="205" Comment="" Access="ReadOnly" />
+    <DefineWord Name="BAC_PROP_LAST_NOTIFY_RECORD" Define="173" Comment="" Access="ReadOnly" />
+    <DefineWord Name="BAC_PROP_TOTAL_RECORD_COUNT" Define="145" Comment="" Access="ReadOnly" />
+    <DefineWord Name="BAC_PROP_PRESENT_VALUE" Define="85" Comment="" Access="ReadOnly" />
+    <DefineWord Name="BAC_PROP_MAX_INFO_FRAMES" Define="63" Comment="" Access="ReadOnly" />
+    <DefineWord Name="BAC_PROP_FIRMWARE_REVISION" Define="44" Comment="" Access="ReadOnly" />
+    <DefineWord Name="SYS_PARAM_EXPORT_SYSLOG" Define="46" Comment="" Access="ReadOnly" />
+    <DefineWord Name="BAC_PROP_EVENT_ENABLE" Define="35" Comment="" Access="ReadOnly" />
+    <DefineWord Name="BAC_PROP_PROP_MACADDRESS" Define="77001" Comment="" Access="ReadOnly" />
+    <DefineWord Name="BAC_PROP_PROP_PASSWORD" Define="77008" Comment="" Access="ReadOnly" />
+    <DefineWord Name="BAC_TYPE_CALENDAR_ENTRY" Define="20" Comment="" Access="ReadOnly" />
+    <DefineWord Name="BAC_PROP_SERIAL_NUMBER" Define="372" Comment="" Access="ReadOnly" />
+    <DefineWord Name="BAC_PROP_MAX_SEGMENTS_ACCEPTED" Define="167" Comment="" Access="ReadOnly" />
+    <DefineWord Name="BAC_PROP_LOCATION" Define="58" Comment="" Access="ReadOnly" />
+    <DefineWord Name="BAC_PROP_ACK_REQUIRED" Define="1" Comment="" Access="ReadOnly" />
+    <DefineWord Name="BAC_OBJ_MULTISTATE_VALUE" Define="19" Comment="" Access="ReadOnly" />
+    <DefineWord Name="BAC_OBJ_NOTIFICATION_CLASS" Define="15" Comment="" Access="ReadOnly" />
+    <DefineWord Name="BAC_OBJ_ANALOG_VALUE" Define="2" Comment="" Access="ReadOnly" />
+    <DefineWord Name="BAC_TYPE_DATE_TIME" Define="31" Comment="" Access="ReadOnly" />
+    <DefineWord Name="BAC_TYPE_EMPTY_LIST" Define="17" Comment="" Access="ReadOnly" />
+    <DefineWord Name="BAC_PROP_BACKUP_FAILURE_TIMEOUT" Define="153" Comment="" Access="ReadOnly" />
+    <DefineWord Name="BAC_PROP_START_TIME" Define="142" Comment="" Access="ReadOnly" />
+    <DefineWord Name="BAC_PROP_LOG_DEVICEOBJECTPROPERTY" Define="132" Comment="" Access="ReadOnly" />
+    <DefineWord Name="BAC_PROP_LOG_BUFFER" Define="131" Comment="" Access="ReadOnly" />
+    <DefineWord Name="BAC_PROP_TIME_DELAY" Define="113" Comment="" Access="ReadOnly" />
+    <DefineWord Name="BAC_PROP_STATE_TEXT" Define="110" Comment="" Access="ReadOnly" />
+    <DefineWord Name="BAC_PROP_HIGH_LIMIT" Define="45" Comment="" Access="ReadOnly" />
+    <DefineWord Name="BAC_PROP_FAULT_VALUES" Define="39" Comment="" Access="ReadOnly" />
+    <DefineWord Name="BAC_PROP_APDU_TIMEOUT" Define="11" Comment="" Access="ReadOnly" />
+    <DefineWord Name="BAC_PROP_INTERVAL_OFFSET" Define="195" Comment="" Access="ReadOnly" />
+    <DefineWord Name="BAC_PROP_RECIPIENT_LIST" Define="102" Comment="" Access="ReadOnly" />
+    <DefineWord Name="BAC_PROP_DEADBAND" Define="25" Comment="" Access="ReadOnly" />
+    <DefineWord Name="BAC_OBJ_INTEGER_VALUE" Define="45" Comment="" Access="ReadOnly" />
+    <DefineWord Name="SYS_PARAM_STARTUP_ERRORS" Define="45" Comment="" Access="ReadOnly" />
+    <DefineWord Name="BAC_PROP_PROP_EXCLUDEEXTERNS" Define="77020" Comment="" Access="ReadOnly" />
+    <DefineWord Name="BAC_PROP_LAST_RESTART_REASON" Define="196" Comment="" Access="ReadOnly" />
+    <DefineWord Name="BAC_PROP_PRIORITY_FOR_WRITING" Define="88" Comment="" Access="ReadOnly" />
+    <DefineWord Name="BAC_PROP_LIST_OF_OBJECT_PROPERTY_REFS" Define="54" Comment="" Access="ReadOnly" />
+    <DefineWord Name="BAC_PROP_COV_INCREMENT" Define="22" Comment="" Access="ReadOnly" />
+    <DefineWord Name="BAC_OBJ_ANALOG_OUTPUT" Define="1" Comment="" Access="ReadOnly" />
+    <DefineWord Name="DF_DIRECTION_IN" Define="0" Comment="Тип вх/вых: ВХОД" Access="UserDefined" />
+    <DefineWord Name="DF_DIRECTION_OUT" Define="1" Comment="Тип вх/вых: ВЫХОД" Access="UserDefined" />
+    <DefineWord Name="DF_INPUT_TYPE_0_10V" Define="3" Comment="Тип входа: 0-10В" Access="UserDefined" />
+    <DefineWord Name="DF_INPUT_TYPE_CAREL_NTC" Define="0" Comment="" Access="UserDefined" />
+    <DefineWord Name="DF_OUTPUT_TYPE_0_10V" Define="0" Comment="Тип выхода: 0-10В" Access="UserDefined" />
+    <DefineWord Name="STARTUP_JMP_T" Define="T#5s" Comment="Starup jump time" Access="UserDefined" />
+    <DefineWord Name="INST_DEF_T" Define="T#5s" Comment="Default installation time" Access="UserDefined" />
+    <DefineWord Name="DF_CPCOE_PARITY" Define="0" Comment="Настройка четности для cpCOe" Access="UserDefined" />
+    <DefineWord Name="DF_CPCOE_STOPBITS" Define="2" Comment="Настройка стоп битов для cpCOe" Access="UserDefined" />
+    <DefineWord Name="DF_CPCOE_ADDRESS" Define="1" Comment="Настройка адреса для cpCOe" Access="UserDefined" />
+    <DefineWord Name="DF_CPCOE_EXT_ADDRESS" Define="0" Comment="Настройка расшир.адреса для cpCOe" Access="UserDefined" />
+    <DefineWord Name="DF_CPCOE_PROTOCOL" Define="1" Comment="Настройка протокола для cpCOe (1 - Carel, 0 -ModBus)" Access="UserDefined" />
+    <DefineWord Name="DF_FILTER_NUM_5" Define="5" Comment="Количество проб для фильтрации" Access="UserDefined" />
+    <DefineWord Name="DF_HOURS_IN_DAY" Define="24" Comment="Количество часов в сутках" Access="UserDefined" />
+    <DefineWord Name="DF_MIN_IN_HOUR" Define="60" Comment="" Access="UserDefined" />
+    <DefineWord Name="DF_SEC_IN_MIN" Define="60" Comment="Количество секунд в минуте" Access="UserDefined" />
+    <DefineWord Name="DF_SENS_OK" Define="10" Comment="Код ошибки входа: нет ошибок" Access="UserDefined" />
+    <DefineWord Name="DF_COOLING_MODE" Define="FALSE" Comment="" Access="UserDefined" />
+    <DefineWord Name="DF_DIRECT_MODE" Define="FALSE" Comment="" Access="UserDefined" />
+    <DefineWord Name="DF_NO_SET_INTEGRAL" Define="FALSE" Comment="" Access="UserDefined" />
+    <DefineWord Name="DF_NO_MAN_MODE" Define="FALSE" Comment="" Access="UserDefined" />
+    <DefineWord Name="DF_SEC_IN_HOUR" Define="3600" Comment="Секунд в часе" Access="UserDefined" />
+    <DefineWord Name="DF_SECOND" Define="1" Comment="Секунда" Access="UserDefined" />
+    <DefineWord Name="DF_K_FACTOR" Define="121.0" Comment="Коэф. для вентилятора RH35C" Access="UserDefined" />
+    <DefineWord Name="DF_INPUT_TYPE_4_20mA" Define="4" Comment="Тип входа: 4-20мА" Access="UserDefined" />
+    <DefineWord Name="DF_STATUS_ALARM" Define="2" Comment="Статус: Авария" Access="UserDefined" />
+    <DefineWord Name="DF_STATUS_INWORK" Define="1" Comment="Статус: В работе" Access="UserDefined" />
+    <DefineWord Name="DF_STATUS_OFF" Define="3" Comment="Статус: Выключен" Access="UserDefined" />
+    <DefineWord Name="DF_FANS_NUM" Define="3" Comment="Количество вентиляторов" Access="UserDefined" />
+    <DefineWord Name="DF_MS_IN_SEC" Define="1000" Comment="Количество миллисекунд в секунде" Access="UserDefined" />
+    <DefineWord Name="DF_NUM_SAMPLES" Define="100" Comment="Количество точек для усреднения" Access="UserDefined" />
+    <DefineWord Name="DF_INPUT_TYPE_ONOFF" Define="5" Comment="Тип входа: ON..OFF" Access="UserDefined" />
+    <DefineWord Name="DF_FILTER_NUM_2" Define="2" Comment="Количество проб для фильтрации (DI)" Access="UserDefined" />
+    <DefineWord Name="DF_INPUT_NO_TYPE" Define="255" Comment="Вх/вых отключен" Access="UserDefined" />
+    <DefineWord Name="DF_STATIONS_NUM" Define="20" Comment="Количество постов" Access="UserDefined" />
+    <DefineWord Name="DF_SPEED_NUM" Define="6" Comment="Количество скоростей вентилятора" Access="UserDefined" />
+    <DefineWord Name="ATMOSPHERIC_PRESSURE" Define="1.01325" Comment="Atmospheric pressure in bar" Access="ReadOnly" />
+    <DefineWord Name="e" Define="2.7182818284590452353602874713526624977572470936999595749" Comment="Euler's number" Access="ReadOnly" />
+    <DefineWord Name="GAS_NUMBER" Define="40" Comment="Number of gas supported by thermodynamic functions (indexes from 0 to GAS_NUMBER-1)" Access="ReadOnly" />
+    <DefineWord Name="DF_UOM_BAR" Define="4" Comment="бар" Access="UserDefined" />
+    <DefineWord Name="DF_USTATE_MAN_MODE" Define="9" Comment="Состояние установки: ручной режим" Access="UserDefined" />
+    <DefineWord Name="DF_USTATE_OFF" Define="0" Comment="Состояние установки: выключена" Access="UserDefined" />
+    <DefineWord Name="DF_USTATE_FILLING" Define="1" Comment="Состояние установки: заполнение" Access="UserDefined" />
+    <DefineWord Name="DF_USTATE_MANDREL" Define="3" Comment="Состояние установки: дорнование" Access="UserDefined" />
+    <DefineWord Name="DF_USTATE_BLOWING" Define="5" Comment="Состояние установки: продувка" Access="UserDefined" />
+    <DefineWord Name="DF_USTATE_RELEASE" Define="4" Comment="Состояние установки: сброс воды" Access="UserDefined" />
+    <DefineWord Name="DF_USTATE_FINISHED" Define="6" Comment="Состояние установки: цикл завершён" Access="UserDefined" />
+    <DefineWord Name="DF_USTATE_ALARM" Define="8" Comment="Состояние установки: в аварии" Access="UserDefined" />
+    <DefineWord Name="LT_SAVEHOUR" Define="3" Comment="Кол-во часов между сохранениями в пост память" Access="UserDefined" />
+    <DefineWord Name="DF_USTATE_PRESS_UP" Define="2" Comment="Состояние установки: набор давления" Access="UserDefined" />
+    <DefineWord Name="DF_USTATE_READY" Define="7" Comment="Состояние установки: готов к пуску" Access="UserDefined" />
+    <DefineWord Name="DF_SPEED_FILLING" Define="50.0" Comment="Скорость насоса при наполнении" Access="UserDefined" />
+    <DefineWord Name="DF_SPEED_LOW" Define="15.0" Comment="Минимальная скорость" Access="UserDefined" />
+  </DefineWords>
+  <DataTypes>
+    <DataType Name="STCT_Offset" Comment="" Access="UserDefined">
+      <Struct FieldOrder="0" Order="1">
+        <Variable Name="Value" DataType="REAL" Comment="Значение" StringSize="0" Order="1" />
+        <Variable Name="Min" DataType="REAL" Comment="Минимальное значение" StringSize="0" Order="2" />
+        <Variable Name="Max" DataType="REAL" Comment="Максимальное значение" StringSize="0" Order="3" />
+        <Variable Name="Step" DataType="REAL" Comment="Шаг изменения" StringSize="0" Order="4" />
+      </Struct>
+    </DataType>
+    <DataType Name="STCT_Analog_IO" Comment="Переменные входов/выходов" Access="UserDefined">
+      <Struct FieldOrder="0" Order="1">
+        <Variable Name="Direction" DataType="USINT" Comment="Направление вх/вых" StringSize="0" Order="1" />
+        <Variable Name="IOType" DataType="USINT" Comment="Тип вх/вых" StringSize="0" Order="2" />
+        <Variable Name="Value" DataType="REAL" Comment="Переменная значения вх/вых" StringSize="0" Order="3" />
+        <Variable Name="Error" DataType="SINT" Comment="Ошибка вх/вых" StringSize="0" Order="4" />
+        <Variable Name="IOMin" DataType="REAL" Comment="Мин значение (для аналоговых)" StringSize="0" Order="5" />
+        <Variable Name="IOMax" DataType="REAL" Comment="Макс значение (для аналоговых)" StringSize="0" Order="6" />
+        <Variable Name="Filter" DataType="USINT" Comment="Значение фильтра" StringSize="0" Order="7" />
+        <Variable Name="Code" DataType="UINT" Comment="Код сигнала, привязанного к вх/вых" StringSize="0" Order="8" />
+        <Variable Name="Manual" DataType="BOOL" Comment="Флаг ручного управления" StringSize="0" Order="9" />
+        <Variable Name="Cur_Value" DataType="REAL" Comment="Текущее значение" StringSize="0" Order="10" />
+        <Variable Name="Inverse" DataType="BOOL" Comment="Инверсия для цифрового входа" StringSize="0" Order="11" />
+        <Variable Name="Offset" DataType="STCT_Offset" Comment="Смещение для ан.входа" StringSize="0" Order="12" />
+        <Variable Name="UoM" DataType="USINT" Comment="" StringSize="0" Order="13" />
+      </Struct>
+    </DataType>
+    <DataType Name="STCT_Digit_IO" Comment="" Access="UserDefined">
+      <Struct FieldOrder="0" Order="1">
+        <Variable Name="Value" DataType="BOOL" Comment="Значние" StringSize="0" Order="1" />
+        <Variable Name="Code" DataType="UDINT" Comment="Код" StringSize="0" Order="2" />
+        <Variable Name="Manual" DataType="BOOL" Comment="" StringSize="0" Order="3" />
+        <Variable Name="Cur_Value" DataType="BOOL" Comment="Текущее значние" StringSize="0" Order="4" />
+        <Variable Name="Inverse" DataType="BOOL" Comment="Инверсия" StringSize="0" Order="5" />
+      </Struct>
+    </DataType>
+    <DataType Name="UNIVCH_CPCOE" Comment="Universal channels values" Access="UserDefined">
+      <Array Order="1" DataType="REAL" StringSize="0">
+        <Dimension Lower="1" Upper="10" />
+      </Array>
+    </DataType>
+    <DataType Name="DOUT_CPCOE" Comment="Digital outputs values" Access="UserDefined">
+      <Array Order="1" DataType="BOOL" StringSize="0">
+        <Dimension Lower="1" Upper="6" />
+      </Array>
+    </DataType>
+    <DataType Name="VAL_CPCOE" Comment="Values readed/writed from cpCOe" Access="UserDefined">
+      <Struct FieldOrder="0" Order="1">
+        <Variable Name="UnivChs" DataType="UNIVCH_CPCOE" Comment="Universal channels" StringSize="0" Order="1" />
+        <Variable Name="DOuts" DataType="DOUT_CPCOE" Comment="Digital outputs" StringSize="0" Order="2" />
+      </Struct>
+    </DataType>
+    <DataType Name="CFGUNIVCH_CPCOE" Comment="Configuration for universal channel of cpCOe" Access="UserDefined">
+      <Struct FieldOrder="0" Order="1">
+        <Variable Name="ChDir" DataType="UINT" Comment="Channel direction (0=IN, 1=OUT)" StringSize="0" Order="1" />
+        <Variable Name="ChTyp" DataType="UINT" Comment="Channel type" StringSize="0" Order="2" />
+        <Variable Name="ActPrbMin" DataType="REAL" Comment="Active probe minimum value" StringSize="0" Order="3" />
+        <Variable Name="ActPrbMax" DataType="REAL" Comment="Active probe maximum value" StringSize="0" Order="4" />
+        <Variable Name="FiltSamplesNo" DataType="UINT" Comment="Number of samples for filtering (0-9)" StringSize="0" Order="5" />
+        <Variable Name="PrbOff" DataType="REAL" Comment="Probe offset to adjust readed values (only for AIn)" StringSize="0" Order="6" />
+        <Variable Name="UpdThrsh" DataType="REAL" Comment="Minimum variation to make the slave notify the change to the master (only for AIn)" StringSize="0" Order="7" />
+        <Variable Name="EnSafeMode" DataType="BOOL" Comment="Safe mode enabling (FALSE=freeze output, TRUE=execute pattern)" StringSize="0" Order="8" />
+        <Variable Name="OfflinePattern" DataType="REAL" Comment="Pattern in case of offline if EnSafeMode=TRUE" StringSize="0" Order="9" />
+        <Variable Name="ActPrbAlrmDT" DataType="TIME" Comment="[Only in case of active probe AIn] Active probe alarm delay time" StringSize="0" Order="10" />
+        <Variable Name="ActPrbMinDelta" DataType="REAL" Comment="[Only in case of active probe AIn] Minimum variation to get during MinPeriod to avoid to trigger active probe alarm" StringSize="0" Order="11" />
+        <Variable Name="ActPrbMinPeriod" DataType="TIME" Comment="[Only in case of active probe AIn] Minimum period in which probe value must change at least of MinDelta, otherwise active probe alarm is triggered" StringSize="0" Order="12" />
+      </Struct>
+    </DataType>
+    <DataType Name="CFGUNIVCH_ARRAY_CPCOE" Comment="Universal channels configurations" Access="UserDefined">
+      <Array Order="1" DataType="CFGUNIVCH_CPCOE" StringSize="0">
+        <Dimension Lower="1" Upper="10" />
+      </Array>
+    </DataType>
+    <DataType Name="CFGDOUT_CPCOE" Comment="Configuration for digital output of cpCOe" Access="UserDefined">
+      <Struct FieldOrder="0" Order="1">
+        <Variable Name="ChTyp" DataType="UINT" Comment="Channel type (0=standard, 2=cyclic, 3=delayed)" StringSize="0" Order="1" />
+        <Variable Name="TOutOn" DataType="UINT" Comment="Delay in ms in which out is on (for types 2 and 3)" StringSize="0" Order="2" />
+        <Variable Name="TOutOff" DataType="UINT" Comment="Delay in ms in which out is off (for types 2 and 3)" StringSize="0" Order="3" />
+        <Variable Name="EnSafeMode" DataType="BOOL" Comment="Safe mode enabling (FALSE=freeze outputs, TRUE=execute pattern)" StringSize="0" Order="4" />
+        <Variable Name="OfflinePattern" DataType="BOOL" Comment="Pattern in case of offline if EnSafeMode=TRUE" StringSize="0" Order="5" />
+      </Struct>
+    </DataType>
+    <DataType Name="CFGDOUT_ARRAY_CPCOE" Comment="Digital outputs configurations" Access="UserDefined">
+      <Array Order="1" DataType="CFGDOUT_CPCOE" StringSize="0">
+        <Dimension Lower="1" Upper="6" />
+      </Array>
+    </DataType>
+    <DataType Name="CFG_CPCOE" Comment="cpCOe configuration" Access="UserDefined">
+      <Struct FieldOrder="0" Order="1">
+        <Variable Name="Parity" DataType="USINT" Comment="Line parity (0=NONE, 1=ODD, 2=EVEN)" StringSize="0" Order="1" />
+        <Variable Name="StopBits" DataType="USINT" Comment="Line stop bits (1 or 2)" StringSize="0" Order="2" />
+        <Variable Name="SlvTimeout" DataType="UINT" Comment="Slave offline tiemout in milliseconds" StringSize="0" Order="3" />
+        <Variable Name="SafeModeDT" DataType="UINT" Comment="Delay time to wait before to enter in safe mode in milliseconds" StringSize="0" Order="4" />
+        <Variable Name="UnivChs" DataType="CFGUNIVCH_ARRAY_CPCOE" Comment="Universal channels configuration" StringSize="0" Order="5" />
+        <Variable Name="DOuts" DataType="CFGDOUT_ARRAY_CPCOE" Comment="Digital outputs configuration" StringSize="0" Order="6" />
+      </Struct>
+    </DataType>
+    <DataType Name="STCT_CPCOE" Comment="" Access="UserDefined">
+      <Struct FieldOrder="0" Order="1">
+        <Variable Name="Cfg" DataType="CFG_CPCOE" Comment="" StringSize="0" Order="1" />
+        <Variable Name="En" DataType="BOOL" Comment="" StringSize="0" Order="2" />
+        <Variable Name="ExtPosit" DataType="TEEV" Comment="" StringSize="0" Order="3" />
+        <Variable Name="ValsIn" DataType="VAL_CPCOE" Comment="" StringSize="0" Order="4" />
+        <Variable Name="Address" DataType="UINT" Comment="" StringSize="0" Order="5" />
+        <Variable Name="ExtAddress" DataType="UINT" Comment="" StringSize="0" Order="6" />
+        <Variable Name="Protocol" DataType="USINT" Comment="" StringSize="0" Order="7" />
+        <Variable Name="Online" DataType="BOOL" Comment="" StringSize="0" Order="8" />
+        <Variable Name="ValsOut" DataType="VAL_CPCOE" Comment="" StringSize="0" Order="9" />
+        <Variable Name="Errors" DataType="ERR_CPCOE" Comment="" StringSize="0" Order="10" />
+        <Variable Name="ActPrbAlrm" DataType="ALRM_CPCOE" Comment="" StringSize="0" Order="11" />
+        <Variable Name="OfflineAlrm" DataType="BOOL" Comment="" StringSize="0" Order="12" />
+        <Variable Name="ThrshWarnPollTime" DataType="BOOL" Comment="" StringSize="0" Order="13" />
+        <Variable Name="CfgErr" DataType="UINT" Comment="" StringSize="0" Order="14" />
+        <Variable Name="Info" DataType="INFO_CPCOE" Comment="" StringSize="0" Order="15" />
+        <Variable Name="DevAddrExt" DataType="UDINT" Comment="" StringSize="0" Order="16" />
+        <Variable Name="CommErr" DataType="COMM_ERR_CPCOE" Comment="" StringSize="0" Order="17" />
+        <Variable Name="U" DataType="ARR_AnalogIO" Comment="" StringSize="0" Order="18" />
+      </Struct>
+    </DataType>
+    <DataType Name="VERSIONCHK_APPVER" Comment="" Access="UserDefined">
+      <Struct FieldOrder="0" Order="1">
+        <Variable Name="X" DataType="UINT" Comment="X version of the application" StringSize="0" Order="1" />
+        <Variable Name="Y" DataType="UINT" Comment="Y version of the application" StringSize="0" Order="2" />
+        <Variable Name="Z" DataType="UINT" Comment="Z version of the application" StringSize="0" Order="3" />
+        <Variable Name="D" DataType="UINT" Comment="D version of the application" StringSize="0" Order="4" />
+        <Variable Name="IsBeta" DataType="BOOL" Comment="Beta version enable" StringSize="0" Order="5" />
+        <Variable Name="IsDemo" DataType="BOOL" Comment="Demo version enable" StringSize="0" Order="6" />
+      </Struct>
+    </DataType>
+    <DataType Name="STCT_Pump" Comment="Структура насоса" Access="UserDefined">
+      <Struct FieldOrder="0" Order="1">
+        <Variable Name="On" DataType="BOOL" Comment="Флаг работы" StringSize="0" Order="1" />
+        <Variable Name="FB" DataType="BOOL" Comment="Обратная связь" StringSize="0" Order="2" />
+        <Variable Name="ManOn" DataType="BOOL" Comment="Ручной вкл." StringSize="0" Order="3" />
+        <Variable Name="LifeTimeRetain" DataType="UDINT" Comment="Наработка в пост памяти" StringSize="0" Order="4" />
+        <Variable Name="LifeTime" DataType="UDINT" Comment="Наработка" StringSize="0" Order="5" />
+        <Variable Name="ResetLifeTime" DataType="BOOL" Comment="Сброс наработки" StringSize="0" Order="6" />
+        <Variable Name="Speed" DataType="REAL" Comment="Текущая скорость насоса" StringSize="0" Order="7" />
+      </Struct>
+    </DataType>
+    <DataType Name="ERR_CPCOE" Comment="Universal channels error codes" Access="UserDefined">
+      <Array Order="1" DataType="INT" StringSize="0">
+        <Dimension Lower="1" Upper="10" />
+      </Array>
+    </DataType>
+    <DataType Name="ALRM_CPCOE" Comment="Universal channels active probes alarms" Access="UserDefined">
+      <Array Order="1" DataType="BOOL" StringSize="0">
+        <Dimension Lower="1" Upper="10" />
+      </Array>
+    </DataType>
+    <DataType Name="INFO_CPCOE" Comment="Informations about cpCOe device" Access="UserDefined">
+      <Struct FieldOrder="0" Order="1">
+        <Variable Name="FwVersionH" DataType="UINT" Comment="Version of firmware running on cpCOe, first part" StringSize="0" Order="1" />
+        <Variable Name="FwVersionL" DataType="UINT" Comment="Version of firmware running on cpCOe, second part" StringSize="0" Order="2" />
+        <Variable Name="FwDate" DataType="DATE" Comment="Date of firmware running on cpCOe" StringSize="0" Order="3" />
+      </Struct>
+    </DataType>
+    <DataType Name="COMM_ERR_CPCOE" Comment="" Access="UserDefined">
+      <Struct FieldOrder="0" Order="1">
+        <Variable Name="DevErr_StartUp" DataType="INT" Comment="" StringSize="0" Order="1" />
+        <Variable Name="DevErr_Cfg" DataType="INT" Comment="" StringSize="0" Order="2" />
+        <Variable Name="DevErr_IO" DataType="INT" Comment="" StringSize="0" Order="3" />
+        <Variable Name="ErrCode_StartUp" DataType="UINT" Comment="" StringSize="0" Order="4" />
+        <Variable Name="ErrCode_Cfg" DataType="UINT" Comment="" StringSize="0" Order="5" />
+        <Variable Name="ErrCode_IO" DataType="UINT" Comment="" StringSize="0" Order="6" />
+        <Variable Name="DevErr_ExtPosit" DataType="INT" Comment="" StringSize="0" Order="7" />
+        <Variable Name="ErrCode_ExtPosit" DataType="UINT" Comment="" StringSize="0" Order="8" />
+      </Struct>
+    </DataType>
+    <DataType Name="STCT_DigitSens" Comment="" Access="UserDefined">
+      <Struct FieldOrder="0" Order="1">
+        <Variable Name="Value" DataType="BOOL" Comment="" StringSize="0" Order="1" />
+        <Variable Name="Use" DataType="BOOL" Comment="" StringSize="0" Order="2" />
+      </Struct>
+    </DataType>
+    <DataType Name="ARR_AnalogIO" Comment="" Access="UserDefined">
+      <Array Order="1" DataType="STCT_Analog_IO" StringSize="0">
+        <Dimension Lower="1" Upper="10" />
+      </Array>
+    </DataType>
+    <DataType Name="STCT_FAN" Comment="" Access="UserDefined">
+      <Struct FieldOrder="0" Order="1">
+        <Variable Name="On" DataType="BOOL" Comment="Флаг работы вентиляторов" StringSize="0" Order="1" />
+        <Variable Name="Speed" DataType="BYTE" Comment="Скорость (битовое задание)" StringSize="0" Order="2" />
+        <Variable Name="LifeTime" DataType="UDINT" Comment="Наработка" StringSize="0" Order="3" />
+        <Variable Name="RunTime" DataType="UDINT" Comment="Время работы" StringSize="0" Order="4" />
+        <Variable Name="LifeTimeRetain" DataType="UDINT" Comment="Наработка (пост.память)" StringSize="0" Order="5" />
+        <Variable Name="ResetLifeTime" DataType="BOOL" Comment="Очистить наработку" StringSize="0" Order="6" />
+        <Variable Name="StartTime" DataType="UINT" Comment="Время старта" StringSize="0" Order="7" />
+        <Variable Name="MaxSpeedNum" DataType="USINT" Comment="Максимальное кол-во скоростей" StringSize="0" Order="8" />
+        <Variable Name="FB" DataType="BOOL" Comment="Обратная связь" StringSize="0" Order="9" />
+      </Struct>
+    </DataType>
+    <DataType Name="SYSWRITE_VALUEIN" Comment="List of system parameters that can be write" Access="UserDefined">
+      <Array Order="1" DataType="UDINT" StringSize="0">
+        <Dimension Lower="1" Upper="5" />
+      </Array>
+    </DataType>
+    <DataType Name="STCT_CurDate" Comment="" Access="UserDefined">
+      <Struct FieldOrder="0" Order="1">
+        <Variable Name="Year" DataType="UINT" Comment="" StringSize="0" Order="1" />
+        <Variable Name="NewYear" DataType="UINT" Comment="" StringSize="0" Order="2" />
+        <Variable Name="Month" DataType="UINT" Comment="" StringSize="0" Order="3" />
+        <Variable Name="NewMonth" DataType="UINT" Comment="" StringSize="0" Order="4" />
+        <Variable Name="Day" DataType="UINT" Comment="" StringSize="0" Order="5" />
+        <Variable Name="NewDay" DataType="UINT" Comment="" StringSize="0" Order="6" />
+        <Variable Name="Hour" DataType="UINT" Comment="" StringSize="0" Order="7" />
+        <Variable Name="NewHour" DataType="UINT" Comment="" StringSize="0" Order="8" />
+        <Variable Name="Minute" DataType="UINT" Comment="" StringSize="0" Order="9" />
+        <Variable Name="NewMinute" DataType="UINT" Comment="" StringSize="0" Order="10" />
+        <Variable Name="Second" DataType="UINT" Comment="" StringSize="0" Order="11" />
+        <Variable Name="NewSecond" DataType="UINT" Comment="" StringSize="0" Order="12" />
+        <Variable Name="WriteNewDate" DataType="BOOL" Comment="" StringSize="0" Order="13" />
+        <Variable Name="DayOfWeek" DataType="UINT" Comment="" StringSize="0" Order="14" />
+      </Struct>
+    </DataType>
+    <DataType Name="SYSREAD_VALUEOUT" Comment="List of system parameters that can be read " Access="UserDefined">
+      <Array Order="1" DataType="UDINT" StringSize="0">
+        <Dimension Lower="1" Upper="5" />
+      </Array>
+    </DataType>
+    <DataType Name="ARR_STATION_BOOL_1_20" Comment="Количество постов" Access="UserDefined">
+      <Array Order="1" DataType="BOOL" StringSize="0">
+        <Dimension Lower="1" Upper="20" />
+      </Array>
+    </DataType>
+    <DataType Name="STCT_Comp" Comment="Компрессор" Access="UserDefined">
+      <Struct FieldOrder="0" Order="1">
+        <Variable Name="On" DataType="BOOL" Comment="Флаг работы" StringSize="0" Order="1" />
+        <Variable Name="FB" DataType="BOOL" Comment="Обратная связь" StringSize="0" Order="2" />
+        <Variable Name="ManOn" DataType="BOOL" Comment="Ручной вкл." StringSize="0" Order="3" />
+        <Variable Name="LifeTime" DataType="UDINT" Comment="Наработка" StringSize="0" Order="4" />
+        <Variable Name="LifeTimeRetain" DataType="UDINT" Comment="" StringSize="0" Order="5" />
+        <Variable Name="ResetLifeTime" DataType="BOOL" Comment="Сброс наработки" StringSize="0" Order="6" />
+      </Struct>
+    </DataType>
+    <DataType Name="STCT_SV1" Comment="Э/м клапан 1" Access="UserDefined">
+      <Struct FieldOrder="0" Order="1">
+        <Variable Name="On" DataType="BOOL" Comment="Флаг работы" StringSize="0" Order="1" />
+        <Variable Name="On_Delay_Time" DataType="UDINT" Comment="Задержка включения для установки давления" StringSize="0" Order="2" />
+      </Struct>
+    </DataType>
+    <DataType Name="STCT_Unit" Comment="Установка" Access="UserDefined">
+      <Struct FieldOrder="0" Order="1">
+        <Variable Name="ManMode" DataType="BOOL" Comment="Флаг ручного режима" StringSize="0" Order="1" />
+        <Variable Name="Alarm" DataType="BOOL" Comment="Флаг аварии" StringSize="0" Order="2" />
+        <Variable Name="State" DataType="USINT" Comment="Состояние установки" StringSize="0" Order="3" />
+        <Variable Name="On" DataType="BOOL" Comment="Флаг работы" StringSize="0" Order="4" />
+        <Variable Name="AutoOn" DataType="BOOL" Comment="Разрешение пуска в авт.режиме" StringSize="0" Order="5" />
+        <Variable Name="AutoMode" DataType="BOOL" Comment="Флаг авт.режима" StringSize="0" Order="6" />
+        <Variable Name="EmStop" DataType="BOOL" Comment="Аварийный стоп" StringSize="0" Order="7" />
+      </Struct>
+    </DataType>
+    <DataType Name="STCT_AnalogSens" Comment="Аналоговый датчик" Access="UserDefined">
+      <Struct FieldOrder="0" Order="1">
+        <Variable Name="Value" DataType="REAL" Comment="Значение" StringSize="0" Order="1" />
+        <Variable Name="Error" DataType="SINT" Comment="Код неисправности датчика" StringSize="0" Order="2" />
+        <Variable Name="Type" DataType="USINT" Comment="Тип датчика" StringSize="0" Order="3" />
+      </Struct>
+    </DataType>
+    <DataType Name="STCT_SV2" Comment="Э/м клапан 2" Access="UserDefined">
+      <Struct FieldOrder="0" Order="1">
+        <Variable Name="On" DataType="BOOL" Comment="Флаг работы" StringSize="0" Order="1" />
+        <Variable Name="On_Delay_Time" DataType="UDINT" Comment="Задержка включения для заполнения т/о" StringSize="0" Order="2" />
+        <Variable Name="Max_Open_Time" DataType="UDINT" Comment="Макс время открытия для заполнения т/о" StringSize="0" Order="3" />
+        <Variable Name="Off_Delay_Time" DataType="UDINT" Comment="Время выключения после продувки" StringSize="0" Order="4" />
+      </Struct>
+    </DataType>
+    <DataType Name="STCT_SV3" Comment="Э/м клапан 3" Access="UserDefined">
+      <Struct FieldOrder="0" Order="1">
+        <Variable Name="On" DataType="BOOL" Comment="Флаг работы" StringSize="0" Order="1" />
+        <Variable Name="Blow_Time" DataType="UDINT" Comment="Время продувки" StringSize="0" Order="2" />
+        <Variable Name="Blow_Pause" DataType="UDINT" Comment="Пауза по время продувки" StringSize="0" Order="3" />
+        <Variable Name="Blow_Counter" DataType="INT" Comment="Кол-во циклов продувки" StringSize="0" Order="4" />
+      </Struct>
+    </DataType>
+    <DataType Name="STCT_CntDown" Comment="Обратный отсчёт" Access="UserDefined">
+      <Struct FieldOrder="0" Order="1">
+        <Variable Name="Value" DataType="UDINT" Comment="Значение" StringSize="0" Order="1" />
+        <Variable Name="Show" DataType="BOOL" Comment="Видимость" StringSize="0" Order="2" />
+      </Struct>
+    </DataType>
+    <DataType Name="STCT_DifPress" Comment="Перепад давления" Access="UserDefined">
+      <Struct FieldOrder="0" Order="1">
+        <Variable Name="Value" DataType="REAL" Comment="Значение" StringSize="0" Order="1" />
+        <Variable Name="DeadBand" DataType="REAL" Comment="Зона нечувствительности" StringSize="0" Order="2" />
+        <Variable Name="Alarm_Delay" DataType="UDINT" Comment="Задержка аварии" StringSize="0" Order="3" />
+        <Variable Name="isAlarm" DataType="BOOL" Comment="Авария по перепаду давления" StringSize="0" Order="4" />
+      </Struct>
+    </DataType>
+    <DataType Name="TEEV" Comment="" Access="ReadOnly">
+      <Struct FieldOrder="1" Order="3">
+        <Variable Name="Enable" DataType="BOOL" Comment="" StringSize="0" Order="1" />
+        <Variable Name="PositionToSet" DataType="UINT" Comment="" StringSize="0" Order="2" />
+        <Variable Name="VariationToSet" DataType="INT" Comment="" StringSize="0" Order="3" />
+        <Variable Name="CurrentEstimatedPosition" DataType="UINT" Comment="" StringSize="0" Order="4" />
+        <Variable Name="VariationRemaining" DataType="INT" Comment="" StringSize="0" Order="5" />
+        <Variable Name="MaxSteps" DataType="UINT" Comment="" StringSize="0" Order="6" />
+        <Variable Name="MinSteps" DataType="UINT" Comment="" StringSize="0" Order="7" />
+        <Variable Name="ClosingSteps" DataType="UINT" Comment="" StringSize="0" Order="8" />
+        <Variable Name="NominalCurrent" DataType="UINT" Comment="" StringSize="0" Order="9" />
+        <Variable Name="HoldingCurrent" DataType="UINT" Comment="" StringSize="0" Order="10" />
+        <Variable Name="Speed" DataType="UINT" Comment="" StringSize="0" Order="11" />
+        <Variable Name="DutyCycle" DataType="UINT" Comment="" StringSize="0" Order="12" />
+        <Variable Name="DutyCycleEnable" DataType="BOOL" Comment="" StringSize="0" Order="13" />
+        <Variable Name="OpeningXSteps" DataType="BOOL" Comment="" StringSize="0" Order="14" />
+        <Variable Name="ClosingXSteps" DataType="BOOL" Comment="" StringSize="0" Order="15" />
+        <Variable Name="FastClosingSpeed" DataType="UINT" Comment="" StringSize="0" Order="16" />
+        <Variable Name="FastClosingSpeedEnable" DataType="BOOL" Comment="" StringSize="0" Order="17" />
+        <Variable Name="Alarms" DataType="USINT" Comment="" StringSize="0" Order="18" />
+      </Struct>
+    </DataType>
+    <DataType Name="ALM" Comment="" Access="ReadOnly">
+      <Struct FieldOrder="1" Order="4">
+        <Variable Name="Trigger" DataType="BOOL" Comment="Alarm status Trigger" StringSize="0" Order="1" />
+        <Variable Name="Active" DataType="BOOL" Comment="Alarm status" StringSize="0" Order="2" />
+      </Struct>
+    </DataType>
+  </DataTypes>
+  <Networks>
+    <Network Name="HSD" SingleTextLine="" LocalNet="true" DistributedNet="false" Comment="" UsedForBinding="true" BindingService="false" AllowWorkbenchCommunications="true">
+      <Parameters />
+      <ConnectionParameters />
+      <ResourceParameters>
+        <Parameter Name="ValidityTime" Format="Long" Default="0" Access="UserDefined" SingleTextLine="Produced Variables validity time." LocalNet="false" DistributedNet="false" />
+      </ResourceParameters>
+      <VariableParameters />
+    </Network>
+    <Network Name="ETCP" SingleTextLine="" LocalNet="false" DistributedNet="true" Comment="" UsedForBinding="true" BindingService="false" AllowWorkbenchCommunications="true">
+      <Parameters />
+      <ConnectionParameters>
+        <Parameter Name="IPAddress" Format="String" Default="127.0.0.1" Access="UserDefined" SingleTextLine="IP address or Computer name" LocalNet="false" DistributedNet="true" />
+      </ConnectionParameters>
+      <ResourceParameters>
+        <Parameter Name="TimeOut" Format="Long" Default="10000" Access="UserDefined" SingleTextLine="Maximum allowed time (in ms) to transport a variable" LocalNet="false" DistributedNet="true" />
+      </ResourceParameters>
+      <VariableParameters />
+    </Network>
+    <Network Name="ISARSI" SingleTextLine="" LocalNet="false" DistributedNet="true" Comment="" UsedForBinding="true" BindingService="false" AllowWorkbenchCommunications="true">
+      <Parameters>
+        <Parameter Name="Port" Format="String" Default="COM6" Access="UserDefined" SingleTextLine="Workbench communication port" LocalNet="false" DistributedNet="true" />
+        <Parameter Name="BaudRate" Format="Long" Default="115200" Access="UserDefined" SingleTextLine="Data transfer baud rate" LocalNet="false" DistributedNet="true" />
+        <Parameter Name="Parity" Format="Character" Default="N" Access="UserDefined" SingleTextLine="N: None, E: Even, O: Odd" LocalNet="false" DistributedNet="true" />
+        <Parameter Name="StopBit" Format="Word" Default="1" Access="UserDefined" SingleTextLine="1 or 2 Stop bits" LocalNet="false" DistributedNet="true" />
+        <Parameter Name="HardwareFlowControl" Format="Boolean" Default="FALSE" Access="UserDefined" SingleTextLine="TRUE when using hardware flow control" LocalNet="false" DistributedNet="true" />
+      </Parameters>
+      <ConnectionParameters />
+      <ResourceParameters />
+      <VariableParameters />
+    </Network>
+  </Networks>
+  <NetworkInstances>
+    <NetworkInstance NetworkName="ISARSI" Name="USB1" />
+  </NetworkInstances>
+  <Targets>
+    <Target Name="CAREL_PCO" />
+  </Targets>
+  <Configurations>
+    <Configuration Name="Device1" ElementGuid="e5619c74-aed5-4bfa-87ad-8e4823a88b2d" />
+  </Configurations>
+</Project>

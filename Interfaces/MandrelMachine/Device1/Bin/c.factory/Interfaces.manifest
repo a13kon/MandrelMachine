@@ -1,0 +1,7 @@
+AlrmIdx=DInt
+N_Alrms=DInt
+AlrmCode=DInt
+AlrmLogsIdx=DInt
+AlrmLogCode=DInt
+AlrmLogEventType=USInt
+dummy=Byte

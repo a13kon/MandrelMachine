@@ -1,0 +1,17 @@
+[MAIN]
+NET=1
+CONF=1
+RES=1
+
+
+[NET]
+N1=ISARSI_1, ISARSI, COM4:19200:N:1:OFF
+
+
+[CONF]
+C1=Device1, 1
+I1=1
+
+
+[RES]
+R1=1, Resource1, 1

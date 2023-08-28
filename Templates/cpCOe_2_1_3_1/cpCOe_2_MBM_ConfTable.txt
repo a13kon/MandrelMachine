@@ -1,0 +1,118 @@
+Version 1.1 ModbusMasterDevice RepoVersion 3.3.6
+
+Settings
+NameLine	NetworkAddress	HostName	Status	Timeout	PeekTime	UoM	DelayCommandTime	DeviceError	DeviceErrorCode	ErrorsID	PollsID	Priority	EnableErrorDump	Endianess	ReadPoints	WritePoints	Cmd17ArrayVarName	Cmd17ReadMode	ReadBoolPoints	WriteBoolPoints	Instance
+ConfTable	cpCOe_Mng.cpCOe_2_1.DevAddrExt_CPCOE		cpCOe_Mng.cpCOe_2_1.EnCfgTable	200	200	0	0	cpCOe_Mng.cpCOe_2_1.CommErr_CPCOE.DevErr_Cfg	cpCOe_Mng.cpCOe_2_1.CommErr_CPCOE.ErrCode_Cfg			Normal	False	BigEndian	125	123		NoRead	2000	1968	cpCOe_Mng.cpCOe_2_1
+
+Variables
+Status	Type	Index	Variable	Occupation	ReadWriteMode	Priority	Hysteresis	Description
+True	HoldingRegister	93	cpCOe_Mng.cpCOe_2_1.DevCfg_CPCOE.UnivChs[1].ChDir		NoRead_WriteChange_WriteOnline	Normal	1	
+True	HoldingRegister	94	cpCOe_Mng.cpCOe_2_1.DevCfg_CPCOE.UnivChs[2].ChDir		NoRead_WriteChange_WriteOnline	Normal	1	
+True	HoldingRegister	95	cpCOe_Mng.cpCOe_2_1.DevCfg_CPCOE.UnivChs[3].ChDir		NoRead_WriteChange_WriteOnline	Normal	1	
+True	HoldingRegister	96	cpCOe_Mng.cpCOe_2_1.DevCfg_CPCOE.UnivChs[4].ChDir		NoRead_WriteChange_WriteOnline	Normal	1	
+True	HoldingRegister	97	cpCOe_Mng.cpCOe_2_1.DevCfg_CPCOE.UnivChs[5].ChDir		NoRead_WriteChange_WriteOnline	Normal	1	
+True	HoldingRegister	98	cpCOe_Mng.cpCOe_2_1.DevCfg_CPCOE.UnivChs[6].ChDir		NoRead_WriteChange_WriteOnline	Normal	1	
+True	HoldingRegister	99	cpCOe_Mng.cpCOe_2_1.DevCfg_CPCOE.UnivChs[7].ChDir		NoRead_WriteChange_WriteOnline	Normal	1	
+True	HoldingRegister	100	cpCOe_Mng.cpCOe_2_1.DevCfg_CPCOE.UnivChs[8].ChDir		NoRead_WriteChange_WriteOnline	Normal	1	
+True	HoldingRegister	101	cpCOe_Mng.cpCOe_2_1.DevCfg_CPCOE.UnivChs[9].ChDir		NoRead_WriteChange_WriteOnline	Normal	1	
+True	HoldingRegister	102	cpCOe_Mng.cpCOe_2_1.DevCfg_CPCOE.UnivChs[10].ChDir		NoRead_WriteChange_WriteOnline	Normal	1	
+True	HoldingRegister	103	cpCOe_Mng.cpCOe_2_1.DevCfg_CPCOE.UnivChs[1].ChTyp		NoRead_WriteChange_WriteOnline	Normal	1	
+True	HoldingRegister	104	cpCOe_Mng.cpCOe_2_1.DevCfg_CPCOE.UnivChs[2].ChTyp		NoRead_WriteChange_WriteOnline	Normal	1	
+True	HoldingRegister	105	cpCOe_Mng.cpCOe_2_1.DevCfg_CPCOE.UnivChs[3].ChTyp		NoRead_WriteChange_WriteOnline	Normal	1	
+True	HoldingRegister	106	cpCOe_Mng.cpCOe_2_1.DevCfg_CPCOE.UnivChs[4].ChTyp		NoRead_WriteChange_WriteOnline	Normal	1	
+True	HoldingRegister	107	cpCOe_Mng.cpCOe_2_1.DevCfg_CPCOE.UnivChs[5].ChTyp		NoRead_WriteChange_WriteOnline	Normal	1	
+True	HoldingRegister	108	cpCOe_Mng.cpCOe_2_1.DevCfg_CPCOE.UnivChs[6].ChTyp		NoRead_WriteChange_WriteOnline	Normal	1	
+True	HoldingRegister	109	cpCOe_Mng.cpCOe_2_1.DevCfg_CPCOE.UnivChs[7].ChTyp		NoRead_WriteChange_WriteOnline	Normal	1	
+True	HoldingRegister	110	cpCOe_Mng.cpCOe_2_1.DevCfg_CPCOE.UnivChs[8].ChTyp		NoRead_WriteChange_WriteOnline	Normal	1	
+True	HoldingRegister	111	cpCOe_Mng.cpCOe_2_1.DevCfg_CPCOE.UnivChs[9].ChTyp		NoRead_WriteChange_WriteOnline	Normal	1	
+True	HoldingRegister	112	cpCOe_Mng.cpCOe_2_1.DevCfg_CPCOE.UnivChs[10].ChTyp		NoRead_WriteChange_WriteOnline	Normal	1	
+True	HoldingRegister	113	cpCOe_Mng.cpCOe_2_1.DevCfg_CPCOE.UnivChs[1].ActPrbMin	2	NoRead_WriteChange_WriteOnline	Normal	0.05	
+True	HoldingRegister	115	cpCOe_Mng.cpCOe_2_1.DevCfg_CPCOE.UnivChs[1].ActPrbMax	2	NoRead_WriteChange_WriteOnline	Normal	0.05	
+True	HoldingRegister	117	cpCOe_Mng.cpCOe_2_1.DevCfg_CPCOE.UnivChs[2].ActPrbMin	2	NoRead_WriteChange_WriteOnline	Normal	0.05	
+True	HoldingRegister	119	cpCOe_Mng.cpCOe_2_1.DevCfg_CPCOE.UnivChs[2].ActPrbMax	2	NoRead_WriteChange_WriteOnline	Normal	0.05	
+True	HoldingRegister	121	cpCOe_Mng.cpCOe_2_1.DevCfg_CPCOE.UnivChs[3].ActPrbMin	2	NoRead_WriteChange_WriteOnline	Normal	0.05	
+True	HoldingRegister	123	cpCOe_Mng.cpCOe_2_1.DevCfg_CPCOE.UnivChs[3].ActPrbMax	2	NoRead_WriteChange_WriteOnline	Normal	0.05	
+True	HoldingRegister	125	cpCOe_Mng.cpCOe_2_1.DevCfg_CPCOE.UnivChs[4].ActPrbMin	2	NoRead_WriteChange_WriteOnline	Normal	0.05	
+True	HoldingRegister	127	cpCOe_Mng.cpCOe_2_1.DevCfg_CPCOE.UnivChs[4].ActPrbMax	2	NoRead_WriteChange_WriteOnline	Normal	0.05	
+True	HoldingRegister	129	cpCOe_Mng.cpCOe_2_1.DevCfg_CPCOE.UnivChs[5].ActPrbMin	2	NoRead_WriteChange_WriteOnline	Normal	0.05	
+True	HoldingRegister	131	cpCOe_Mng.cpCOe_2_1.DevCfg_CPCOE.UnivChs[5].ActPrbMax	2	NoRead_WriteChange_WriteOnline	Normal	0.05	
+True	HoldingRegister	133	cpCOe_Mng.cpCOe_2_1.DevCfg_CPCOE.UnivChs[6].ActPrbMin	2	NoRead_WriteChange_WriteOnline	Normal	0.05	
+True	HoldingRegister	135	cpCOe_Mng.cpCOe_2_1.DevCfg_CPCOE.UnivChs[6].ActPrbMax	2	NoRead_WriteChange_WriteOnline	Normal	0.05	
+True	HoldingRegister	137	cpCOe_Mng.cpCOe_2_1.DevCfg_CPCOE.UnivChs[7].ActPrbMin	2	NoRead_WriteChange_WriteOnline	Normal	0.05	
+True	HoldingRegister	139	cpCOe_Mng.cpCOe_2_1.DevCfg_CPCOE.UnivChs[7].ActPrbMax	2	NoRead_WriteChange_WriteOnline	Normal	0.05	
+True	HoldingRegister	141	cpCOe_Mng.cpCOe_2_1.DevCfg_CPCOE.UnivChs[8].ActPrbMin	2	NoRead_WriteChange_WriteOnline	Normal	0.05	
+True	HoldingRegister	143	cpCOe_Mng.cpCOe_2_1.DevCfg_CPCOE.UnivChs[8].ActPrbMax	2	NoRead_WriteChange_WriteOnline	Normal	0.05	
+True	HoldingRegister	145	cpCOe_Mng.cpCOe_2_1.DevCfg_CPCOE.UnivChs[9].ActPrbMin	2	NoRead_WriteChange_WriteOnline	Normal	0.05	
+True	HoldingRegister	147	cpCOe_Mng.cpCOe_2_1.DevCfg_CPCOE.UnivChs[9].ActPrbMax	2	NoRead_WriteChange_WriteOnline	Normal	0.05	
+True	HoldingRegister	149	cpCOe_Mng.cpCOe_2_1.DevCfg_CPCOE.UnivChs[10].ActPrbMin	2	NoRead_WriteChange_WriteOnline	Normal	0.05	
+True	HoldingRegister	151	cpCOe_Mng.cpCOe_2_1.DevCfg_CPCOE.UnivChs[10].ActPrbMax	2	NoRead_WriteChange_WriteOnline	Normal	0.05	
+True	HoldingRegister	153	cpCOe_Mng.cpCOe_2_1.DevCfg_CPCOE.UnivChs[1].FiltSamplesNo		NoRead_WriteChange_WriteOnline	Normal	1	
+True	HoldingRegister	154	cpCOe_Mng.cpCOe_2_1.DevCfg_CPCOE.UnivChs[2].FiltSamplesNo		NoRead_WriteChange_WriteOnline	Normal	1	
+True	HoldingRegister	155	cpCOe_Mng.cpCOe_2_1.DevCfg_CPCOE.UnivChs[3].FiltSamplesNo		NoRead_WriteChange_WriteOnline	Normal	1	
+True	HoldingRegister	156	cpCOe_Mng.cpCOe_2_1.DevCfg_CPCOE.UnivChs[4].FiltSamplesNo		NoRead_WriteChange_WriteOnline	Normal	1	
+True	HoldingRegister	157	cpCOe_Mng.cpCOe_2_1.DevCfg_CPCOE.UnivChs[5].FiltSamplesNo		NoRead_WriteChange_WriteOnline	Normal	1	
+True	HoldingRegister	158	cpCOe_Mng.cpCOe_2_1.DevCfg_CPCOE.UnivChs[6].FiltSamplesNo		NoRead_WriteChange_WriteOnline	Normal	1	
+True	HoldingRegister	159	cpCOe_Mng.cpCOe_2_1.DevCfg_CPCOE.UnivChs[7].FiltSamplesNo		NoRead_WriteChange_WriteOnline	Normal	1	
+True	HoldingRegister	160	cpCOe_Mng.cpCOe_2_1.DevCfg_CPCOE.UnivChs[8].FiltSamplesNo		NoRead_WriteChange_WriteOnline	Normal	1	
+True	HoldingRegister	161	cpCOe_Mng.cpCOe_2_1.DevCfg_CPCOE.UnivChs[9].FiltSamplesNo		NoRead_WriteChange_WriteOnline	Normal	1	
+True	HoldingRegister	162	cpCOe_Mng.cpCOe_2_1.DevCfg_CPCOE.UnivChs[10].FiltSamplesNo		NoRead_WriteChange_WriteOnline	Normal	1	
+True	HoldingRegister	163	cpCOe_Mng.cpCOe_2_1.DevCfg_CPCOE.UnivChs[1].UpdThrsh	2	NoRead_WriteChange_WriteOnline	Normal	0.05	
+True	HoldingRegister	165	cpCOe_Mng.cpCOe_2_1.DevCfg_CPCOE.UnivChs[2].UpdThrsh	2	NoRead_WriteChange_WriteOnline	Normal	0.05	
+True	HoldingRegister	167	cpCOe_Mng.cpCOe_2_1.DevCfg_CPCOE.UnivChs[3].UpdThrsh	2	NoRead_WriteChange_WriteOnline	Normal	0.05	
+True	HoldingRegister	169	cpCOe_Mng.cpCOe_2_1.DevCfg_CPCOE.UnivChs[4].UpdThrsh	2	NoRead_WriteChange_WriteOnline	Normal	0.05	
+True	HoldingRegister	171	cpCOe_Mng.cpCOe_2_1.DevCfg_CPCOE.UnivChs[5].UpdThrsh	2	NoRead_WriteChange_WriteOnline	Normal	0.05	
+True	HoldingRegister	173	cpCOe_Mng.cpCOe_2_1.DevCfg_CPCOE.UnivChs[6].UpdThrsh	2	NoRead_WriteChange_WriteOnline	Normal	0.05	
+True	HoldingRegister	175	cpCOe_Mng.cpCOe_2_1.DevCfg_CPCOE.UnivChs[7].UpdThrsh	2	NoRead_WriteChange_WriteOnline	Normal	0.05	
+True	HoldingRegister	177	cpCOe_Mng.cpCOe_2_1.DevCfg_CPCOE.UnivChs[8].UpdThrsh	2	NoRead_WriteChange_WriteOnline	Normal	0.05	
+True	HoldingRegister	179	cpCOe_Mng.cpCOe_2_1.DevCfg_CPCOE.UnivChs[9].UpdThrsh	2	NoRead_WriteChange_WriteOnline	Normal	0.05	
+True	HoldingRegister	181	cpCOe_Mng.cpCOe_2_1.DevCfg_CPCOE.UnivChs[10].UpdThrsh	2	NoRead_WriteChange_WriteOnline	Normal	0.05	
+True	HoldingRegister	183	cpCOe_Mng.cpCOe_2_1.DevCfg_CPCOE.DOuts[1].ChTyp		NoRead_WriteChange_WriteOnline	Normal	1	
+True	HoldingRegister	184	cpCOe_Mng.cpCOe_2_1.DevCfg_CPCOE.DOuts[2].ChTyp		NoRead_WriteChange_WriteOnline	Normal	1	
+True	HoldingRegister	185	cpCOe_Mng.cpCOe_2_1.DevCfg_CPCOE.DOuts[3].ChTyp		NoRead_WriteChange_WriteOnline	Normal	1	
+True	HoldingRegister	186	cpCOe_Mng.cpCOe_2_1.DevCfg_CPCOE.DOuts[4].ChTyp		NoRead_WriteChange_WriteOnline	Normal	1	
+True	HoldingRegister	187	cpCOe_Mng.cpCOe_2_1.DevCfg_CPCOE.DOuts[5].ChTyp		NoRead_WriteChange_WriteOnline	Normal	1	
+True	HoldingRegister	188	cpCOe_Mng.cpCOe_2_1.DevCfg_CPCOE.DOuts[6].ChTyp		NoRead_WriteChange_WriteOnline	Normal	1	
+True	HoldingRegister	189	cpCOe_Mng.cpCOe_2_1.DevCfg_CPCOE.DOuts[1].TOutOn		NoRead_WriteChange_WriteOnline	Normal	1	
+True	HoldingRegister	190	cpCOe_Mng.cpCOe_2_1.DevCfg_CPCOE.DOuts[1].TOutOff		NoRead_WriteChange_WriteOnline	Normal	1	
+True	HoldingRegister	191	cpCOe_Mng.cpCOe_2_1.DevCfg_CPCOE.DOuts[2].TOutOn		NoRead_WriteChange_WriteOnline	Normal	1	
+True	HoldingRegister	192	cpCOe_Mng.cpCOe_2_1.DevCfg_CPCOE.DOuts[2].TOutOff		NoRead_WriteChange_WriteOnline	Normal	1	
+True	HoldingRegister	193	cpCOe_Mng.cpCOe_2_1.DevCfg_CPCOE.DOuts[3].TOutOn		NoRead_WriteChange_WriteOnline	Normal	1	
+True	HoldingRegister	194	cpCOe_Mng.cpCOe_2_1.DevCfg_CPCOE.DOuts[3].TOutOff		NoRead_WriteChange_WriteOnline	Normal	1	
+True	HoldingRegister	195	cpCOe_Mng.cpCOe_2_1.DevCfg_CPCOE.DOuts[4].TOutOn		NoRead_WriteChange_WriteOnline	Normal	1	
+True	HoldingRegister	196	cpCOe_Mng.cpCOe_2_1.DevCfg_CPCOE.DOuts[4].TOutOff		NoRead_WriteChange_WriteOnline	Normal	1	
+True	HoldingRegister	197	cpCOe_Mng.cpCOe_2_1.DevCfg_CPCOE.DOuts[5].TOutOn		NoRead_WriteChange_WriteOnline	Normal	1	
+True	HoldingRegister	198	cpCOe_Mng.cpCOe_2_1.DevCfg_CPCOE.DOuts[5].TOutOff		NoRead_WriteChange_WriteOnline	Normal	1	
+True	HoldingRegister	199	cpCOe_Mng.cpCOe_2_1.DevCfg_CPCOE.DOuts[6].TOutOn		NoRead_WriteChange_WriteOnline	Normal	1	
+True	HoldingRegister	200	cpCOe_Mng.cpCOe_2_1.DevCfg_CPCOE.DOuts[6].TOutOff		NoRead_WriteChange_WriteOnline	Normal	1	
+True	HoldingRegister	209	cpCOe_Mng.cpCOe_2_1.DevCfg_CPCOE.UnivChs[1].EnSafeMode		NoRead_WriteChange_WriteOnline	Normal	1	
+True	HoldingRegister	210	cpCOe_Mng.cpCOe_2_1.DevCfg_CPCOE.UnivChs[2].EnSafeMode		NoRead_WriteChange_WriteOnline	Normal	1	
+True	HoldingRegister	211	cpCOe_Mng.cpCOe_2_1.DevCfg_CPCOE.UnivChs[3].EnSafeMode		NoRead_WriteChange_WriteOnline	Normal	1	
+True	HoldingRegister	212	cpCOe_Mng.cpCOe_2_1.DevCfg_CPCOE.UnivChs[4].EnSafeMode		NoRead_WriteChange_WriteOnline	Normal	1	
+True	HoldingRegister	213	cpCOe_Mng.cpCOe_2_1.DevCfg_CPCOE.UnivChs[5].EnSafeMode		NoRead_WriteChange_WriteOnline	Normal	1	
+True	HoldingRegister	214	cpCOe_Mng.cpCOe_2_1.DevCfg_CPCOE.UnivChs[6].EnSafeMode		NoRead_WriteChange_WriteOnline	Normal	1	
+True	HoldingRegister	215	cpCOe_Mng.cpCOe_2_1.DevCfg_CPCOE.UnivChs[7].EnSafeMode		NoRead_WriteChange_WriteOnline	Normal	1	
+True	HoldingRegister	216	cpCOe_Mng.cpCOe_2_1.DevCfg_CPCOE.UnivChs[8].EnSafeMode		NoRead_WriteChange_WriteOnline	Normal	1	
+True	HoldingRegister	217	cpCOe_Mng.cpCOe_2_1.DevCfg_CPCOE.UnivChs[9].EnSafeMode		NoRead_WriteChange_WriteOnline	Normal	1	
+True	HoldingRegister	218	cpCOe_Mng.cpCOe_2_1.DevCfg_CPCOE.UnivChs[10].EnSafeMode		NoRead_WriteChange_WriteOnline	Normal	1	
+True	HoldingRegister	219	cpCOe_Mng.cpCOe_2_1.DevCfg_CPCOE.DOuts[1].EnSafeMode		NoRead_WriteChange_WriteOnline	Normal	1	
+True	HoldingRegister	220	cpCOe_Mng.cpCOe_2_1.DevCfg_CPCOE.DOuts[2].EnSafeMode		NoRead_WriteChange_WriteOnline	Normal	1	
+True	HoldingRegister	221	cpCOe_Mng.cpCOe_2_1.DevCfg_CPCOE.DOuts[3].EnSafeMode		NoRead_WriteChange_WriteOnline	Normal	1	
+True	HoldingRegister	222	cpCOe_Mng.cpCOe_2_1.DevCfg_CPCOE.DOuts[4].EnSafeMode		NoRead_WriteChange_WriteOnline	Normal	1	
+True	HoldingRegister	223	cpCOe_Mng.cpCOe_2_1.DevCfg_CPCOE.DOuts[5].EnSafeMode		NoRead_WriteChange_WriteOnline	Normal	1	
+True	HoldingRegister	224	cpCOe_Mng.cpCOe_2_1.DevCfg_CPCOE.DOuts[6].EnSafeMode		NoRead_WriteChange_WriteOnline	Normal	1	
+True	HoldingRegister	227	cpCOe_Mng.cpCOe_2_1.DevCfg_CPCOE.UnivChs[1].OfflinePattern	2	NoRead_WriteChange_WriteOnline	Normal	0.005	
+True	HoldingRegister	229	cpCOe_Mng.cpCOe_2_1.DevCfg_CPCOE.UnivChs[2].OfflinePattern	2	NoRead_WriteChange_WriteOnline	Normal	0.005	
+True	HoldingRegister	231	cpCOe_Mng.cpCOe_2_1.DevCfg_CPCOE.UnivChs[3].OfflinePattern	2	NoRead_WriteChange_WriteOnline	Normal	0.005	
+True	HoldingRegister	233	cpCOe_Mng.cpCOe_2_1.DevCfg_CPCOE.UnivChs[4].OfflinePattern	2	NoRead_WriteChange_WriteOnline	Normal	0.005	
+True	HoldingRegister	235	cpCOe_Mng.cpCOe_2_1.DevCfg_CPCOE.UnivChs[5].OfflinePattern	2	NoRead_WriteChange_WriteOnline	Normal	0.005	
+True	HoldingRegister	237	cpCOe_Mng.cpCOe_2_1.DevCfg_CPCOE.UnivChs[6].OfflinePattern	2	NoRead_WriteChange_WriteOnline	Normal	0.005	
+True	HoldingRegister	239	cpCOe_Mng.cpCOe_2_1.DevCfg_CPCOE.UnivChs[7].OfflinePattern	2	NoRead_WriteChange_WriteOnline	Normal	0.005	
+True	HoldingRegister	241	cpCOe_Mng.cpCOe_2_1.DevCfg_CPCOE.UnivChs[8].OfflinePattern	2	NoRead_WriteChange_WriteOnline	Normal	0.005	
+True	HoldingRegister	243	cpCOe_Mng.cpCOe_2_1.DevCfg_CPCOE.UnivChs[9].OfflinePattern	2	NoRead_WriteChange_WriteOnline	Normal	0.005	
+True	HoldingRegister	245	cpCOe_Mng.cpCOe_2_1.DevCfg_CPCOE.UnivChs[10].OfflinePattern	2	NoRead_WriteChange_WriteOnline	Normal	0.005	
+True	HoldingRegister	247	cpCOe_Mng.cpCOe_2_1.DevCfg_CPCOE.DOuts[1].OfflinePattern		NoRead_WriteChange_WriteOnline	Normal	1	
+True	HoldingRegister	248	cpCOe_Mng.cpCOe_2_1.DevCfg_CPCOE.DOuts[2].OfflinePattern		NoRead_WriteChange_WriteOnline	Normal	1	
+True	HoldingRegister	249	cpCOe_Mng.cpCOe_2_1.DevCfg_CPCOE.DOuts[3].OfflinePattern		NoRead_WriteChange_WriteOnline	Normal	1	
+True	HoldingRegister	250	cpCOe_Mng.cpCOe_2_1.DevCfg_CPCOE.DOuts[4].OfflinePattern		NoRead_WriteChange_WriteOnline	Normal	1	
+True	HoldingRegister	251	cpCOe_Mng.cpCOe_2_1.DevCfg_CPCOE.DOuts[5].OfflinePattern		NoRead_WriteChange_WriteOnline	Normal	1	
+True	HoldingRegister	252	cpCOe_Mng.cpCOe_2_1.DevCfg_CPCOE.DOuts[6].OfflinePattern		NoRead_WriteChange_WriteOnline	Normal	1	

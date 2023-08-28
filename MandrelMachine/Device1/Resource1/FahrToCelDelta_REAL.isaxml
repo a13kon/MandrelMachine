@@ -1,0 +1,10 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Pou FileVersion="200.00.003" Name="FahrToCelDelta_REAL" ElementGuid="e2724ce4-378a-4864-b306-3ed46e4bdb08" Comment="" SingleTextLine="Converts a differential in Fahrenheit to a differential in Celsius" Language="ST" CustomFbd="0" Localization="Prj" GroupName="(User defined)" Password="E4BDBA2BEF6CC4DC" GenDebugInfo="false" UseResPassword="true" GenerateSymbMon="true" Is1499="false">
+  <Function IdentifierNb="0" Keyword="" ConvDirection="NoConversion" DataType="DINT" />
+  <LocalVars>
+    <Variable Name="FahrToCelDelta_REAL" DataType="REAL" InitialValue="" Comment="Differential in Celsius" Address="" Modifier="Constant" Kind="VarOutput" Alias="" AccessRights="ReadWrite" StringSize="0" Direction="Output" CommentFields="" Attributes="23825" />
+    <Variable Name="In" DataType="REAL" InitialValue="" Comment="Differential in Fahrenheit" Address="" Modifier="Constant" Kind="VarInput" Alias="" AccessRights="Read" StringSize="0" Direction="Input" CommentFields="" Attributes="0" />
+  </LocalVars>
+  <PouBody><![CDATA[wFQnV1NbWi9dZGUTZGofaWwxMzU3g1NLR1dLTk5hgmRscVZuQySoQWFvdmBfE4FESA4IR2EptlFrQGdtRCSocWVcUERBDf44TW0oNC5x6zwqMzkMCgSKQVtFV09DFY1KSg==]]></PouBody>
+  <PouUIProperties><![CDATA[PD94bWwgdmVyc2lvbj0iMS4wIiBlbmNvZGluZz0idXRmLTgiPz4NCjxSb290IFZlcnNpb249IjUiPg0KICA8TGFuZ3VhZ2VDb250YWluZXJTdHlsZSBDb21tZW50VGV4dENvbG9yPSJHcmVlbiIgQ29tbWVudEZvbnQ9IkNvdXJpZXIgTmV3LCAxMHB0IiBQb25jdHVhdGlvblRleHRDb2xvcj0iQmxhY2siIFBvbmN0dWF0aW9uRm9udD0iQ291cmllciBOZXcsIDEwcHQiIElkZW50aWZpZXJUZXh0Q29sb3I9IkJsYWNrIiBJZGVudGlmaWVyRm9udD0iQ291cmllciBOZXcsIDEwcHQiIE9wZXJhdG9yVGV4dENvbG9yPSJCbGFjayIgT3BlcmF0b3JGb250PSJDb3VyaWVyIE5ldywgMTBwdCIgUmVzZXJ2ZWRXb3JkVGV4dENvbG9yPSJCbHVlIiBSZXNlcnZlZFdvcmRGb250PSJDb3VyaWVyIE5ldywgMTBwdCIgUG91VGV4dENvbG9yPSJCbHVlVmlvbGV0IiBQb3VGb250PSJDb3VyaWVyIE5ldywgMTBwdCIgTnVtYmVyVGV4dENvbG9yPSJEYXJrUmVkIiBOdW1iZXJGb250PSJDb3VyaWVyIE5ldywgMTBwdCIgU3RyaW5nVGV4dENvbG9yPSJEYXJrUmVkIiBTdHJpbmdGb250PSJDb3VyaWVyIE5ldywgMTBwdCIgRWRpdG9yVGV4dEFyZWFCYWNrZ3JvdW5kQ29sb3I9IldoaXRlIiBFZGl0b3JGb250PSJDb3VyaWVyIE5ldywgMTBwdCIgSW5kZXg9IjAiIC8+DQo8L1Jvb3Q+]]></PouUIProperties>
+</Pou>

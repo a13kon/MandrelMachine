@@ -1,0 +1,21 @@
+Microsoft Visual Studio Solution File, Format Version 12.00
+# c.mask Solution File, Format Version 11.00
+VisualStudioVersion = 12.0.21005.1
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{2BF41244-5A7C-44D7-8A32-177C16C9852B}") = "MandrelMachine.Device1", "MandrelMachine.Device1.ieproj", "{73F054D2-6D8A-4A2A-8E8B-1FDBBE5749F1}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|pCO = Debug|pCO
+		Release|pCO = Release|pCO
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{73F054D2-6D8A-4A2A-8E8B-1FDBBE5749F1}.Debug|pCO.ActiveCfg = Debug|pCO
+		{73F054D2-6D8A-4A2A-8E8B-1FDBBE5749F1}.Debug|pCO.Build.0 = Debug|pCO
+		{73F054D2-6D8A-4A2A-8E8B-1FDBBE5749F1}.Release|pCO.ActiveCfg = Release|pCO
+		{73F054D2-6D8A-4A2A-8E8B-1FDBBE5749F1}.Release|pCO.Build.0 = Release|pCO
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal

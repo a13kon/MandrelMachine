@@ -1,0 +1,4 @@
+Version 1.1 Alarms RepoVersion 3.3.6
+Name	Type	Edge	Description	CounterMax	TimeValue	StorVar1	StorVar2
+OfflineAlrm_CPCOE_1	Auto reset	Positive	Device offline alarm					
+CfgErrAlrm_CPCOE_1	Auto reset	Positive	Wrong configuration on device			CfgErrGlobal		

@@ -1,0 +1,25 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Manifest
+  Name="IO_Manage"
+  Version="1.1.0">
+  <Variables>
+    <Variable
+      Name="i"
+      Comment=""
+      DataType="DINT"
+      Kind="Var"
+      IO="false"
+      Protocol="false"
+      UI="false"
+      Default="false"
+      LogPV="false"
+      IsRetained="false"
+      Alarm="false"
+      UoM="NoUnits"
+      Access="ReadWrite"
+      Acronym=""
+      Min=""
+      Max=""
+      StringSize="0" />
+  </Variables>
+</Manifest>
