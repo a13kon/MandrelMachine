@@ -1,84 +1,9 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
 <SpyListVars_0>
   <ConfigurationInfo>
-    <SpyListName>Spy List Name[1]</SpyListName>
+    <SpyListName>Spy List Name[4]</SpyListName>
     <ConfigFileVersion>3</ConfigFileVersion>
     <ToolWindowPaneIndex>0</ToolWindowPaneIndex>
     <DefaultRefreshRateMonitoring>500</DefaultRefreshRateMonitoring>
   </ConfigurationInfo>
-  <Variable>
-    <FullName>MandrelMachine.Device1.Resource1.U[1].Value</FullName>
-  </Variable>
-  <Variable>
-    <FullName>MandrelMachine.Device1.Resource1.U[2].Value</FullName>
-  </Variable>
-  <Variable>
-    <FullName>MandrelMachine.Device1.Resource1.U[3].Value</FullName>
-  </Variable>
-  <Variable>
-    <FullName>MandrelMachine.Device1.Resource1.U[7].Value</FullName>
-  </Variable>
-  <Variable>
-    <FullName>MandrelMachine.Device1.Resource1.U[8].Value</FullName>
-  </Variable>
-  <Variable>
-    <FullName>MandrelMachine.Device1.Resource1.U[9].Value</FullName>
-  </Variable>
-  <Variable>
-    <FullName>MandrelMachine.Device1.Resource1.U[10].Value</FullName>
-  </Variable>
-  <Variable>
-    <FullName>MandrelMachine.Device1.Resource1.Unit.ManMode</FullName>
-  </Variable>
-  <Variable>
-    <FullName>MandrelMachine.Device1.Resource1.DOut</FullName>
-  </Variable>
-  <Variable>
-    <FullName>MandrelMachine.Device1.Resource1.Unit.State</FullName>
-  </Variable>
-  <Variable>
-    <FullName>MandrelMachine.Device1.Resource1.Main.TON_SV2.Q</FullName>
-  </Variable>
-  <Variable>
-    <FullName>MandrelMachine.Device1.Resource1.SV2.On</FullName>
-  </Variable>
-  <Variable>
-    <FullName>MandrelMachine.Device1.Resource1.Main.TP_SV2.Q</FullName>
-  </Variable>
-  <Variable>
-    <FullName>MandrelMachine.Device1.Resource1.U[1].Inverse</FullName>
-  </Variable>
-  <Variable>
-    <FullName>MandrelMachine.Device1.Resource1.U[8].Inverse</FullName>
-  </Variable>
-  <Variable>
-    <FullName>MandrelMachine.Device1.Resource1.MaskActive</FullName>
-  </Variable>
-  <Variable>
-    <FullName>MandrelMachine.Device1.Resource1.BlowingON</FullName>
-  </Variable>
-  <Variable>
-    <FullName>MandrelMachine.Device1.Resource1.Unit.AutoOn</FullName>
-  </Variable>
-  <Variable>
-    <FullName>MandrelMachine.Device1.Resource1.Prog1.Aperiodic_Blink_1</FullName>
-  </Variable>
-  <Variable>
-    <FullName>MandrelMachine.Device1.Resource1.Prog1.Start</FullName>
-  </Variable>
-  <Variable>
-    <FullName>MandrelMachine.Device1.Resource1.Prog1.Reset</FullName>
-  </Variable>
-  <Variable>
-    <FullName>MandrelMachine.Device1.Resource1.Prog1.TotalCount</FullName>
-  </Variable>
-  <Variable>
-    <FullName>MandrelMachine.Device1.Resource1.SV3.Blow_Counter</FullName>
-  </Variable>
-  <Variable>
-    <FullName>MandrelMachine.Device1.Resource1.SV3.Blow_Time</FullName>
-  </Variable>
-  <Variable>
-    <FullName>MandrelMachine.Device1.Resource1.SV3.Blow_Pause</FullName>
-  </Variable>
 </SpyListVars_0>

@@ -9626,6 +9626,24 @@
       Max=""
       StringSize="0" />
     <Variable
+      Name="POn"
+      Comment=""
+      DataType="BOOL"
+      Kind="Var"
+      IO="false"
+      Protocol="false"
+      UI="false"
+      Default="false"
+      LogPV="false"
+      IsRetained="false"
+      Alarm="false"
+      UoM="NoUnits"
+      Access="ReadWrite"
+      Acronym=""
+      Min=""
+      Max=""
+      StringSize="0" />
+    <Variable
       Name="Press_SP"
       Comment="Уставка давления для дорнования"
       DataType="REAL"

@@ -319,6 +319,11 @@
     <DefineWord Name="DF_USTATE_READY" Define="7" Comment="Состояние установки: готов к пуску" Access="UserDefined" />
     <DefineWord Name="DF_SPEED_FILLING" Define="50.0" Comment="Скорость насоса при наполнении" Access="UserDefined" />
     <DefineWord Name="DF_SPEED_LOW" Define="15.0" Comment="Минимальная скорость" Access="UserDefined" />
+    <DefineWord Name="NewDefine" Define="" Comment="" Access="UserDefined" />
+    <DefineWord Name="DF_USTATE_FILLING_PR" Define="10" Comment="Состояние установки: предв.заполнение" Access="UserDefined" />
+    <DefineWord Name="DF_USTATE_PRESS_UP_PR" Define="11" Comment="Состояние установки: предв.набор давления" Access="UserDefined" />
+    <DefineWord Name="DF_USTATE_RELEASE_PR" Define="12" Comment="Состояние установки: предв.сброс воды" Access="UserDefined" />
+    <DefineWord Name="DF_USTATE_CONFIRMATION_PR" Define="13" Comment="Состояние установки: подтверждение пуска на предварительном этапе" Access="UserDefined" />
   </DefineWords>
   <DataTypes>
     <DataType Name="STCT_Offset" Comment="" Access="UserDefined">

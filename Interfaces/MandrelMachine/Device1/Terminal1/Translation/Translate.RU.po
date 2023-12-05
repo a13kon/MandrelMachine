@@ -390,6 +390,26 @@ msgid "PÅÂúoÉ Ã¸½¼À"
 msgstr "PÅÂúoÉ Ã¸½¼À"
 
 #: Classes.otsf
+msgctxt "[Class:Unit_State_Class][Resource:10]"
+msgid "ª.ÊaÁo¿ú¸ú¼¸"
+msgstr "ª.ÊaÁo¿ú¸ú¼¸"
+
+#: Classes.otsf
+msgctxt "[Class:Unit_State_Class][Resource:11]"
+msgid "ª.úaµoÃ ·aÆ¿¸ú¼Ó"
+msgstr "ª.úaµoÃ ·aÆ¿¸ú¼Ó"
+
+#: Classes.otsf
+msgctxt "[Class:Unit_State_Class][Resource:12]"
+msgid "CµÃoc ·aÆ¿¸ú¼Ó"
+msgstr "CµÃoc ·aÆ¿¸ú¼Ó"
+
+#: Classes.otsf
+msgctxt "[Class:Unit_State_Class][Resource:13]"
+msgid "Ha½À¼Ä¸ ªÅc¾"
+msgstr "Ha½À¼Ä¸ ªÅc¾"
+
+#: Classes.otsf
 msgctxt "[Class:UoM_Class][Resource:0]"
 msgid ""
 msgstr ""
