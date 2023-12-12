@@ -9781,7 +9781,7 @@
         DataType="REAL"
         IO="false"
         Protocol="false"
-        UI="false"
+        UI="true"
         Default="false"
         LogPV="false"
         IsRetained="false"

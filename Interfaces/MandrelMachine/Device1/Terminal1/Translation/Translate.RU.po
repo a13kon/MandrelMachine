@@ -592,17 +592,17 @@ msgstr ""
 #: Main.otws
 msgctxt "[Mask:Main_1][Field:Text_10]"
 msgid "Hacoc:"
-msgstr "Hacoc :"
+msgstr "Hacoc:"
 
 #: Main.otws
 msgctxt "[Mask:Main_1][Field:Text_11]"
 msgid "¨oÀÁÃ.:"
-msgstr "¨oÀÁÃ.:"
+msgstr "¨oÀÁ.:"
 
 #: Main.otws
 msgctxt "[Mask:Main_1][Field:Text_12]"
 msgid "¨oÀÁÃ.:"
-msgstr "ª«    :"
+msgstr "ª«   :"
 
 #: Main.otws
 #| msgctxt "[Mask:Main_1_Clone_2][Field:Text]"

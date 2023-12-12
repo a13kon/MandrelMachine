@@ -75,8 +75,8 @@
   </FormatField>
   <FormatField Name="Hide_Speed_Class" Format="io+3.0">
     <KeyBindings>
-      <KeyBinding Key="UP" BindOn="Increment_WORD" />
-      <KeyBinding Key="DOWN" BindOn="Decrement_WORD" />
+      <KeyBinding Key="UP" BindOn="Increment_REAL_0" />
+      <KeyBinding Key="DOWN" BindOn="Decrement_REAL_0" />
       <KeyBinding Key="ENTER" BindOn="SetCurrentValue" />
     </KeyBindings>
     <EnableOn>

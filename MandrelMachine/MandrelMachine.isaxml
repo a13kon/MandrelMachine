@@ -324,6 +324,8 @@
     <DefineWord Name="DF_USTATE_PRESS_UP_PR" Define="11" Comment="Состояние установки: предв.набор давления" Access="UserDefined" />
     <DefineWord Name="DF_USTATE_RELEASE_PR" Define="12" Comment="Состояние установки: предв.сброс воды" Access="UserDefined" />
     <DefineWord Name="DF_USTATE_CONFIRMATION_PR" Define="13" Comment="Состояние установки: подтверждение пуска на предварительном этапе" Access="UserDefined" />
+    <DefineWord Name="DF_SPEED_OFF" Define="0.0" Comment="" Access="UserDefined" />
+    <DefineWord Name="DF_SPEED_MAX" Define="100.0" Comment="" Access="UserDefined" />
   </DefineWords>
   <DataTypes>
     <DataType Name="STCT_Offset" Comment="" Access="UserDefined">

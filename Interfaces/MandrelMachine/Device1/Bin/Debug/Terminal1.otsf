@@ -131,22 +131,22 @@
       <Var Name="Unit.AutoMode" />
     </EnableOn>
   </FormatField>
-  <FormatField Name="Hide_Speed_Class" Format="io+3.0">
-    <KeyBindings>
-      <KeyBinding Key="UP" BindOn="Increment_WORD" />
-      <KeyBinding Key="DOWN" BindOn="Decrement_WORD" />
-      <KeyBinding Key="ENTER" BindOn="SetCurrentValue" />
-    </KeyBindings>
-    <EnableOn>
-      <Var Name="Y[1].Manual" />
-    </EnableOn>
-  </FormatField>
   <FormatField Name="CL_REAL_0" Format="io+3.0">
     <KeyBindings>
       <KeyBinding Key="UP" BindOn="Increment_REAL_0" />
       <KeyBinding Key="DOWN" BindOn="Decrement_REAL_0" />
       <KeyBinding Key="ENTER" BindOn="SetCurrentValue" />
     </KeyBindings>
+  </FormatField>
+  <FormatField Name="Hide_Speed_Class" Format="io+3.0">
+    <KeyBindings>
+      <KeyBinding Key="UP" BindOn="Increment_REAL_0" />
+      <KeyBinding Key="DOWN" BindOn="Decrement_REAL_0" />
+      <KeyBinding Key="ENTER" BindOn="SetCurrentValue" />
+    </KeyBindings>
+    <EnableOn>
+      <Var Name="Y[1].Manual" />
+    </EnableOn>
   </FormatField>
   <FormatField Name="CL_UDINT" Format="io6">
     <KeyBindings>

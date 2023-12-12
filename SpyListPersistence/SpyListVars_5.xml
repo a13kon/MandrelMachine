@@ -51,4 +51,13 @@
   <Variable>
     <FullName>MandrelMachine.Device1.Resource1.U[10].Manual</FullName>
   </Variable>
+  <Variable>
+    <FullName>MandrelMachine.Device1.Resource1.Y[1].Cur_Value</FullName>
+  </Variable>
+  <Variable>
+    <FullName>MandrelMachine.Device1.Resource1.Y[1].Value</FullName>
+  </Variable>
+  <Variable>
+    <FullName>MandrelMachine.Device1.Resource1.Y[1].Manual</FullName>
+  </Variable>
 </SpyListVars_5>

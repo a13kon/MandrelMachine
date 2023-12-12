@@ -11,7 +11,7 @@
         <Field Type="Variable" Name="Variable_3" Row="7" Column="1" Content="Unit.State" Class="Unit_State_Class" Format="o1" Min="0" Max="9" SimulationValue="3" />
         <Field Type="Text" Name="Text_2" Row="0" Column="19" Content=":" />
         <Field Type="Variable" Name="Variable_4" Row="0" Column="20" Content="Boot.CurDate.Second" Class="CL_UINT" Format="o2z" Min="0" Max="99" />
-        <Field Type="Variable" Name="Variable_5" Row="1" Column="11" Content="HPS.Value" Class="CL_REAL_1" Format="o+3.1" Min="-999.9" Max="999.9" />
+        <Field Type="Variable" Name="Variable_5" Row="2" Column="12" Content="HPS.Value" Class="CL_REAL_1" Format="o+3.1" Min="-999.9" Max="999.9" />
         <Field Type="Text" Name="Text_3" Row="2" Column="1" Content="£aÆ¿¸ú¼¸ :" />
         <Field Type="Text" Name="Text_4" Row="2" Column="19" Content="µaÃ" />
         <Field Type="Variable" Name="Variable_6" Row="1" Column="12" Content="Press_SP" Min="1.0" Max="160.0" Class="CL_REAL_1" Format="o+3.1" />
@@ -21,20 +21,20 @@
         <Field Type="Text" Name="Text_7" Row="4" Column="1" Content="¨¿.1:" />
         <Field Type="Text" Name="Text_8" Row="5" Column="1" Content="¨¿.2:" />
         <Field Type="Text" Name="Text_9" Row="6" Column="1" Content="¨¿.3:" />
-        <Field Type="Variable" Name="Variable_8" Row="4" Column="6" Content="SV1.On" Min="0" Max="1" Class="SV_State_Class" Format="ob" SimulationValue="0" />
-        <Field Type="Variable" Name="Variable_9" Row="6" Column="6" Content="SV3.On" Min="0" Max="1" Class="SV_State_Class" Format="ob" SimulationValue="1" />
-        <Field Type="Text" Name="Text_10" Row="4" Column="11" Content="Hacoc :" />
-        <Field Type="Text" Name="Text_11" Row="6" Column="11" Content="¨oÀÁÃ.:" />
+        <Field Type="Text" Name="Text_10" Row="4" Column="11" Content="Hacoc:" />
+        <Field Type="Text" Name="Text_11" Row="6" Column="11" Content="¨oÀÁ.:" />
         <Field Type="Variable" Name="Variable_10" Row="4" Column="18" Content="Pump.On" Min="0" Max="1" Class="OnOff_Class" Format="ob" SimulationValue="0" />
         <Field Type="Variable" Name="Variable_11" Row="6" Column="18" Content="Comp.On" Min="0" Max="1" Class="OnOff_Class" Format="ob" SimulationValue="1" />
         <Field Type="Variable" Name="Variable_12" Row="7" Column="18" Content="CntDown.Value" Class="CntDown_Class" Format="o4" Min="0" Max="9999" />
-        <Field Type="Variable" Name="Variable_13" Row="4" Column="5" Content="SV1.On" Min="0" Max="1" Class="Hide_SV_State_Class" Format="iob" SimulationValue="0" />
+        <Field Type="Variable" Name="Variable_13" Row="4" Column="6" Content="SV1.On" Min="0" Max="1" Class="Hide_SV_State_Class" Format="iob" SimulationValue="0" />
         <Field Type="Variable" Name="Variable_14" Row="5" Column="6" Content="SV2.On" Min="0" Max="1" Class="Hide_SV_State_Class" Format="iob" SimulationValue="1" />
-        <Field Type="Variable" Name="Variable_15" Row="6" Column="5" Content="SV3.On" Min="0" Max="1" Class="Hide_SV_State_Class" Format="iob" SimulationValue="1" />
+        <Field Type="Variable" Name="Variable_15" Row="6" Column="6" Content="SV3.On" Min="0" Max="1" Class="Hide_SV_State_Class" Format="iob" SimulationValue="1" />
         <Field Type="Variable" Name="Variable_16" Row="0" Column="6" Content="CntCycleTime" Class="CntCycle_Class" Format="o3" Min="0" Max="999" SimulationValue="1" />
-        <Field Type="Text" Name="Text_12" Row="5" Column="11" Content="ª«    :" />
-        <Field Type="Variable" Name="Variable_17" Row="5" Column="18" Content="Y[1].Cur_Value" Class="Hide_Speed_Class" Format="io+3.0" Min="0.0" Max="999.0" />
+        <Field Type="Text" Name="Text_12" Row="5" Column="11" Content="ª«   :" />
         <Field Type="Variable" Name="Variable_18" Row="5" Column="18" Content="Y[1].Cur_Value" Class="CL_REAL_0" Format="o+3.0" Min="-999.0" Max="999.0" />
+        <Field Type="Variable" Name="Variable_8" Row="4" Column="6" Content="SV1.On" Min="0" Max="1" Class="SV_State_Class" Format="ob" SimulationValue="1" />
+        <Field Type="Variable" Name="Variable_9" Row="6" Column="6" Content="SV3.On" Min="0" Max="1" Class="SV_State_Class" Format="ob" SimulationValue="1" />
+        <Field Type="Variable" Name="Variable_17" Row="5" Column="18" Content="Y[1].Cur_Value" Class="Hide_Speed_Class" Format="io+3.0" Min="0.0" Max="100.0" />
       </Fields>
       <KeyBindings>
         <KeyBinding Key="PRG" BindOn="Main_1_PRG" />
