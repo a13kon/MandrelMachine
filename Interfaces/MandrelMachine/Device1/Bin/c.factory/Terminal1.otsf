@@ -60,6 +60,10 @@
       <Index Value="7" Content="147" Type="Text" TextFactor="2" LimitText="false" Font="CAREL_TERM_EAST" FontHeight="9" ProportionalCharWidth="true" />
       <Index Value="8" Content="148" Type="Text" TextFactor="2" LimitText="false" Font="CAREL_TERM_EAST" FontHeight="9" ProportionalCharWidth="true" />
       <Index Value="9" Content="149" Type="Text" TextFactor="2" LimitText="false" Font="CAREL_TERM_EAST" FontHeight="9" ProportionalCharWidth="true" />
+      <Index Value="10" Content="150" Type="Text" TextFactor="2" LimitText="false" Font="CAREL_TERM_EAST" FontHeight="9" ProportionalCharWidth="true" />
+      <Index Value="11" Content="151" Type="Text" TextFactor="2" LimitText="false" Font="CAREL_TERM_EAST" FontHeight="9" ProportionalCharWidth="true" />
+      <Index Value="12" Content="152" Type="Text" TextFactor="2" LimitText="false" Font="CAREL_TERM_EAST" FontHeight="9" ProportionalCharWidth="true" />
+      <Index Value="13" Content="153" Type="Text" TextFactor="2" LimitText="false" Font="CAREL_TERM_EAST" FontHeight="9" ProportionalCharWidth="true" />
     </ResourceUsedOnInt>
   </FormatField>
   <FormatField Name="CL_REAL_1" Format="io+3.1">
@@ -127,22 +131,22 @@
       <Var Name="Unit.AutoMode" />
     </EnableOn>
   </FormatField>
-  <FormatField Name="Hide_Speed_Class" Format="io+3.0">
-    <KeyBindings>
-      <KeyBinding Key="UP" BindOn="Increment_WORD" />
-      <KeyBinding Key="DOWN" BindOn="Decrement_WORD" />
-      <KeyBinding Key="ENTER" BindOn="SetCurrentValue" />
-    </KeyBindings>
-    <EnableOn>
-      <Var Name="Y[1].Manual" />
-    </EnableOn>
-  </FormatField>
   <FormatField Name="CL_REAL_0" Format="io+3.0">
     <KeyBindings>
       <KeyBinding Key="UP" BindOn="Increment_REAL_0" />
       <KeyBinding Key="DOWN" BindOn="Decrement_REAL_0" />
       <KeyBinding Key="ENTER" BindOn="SetCurrentValue" />
     </KeyBindings>
+  </FormatField>
+  <FormatField Name="Hide_Speed_Class" Format="io+3.0">
+    <KeyBindings>
+      <KeyBinding Key="UP" BindOn="Increment_REAL_0" />
+      <KeyBinding Key="DOWN" BindOn="Decrement_REAL_0" />
+      <KeyBinding Key="ENTER" BindOn="SetCurrentValue" />
+    </KeyBindings>
+    <EnableOn>
+      <Var Name="Y[1].Manual" />
+    </EnableOn>
   </FormatField>
   <FormatField Name="CL_UDINT" Format="io6">
     <KeyBindings>

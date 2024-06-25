@@ -143,8 +143,6 @@
           <Field Type="Text" Name="Text_7" Row="4" Column="1" Content="25" />
           <Field Type="Text" Name="Text_8" Row="5" Column="1" Content="26" />
           <Field Type="Text" Name="Text_9" Row="6" Column="1" Content="27" />
-          <Field Type="Variable" Name="Variable_8" Row="4" Column="6" Content="SV1.On" Min="0" Max="1" Class="SV_State_Class" Format="ob" SimulationValue="0" />
-          <Field Type="Variable" Name="Variable_9" Row="6" Column="6" Content="SV3.On" Min="0" Max="1" Class="SV_State_Class" Format="ob" SimulationValue="1" />
           <Field Type="Text" Name="Text_10" Row="4" Column="11" Content="28" />
           <Field Type="Text" Name="Text_11" Row="6" Column="11" Content="29" />
           <Field Type="Variable" Name="Variable_10" Row="4" Column="18" Content="Pump.On" Min="0" Max="1" Class="OnOff_Class" Format="ob" SimulationValue="0" />
@@ -155,8 +153,10 @@
           <Field Type="Variable" Name="Variable_15" Row="6" Column="6" Content="SV3.On" Min="0" Max="1" Class="Hide_SV_State_Class" Format="iob" SimulationValue="1" />
           <Field Type="Variable" Name="Variable_16" Row="0" Column="6" Content="CntCycleTime" Class="CntCycle_Class" Format="o3" Min="0" Max="999" SimulationValue="1" />
           <Field Type="Text" Name="Text_12" Row="5" Column="11" Content="30" />
-          <Field Type="Variable" Name="Variable_17" Row="5" Column="18" Content="Y[1].Cur_Value" Class="Hide_Speed_Class" Format="io+3.0" Min="0.0" Max="999.0" />
           <Field Type="Variable" Name="Variable_18" Row="5" Column="18" Content="Y[1].Cur_Value" Class="CL_REAL_0" Format="o+3.0" Min="-999.0" Max="999.0" />
+          <Field Type="Variable" Name="Variable_8" Row="4" Column="6" Content="SV1.On" Min="0" Max="1" Class="SV_State_Class" Format="ob" SimulationValue="1" />
+          <Field Type="Variable" Name="Variable_9" Row="6" Column="6" Content="SV3.On" Min="0" Max="1" Class="SV_State_Class" Format="ob" SimulationValue="1" />
+          <Field Type="Variable" Name="Variable_17" Row="5" Column="18" Content="Y[1].Cur_Value" Class="Hide_Speed_Class" Format="io+3.0" Min="0.0" Max="100.0" />
         </Fields>
         <KeyBindings>
           <KeyBinding Key="PRG" BindOn="Main_1_PRG" />

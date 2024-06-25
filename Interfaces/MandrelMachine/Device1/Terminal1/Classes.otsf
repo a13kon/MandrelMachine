@@ -154,7 +154,7 @@
       <Index Value="2" Content="   ¦ÀÁÅ¿ÎcúËÉ Ã¸½¼À      úaµoÃa ·aÆ¿¸ú¼Ó" Type="Text" TextFactor="2" LimitText="false" Font="CAREL_TERM_EAST" FontHeight="9" ProportionalCharWidth="true" />
       <Index Value="3" Content="  ­Ã¸ÀÓ oÄ¾ÃËÄ¼Ó Ð/À    ¾¿.1 Æ ¼ÀÁ. Ã¸½¼À¸" Type="Text" TextFactor="2" LimitText="false" Font="CAREL_TERM_EAST" FontHeight="9" ProportionalCharWidth="true" />
       <Index Value="4" Content="  ­Ã¸ÀÓ Êa¾ÃËÄ¼Ó Ð/À    ¾¿.1 Æ ¼ÀÁ. Ã¸½¼À¸" Type="Text" TextFactor="2" LimitText="false" Font="CAREL_TERM_EAST" FontHeight="9" ProportionalCharWidth="true" />
-      <Index Value="5" Content="" Type="Text" TextFactor="2" LimitText="false" Font="CAREL_TERM_EAST" FontHeight="9" ProportionalCharWidth="true" />
+      <Index Value="5" Content="±oúa ú¸ÂÅÆcÄÆ¼Ä.aÆÃ¼¼   Á¸Ã¸Áa·a ·aÆ¿¸ú¼Ó" Type="Text" TextFactor="2" LimitText="false" Font="CAREL_TERM_EAST" FontHeight="9" ProportionalCharWidth="true" />
       <Index Value="6" Content="" Type="Text" TextFactor="2" LimitText="false" Font="CAREL_TERM_EAST" FontHeight="9" ProportionalCharWidth="true" />
       <Index Value="7" Content="" Type="Text" TextFactor="2" LimitText="false" Font="CAREL_TERM_EAST" FontHeight="9" ProportionalCharWidth="true" />
     </ResourceUsedOnInt>
@@ -167,9 +167,9 @@
     </KeyBindings>
     <ResourceUsedOnInt>
       <Index Value="0" Content="ÁÃ¸·.Ð¾Ãaú, c¿.Ð¾ÃaúEnter - Ã¸·a¾Ä¼ÃoÆaú¼¸" Type="Text" TextFactor="2" LimitText="false" Font="CAREL_TERM_EAST" FontHeight="9" ProportionalCharWidth="true" />
-      <Index Value="1" Content="±oúa ú¸ÂÅÆcÄÆ¼Ä.aÆÃ¼¼   Á¸Ã¸Áa·a ·aÆ¿¸ú¼Ó" Type="Text" TextFactor="2" LimitText="false" Font="CAREL_TERM_EAST" FontHeight="9" ProportionalCharWidth="true" />
-      <Index Value="2" Content="±a·¸Ã½¾a cÃaµaÄËÆaú¼Ó aÆaÃ¼¼ Á¸Ã¸Áa·a ·aÆ¿." Type="Text" TextFactor="2" LimitText="false" Font="CAREL_TERM_EAST" FontHeight="9" ProportionalCharWidth="true" />
-      <Index Value="3" Content="" Type="Text" TextFactor="2" LimitText="false" Font="CAREL_TERM_EAST" FontHeight="9" ProportionalCharWidth="true" />
+      <Index Value="1" Content="±a·¸Ã½¾a cÃaµaÄËÆaú¼Ó aÆaÃ¼¼ Á¸Ã¸Áa·a ·aÆ¿." Type="Text" TextFactor="2" LimitText="false" Font="CAREL_TERM_EAST" FontHeight="9" ProportionalCharWidth="true" />
+      <Index Value="2" Content="C¾oÃocÄÎ úacoca       Æ ª. úaµoÃ¸" Type="Text" TextFactor="2" LimitText="false" Font="CAREL_TERM_EAST" FontHeight="9" ProportionalCharWidth="true" />
+      <Index Value="3" Content="£aÆ¿¸ú¼¸ ·¿Ó ÊaÆ¸ÃÇ¸- ú¼Ó ª. úaµoÃa" Type="Text" TextFactor="2" LimitText="false" Font="CAREL_TERM_EAST" FontHeight="9" ProportionalCharWidth="true" />
       <Index Value="4" Content="" Type="Text" TextFactor="2" LimitText="false" Font="CAREL_TERM_EAST" FontHeight="9" ProportionalCharWidth="true" />
       <Index Value="5" Content="" Type="Text" TextFactor="2" LimitText="false" Font="CAREL_TERM_EAST" FontHeight="9" ProportionalCharWidth="true" />
       <Index Value="6" Content="" Type="Text" TextFactor="2" LimitText="false" Font="CAREL_TERM_EAST" FontHeight="9" ProportionalCharWidth="true" />

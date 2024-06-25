@@ -277,6 +277,9 @@
           <Field Type="Variable" Name="Variable_6" Row="4" Column="15" Content="Main.ImpulseOff_Time" Class="CL_INT" Format="io+2" Min="1" Max="99" />
           <Field Type="Text" Name="Text_6" Row="3" Column="19" Content="68" />
           <Field Type="Text" Name="Text_7" Row="4" Column="19" Content="69" />
+          <Field Type="Text" Name="Text_8" Row="5" Column="1" Content="70" />
+          <Field Type="Variable" Name="Variable_7" Row="5" Column="13" Content="DifPress.DeadBand" Min="0.2" Max="20.0" Class="CL_REAL_1" Format="io+2.1" />
+          <Field Type="Text" Name="Text_9" Row="5" Column="19" Content="71" />
         </Fields>
         <KeyBindings>
           <KeyBinding Key="PRG" BindOn="Main_1_PRG" />
@@ -285,18 +288,21 @@
       <Mask Name="Settings_4" Type="Normal" X="2" Y="4">
         <Fields>
           <Field Type="Image" Name="Image" Row="0" Column="0" Content="BLACK_ROWS_132X8.BMP" />
-          <Field Type="Text" Name="Text" Row="0" Column="7" Content="70" />
-          <Field Type="Variable" Name="Variable_2" Row="6" Column="0" Content="__SYSVA_CURSOR_ROW" Class="Settings_4_Row_Basement_Class" Format="io1" Min="0" Max="9" SimulationValue="2" />
+          <Field Type="Text" Name="Text" Row="0" Column="7" Content="72" />
+          <Field Type="Variable" Name="Variable_2" Row="6" Column="0" Content="__SYSVA_CURSOR_ROW" Class="Settings_4_Row_Basement_Class" Format="io1" Min="0" Max="9" SimulationValue="3" />
           <Field Type="Image" Name="Image_3" Row="7" Column="0" Content="BLACK_ROWS_132X8.BMP" />
           <Field Type="Image" Name="Image_2" Row="6" Column="0" Content="BLACK_ROWS_132X8.BMP" />
-          <Field Type="Text" Name="Text_12" Row="0" Column="19" Content="71" />
+          <Field Type="Text" Name="Text_12" Row="0" Column="19" Content="73" />
           <Field Type="Variable" Name="Variable_5" Row="0" Column="0" Content="dummy" Min="0" Max="1" Class="Dummy_Class" Format="ib" />
-          <Field Type="Text" Name="Text_5" Row="2" Column="1" Content="72" />
-          <Field Type="Text" Name="Text_6" Row="1" Column="1" Content="73" />
-          <Field Type="Text" Name="Text_8" Row="2" Column="19" Content="74" />
-          <Field Type="Text" Name="Text_11" Row="1" Column="19" Content="75" />
-          <Field Type="Variable" Name="Variable_6" Row="1" Column="13" Content="DifPress.DeadBand" Min="0.2" Max="20.0" Class="CL_REAL_1" Format="io+2.1" />
-          <Field Type="Variable" Name="Variable_7" Row="2" Column="14" Content="DifPress.Alarm_Delay" Min="100" Max="9999" Class="CL_UDINT" Format="io4" />
+          <Field Type="Text" Name="Text_5" Row="1" Column="1" Content="74" />
+          <Field Type="Text" Name="Text_8" Row="1" Column="19" Content="75" />
+          <Field Type="Variable" Name="Variable_7" Row="1" Column="14" Content="DifPress.Alarm_Delay" Min="100" Max="9999" Class="CL_UDINT" Format="io4" />
+          <Field Type="Text" Name="Text_2" Row="2" Column="1" Content="76" />
+          <Field Type="Text" Name="Text_3" Row="2" Column="19" Content="77" />
+          <Field Type="Text" Name="Text_4" Row="3" Column="1" Content="78" />
+          <Field Type="Text" Name="Text_6" Row="3" Column="19" Content="79" />
+          <Field Type="Variable" Name="Variable" Row="2" Column="12" Content="PreUpPumpSpeed" Class="CL_REAL_1" Format="io+3.1" Min="1.0" Max="100.0" />
+          <Field Type="Variable" Name="Variable_3" Row="3" Column="12" Content="PreUpHPSValue" Class="CL_REAL_1" Format="io+3.1" Min="0.0" Max="30.0" />
         </Fields>
         <KeyBindings>
           <KeyBinding Key="PRG" BindOn="Main_1_PRG" />
@@ -308,16 +314,16 @@
         <Fields>
           <Field Type="Image" Name="Image" Row="0" Column="0" Content="BLACK_ROWS_132X8.BMP" />
           <Field Type="Variable" Name="Variable" Row="0" Column="14" Content="Boot.CurDate.Hour" Class="CL_UINT" Format="o2z" Min="0" Max="99" />
-          <Field Type="Text" Name="Text" Row="0" Column="16" Content="76" />
+          <Field Type="Text" Name="Text" Row="0" Column="16" Content="80" />
           <Field Type="Variable" Name="Variable_2" Row="0" Column="17" Content="Boot.CurDate.Minute" Class="CL_UINT" Format="o2z" Min="0" Max="99" />
           <Field Type="Image" Name="Image_2" Row="7" Column="0" Content="BLACK_ROWS_132X8.BMP" />
           <Field Type="Variable" Name="Variable_3" Row="7" Column="1" Content="Unit.State" Class="Unit_State_Class" Format="o1" Min="0" Max="9" SimulationValue="3" />
-          <Field Type="Text" Name="Text_2" Row="0" Column="19" Content="77" />
+          <Field Type="Text" Name="Text_2" Row="0" Column="19" Content="81" />
           <Field Type="Variable" Name="Variable_4" Row="0" Column="20" Content="Boot.CurDate.Second" Class="CL_UINT" Format="o2z" Min="0" Max="99" />
-          <Field Type="Text" Name="Text_6" Row="3" Column="2" Content="78" />
+          <Field Type="Text" Name="Text_6" Row="3" Column="2" Content="82" />
           <Field Type="Variable" Name="Variable_12" Row="7" Column="18" Content="CntDown.Value" Class="CntDown_Class" Format="o4" Min="0" Max="9999" />
-          <Field Type="Text" Name="Text_3" Row="4" Column="5" Content="79" />
-          <Field Type="Text" Name="Text_4" Row="2" Column="2" Content="80" />
+          <Field Type="Text" Name="Text_3" Row="4" Column="5" Content="83" />
+          <Field Type="Text" Name="Text_4" Row="2" Column="2" Content="84" />
           <Field Type="Variable" Name="Variable_5" Row="0" Column="6" Content="CntCycleTime" Class="CntCycle_Class" Format="o3" Min="0" Max="999" SimulationValue="1" />
         </Fields>
         <KeyBindings>

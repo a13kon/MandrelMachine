@@ -825,6 +825,16 @@ msgid "c¸¾"
 msgstr ""
 
 #: Main.otws
+msgctxt "[Mask:Settings_3][Field:Text_8]"
+msgid "ªaÃaÀ.14 :"
+msgstr ""
+
+#: Main.otws
+msgctxt "[Mask:Settings_3][Field:Text_9]"
+msgid "µaÃ"
+msgstr ""
+
+#: Main.otws
 #| msgctxt "[Mask:Settings_2_Clone_2][Field:Text_12]"
 msgctxt "[Mask:Settings_3][Field:Text_12]"
 msgid "2/2"
@@ -837,27 +847,35 @@ msgid "HacÄÃoÉ¾¼"
 msgstr ""
 
 #: Main.otws
+msgctxt "[Mask:Settings_4][Field:Text_2]"
+msgid "ªaÃaÀ.15 :"
+msgstr ""
+
+#: Main.otws
+msgctxt "[Mask:Settings_4][Field:Text_3]"
+msgid "Àc"
+msgstr ""
+
+#: Main.otws
+msgctxt "[Mask:Settings_4][Field:Text_4]"
+msgid "ªaÃaÀ.15 :"
+msgstr ""
+
+#: Main.otws
 #| msgctxt "[Mask:Settings_2_Clone_2][Field:Text_5]"
 msgctxt "[Mask:Settings_4][Field:Text_5]"
 msgid "ªaÃaÀ.09 :"
 msgstr ""
 
 #: Main.otws
-#| msgctxt "[Mask:Settings_2_Clone_2][Field:Text_6]"
 msgctxt "[Mask:Settings_4][Field:Text_6]"
-msgid "ªaÃaÀ.08 :"
+msgid "Àc"
 msgstr ""
 
 #: Main.otws
 #| msgctxt "[Mask:Settings_2_Clone_2][Field:Text_8]"
 msgctxt "[Mask:Settings_4][Field:Text_8]"
 msgid "Àc"
-msgstr ""
-
-#: Main.otws
-#| msgctxt "[Mask:Settings_2_Clone_2][Field:Text_11]"
-msgctxt "[Mask:Settings_4][Field:Text_11]"
-msgid "µaÃ"
 msgstr ""
 
 #: Main.otws

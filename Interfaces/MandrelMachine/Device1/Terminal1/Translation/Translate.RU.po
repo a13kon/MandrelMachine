@@ -267,7 +267,7 @@ msgstr "  ­Ã¸ÀÓ Êa¾ÃËÄ¼Ó Ð/À    ¾¿.1 Æ ¼ÀÁ. Ã¸½¼À¸"
 #| msgctxt "[Class:Copy_Settings_2_Row_Basement_Class][Resource:5]"
 msgctxt "[Class:Settings_3_Row_Basement_Class][Resource:5]"
 msgid "±a·¸Ã½¾a cÃaµaÄËÆaú¼Ó aÆaÃ¼¼ Á¸Ã¸Áa·a ·aÆ¿."
-msgstr ""
+msgstr "±oúa ú¸ÂÅÆcÄÆ¼Ä.aÆÃ¼¼   Á¸Ã¸Áa·a ·aÆ¿¸ú¼Ó"
 
 #: Classes.otsf
 #| msgctxt "[Class:Copy_Settings_2_Row_Basement_Class][Resource:6]"
@@ -291,19 +291,19 @@ msgstr "ÁÃ¸·.Ð¾Ãaú, c¿.Ð¾ÃaúEnter - Ã¸·a¾Ä¼ÃoÆaú¼¸"
 #| msgctxt "[Class:Copy_Settings_2_Row_Basement_Class][Resource:1]"
 msgctxt "[Class:Settings_4_Row_Basement_Class][Resource:1]"
 msgid "   ±a·¸Ã½¾a ÁÃo·ÅÆ¾¼      ·¿Ó c¿¼Æa Æo·Ë"
-msgstr "±oúa ú¸ÂÅÆcÄÆ¼Ä.aÆÃ¼¼   Á¸Ã¸Áa·a ·aÆ¿¸ú¼Ó"
+msgstr "±a·¸Ã½¾a cÃaµaÄËÆaú¼Ó aÆaÃ¼¼ Á¸Ã¸Áa·a ·aÆ¿."
 
 #: Classes.otsf
 #| msgctxt "[Class:Copy_Settings_2_Row_Basement_Class][Resource:2]"
 msgctxt "[Class:Settings_4_Row_Basement_Class][Resource:2]"
 msgid "                          ­Ã¸ÀÓ ÁÃo·ÅÆ¾¼"
-msgstr "±a·¸Ã½¾a cÃaµaÄËÆaú¼Ó aÆaÃ¼¼ Á¸Ã¸Áa·a ·aÆ¿."
+msgstr "C¾oÃocÄÎ úacoca       Æ ª. úaµoÃ¸"
 
 #: Classes.otsf
 #| msgctxt "[Class:Copy_Settings_2_Row_Basement_Class][Resource:3]"
 msgctxt "[Class:Settings_4_Row_Basement_Class][Resource:3]"
 msgid "±a·¸Ã½¾a Êa¾Ã.Ð/À ¾¿.2 ·¿Ó cµÃoca ·aÆ¿.ÆoÊ·."
-msgstr ""
+msgstr "£aÆ¿¸ú¼¸ ·¿Ó ÊaÆ¸ÃÇ¸- ú¼Ó ª. úaµoÃa"
 
 #: Classes.otsf
 #| msgctxt "[Class:Copy_Settings_2_Row_Basement_Class][Resource:4]"
@@ -826,6 +826,16 @@ msgid "c¸¾"
 msgstr "c¸¾"
 
 #: Main.otws
+msgctxt "[Mask:Settings_3][Field:Text_8]"
+msgid "ªaÃaÀ.14 :"
+msgstr "ªaÃaÀ.14 :"
+
+#: Main.otws
+msgctxt "[Mask:Settings_3][Field:Text_9]"
+msgid "µaÃ"
+msgstr ""
+
+#: Main.otws
 #| msgctxt "[Mask:Settings_2_Clone_2][Field:Text_12]"
 msgctxt "[Mask:Settings_3][Field:Text_12]"
 msgid "2/2"
@@ -838,27 +848,35 @@ msgid "HacÄÃoÉ¾¼"
 msgstr "HacÄÃoÉ¾¼"
 
 #: Main.otws
+msgctxt "[Mask:Settings_4][Field:Text_2]"
+msgid "ªaÃaÀ.15 :"
+msgstr "ªaÃaÀ.16 :"
+
+#: Main.otws
+msgctxt "[Mask:Settings_4][Field:Text_3]"
+msgid "Àc"
+msgstr "%"
+
+#: Main.otws
+msgctxt "[Mask:Settings_4][Field:Text_4]"
+msgid "ªaÃaÀ.15 :"
+msgstr "ªaÃaÀ.17 :"
+
+#: Main.otws
 #| msgctxt "[Mask:Settings_2_Clone_2][Field:Text_5]"
 msgctxt "[Mask:Settings_4][Field:Text_5]"
 msgid "ªaÃaÀ.09 :"
 msgstr "ªaÃaÀ.15 :"
 
 #: Main.otws
-#| msgctxt "[Mask:Settings_2_Clone_2][Field:Text_6]"
 msgctxt "[Mask:Settings_4][Field:Text_6]"
-msgid "ªaÃaÀ.08 :"
-msgstr "ªaÃaÀ.14 :"
+msgid "Àc"
+msgstr "µaÃ"
 
 #: Main.otws
 #| msgctxt "[Mask:Settings_2_Clone_2][Field:Text_8]"
 msgctxt "[Mask:Settings_4][Field:Text_8]"
 msgid "Àc"
-msgstr ""
-
-#: Main.otws
-#| msgctxt "[Mask:Settings_2_Clone_2][Field:Text_11]"
-msgctxt "[Mask:Settings_4][Field:Text_11]"
-msgid "µaÃ"
 msgstr ""
 
 #: Main.otws

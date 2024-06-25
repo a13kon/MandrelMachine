@@ -6,4 +6,25 @@
     <ToolWindowPaneIndex>1</ToolWindowPaneIndex>
     <DefaultRefreshRateMonitoring>500</DefaultRefreshRateMonitoring>
   </ConfigurationInfo>
+  <Variable>
+    <FullName>MandrelMachine.Device1.Resource1.Unit.On</FullName>
+  </Variable>
+  <Variable>
+    <FullName>MandrelMachine.Device1.Resource1.Unit.Alarm</FullName>
+  </Variable>
+  <Variable>
+    <FullName>MandrelMachine.Device1.Resource1.Unit.AutoMode</FullName>
+  </Variable>
+  <Variable>
+    <FullName>MandrelMachine.Device1.Resource1.Unit.State</FullName>
+  </Variable>
+  <Variable>
+    <FullName>MandrelMachine.Device1.Resource1.Pump.Speed</FullName>
+  </Variable>
+  <Variable>
+    <FullName>MandrelMachine.Device1.Resource1.PreUpPumpSpeed</FullName>
+  </Variable>
+  <Variable>
+    <FullName>MandrelMachine.Device1.Resource1.PreUpHPSValue</FullName>
+  </Variable>
 </SpyListVars_1>

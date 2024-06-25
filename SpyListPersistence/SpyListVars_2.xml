@@ -105,4 +105,7 @@
   <Variable>
     <FullName>MandrelMachine.Device1.Resource1.U[10].Manual</FullName>
   </Variable>
+  <Variable>
+    <FullName>MandrelMachine.Device1.Resource1.Pump.Speed</FullName>
+  </Variable>
 </SpyListVars_2>
