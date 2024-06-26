@@ -1,0 +1,25 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Manifest
+  Name="merge_test"
+  Version="1.1.0">
+  <Variables>
+    <Variable
+      Name="test_merge"
+      Comment=""
+      DataType="INT"
+      Kind="Var"
+      IO="false"
+      Protocol="false"
+      UI="false"
+      Default="false"
+      LogPV="false"
+      IsRetained="false"
+      Alarm="false"
+      UoM="NoUnits"
+      Access="ReadWrite"
+      Acronym=""
+      Min=""
+      Max=""
+      StringSize="0" />
+  </Variables>
+</Manifest>

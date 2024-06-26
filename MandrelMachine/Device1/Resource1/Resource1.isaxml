@@ -114,6 +114,7 @@
     <Program Name="IO_Manage" ElementGuid="e6c12373-7b96-40b9-ad4e-9369ba353980" Language="ST" CustomFbd="0" Is1499="false" />
     <Program Name="Alarms" ElementGuid="5a1e4971-3cb0-44b2-8cfc-d280af3cdb81" Language="ST" CustomFbd="0" Is1499="false" />
     <Program Name="Main" ElementGuid="a391c5fb-7834-415f-aeb0-af8f3e703e04" Language="ST" CustomFbd="0" Is1499="false" />
+    <Program Name="merge_test" ElementGuid="10e7f810-df1b-4402-a52b-e2f5f9869e9c" Language="ST" CustomFbd="0" Is1499="false" />
   </Pous>
   <NetworkParameterValues>
     <NetworkParameterValue NetworkName="HSD" Name="ValidityTime" Value="0" />
