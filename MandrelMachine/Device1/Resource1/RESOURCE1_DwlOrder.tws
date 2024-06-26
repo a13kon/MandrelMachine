@@ -1,16 +1,16 @@
 ****** __RDCC_MODULE_ID ******
 00000000 :  53 49 4D 55 4C 41 54 4F  -  52 00 00 00 00 00 00 00   * Target Name : SIMULATOR
 00000010 :  0C 00 00 00   * RDCC format version number
-00000014 :  F2 5A A3 79   * Resource check sum
-00000018 :  B0 6A 85 2E   * Module check sum
+00000014 :  B6 4F C4 54   * Resource check sum
+00000018 :  3C 57 FF FF   * Module check sum
 0000001C :  00 00 00 00   * Module ID parameter
-00000020 :  20 08 00 00   * Total size
-00000024 :  88 07 00 00   * Size without __RDCC_MODULE_ID
+00000020 :  10 08 00 00   * Total size
+00000024 :  78 07 00 00   * Size without __RDCC_MODULE_ID
 00000028 :  44 00 00 00   * Offset -> resource name
 0000002C :  65 00 00 00   * Offset -> module name
 00000030 :  98 00 00 00   * Offset -> beginning of the data block
-00000034 :  86 D7 7B 66   * Compilation generation date
-00000038 :  C1 00 00 00   * Compilation version number
+00000034 :  BA D8 7B 66   * Compilation generation date
+00000038 :  C5 00 00 00   * Compilation version number
 0000003C :  00 00 00 00   * User module version number
 00000040 :  7B 00 00 00   * Offset -> target auto-validation data
 00000044 :  4D 41 4E 44 52 45 4C 4D  -  41 43 48 49 4E 45 5C 44 
@@ -47,371 +47,368 @@
 
 
 ****** __DWL_ORDER_INFO ******
-00000098 :  71 00   * Number of files
+00000098 :  70 00   * Number of files
 0000009A :  04 00   * Offset to the file definition
-0000009C :  C8 01   * Offset to the file name -> HISTORY
+0000009C :  C4 01   * Offset to the file name -> HISTORY
 0000009E :  01 00   * Order of the file
-000000A0 :  D0 01   * Offset to the file name -> BOOT
+000000A0 :  CC 01   * Offset to the file name -> BOOT
 000000A2 :  02 00   * Order of the file
-000000A4 :  D5 01   * Offset to the file name -> IO_MANAGE
+000000A4 :  D1 01   * Offset to the file name -> IO_MANAGE
 000000A6 :  03 00   * Order of the file
-000000A8 :  DF 01   * Offset to the file name -> ALARMS
+000000A8 :  DB 01   * Offset to the file name -> ALARMS
 000000AA :  04 00   * Order of the file
-000000AC :  E6 01   * Offset to the file name -> MAIN
+000000AC :  E2 01   * Offset to the file name -> MAIN
 000000AE :  05 00   * Order of the file
-000000B0 :  EB 01   * Offset to the file name -> MERGE_TEST
+000000B0 :  E7 01   * Offset to the file name -> CPCOE_2_LIMIT_INT
 000000B2 :  06 00   * Order of the file
-000000B4 :  F6 01   * Offset to the file name -> CPCOE_2_LIMIT_INT
+000000B4 :  F9 01   * Offset to the file name -> ABSHUMIDITY_INT
 000000B6 :  07 00   * Order of the file
-000000B8 :  08 02   * Offset to the file name -> ABSHUMIDITY_INT
+000000B8 :  09 02   * Offset to the file name -> ABSHUMIDITY_REAL
 000000BA :  08 00   * Order of the file
-000000BC :  18 02   * Offset to the file name -> ABSHUMIDITY_REAL
+000000BC :  1A 02   * Offset to the file name -> BARTOPSI_INT
 000000BE :  09 00   * Order of the file
-000000C0 :  29 02   * Offset to the file name -> BARTOPSI_INT
+000000C0 :  27 02   * Offset to the file name -> BARTOPSI_REAL
 000000C2 :  0A 00   * Order of the file
-000000C4 :  36 02   * Offset to the file name -> BARTOPSI_REAL
+000000C4 :  35 02   * Offset to the file name -> CELTOFAHR_INT
 000000C6 :  0B 00   * Order of the file
-000000C8 :  44 02   * Offset to the file name -> CELTOFAHR_INT
+000000C8 :  43 02   * Offset to the file name -> CELTOFAHR_REAL
 000000CA :  0C 00   * Order of the file
-000000CC :  52 02   * Offset to the file name -> CELTOFAHR_REAL
+000000CC :  52 02   * Offset to the file name -> CELTOFAHRDELTA_INT
 000000CE :  0D 00   * Order of the file
-000000D0 :  61 02   * Offset to the file name -> CELTOFAHRDELTA_INT
+000000D0 :  65 02   * Offset to the file name -> CELTOFAHRDELTA_REAL
 000000D2 :  0E 00   * Order of the file
-000000D4 :  74 02   * Offset to the file name -> CELTOFAHRDELTA_REAL
+000000D4 :  79 02   * Offset to the file name -> COMPENSSETP_INT
 000000D6 :  0F 00   * Order of the file
-000000D8 :  88 02   * Offset to the file name -> COMPENSSETP_INT
+000000D8 :  89 02   * Offset to the file name -> COMPENSSETP_REAL
 000000DA :  10 00   * Order of the file
-000000DC :  98 02   * Offset to the file name -> COMPENSSETP_REAL
+000000DC :  9A 02   * Offset to the file name -> CONV_INT
 000000DE :  11 00   * Order of the file
-000000E0 :  A9 02   * Offset to the file name -> CONV_INT
+000000E0 :  A3 02   * Offset to the file name -> CONV_REAL
 000000E2 :  12 00   * Order of the file
-000000E4 :  B2 02   * Offset to the file name -> CONV_REAL
+000000E4 :  AD 02   * Offset to the file name -> CONVHOURTOMIN_INT
 000000E6 :  13 00   * Order of the file
-000000E8 :  BC 02   * Offset to the file name -> CONVHOURTOMIN_INT
+000000E8 :  BF 02   * Offset to the file name -> COUNTER4_INT
 000000EA :  14 00   * Order of the file
-000000EC :  CE 02   * Offset to the file name -> COUNTER4_INT
+000000EC :  CC 02   * Offset to the file name -> COUNTER8_INT
 000000EE :  15 00   * Order of the file
-000000F0 :  DB 02   * Offset to the file name -> COUNTER8_INT
+000000F0 :  D9 02   * Offset to the file name -> DEWPOINT_INT
 000000F2 :  16 00   * Order of the file
-000000F4 :  E8 02   * Offset to the file name -> DEWPOINT_INT
+000000F4 :  E6 02   * Offset to the file name -> DEWPOINT_REAL
 000000F6 :  17 00   * Order of the file
-000000F8 :  F5 02   * Offset to the file name -> DEWPOINT_REAL
+000000F8 :  F4 02   * Offset to the file name -> EQ_REAL
 000000FA :  18 00   * Order of the file
-000000FC :  03 03   * Offset to the file name -> EQ_REAL
+000000FC :  FC 02   * Offset to the file name -> FAHRTOCEL_INT
 000000FE :  19 00   * Order of the file
-00000100 :  0B 03   * Offset to the file name -> FAHRTOCEL_INT
+00000100 :  0A 03   * Offset to the file name -> FAHRTOCEL_REAL
 00000102 :  1A 00   * Order of the file
-00000104 :  19 03   * Offset to the file name -> FAHRTOCEL_REAL
+00000104 :  19 03   * Offset to the file name -> FAHRTOCELDELTA_INT
 00000106 :  1B 00   * Order of the file
-00000108 :  28 03   * Offset to the file name -> FAHRTOCELDELTA_INT
+00000108 :  2C 03   * Offset to the file name -> FAHRTOCELDELTA_REAL
 0000010A :  1C 00   * Order of the file
-0000010C :  3B 03   * Offset to the file name -> FAHRTOCELDELTA_REAL
+0000010C :  40 03   * Offset to the file name -> LIMIT_INT
 0000010E :  1D 00   * Order of the file
-00000110 :  4F 03   * Offset to the file name -> LIMIT_INT
+00000110 :  4A 03   * Offset to the file name -> LIMIT_REAL
 00000112 :  1E 00   * Order of the file
-00000114 :  59 03   * Offset to the file name -> LIMIT_REAL
+00000114 :  55 03   * Offset to the file name -> LOGE_REAL
 00000116 :  1F 00   * Order of the file
-00000118 :  64 03   * Offset to the file name -> LOGE_REAL
+00000118 :  5F 03   * Offset to the file name -> MAX_INT
 0000011A :  20 00   * Order of the file
-0000011C :  6E 03   * Offset to the file name -> MAX_INT
+0000011C :  67 03   * Offset to the file name -> MAX_REAL
 0000011E :  21 00   * Order of the file
-00000120 :  76 03   * Offset to the file name -> MAX_REAL
+00000120 :  70 03   * Offset to the file name -> MIN_INT
 00000122 :  22 00   * Order of the file
-00000124 :  7F 03   * Offset to the file name -> MIN_INT
+00000124 :  78 03   * Offset to the file name -> MIN_REAL
 00000126 :  23 00   * Order of the file
-00000128 :  87 03   * Offset to the file name -> MIN_REAL
+00000128 :  81 03   * Offset to the file name -> MUX5_INT
 0000012A :  24 00   * Order of the file
-0000012C :  90 03   * Offset to the file name -> MUX5_INT
+0000012C :  8A 03   * Offset to the file name -> PSITOBAR_INT
 0000012E :  25 00   * Order of the file
-00000130 :  99 03   * Offset to the file name -> PSITOBAR_INT
+00000130 :  97 03   * Offset to the file name -> PSITOBAR_REAL
 00000132 :  26 00   * Order of the file
-00000134 :  A6 03   * Offset to the file name -> PSITOBAR_REAL
+00000134 :  A5 03   * Offset to the file name -> PRESSTOTEMP_INT
 00000136 :  27 00   * Order of the file
-00000138 :  B4 03   * Offset to the file name -> PRESSTOTEMP_INT
+00000138 :  B5 03   * Offset to the file name -> PRESSTOTEMP_REAL
 0000013A :  28 00   * Order of the file
-0000013C :  C4 03   * Offset to the file name -> PRESSTOTEMP_REAL
+0000013C :  C6 03   * Offset to the file name -> RANGE
 0000013E :  29 00   * Order of the file
-00000140 :  D5 03   * Offset to the file name -> RANGE
+00000140 :  CC 03   * Offset to the file name -> RANGE_INT
 00000142 :  2A 00   * Order of the file
-00000144 :  DB 03   * Offset to the file name -> RANGE_INT
+00000144 :  D6 03   * Offset to the file name -> RANGE_REAL
 00000146 :  2B 00   * Order of the file
-00000148 :  E5 03   * Offset to the file name -> RANGE_REAL
+00000148 :  E1 03   * Offset to the file name -> RANGEUNIV
 0000014A :  2C 00   * Order of the file
-0000014C :  F0 03   * Offset to the file name -> RANGEUNIV
+0000014C :  EB 03   * Offset to the file name -> RANGEUNIV_INT
 0000014E :  2D 00   * Order of the file
-00000150 :  FA 03   * Offset to the file name -> RANGEUNIV_INT
+00000150 :  F9 03   * Offset to the file name -> RANGEUNIV_REAL
 00000152 :  2E 00   * Order of the file
-00000154 :  08 04   * Offset to the file name -> RANGEUNIV_REAL
+00000154 :  08 04   * Offset to the file name -> REALTOINT
 00000156 :  2F 00   * Order of the file
-00000158 :  17 04   * Offset to the file name -> REALTOINT
+00000158 :  12 04   * Offset to the file name -> REALTODINT
 0000015A :  30 00   * Order of the file
-0000015C :  21 04   * Offset to the file name -> REALTODINT
+0000015C :  1D 04   * Offset to the file name -> REALTOUDINT
 0000015E :  31 00   * Order of the file
-00000160 :  2C 04   * Offset to the file name -> REALTOUDINT
+00000160 :  29 04   * Offset to the file name -> REALTOUINT
 00000162 :  32 00   * Order of the file
-00000164 :  38 04   * Offset to the file name -> REALTOUINT
+00000164 :  34 04   * Offset to the file name -> RELHUMIDITY_INT
 00000166 :  33 00   * Order of the file
-00000168 :  43 04   * Offset to the file name -> RELHUMIDITY_INT
+00000168 :  44 04   * Offset to the file name -> RELHUMIDITY_REAL
 0000016A :  34 00   * Order of the file
-0000016C :  53 04   * Offset to the file name -> RELHUMIDITY_REAL
+0000016C :  55 04   * Offset to the file name -> ROUND_REAL
 0000016E :  35 00   * Order of the file
-00000170 :  64 04   * Offset to the file name -> ROUND_REAL
+00000170 :  60 04   * Offset to the file name -> SCALER_REAL
 00000172 :  36 00   * Order of the file
-00000174 :  6F 04   * Offset to the file name -> SCALER_REAL
+00000174 :  6C 04   * Offset to the file name -> SCHEDDAILYTIME
 00000176 :  37 00   * Order of the file
-00000178 :  7B 04   * Offset to the file name -> SCHEDDAILYTIME
+00000178 :  7B 04   * Offset to the file name -> SCHEDDAILYTIME_INT
 0000017A :  38 00   * Order of the file
-0000017C :  8A 04   * Offset to the file name -> SCHEDDAILYTIME_INT
+0000017C :  8E 04   * Offset to the file name -> SECTOTIME
 0000017E :  39 00   * Order of the file
-00000180 :  9D 04   * Offset to the file name -> SECTOTIME
+00000180 :  98 04   * Offset to the file name -> SEL_BOOL
 00000182 :  3A 00   * Order of the file
-00000184 :  A7 04   * Offset to the file name -> SEL_BOOL
+00000184 :  A1 04   * Offset to the file name -> SEL_INT
 00000186 :  3B 00   * Order of the file
-00000188 :  B0 04   * Offset to the file name -> SEL_INT
+00000188 :  A9 04   * Offset to the file name -> SEL_REAL
 0000018A :  3C 00   * Order of the file
-0000018C :  B8 04   * Offset to the file name -> SEL_REAL
+0000018C :  B2 04   * Offset to the file name -> SIGN_REAL
 0000018E :  3D 00   * Order of the file
-00000190 :  C1 04   * Offset to the file name -> SIGN_REAL
+00000190 :  BC 04   * Offset to the file name -> TEMPTOPRESS_INT
 00000192 :  3E 00   * Order of the file
-00000194 :  CB 04   * Offset to the file name -> TEMPTOPRESS_INT
+00000194 :  CC 04   * Offset to the file name -> TEMPTOPRESS_REAL
 00000196 :  3F 00   * Order of the file
-00000198 :  DB 04   * Offset to the file name -> TEMPTOPRESS_REAL
+00000198 :  DD 04   * Offset to the file name -> TIMETOSEC
 0000019A :  40 00   * Order of the file
-0000019C :  EC 04   * Offset to the file name -> TIMETOSEC
+0000019C :  E7 04   * Offset to the file name -> VAPOURSATPRESS_REAL
 0000019E :  41 00   * Order of the file
-000001A0 :  F6 04   * Offset to the file name -> VAPOURSATPRESS_REAL
+000001A0 :  FB 04   * Offset to the file name -> WEEKDAY_UINT
 000001A2 :  42 00   * Order of the file
-000001A4 :  0A 05   * Offset to the file name -> WEEKDAY_UINT
+000001A4 :  08 05   * Offset to the file name -> CPCOE_2_COMMSET
 000001A6 :  43 00   * Order of the file
-000001A8 :  17 05   * Offset to the file name -> CPCOE_2_COMMSET
+000001A8 :  18 05   * Offset to the file name -> CPCOE_2_PRBALRM
 000001AA :  44 00   * Order of the file
-000001AC :  27 05   * Offset to the file name -> CPCOE_2_PRBALRM
+000001AC :  28 05   * Offset to the file name -> CPCOE_2_IOMNG
 000001AE :  45 00   * Order of the file
-000001B0 :  37 05   * Offset to the file name -> CPCOE_2_IOMNG
+000001B0 :  36 05   * Offset to the file name -> CPCOE_2_STATUSMNG
 000001B2 :  46 00   * Order of the file
-000001B4 :  45 05   * Offset to the file name -> CPCOE_2_STATUSMNG
+000001B4 :  48 05   * Offset to the file name -> CPCOE_2_PRIORITYMNG_INT
 000001B6 :  47 00   * Order of the file
-000001B8 :  57 05   * Offset to the file name -> CPCOE_2_PRIORITYMNG_INT
+000001B8 :  60 05   * Offset to the file name -> CPCOE_2
 000001BA :  48 00   * Order of the file
-000001BC :  6F 05   * Offset to the file name -> CPCOE_2
+000001BC :  68 05   * Offset to the file name -> CPCOE_2_UIMNG
 000001BE :  49 00   * Order of the file
-000001C0 :  77 05   * Offset to the file name -> CPCOE_2_UIMNG
+000001C0 :  76 05   * Offset to the file name -> CPCOE_2_REDGE
 000001C2 :  4A 00   * Order of the file
-000001C4 :  85 05   * Offset to the file name -> CPCOE_2_REDGE
+000001C4 :  84 05   * Offset to the file name -> CPCOE_2_ADDRCHANGEWIZARD
 000001C6 :  4B 00   * Order of the file
-000001C8 :  93 05   * Offset to the file name -> CPCOE_2_ADDRCHANGEWIZARD
+000001C8 :  9D 05   * Offset to the file name -> CHECKRETAINMEM
 000001CA :  4C 00   * Order of the file
-000001CC :  AC 05   * Offset to the file name -> CHECKRETAINMEM
+000001CC :  AC 05   * Offset to the file name -> AND2COM
 000001CE :  4D 00   * Order of the file
-000001D0 :  BB 05   * Offset to the file name -> AND2COM
+000001D0 :  B4 05   * Offset to the file name -> AND5COM
 000001D2 :  4E 00   * Order of the file
-000001D4 :  C3 05   * Offset to the file name -> AND5COM
+000001D4 :  BC 05   * Offset to the file name -> AND10COM
 000001D6 :  4F 00   * Order of the file
-000001D8 :  CB 05   * Offset to the file name -> AND10COM
+000001D8 :  C5 05   * Offset to the file name -> BLINKONOFF_INT
 000001DA :  50 00   * Order of the file
-000001DC :  D4 05   * Offset to the file name -> BLINKONOFF_INT
+000001DC :  D4 05   * Offset to the file name -> CONVMINTOHOUR_INT
 000001DE :  51 00   * Order of the file
-000001E0 :  E3 05   * Offset to the file name -> CONVMINTOHOUR_INT
+000001E0 :  E6 05   * Offset to the file name -> CURRDATETIME
 000001E2 :  52 00   * Order of the file
-000001E4 :  F5 05   * Offset to the file name -> CURRDATETIME
+000001E4 :  F3 05   * Offset to the file name -> DELAYONOFF_INT
 000001E6 :  53 00   * Order of the file
-000001E8 :  02 06   * Offset to the file name -> DELAYONOFF_INT
+000001E8 :  02 06   * Offset to the file name -> DIGITCONV_INT
 000001EA :  54 00   * Order of the file
-000001EC :  11 06   * Offset to the file name -> DIGITCONV_INT
+000001EC :  10 06   * Offset to the file name -> ENTHALPY_REAL
 000001EE :  55 00   * Order of the file
-000001F0 :  1F 06   * Offset to the file name -> ENTHALPY_REAL
+000001F0 :  1E 06   * Offset to the file name -> ENTHALPY_INT
 000001F2 :  56 00   * Order of the file
-000001F4 :  2D 06   * Offset to the file name -> ENTHALPY_INT
+000001F4 :  2B 06   * Offset to the file name -> FEDGE
 000001F6 :  57 00   * Order of the file
-000001F8 :  3A 06   * Offset to the file name -> FEDGE
+000001F8 :  31 06   * Offset to the file name -> FLIPFLOP
 000001FA :  58 00   * Order of the file
-000001FC :  40 06   * Offset to the file name -> FLIPFLOP
+000001FC :  3A 06   * Offset to the file name -> GRAD_INT
 000001FE :  59 00   * Order of the file
-00000200 :  49 06   * Offset to the file name -> GRAD_INT
+00000200 :  43 06   * Offset to the file name -> GRAD_REAL
 00000202 :  5A 00   * Order of the file
-00000204 :  52 06   * Offset to the file name -> GRAD_REAL
+00000204 :  4D 06   * Offset to the file name -> HYSTERADV_REAL
 00000206 :  5B 00   * Order of the file
-00000208 :  5C 06   * Offset to the file name -> HYSTERADV_REAL
+00000208 :  5C 06   * Offset to the file name -> HYSTERADV_INT
 0000020A :  5C 00   * Order of the file
-0000020C :  6B 06   * Offset to the file name -> HYSTERADV_INT
+0000020C :  6A 06   * Offset to the file name -> INTERPOLATE_REAL
 0000020E :  5D 00   * Order of the file
-00000210 :  79 06   * Offset to the file name -> INTERPOLATE_REAL
+00000210 :  7B 06   * Offset to the file name -> NOT2
 00000212 :  5E 00   * Order of the file
-00000214 :  8A 06   * Offset to the file name -> NOT2
+00000214 :  80 06   * Offset to the file name -> NOT5
 00000216 :  5F 00   * Order of the file
-00000218 :  8F 06   * Offset to the file name -> NOT5
+00000218 :  85 06   * Offset to the file name -> NOT10
 0000021A :  60 00   * Order of the file
-0000021C :  94 06   * Offset to the file name -> NOT10
+0000021C :  8B 06   * Offset to the file name -> PULSECOUNTER_INT
 0000021E :  61 00   * Order of the file
-00000220 :  9A 06   * Offset to the file name -> PULSECOUNTER_INT
+00000220 :  9C 06   * Offset to the file name -> REDGE
 00000222 :  62 00   * Order of the file
-00000224 :  AB 06   * Offset to the file name -> REDGE
+00000224 :  A2 06   * Offset to the file name -> RFTRIG
 00000226 :  63 00   * Order of the file
-00000228 :  B1 06   * Offset to the file name -> RFTRIG
+00000228 :  A9 06   * Offset to the file name -> TIMECOUNTER_INT
 0000022A :  64 00   * Order of the file
-0000022C :  B8 06   * Offset to the file name -> TIMECOUNTER_INT
+0000022C :  B9 06   * Offset to the file name -> UNITMEAS_P_REAL
 0000022E :  65 00   * Order of the file
-00000230 :  C8 06   * Offset to the file name -> UNITMEAS_P_REAL
+00000230 :  C9 06   * Offset to the file name -> UNITMEAS_P_INT
 00000232 :  66 00   * Order of the file
-00000234 :  D8 06   * Offset to the file name -> UNITMEAS_P_INT
+00000234 :  D8 06   * Offset to the file name -> UNITMEASTEMP_REAL
 00000236 :  67 00   * Order of the file
-00000238 :  E7 06   * Offset to the file name -> UNITMEASTEMP_REAL
+00000238 :  EA 06   * Offset to the file name -> UNITMEASTEMP_INT
 0000023A :  68 00   * Order of the file
-0000023C :  F9 06   * Offset to the file name -> UNITMEASTEMP_INT
+0000023C :  FB 06   * Offset to the file name -> UNITMEASTEMPDELTA_REAL
 0000023E :  69 00   * Order of the file
-00000240 :  0A 07   * Offset to the file name -> UNITMEASTEMPDELTA_REAL
+00000240 :  12 07   * Offset to the file name -> UNITMEASTEMPDELTA_INT
 00000242 :  6A 00   * Order of the file
-00000244 :  21 07   * Offset to the file name -> UNITMEASTEMPDELTA_INT
+00000244 :  28 07   * Offset to the file name -> CNTDWNSAFT
 00000246 :  6B 00   * Order of the file
-00000248 :  37 07   * Offset to the file name -> CNTDWNSAFT
+00000248 :  33 07   * Offset to the file name -> HOURSCOUNTER
 0000024A :  6C 00   * Order of the file
-0000024C :  42 07   * Offset to the file name -> HOURSCOUNTER
+0000024C :  40 07   * Offset to the file name -> BLACKOUT_3
 0000024E :  6D 00   * Order of the file
-00000250 :  4F 07   * Offset to the file name -> BLACKOUT_3
+00000250 :  4B 07   * Offset to the file name -> VERSIONCHK_2
 00000252 :  6E 00   * Order of the file
-00000254 :  5A 07   * Offset to the file name -> VERSIONCHK_2
+00000254 :  58 07   * Offset to the file name -> VERSIONCHK_2_STR
 00000256 :  6F 00   * Order of the file
-00000258 :  67 07   * Offset to the file name -> VERSIONCHK_2_STR
+00000258 :  69 07   * Offset to the file name -> APR_BLNK
 0000025A :  70 00   * Order of the file
-0000025C :  78 07   * Offset to the file name -> APR_BLNK
-0000025E :  71 00   * Order of the file
-00000260 :  48 49 53 54 4F 52 59 00   * HISTORY
-00000268 :  42 4F 4F 54 00   * BOOT
-0000026D :  49 4F 5F 4D 41 4E 41 47  -  45 00   * IO_MANAGE
-00000277 :  41 4C 41 52 4D 53 00   * ALARMS
-0000027E :  4D 41 49 4E 00   * MAIN
-00000283 :  4D 45 52 47 45 5F 54 45  -  53 54 00   * MERGE_TEST
-0000028E :  43 50 43 4F 45 5F 32 5F  -  4C 49 4D 49 54 5F 49 4E 
-0000029E :  54 00   * CPCOE_2_LIMIT_INT
-000002A0 :  41 42 53 48 55 4D 49 44  -  49 54 59 5F 49 4E 54 00   * ABSHUMIDITY_INT
-000002B0 :  41 42 53 48 55 4D 49 44  -  49 54 59 5F 52 45 41 4C 
-000002C0 :  00   * ABSHUMIDITY_REAL
-000002C1 :  42 41 52 54 4F 50 53 49  -  5F 49 4E 54 00   * BARTOPSI_INT
-000002CE :  42 41 52 54 4F 50 53 49  -  5F 52 45 41 4C 00   * BARTOPSI_REAL
-000002DC :  43 45 4C 54 4F 46 41 48  -  52 5F 49 4E 54 00   * CELTOFAHR_INT
-000002EA :  43 45 4C 54 4F 46 41 48  -  52 5F 52 45 41 4C 00   * CELTOFAHR_REAL
-000002F9 :  43 45 4C 54 4F 46 41 48  -  52 44 45 4C 54 41 5F 49 
-00000309 :  4E 54 00   * CELTOFAHRDELTA_INT
-0000030C :  43 45 4C 54 4F 46 41 48  -  52 44 45 4C 54 41 5F 52 
-0000031C :  45 41 4C 00   * CELTOFAHRDELTA_REAL
-00000320 :  43 4F 4D 50 45 4E 53 53  -  45 54 50 5F 49 4E 54 00   * COMPENSSETP_INT
-00000330 :  43 4F 4D 50 45 4E 53 53  -  45 54 50 5F 52 45 41 4C 
-00000340 :  00   * COMPENSSETP_REAL
-00000341 :  43 4F 4E 56 5F 49 4E 54  -  00   * CONV_INT
-0000034A :  43 4F 4E 56 5F 52 45 41  -  4C 00   * CONV_REAL
-00000354 :  43 4F 4E 56 48 4F 55 52  -  54 4F 4D 49 4E 5F 49 4E 
-00000364 :  54 00   * CONVHOURTOMIN_INT
-00000366 :  43 4F 55 4E 54 45 52 34  -  5F 49 4E 54 00   * COUNTER4_INT
-00000373 :  43 4F 55 4E 54 45 52 38  -  5F 49 4E 54 00   * COUNTER8_INT
-00000380 :  44 45 57 50 4F 49 4E 54  -  5F 49 4E 54 00   * DEWPOINT_INT
-0000038D :  44 45 57 50 4F 49 4E 54  -  5F 52 45 41 4C 00   * DEWPOINT_REAL
-0000039B :  45 51 5F 52 45 41 4C 00   * EQ_REAL
-000003A3 :  46 41 48 52 54 4F 43 45  -  4C 5F 49 4E 54 00   * FAHRTOCEL_INT
-000003B1 :  46 41 48 52 54 4F 43 45  -  4C 5F 52 45 41 4C 00   * FAHRTOCEL_REAL
-000003C0 :  46 41 48 52 54 4F 43 45  -  4C 44 45 4C 54 41 5F 49 
-000003D0 :  4E 54 00   * FAHRTOCELDELTA_INT
-000003D3 :  46 41 48 52 54 4F 43 45  -  4C 44 45 4C 54 41 5F 52 
-000003E3 :  45 41 4C 00   * FAHRTOCELDELTA_REAL
-000003E7 :  4C 49 4D 49 54 5F 49 4E  -  54 00   * LIMIT_INT
-000003F1 :  4C 49 4D 49 54 5F 52 45  -  41 4C 00   * LIMIT_REAL
-000003FC :  4C 4F 47 45 5F 52 45 41  -  4C 00   * LOGE_REAL
-00000406 :  4D 41 58 5F 49 4E 54 00   * MAX_INT
-0000040E :  4D 41 58 5F 52 45 41 4C  -  00   * MAX_REAL
-00000417 :  4D 49 4E 5F 49 4E 54 00   * MIN_INT
-0000041F :  4D 49 4E 5F 52 45 41 4C  -  00   * MIN_REAL
-00000428 :  4D 55 58 35 5F 49 4E 54  -  00   * MUX5_INT
-00000431 :  50 53 49 54 4F 42 41 52  -  5F 49 4E 54 00   * PSITOBAR_INT
-0000043E :  50 53 49 54 4F 42 41 52  -  5F 52 45 41 4C 00   * PSITOBAR_REAL
-0000044C :  50 52 45 53 53 54 4F 54  -  45 4D 50 5F 49 4E 54 00   * PRESSTOTEMP_INT
-0000045C :  50 52 45 53 53 54 4F 54  -  45 4D 50 5F 52 45 41 4C 
-0000046C :  00   * PRESSTOTEMP_REAL
-0000046D :  52 41 4E 47 45 00   * RANGE
-00000473 :  52 41 4E 47 45 5F 49 4E  -  54 00   * RANGE_INT
-0000047D :  52 41 4E 47 45 5F 52 45  -  41 4C 00   * RANGE_REAL
-00000488 :  52 41 4E 47 45 55 4E 49  -  56 00   * RANGEUNIV
-00000492 :  52 41 4E 47 45 55 4E 49  -  56 5F 49 4E 54 00   * RANGEUNIV_INT
-000004A0 :  52 41 4E 47 45 55 4E 49  -  56 5F 52 45 41 4C 00   * RANGEUNIV_REAL
-000004AF :  52 45 41 4C 54 4F 49 4E  -  54 00   * REALTOINT
-000004B9 :  52 45 41 4C 54 4F 44 49  -  4E 54 00   * REALTODINT
-000004C4 :  52 45 41 4C 54 4F 55 44  -  49 4E 54 00   * REALTOUDINT
-000004D0 :  52 45 41 4C 54 4F 55 49  -  4E 54 00   * REALTOUINT
-000004DB :  52 45 4C 48 55 4D 49 44  -  49 54 59 5F 49 4E 54 00   * RELHUMIDITY_INT
-000004EB :  52 45 4C 48 55 4D 49 44  -  49 54 59 5F 52 45 41 4C 
-000004FB :  00   * RELHUMIDITY_REAL
-000004FC :  52 4F 55 4E 44 5F 52 45  -  41 4C 00   * ROUND_REAL
-00000507 :  53 43 41 4C 45 52 5F 52  -  45 41 4C 00   * SCALER_REAL
-00000513 :  53 43 48 45 44 44 41 49  -  4C 59 54 49 4D 45 00   * SCHEDDAILYTIME
-00000522 :  53 43 48 45 44 44 41 49  -  4C 59 54 49 4D 45 5F 49 
-00000532 :  4E 54 00   * SCHEDDAILYTIME_INT
-00000535 :  53 45 43 54 4F 54 49 4D  -  45 00   * SECTOTIME
-0000053F :  53 45 4C 5F 42 4F 4F 4C  -  00   * SEL_BOOL
-00000548 :  53 45 4C 5F 49 4E 54 00   * SEL_INT
-00000550 :  53 45 4C 5F 52 45 41 4C  -  00   * SEL_REAL
-00000559 :  53 49 47 4E 5F 52 45 41  -  4C 00   * SIGN_REAL
-00000563 :  54 45 4D 50 54 4F 50 52  -  45 53 53 5F 49 4E 54 00   * TEMPTOPRESS_INT
-00000573 :  54 45 4D 50 54 4F 50 52  -  45 53 53 5F 52 45 41 4C 
-00000583 :  00   * TEMPTOPRESS_REAL
-00000584 :  54 49 4D 45 54 4F 53 45  -  43 00   * TIMETOSEC
-0000058E :  56 41 50 4F 55 52 53 41  -  54 50 52 45 53 53 5F 52 
-0000059E :  45 41 4C 00   * VAPOURSATPRESS_REAL
-000005A2 :  57 45 45 4B 44 41 59 5F  -  55 49 4E 54 00   * WEEKDAY_UINT
-000005AF :  43 50 43 4F 45 5F 32 5F  -  43 4F 4D 4D 53 45 54 00   * CPCOE_2_COMMSET
-000005BF :  43 50 43 4F 45 5F 32 5F  -  50 52 42 41 4C 52 4D 00   * CPCOE_2_PRBALRM
-000005CF :  43 50 43 4F 45 5F 32 5F  -  49 4F 4D 4E 47 00   * CPCOE_2_IOMNG
-000005DD :  43 50 43 4F 45 5F 32 5F  -  53 54 41 54 55 53 4D 4E 
-000005ED :  47 00   * CPCOE_2_STATUSMNG
-000005EF :  43 50 43 4F 45 5F 32 5F  -  50 52 49 4F 52 49 54 59 
-000005FF :  4D 4E 47 5F 49 4E 54 00   * CPCOE_2_PRIORITYMNG_INT
-00000607 :  43 50 43 4F 45 5F 32 00   * CPCOE_2
-0000060F :  43 50 43 4F 45 5F 32 5F  -  55 49 4D 4E 47 00   * CPCOE_2_UIMNG
-0000061D :  43 50 43 4F 45 5F 32 5F  -  52 45 44 47 45 00   * CPCOE_2_REDGE
-0000062B :  43 50 43 4F 45 5F 32 5F  -  41 44 44 52 43 48 41 4E 
-0000063B :  47 45 57 49 5A 41 52 44  -  00   * CPCOE_2_ADDRCHANGEWIZARD
-00000644 :  43 48 45 43 4B 52 45 54  -  41 49 4E 4D 45 4D 00   * CHECKRETAINMEM
-00000653 :  41 4E 44 32 43 4F 4D 00   * AND2COM
-0000065B :  41 4E 44 35 43 4F 4D 00   * AND5COM
-00000663 :  41 4E 44 31 30 43 4F 4D  -  00   * AND10COM
-0000066C :  42 4C 49 4E 4B 4F 4E 4F  -  46 46 5F 49 4E 54 00   * BLINKONOFF_INT
-0000067B :  43 4F 4E 56 4D 49 4E 54  -  4F 48 4F 55 52 5F 49 4E 
-0000068B :  54 00   * CONVMINTOHOUR_INT
-0000068D :  43 55 52 52 44 41 54 45  -  54 49 4D 45 00   * CURRDATETIME
-0000069A :  44 45 4C 41 59 4F 4E 4F  -  46 46 5F 49 4E 54 00   * DELAYONOFF_INT
-000006A9 :  44 49 47 49 54 43 4F 4E  -  56 5F 49 4E 54 00   * DIGITCONV_INT
-000006B7 :  45 4E 54 48 41 4C 50 59  -  5F 52 45 41 4C 00   * ENTHALPY_REAL
-000006C5 :  45 4E 54 48 41 4C 50 59  -  5F 49 4E 54 00   * ENTHALPY_INT
-000006D2 :  46 45 44 47 45 00   * FEDGE
-000006D8 :  46 4C 49 50 46 4C 4F 50  -  00   * FLIPFLOP
-000006E1 :  47 52 41 44 5F 49 4E 54  -  00   * GRAD_INT
-000006EA :  47 52 41 44 5F 52 45 41  -  4C 00   * GRAD_REAL
-000006F4 :  48 59 53 54 45 52 41 44  -  56 5F 52 45 41 4C 00   * HYSTERADV_REAL
-00000703 :  48 59 53 54 45 52 41 44  -  56 5F 49 4E 54 00   * HYSTERADV_INT
-00000711 :  49 4E 54 45 52 50 4F 4C  -  41 54 45 5F 52 45 41 4C 
-00000721 :  00   * INTERPOLATE_REAL
-00000722 :  4E 4F 54 32 00   * NOT2
-00000727 :  4E 4F 54 35 00   * NOT5
-0000072C :  4E 4F 54 31 30 00   * NOT10
-00000732 :  50 55 4C 53 45 43 4F 55  -  4E 54 45 52 5F 49 4E 54 
-00000742 :  00   * PULSECOUNTER_INT
-00000743 :  52 45 44 47 45 00   * REDGE
-00000749 :  52 46 54 52 49 47 00   * RFTRIG
-00000750 :  54 49 4D 45 43 4F 55 4E  -  54 45 52 5F 49 4E 54 00   * TIMECOUNTER_INT
-00000760 :  55 4E 49 54 4D 45 41 53  -  5F 50 5F 52 45 41 4C 00   * UNITMEAS_P_REAL
-00000770 :  55 4E 49 54 4D 45 41 53  -  5F 50 5F 49 4E 54 00   * UNITMEAS_P_INT
-0000077F :  55 4E 49 54 4D 45 41 53  -  54 45 4D 50 5F 52 45 41 
-0000078F :  4C 00   * UNITMEASTEMP_REAL
-00000791 :  55 4E 49 54 4D 45 41 53  -  54 45 4D 50 5F 49 4E 54 
-000007A1 :  00   * UNITMEASTEMP_INT
-000007A2 :  55 4E 49 54 4D 45 41 53  -  54 45 4D 50 44 45 4C 54 
-000007B2 :  41 5F 52 45 41 4C 00   * UNITMEASTEMPDELTA_REAL
-000007B9 :  55 4E 49 54 4D 45 41 53  -  54 45 4D 50 44 45 4C 54 
-000007C9 :  41 5F 49 4E 54 00   * UNITMEASTEMPDELTA_INT
-000007CF :  43 4E 54 44 57 4E 53 41  -  46 54 00   * CNTDWNSAFT
-000007DA :  48 4F 55 52 53 43 4F 55  -  4E 54 45 52 00   * HOURSCOUNTER
-000007E7 :  42 4C 41 43 4B 4F 55 54  -  5F 33 00   * BLACKOUT_3
-000007F2 :  56 45 52 53 49 4F 4E 43  -  48 4B 5F 32 00   * VERSIONCHK_2
-000007FF :  56 45 52 53 49 4F 4E 43  -  48 4B 5F 32 5F 53 54 52 
-0000080F :  00   * VERSIONCHK_2_STR
-00000810 :  41 50 52 5F 42 4C 4E 4B  -  00   * APR_BLNK
-00000819 :  00 00 00 00 00 00 00 
+0000025C :  48 49 53 54 4F 52 59 00   * HISTORY
+00000264 :  42 4F 4F 54 00   * BOOT
+00000269 :  49 4F 5F 4D 41 4E 41 47  -  45 00   * IO_MANAGE
+00000273 :  41 4C 41 52 4D 53 00   * ALARMS
+0000027A :  4D 41 49 4E 00   * MAIN
+0000027F :  43 50 43 4F 45 5F 32 5F  -  4C 49 4D 49 54 5F 49 4E 
+0000028F :  54 00   * CPCOE_2_LIMIT_INT
+00000291 :  41 42 53 48 55 4D 49 44  -  49 54 59 5F 49 4E 54 00   * ABSHUMIDITY_INT
+000002A1 :  41 42 53 48 55 4D 49 44  -  49 54 59 5F 52 45 41 4C 
+000002B1 :  00   * ABSHUMIDITY_REAL
+000002B2 :  42 41 52 54 4F 50 53 49  -  5F 49 4E 54 00   * BARTOPSI_INT
+000002BF :  42 41 52 54 4F 50 53 49  -  5F 52 45 41 4C 00   * BARTOPSI_REAL
+000002CD :  43 45 4C 54 4F 46 41 48  -  52 5F 49 4E 54 00   * CELTOFAHR_INT
+000002DB :  43 45 4C 54 4F 46 41 48  -  52 5F 52 45 41 4C 00   * CELTOFAHR_REAL
+000002EA :  43 45 4C 54 4F 46 41 48  -  52 44 45 4C 54 41 5F 49 
+000002FA :  4E 54 00   * CELTOFAHRDELTA_INT
+000002FD :  43 45 4C 54 4F 46 41 48  -  52 44 45 4C 54 41 5F 52 
+0000030D :  45 41 4C 00   * CELTOFAHRDELTA_REAL
+00000311 :  43 4F 4D 50 45 4E 53 53  -  45 54 50 5F 49 4E 54 00   * COMPENSSETP_INT
+00000321 :  43 4F 4D 50 45 4E 53 53  -  45 54 50 5F 52 45 41 4C 
+00000331 :  00   * COMPENSSETP_REAL
+00000332 :  43 4F 4E 56 5F 49 4E 54  -  00   * CONV_INT
+0000033B :  43 4F 4E 56 5F 52 45 41  -  4C 00   * CONV_REAL
+00000345 :  43 4F 4E 56 48 4F 55 52  -  54 4F 4D 49 4E 5F 49 4E 
+00000355 :  54 00   * CONVHOURTOMIN_INT
+00000357 :  43 4F 55 4E 54 45 52 34  -  5F 49 4E 54 00   * COUNTER4_INT
+00000364 :  43 4F 55 4E 54 45 52 38  -  5F 49 4E 54 00   * COUNTER8_INT
+00000371 :  44 45 57 50 4F 49 4E 54  -  5F 49 4E 54 00   * DEWPOINT_INT
+0000037E :  44 45 57 50 4F 49 4E 54  -  5F 52 45 41 4C 00   * DEWPOINT_REAL
+0000038C :  45 51 5F 52 45 41 4C 00   * EQ_REAL
+00000394 :  46 41 48 52 54 4F 43 45  -  4C 5F 49 4E 54 00   * FAHRTOCEL_INT
+000003A2 :  46 41 48 52 54 4F 43 45  -  4C 5F 52 45 41 4C 00   * FAHRTOCEL_REAL
+000003B1 :  46 41 48 52 54 4F 43 45  -  4C 44 45 4C 54 41 5F 49 
+000003C1 :  4E 54 00   * FAHRTOCELDELTA_INT
+000003C4 :  46 41 48 52 54 4F 43 45  -  4C 44 45 4C 54 41 5F 52 
+000003D4 :  45 41 4C 00   * FAHRTOCELDELTA_REAL
+000003D8 :  4C 49 4D 49 54 5F 49 4E  -  54 00   * LIMIT_INT
+000003E2 :  4C 49 4D 49 54 5F 52 45  -  41 4C 00   * LIMIT_REAL
+000003ED :  4C 4F 47 45 5F 52 45 41  -  4C 00   * LOGE_REAL
+000003F7 :  4D 41 58 5F 49 4E 54 00   * MAX_INT
+000003FF :  4D 41 58 5F 52 45 41 4C  -  00   * MAX_REAL
+00000408 :  4D 49 4E 5F 49 4E 54 00   * MIN_INT
+00000410 :  4D 49 4E 5F 52 45 41 4C  -  00   * MIN_REAL
+00000419 :  4D 55 58 35 5F 49 4E 54  -  00   * MUX5_INT
+00000422 :  50 53 49 54 4F 42 41 52  -  5F 49 4E 54 00   * PSITOBAR_INT
+0000042F :  50 53 49 54 4F 42 41 52  -  5F 52 45 41 4C 00   * PSITOBAR_REAL
+0000043D :  50 52 45 53 53 54 4F 54  -  45 4D 50 5F 49 4E 54 00   * PRESSTOTEMP_INT
+0000044D :  50 52 45 53 53 54 4F 54  -  45 4D 50 5F 52 45 41 4C 
+0000045D :  00   * PRESSTOTEMP_REAL
+0000045E :  52 41 4E 47 45 00   * RANGE
+00000464 :  52 41 4E 47 45 5F 49 4E  -  54 00   * RANGE_INT
+0000046E :  52 41 4E 47 45 5F 52 45  -  41 4C 00   * RANGE_REAL
+00000479 :  52 41 4E 47 45 55 4E 49  -  56 00   * RANGEUNIV
+00000483 :  52 41 4E 47 45 55 4E 49  -  56 5F 49 4E 54 00   * RANGEUNIV_INT
+00000491 :  52 41 4E 47 45 55 4E 49  -  56 5F 52 45 41 4C 00   * RANGEUNIV_REAL
+000004A0 :  52 45 41 4C 54 4F 49 4E  -  54 00   * REALTOINT
+000004AA :  52 45 41 4C 54 4F 44 49  -  4E 54 00   * REALTODINT
+000004B5 :  52 45 41 4C 54 4F 55 44  -  49 4E 54 00   * REALTOUDINT
+000004C1 :  52 45 41 4C 54 4F 55 49  -  4E 54 00   * REALTOUINT
+000004CC :  52 45 4C 48 55 4D 49 44  -  49 54 59 5F 49 4E 54 00   * RELHUMIDITY_INT
+000004DC :  52 45 4C 48 55 4D 49 44  -  49 54 59 5F 52 45 41 4C 
+000004EC :  00   * RELHUMIDITY_REAL
+000004ED :  52 4F 55 4E 44 5F 52 45  -  41 4C 00   * ROUND_REAL
+000004F8 :  53 43 41 4C 45 52 5F 52  -  45 41 4C 00   * SCALER_REAL
+00000504 :  53 43 48 45 44 44 41 49  -  4C 59 54 49 4D 45 00   * SCHEDDAILYTIME
+00000513 :  53 43 48 45 44 44 41 49  -  4C 59 54 49 4D 45 5F 49 
+00000523 :  4E 54 00   * SCHEDDAILYTIME_INT
+00000526 :  53 45 43 54 4F 54 49 4D  -  45 00   * SECTOTIME
+00000530 :  53 45 4C 5F 42 4F 4F 4C  -  00   * SEL_BOOL
+00000539 :  53 45 4C 5F 49 4E 54 00   * SEL_INT
+00000541 :  53 45 4C 5F 52 45 41 4C  -  00   * SEL_REAL
+0000054A :  53 49 47 4E 5F 52 45 41  -  4C 00   * SIGN_REAL
+00000554 :  54 45 4D 50 54 4F 50 52  -  45 53 53 5F 49 4E 54 00   * TEMPTOPRESS_INT
+00000564 :  54 45 4D 50 54 4F 50 52  -  45 53 53 5F 52 45 41 4C 
+00000574 :  00   * TEMPTOPRESS_REAL
+00000575 :  54 49 4D 45 54 4F 53 45  -  43 00   * TIMETOSEC
+0000057F :  56 41 50 4F 55 52 53 41  -  54 50 52 45 53 53 5F 52 
+0000058F :  45 41 4C 00   * VAPOURSATPRESS_REAL
+00000593 :  57 45 45 4B 44 41 59 5F  -  55 49 4E 54 00   * WEEKDAY_UINT
+000005A0 :  43 50 43 4F 45 5F 32 5F  -  43 4F 4D 4D 53 45 54 00   * CPCOE_2_COMMSET
+000005B0 :  43 50 43 4F 45 5F 32 5F  -  50 52 42 41 4C 52 4D 00   * CPCOE_2_PRBALRM
+000005C0 :  43 50 43 4F 45 5F 32 5F  -  49 4F 4D 4E 47 00   * CPCOE_2_IOMNG
+000005CE :  43 50 43 4F 45 5F 32 5F  -  53 54 41 54 55 53 4D 4E 
+000005DE :  47 00   * CPCOE_2_STATUSMNG
+000005E0 :  43 50 43 4F 45 5F 32 5F  -  50 52 49 4F 52 49 54 59 
+000005F0 :  4D 4E 47 5F 49 4E 54 00   * CPCOE_2_PRIORITYMNG_INT
+000005F8 :  43 50 43 4F 45 5F 32 00   * CPCOE_2
+00000600 :  43 50 43 4F 45 5F 32 5F  -  55 49 4D 4E 47 00   * CPCOE_2_UIMNG
+0000060E :  43 50 43 4F 45 5F 32 5F  -  52 45 44 47 45 00   * CPCOE_2_REDGE
+0000061C :  43 50 43 4F 45 5F 32 5F  -  41 44 44 52 43 48 41 4E 
+0000062C :  47 45 57 49 5A 41 52 44  -  00   * CPCOE_2_ADDRCHANGEWIZARD
+00000635 :  43 48 45 43 4B 52 45 54  -  41 49 4E 4D 45 4D 00   * CHECKRETAINMEM
+00000644 :  41 4E 44 32 43 4F 4D 00   * AND2COM
+0000064C :  41 4E 44 35 43 4F 4D 00   * AND5COM
+00000654 :  41 4E 44 31 30 43 4F 4D  -  00   * AND10COM
+0000065D :  42 4C 49 4E 4B 4F 4E 4F  -  46 46 5F 49 4E 54 00   * BLINKONOFF_INT
+0000066C :  43 4F 4E 56 4D 49 4E 54  -  4F 48 4F 55 52 5F 49 4E 
+0000067C :  54 00   * CONVMINTOHOUR_INT
+0000067E :  43 55 52 52 44 41 54 45  -  54 49 4D 45 00   * CURRDATETIME
+0000068B :  44 45 4C 41 59 4F 4E 4F  -  46 46 5F 49 4E 54 00   * DELAYONOFF_INT
+0000069A :  44 49 47 49 54 43 4F 4E  -  56 5F 49 4E 54 00   * DIGITCONV_INT
+000006A8 :  45 4E 54 48 41 4C 50 59  -  5F 52 45 41 4C 00   * ENTHALPY_REAL
+000006B6 :  45 4E 54 48 41 4C 50 59  -  5F 49 4E 54 00   * ENTHALPY_INT
+000006C3 :  46 45 44 47 45 00   * FEDGE
+000006C9 :  46 4C 49 50 46 4C 4F 50  -  00   * FLIPFLOP
+000006D2 :  47 52 41 44 5F 49 4E 54  -  00   * GRAD_INT
+000006DB :  47 52 41 44 5F 52 45 41  -  4C 00   * GRAD_REAL
+000006E5 :  48 59 53 54 45 52 41 44  -  56 5F 52 45 41 4C 00   * HYSTERADV_REAL
+000006F4 :  48 59 53 54 45 52 41 44  -  56 5F 49 4E 54 00   * HYSTERADV_INT
+00000702 :  49 4E 54 45 52 50 4F 4C  -  41 54 45 5F 52 45 41 4C 
+00000712 :  00   * INTERPOLATE_REAL
+00000713 :  4E 4F 54 32 00   * NOT2
+00000718 :  4E 4F 54 35 00   * NOT5
+0000071D :  4E 4F 54 31 30 00   * NOT10
+00000723 :  50 55 4C 53 45 43 4F 55  -  4E 54 45 52 5F 49 4E 54 
+00000733 :  00   * PULSECOUNTER_INT
+00000734 :  52 45 44 47 45 00   * REDGE
+0000073A :  52 46 54 52 49 47 00   * RFTRIG
+00000741 :  54 49 4D 45 43 4F 55 4E  -  54 45 52 5F 49 4E 54 00   * TIMECOUNTER_INT
+00000751 :  55 4E 49 54 4D 45 41 53  -  5F 50 5F 52 45 41 4C 00   * UNITMEAS_P_REAL
+00000761 :  55 4E 49 54 4D 45 41 53  -  5F 50 5F 49 4E 54 00   * UNITMEAS_P_INT
+00000770 :  55 4E 49 54 4D 45 41 53  -  54 45 4D 50 5F 52 45 41 
+00000780 :  4C 00   * UNITMEASTEMP_REAL
+00000782 :  55 4E 49 54 4D 45 41 53  -  54 45 4D 50 5F 49 4E 54 
+00000792 :  00   * UNITMEASTEMP_INT
+00000793 :  55 4E 49 54 4D 45 41 53  -  54 45 4D 50 44 45 4C 54 
+000007A3 :  41 5F 52 45 41 4C 00   * UNITMEASTEMPDELTA_REAL
+000007AA :  55 4E 49 54 4D 45 41 53  -  54 45 4D 50 44 45 4C 54 
+000007BA :  41 5F 49 4E 54 00   * UNITMEASTEMPDELTA_INT
+000007C0 :  43 4E 54 44 57 4E 53 41  -  46 54 00   * CNTDWNSAFT
+000007CB :  48 4F 55 52 53 43 4F 55  -  4E 54 45 52 00   * HOURSCOUNTER
+000007D8 :  42 4C 41 43 4B 4F 55 54  -  5F 33 00   * BLACKOUT_3
+000007E3 :  56 45 52 53 49 4F 4E 43  -  48 4B 5F 32 00   * VERSIONCHK_2
+000007F0 :  56 45 52 53 49 4F 4E 43  -  48 4B 5F 32 5F 53 54 52 
+00000800 :  00   * VERSIONCHK_2_STR
+00000801 :  41 50 52 5F 42 4C 4E 4B  -  00   * APR_BLNK
+0000080A :  00 00 00 00 00 00 
 
 

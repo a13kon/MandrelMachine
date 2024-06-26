@@ -1,39 +1,11 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
 <Manifest
-  Version="1.0.0">
+  Name="HysterAdv_INT"
+  Version="1.1.0">
   <Variables>
-    <Variable
-      Name="In"
-      Comment="Input value"
-      AccessRights="Read"
-      DataType="INT"
-      Kind="VarInput"
-      IO="false"
-      Protocol="false"
-      UI="false"
-      Default="false"
-      LogPV="false"
-      Alarm="false"
-      UoM="NoUnits"
-      IsRetained="false" />
-    <Variable
-      Name="SetP"
-      Comment="Setpoint"
-      AccessRights="Read"
-      DataType="INT"
-      Kind="VarInput"
-      IO="false"
-      Protocol="false"
-      UI="false"
-      Default="false"
-      LogPV="false"
-      Alarm="false"
-      UoM="NoUnits"
-      IsRetained="false" />
     <Variable
       Name="DiffLeft"
       Comment="Differential to the left of the setpoint (extreme included)"
-      AccessRights="Read"
       DataType="INT"
       Kind="VarInput"
       IO="false"
@@ -41,13 +13,17 @@
       UI="false"
       Default="false"
       LogPV="false"
+      IsRetained="false"
       Alarm="false"
       UoM="NoUnits"
-      IsRetained="false" />
+      Access="ReadWrite"
+      Acronym=""
+      Min=""
+      Max=""
+      StringSize="0" />
     <Variable
       Name="DiffRight"
       Comment="Differential to the right of the setpoint (extreme included)"
-      AccessRights="Read"
       DataType="INT"
       Kind="VarInput"
       IO="false"
@@ -55,41 +31,17 @@
       UI="false"
       Default="false"
       LogPV="false"
+      IsRetained="false"
       Alarm="false"
       UoM="NoUnits"
-      IsRetained="false" />
-    <Variable
-      Name="Reverse"
-      Comment="If true, the function is reverted"
-      AccessRights="Read"
-      DataType="BOOL"
-      Kind="VarInput"
-      IO="false"
-      Protocol="false"
-      UI="false"
-      Default="false"
-      LogPV="false"
-      Alarm="false"
-      UoM="NoUnits"
-      IsRetained="false" />
-    <Variable
-      Name="Out"
-      Comment="Output value"
-      AccessRights="Write"
-      DataType="BOOL"
-      Kind="VarOutput"
-      IO="false"
-      Protocol="false"
-      UI="false"
-      Default="false"
-      LogPV="false"
-      Alarm="false"
-      UoM="NoUnits"
-      IsRetained="false" />
+      Access="ReadWrite"
+      Acronym=""
+      Min=""
+      Max=""
+      StringSize="0" />
     <Variable
       Name="HysterAdv_REAL_1"
       Comment=""
-      AccessRights="ReadWrite"
       DataType="HysterAdv_REAL"
       Kind="Var">
       <Variable
@@ -100,9 +52,17 @@
         UI="false"
         Default="false"
         LogPV="false"
+        IsRetained="false"
         Alarm="false"
         UoM="NoUnits"
-        IsRetained="false" />
+        Comment="Input value"
+        Kind="VarInput"
+        Access="ReadWrite"
+        Acronym=""
+        Decimals="1"
+        Min=""
+        Max=""
+        StringSize="0" />
       <Variable
         Name="SetP"
         DataType="REAL"
@@ -111,9 +71,17 @@
         UI="false"
         Default="false"
         LogPV="false"
+        IsRetained="false"
         Alarm="false"
         UoM="NoUnits"
-        IsRetained="false" />
+        Comment="Setpoint"
+        Kind="VarInput"
+        Access="ReadWrite"
+        Acronym=""
+        Decimals="1"
+        Min=""
+        Max=""
+        StringSize="0" />
       <Variable
         Name="DiffLeft"
         DataType="REAL"
@@ -122,9 +90,17 @@
         UI="false"
         Default="false"
         LogPV="false"
+        IsRetained="false"
         Alarm="false"
         UoM="NoUnits"
-        IsRetained="false" />
+        Comment="Differential to the left of the setpoint (extreme included)"
+        Kind="VarInput"
+        Access="ReadWrite"
+        Acronym=""
+        Decimals="1"
+        Min=""
+        Max=""
+        StringSize="0" />
       <Variable
         Name="DiffRight"
         DataType="REAL"
@@ -133,9 +109,17 @@
         UI="false"
         Default="false"
         LogPV="false"
+        IsRetained="false"
         Alarm="false"
         UoM="NoUnits"
-        IsRetained="false" />
+        Comment="Differential to the right of the setpoint (extreme included)"
+        Kind="VarInput"
+        Access="ReadWrite"
+        Acronym=""
+        Decimals="1"
+        Min=""
+        Max=""
+        StringSize="0" />
       <Variable
         Name="Reverse"
         DataType="BOOL"
@@ -144,9 +128,16 @@
         UI="false"
         Default="false"
         LogPV="false"
+        IsRetained="false"
         Alarm="false"
         UoM="NoUnits"
-        IsRetained="false" />
+        Comment="If true, the function is reverted"
+        Kind="VarInput"
+        Access="ReadWrite"
+        Acronym=""
+        Min=""
+        Max=""
+        StringSize="0" />
       <Variable
         Name="Out"
         DataType="BOOL"
@@ -155,9 +146,88 @@
         UI="false"
         Default="false"
         LogPV="false"
+        IsRetained="false"
         Alarm="false"
         UoM="NoUnits"
-        IsRetained="false" />
+        Comment="Hysteresis on/off"
+        Kind="VarOutput"
+        Access="ReadWrite"
+        Acronym=""
+        Min=""
+        Max=""
+        StringSize="0" />
     </Variable>
+    <Variable
+      Name="In"
+      Comment="Input value"
+      DataType="INT"
+      Kind="VarInput"
+      IO="false"
+      Protocol="false"
+      UI="false"
+      Default="false"
+      LogPV="false"
+      IsRetained="false"
+      Alarm="false"
+      UoM="NoUnits"
+      Access="ReadWrite"
+      Acronym=""
+      Min=""
+      Max=""
+      StringSize="0" />
+    <Variable
+      Name="Out"
+      Comment="Output value"
+      DataType="BOOL"
+      Kind="VarOutput"
+      IO="false"
+      Protocol="false"
+      UI="false"
+      Default="false"
+      LogPV="false"
+      IsRetained="false"
+      Alarm="false"
+      UoM="NoUnits"
+      Access="ReadWrite"
+      Acronym=""
+      Min=""
+      Max=""
+      StringSize="0" />
+    <Variable
+      Name="Reverse"
+      Comment="If true, the function is reverted"
+      DataType="BOOL"
+      Kind="VarInput"
+      IO="false"
+      Protocol="false"
+      UI="false"
+      Default="false"
+      LogPV="false"
+      IsRetained="false"
+      Alarm="false"
+      UoM="NoUnits"
+      Access="ReadWrite"
+      Acronym=""
+      Min=""
+      Max=""
+      StringSize="0" />
+    <Variable
+      Name="SetP"
+      Comment="Setpoint"
+      DataType="INT"
+      Kind="VarInput"
+      IO="false"
+      Protocol="false"
+      UI="false"
+      Default="false"
+      LogPV="false"
+      IsRetained="false"
+      Alarm="false"
+      UoM="NoUnits"
+      Access="ReadWrite"
+      Acronym=""
+      Min=""
+      Max=""
+      StringSize="0" />
   </Variables>
 </Manifest>

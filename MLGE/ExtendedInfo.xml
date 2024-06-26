@@ -30,9 +30,6 @@
   <AcfElementGuid Guid="109dfb30-4b1c-4ac6-a79a-ce3e9f226ad3">
     <File>FlipFlop.acfmlge</File>
   </AcfElementGuid>
-  <AcfElementGuid Guid="10e7f810-df1b-4402-a52b-e2f5f9869e9c">
-    <File>merge_test.AcfMlge</File>
-  </AcfElementGuid>
   <AcfElementGuid Guid="1175b942-ba0f-42e2-972d-21c7efff9ce9">
     <File>BarToPsi_INT.acfmlge</File>
   </AcfElementGuid>

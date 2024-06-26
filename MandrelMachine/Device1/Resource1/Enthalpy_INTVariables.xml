@@ -1,39 +1,11 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
 <Manifest
-  Version="1.0.0">
+  Name="Enthalpy_INT"
+  Version="1.1.0">
   <Variables>
-    <Variable
-      Name="TAmb"
-      Comment="Ambient temperature in thenths of degrees (°C/10)"
-      AccessRights="Read"
-      DataType="INT"
-      Kind="VarInput"
-      IO="false"
-      Protocol="false"
-      UI="false"
-      Default="false"
-      LogPV="false"
-      Alarm="false"
-      UoM="NoUnits"
-      IsRetained="false" />
-    <Variable
-      Name="Hum"
-      Comment="Relative humidity in tenths (100%=1000)"
-      AccessRights="Read"
-      DataType="INT"
-      Kind="VarInput"
-      IO="false"
-      Protocol="false"
-      UI="false"
-      Default="false"
-      LogPV="false"
-      Alarm="false"
-      UoM="NoUnits"
-      IsRetained="false" />
     <Variable
       Name="AtmP"
       Comment="Atmospheric pressure in mbar"
-      AccessRights="Read"
       DataType="INT"
       Kind="VarInput"
       IO="false"
@@ -41,41 +13,17 @@
       UI="false"
       Default="false"
       LogPV="false"
+      IsRetained="false"
       Alarm="false"
       UoM="NoUnits"
-      IsRetained="false" />
-    <Variable
-      Name="Kcal_Enth"
-      Comment="Enthalpy in kcal/kg"
-      AccessRights="Write"
-      DataType="INT"
-      Kind="VarOutput"
-      IO="false"
-      Protocol="false"
-      UI="false"
-      Default="false"
-      LogPV="false"
-      Alarm="false"
-      UoM="NoUnits"
-      IsRetained="false" />
-    <Variable
-      Name="KJ_Enth"
-      Comment="Enthalpy in kJ/kg"
-      AccessRights="Write"
-      DataType="INT"
-      Kind="VarOutput"
-      IO="false"
-      Protocol="false"
-      UI="false"
-      Default="false"
-      LogPV="false"
-      Alarm="false"
-      UoM="NoUnits"
-      IsRetained="false" />
+      Access="ReadWrite"
+      Acronym=""
+      Min=""
+      Max=""
+      StringSize="0" />
     <Variable
       Name="Enthalpy_REAL_1"
       Comment=""
-      AccessRights="ReadWrite"
       DataType="Enthalpy_REAL"
       Kind="Var">
       <Variable
@@ -86,9 +34,17 @@
         UI="false"
         Default="false"
         LogPV="false"
+        IsRetained="false"
         Alarm="false"
         UoM="NoUnits"
-        IsRetained="false" />
+        Comment="Ambient temperature in degrees (°C)"
+        Kind="VarInput"
+        Access="ReadWrite"
+        Acronym=""
+        Decimals="1"
+        Min=""
+        Max=""
+        StringSize="0" />
       <Variable
         Name="Hum"
         DataType="REAL"
@@ -97,9 +53,17 @@
         UI="false"
         Default="false"
         LogPV="false"
+        IsRetained="false"
         Alarm="false"
         UoM="NoUnits"
-        IsRetained="false" />
+        Comment="Relative humidity (100%=100.0)"
+        Kind="VarInput"
+        Access="ReadWrite"
+        Acronym=""
+        Decimals="1"
+        Min=""
+        Max=""
+        StringSize="0" />
       <Variable
         Name="AtmP"
         DataType="REAL"
@@ -108,9 +72,17 @@
         UI="false"
         Default="false"
         LogPV="false"
+        IsRetained="false"
         Alarm="false"
         UoM="NoUnits"
-        IsRetained="false" />
+        Comment="Atmospheric pressure in mbar"
+        Kind="VarInput"
+        Access="ReadWrite"
+        Acronym=""
+        Decimals="1"
+        Min=""
+        Max=""
+        StringSize="0" />
       <Variable
         Name="Kcal_Enth"
         DataType="REAL"
@@ -119,9 +91,17 @@
         UI="false"
         Default="false"
         LogPV="false"
+        IsRetained="false"
         Alarm="false"
         UoM="NoUnits"
-        IsRetained="false" />
+        Comment="Enthalpy in kcal/kg"
+        Kind="VarOutput"
+        Access="ReadWrite"
+        Acronym=""
+        Decimals="1"
+        Min=""
+        Max=""
+        StringSize="0" />
       <Variable
         Name="KJ_Enth"
         DataType="REAL"
@@ -130,9 +110,17 @@
         UI="false"
         Default="false"
         LogPV="false"
+        IsRetained="false"
         Alarm="false"
         UoM="NoUnits"
-        IsRetained="false" />
+        Comment="Enthalpy in kJ/kg"
+        Kind="VarOutput"
+        Access="ReadWrite"
+        Acronym=""
+        Decimals="1"
+        Min=""
+        Max=""
+        StringSize="0" />
       <Variable
         Name="abshum"
         DataType="REAL"
@@ -141,9 +129,17 @@
         UI="false"
         Default="false"
         LogPV="false"
+        IsRetained="false"
         Alarm="false"
         UoM="NoUnits"
-        IsRetained="false" />
+        Comment=""
+        Kind="Var"
+        Access="ReadWrite"
+        Acronym=""
+        Decimals="1"
+        Min=""
+        Max=""
+        StringSize="0" />
       <Variable
         Name="tmp"
         DataType="REAL"
@@ -152,9 +148,89 @@
         UI="false"
         Default="false"
         LogPV="false"
+        IsRetained="false"
         Alarm="false"
         UoM="NoUnits"
-        IsRetained="false" />
+        Comment=""
+        Kind="Var"
+        Access="ReadWrite"
+        Acronym=""
+        Decimals="1"
+        Min=""
+        Max=""
+        StringSize="0" />
     </Variable>
+    <Variable
+      Name="Hum"
+      Comment="Relative humidity in tenths (100%=1000)"
+      DataType="INT"
+      Kind="VarInput"
+      IO="false"
+      Protocol="false"
+      UI="false"
+      Default="false"
+      LogPV="false"
+      IsRetained="false"
+      Alarm="false"
+      UoM="NoUnits"
+      Access="ReadWrite"
+      Acronym=""
+      Min=""
+      Max=""
+      StringSize="0" />
+    <Variable
+      Name="Kcal_Enth"
+      Comment="Enthalpy in kcal/kg"
+      DataType="INT"
+      Kind="VarOutput"
+      IO="false"
+      Protocol="false"
+      UI="false"
+      Default="false"
+      LogPV="false"
+      IsRetained="false"
+      Alarm="false"
+      UoM="NoUnits"
+      Access="ReadWrite"
+      Acronym=""
+      Min=""
+      Max=""
+      StringSize="0" />
+    <Variable
+      Name="KJ_Enth"
+      Comment="Enthalpy in kJ/kg"
+      DataType="INT"
+      Kind="VarOutput"
+      IO="false"
+      Protocol="false"
+      UI="false"
+      Default="false"
+      LogPV="false"
+      IsRetained="false"
+      Alarm="false"
+      UoM="NoUnits"
+      Access="ReadWrite"
+      Acronym=""
+      Min=""
+      Max=""
+      StringSize="0" />
+    <Variable
+      Name="TAmb"
+      Comment="Ambient temperature in thenths of degrees (°C/10)"
+      DataType="INT"
+      Kind="VarInput"
+      IO="false"
+      Protocol="false"
+      UI="false"
+      Default="false"
+      LogPV="false"
+      IsRetained="false"
+      Alarm="false"
+      UoM="NoUnits"
+      Access="ReadWrite"
+      Acronym=""
+      Min=""
+      Max=""
+      StringSize="0" />
   </Variables>
 </Manifest>

@@ -1,67 +1,11 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
 <Manifest
-  Version="1.0.0">
+  Name="UnitMeasTemp_INT"
+  Version="1.1.0">
   <Variables>
-    <Variable
-      Name="BaseTempIn"
-      Comment="Algorithm value"
-      AccessRights="Read"
-      DataType="INT"
-      Kind="VarInput"
-      IO="false"
-      Protocol="false"
-      UI="false"
-      Default="false"
-      LogPV="false"
-      Alarm="false"
-      UoM="NoUnits"
-      IsRetained="false" />
-    <Variable
-      Name="DisplayTempIn"
-      Comment="Display value"
-      AccessRights="Read"
-      DataType="INT"
-      Kind="VarInput"
-      IO="false"
-      Protocol="false"
-      UI="false"
-      Default="false"
-      LogPV="false"
-      Alarm="false"
-      UoM="NoUnits"
-      IsRetained="false" />
-    <Variable
-      Name="BaseUnit"
-      Comment="Unit of measurement of the base (false: Celsius, true: Fahrenheit)"
-      AccessRights="Read"
-      DataType="BOOL"
-      Kind="VarInput"
-      IO="false"
-      Protocol="false"
-      UI="false"
-      Default="false"
-      LogPV="false"
-      Alarm="false"
-      UoM="NoUnits"
-      IsRetained="false" />
-    <Variable
-      Name="DisplayUnit"
-      Comment="Unit of measurement of the display (false: Celsius, true: Fahrenheit)"
-      AccessRights="Read"
-      DataType="BOOL"
-      Kind="VarInput"
-      IO="false"
-      Protocol="false"
-      UI="false"
-      Default="false"
-      LogPV="false"
-      Alarm="false"
-      UoM="NoUnits"
-      IsRetained="false" />
     <Variable
       Name="BaseTemp"
       Comment="Algorithm value"
-      AccessRights="Write"
       DataType="INT"
       Kind="VarOutput"
       IO="false"
@@ -69,13 +13,53 @@
       UI="false"
       Default="false"
       LogPV="false"
+      IsRetained="false"
       Alarm="false"
       UoM="NoUnits"
-      IsRetained="false" />
+      Access="ReadWrite"
+      Acronym=""
+      Min=""
+      Max=""
+      StringSize="0" />
+    <Variable
+      Name="BaseTempIn"
+      Comment="Algorithm value"
+      DataType="INT"
+      Kind="VarInput"
+      IO="false"
+      Protocol="false"
+      UI="false"
+      Default="false"
+      LogPV="false"
+      IsRetained="false"
+      Alarm="false"
+      UoM="NoUnits"
+      Access="ReadWrite"
+      Acronym=""
+      Min=""
+      Max=""
+      StringSize="0" />
+    <Variable
+      Name="BaseUnit"
+      Comment="Unit of measurement of the base (false: Celsius, true: Fahrenheit)"
+      DataType="BOOL"
+      Kind="VarInput"
+      IO="false"
+      Protocol="false"
+      UI="false"
+      Default="false"
+      LogPV="false"
+      IsRetained="false"
+      Alarm="false"
+      UoM="NoUnits"
+      Access="ReadWrite"
+      Acronym=""
+      Min=""
+      Max=""
+      StringSize="0" />
     <Variable
       Name="DisplayTemp"
       Comment="Display value"
-      AccessRights="Write"
       DataType="INT"
       Kind="VarOutput"
       IO="false"
@@ -83,13 +67,53 @@
       UI="false"
       Default="false"
       LogPV="false"
+      IsRetained="false"
       Alarm="false"
       UoM="NoUnits"
-      IsRetained="false" />
+      Access="ReadWrite"
+      Acronym=""
+      Min=""
+      Max=""
+      StringSize="0" />
+    <Variable
+      Name="DisplayTempIn"
+      Comment="Display value"
+      DataType="INT"
+      Kind="VarInput"
+      IO="false"
+      Protocol="false"
+      UI="false"
+      Default="false"
+      LogPV="false"
+      IsRetained="false"
+      Alarm="false"
+      UoM="NoUnits"
+      Access="ReadWrite"
+      Acronym=""
+      Min=""
+      Max=""
+      StringSize="0" />
+    <Variable
+      Name="DisplayUnit"
+      Comment="Unit of measurement of the display (false: Celsius, true: Fahrenheit)"
+      DataType="BOOL"
+      Kind="VarInput"
+      IO="false"
+      Protocol="false"
+      UI="false"
+      Default="false"
+      LogPV="false"
+      IsRetained="false"
+      Alarm="false"
+      UoM="NoUnits"
+      Access="ReadWrite"
+      Acronym=""
+      Min=""
+      Max=""
+      StringSize="0" />
     <Variable
       Name="UnitMeasTempAbs_REAL_1"
       Comment=""
-      AccessRights="ReadWrite"
       DataType="UnitMeasTemp_REAL"
       Kind="Var">
       <Variable
@@ -100,9 +124,17 @@
         UI="false"
         Default="false"
         LogPV="false"
+        IsRetained="false"
         Alarm="false"
         UoM="NoUnits"
-        IsRetained="false" />
+        Comment="Algorithm value"
+        Kind="VarInput"
+        Access="ReadWrite"
+        Acronym=""
+        Decimals="1"
+        Min=""
+        Max=""
+        StringSize="0" />
       <Variable
         Name="DisplayTempIn"
         DataType="REAL"
@@ -111,9 +143,17 @@
         UI="false"
         Default="false"
         LogPV="false"
+        IsRetained="false"
         Alarm="false"
         UoM="NoUnits"
-        IsRetained="false" />
+        Comment="Display value"
+        Kind="VarInput"
+        Access="ReadWrite"
+        Acronym=""
+        Decimals="1"
+        Min=""
+        Max=""
+        StringSize="0" />
       <Variable
         Name="BaseUnit"
         DataType="BOOL"
@@ -122,9 +162,16 @@
         UI="false"
         Default="false"
         LogPV="false"
+        IsRetained="false"
         Alarm="false"
         UoM="NoUnits"
-        IsRetained="false" />
+        Comment="Unit of measurement of the base (false: Celsius, true: Fahrenheit)"
+        Kind="VarInput"
+        Access="ReadWrite"
+        Acronym=""
+        Min=""
+        Max=""
+        StringSize="0" />
       <Variable
         Name="DisplayUnit"
         DataType="BOOL"
@@ -133,9 +180,16 @@
         UI="false"
         Default="false"
         LogPV="false"
+        IsRetained="false"
         Alarm="false"
         UoM="NoUnits"
-        IsRetained="false" />
+        Comment="Unit of measurement of the display (false: Celsius, true: Fahrenheit)"
+        Kind="VarInput"
+        Access="ReadWrite"
+        Acronym=""
+        Min=""
+        Max=""
+        StringSize="0" />
       <Variable
         Name="BaseTemp"
         DataType="REAL"
@@ -144,9 +198,17 @@
         UI="false"
         Default="false"
         LogPV="false"
+        IsRetained="false"
         Alarm="false"
         UoM="NoUnits"
-        IsRetained="false" />
+        Comment="Algorithm value"
+        Kind="VarOutput"
+        Access="ReadWrite"
+        Acronym=""
+        Decimals="1"
+        Min=""
+        Max=""
+        StringSize="0" />
       <Variable
         Name="DisplayTemp"
         DataType="REAL"
@@ -155,9 +217,17 @@
         UI="false"
         Default="false"
         LogPV="false"
+        IsRetained="false"
         Alarm="false"
         UoM="NoUnits"
-        IsRetained="false" />
+        Comment="Display value"
+        Kind="VarOutput"
+        Access="ReadWrite"
+        Acronym=""
+        Decimals="1"
+        Min=""
+        Max=""
+        StringSize="0" />
       <Variable
         Name="PrevBaseTemp"
         DataType="REAL"
@@ -166,9 +236,17 @@
         UI="false"
         Default="false"
         LogPV="false"
+        IsRetained="false"
         Alarm="false"
         UoM="NoUnits"
-        IsRetained="false" />
+        Comment=""
+        Kind="Var"
+        Access="ReadWrite"
+        Acronym=""
+        Decimals="1"
+        Min=""
+        Max=""
+        StringSize="0" />
       <Variable
         Name="PrevDisplayTemp"
         DataType="REAL"
@@ -177,9 +255,17 @@
         UI="false"
         Default="false"
         LogPV="false"
+        IsRetained="false"
         Alarm="false"
         UoM="NoUnits"
-        IsRetained="false" />
+        Comment=""
+        Kind="Var"
+        Access="ReadWrite"
+        Acronym=""
+        Decimals="1"
+        Min=""
+        Max=""
+        StringSize="0" />
       <Variable
         Name="PrevDisplayUnit"
         DataType="BOOL"
@@ -188,9 +274,16 @@
         UI="false"
         Default="false"
         LogPV="false"
+        IsRetained="false"
         Alarm="false"
         UoM="NoUnits"
-        IsRetained="false" />
+        Comment=""
+        Kind="Var"
+        Access="ReadWrite"
+        Acronym=""
+        Min=""
+        Max=""
+        StringSize="0" />
       <Variable
         Name="FirstRun"
         DataType="BOOL"
@@ -199,9 +292,16 @@
         UI="false"
         Default="false"
         LogPV="false"
+        IsRetained="false"
         Alarm="false"
         UoM="NoUnits"
-        IsRetained="false" />
+        Comment=""
+        Kind="Var"
+        Access="ReadWrite"
+        Acronym=""
+        Min=""
+        Max=""
+        StringSize="0" />
     </Variable>
   </Variables>
 </Manifest>

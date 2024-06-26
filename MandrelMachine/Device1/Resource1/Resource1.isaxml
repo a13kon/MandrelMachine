@@ -114,7 +114,6 @@
     <Program Name="IO_Manage" ElementGuid="e6c12373-7b96-40b9-ad4e-9369ba353980" Language="ST" CustomFbd="0" Is1499="false" />
     <Program Name="Alarms" ElementGuid="5a1e4971-3cb0-44b2-8cfc-d280af3cdb81" Language="ST" CustomFbd="0" Is1499="false" />
     <Program Name="Main" ElementGuid="a391c5fb-7834-415f-aeb0-af8f3e703e04" Language="ST" CustomFbd="0" Is1499="false" />
-    <Program Name="merge_test" ElementGuid="10e7f810-df1b-4402-a52b-e2f5f9869e9c" Language="ST" CustomFbd="0" Is1499="false" />
   </Pous>
   <NetworkParameterValues>
     <NetworkParameterValue NetworkName="HSD" Name="ValidityTime" Value="0" />
@@ -130,10 +129,10 @@
     <Variable Name="__SYSVA_MANUAL_BUZZER_OFF" DataType="USINT" InitialValue="" Comment="Deactivates the alarm buzzer when it has been released from integrated alarm management" Address="" Modifier="NonRetain" Kind="VarGlobal" Alias="" AccessRights="ReadWrite" Attributes="32501" />
     <Variable Name="__SYSVA_MANUAL_BUZZER_ON" DataType="USINT" InitialValue="" Comment="Activates the buzzer when controlled manually" Address="" Modifier="NonRetain" Kind="VarGlobal" Alias="" AccessRights="ReadWrite" Attributes="32501" />
     <Variable Name="__SYSVA_BEEP_ON" DataType="USINT" InitialValue="" Comment="Activates the buzzer for a while" Address="" Modifier="NonRetain" Kind="VarGlobal" Alias="" AccessRights="ReadWrite" Attributes="32501" />
-    <Variable Name="U" DataType="STCT_Analog_IO" InitialValue="" Comment="Универсальные вх/вых для c.design" Address="" Modifier="Retain" Kind="Var" Alias="" AccessRights="ReadWrite" StringSize="0" RetainFlags="(2(1),0,0,2(1),1,0,0,0,1,(1,3(0)),0),(2(1),0,0,2(1),1,0,0,0,1,(1,3(0)),0),(2(1),0,0,2(1),1,0,0,0,1,(1,3(0)),0),(2(1),0,0,2(1),1,0,0,0,1,(1,3(0)),0),(2(1),0,0,2(1),1,0,0,0,1,(1,3(0)),0),(2(1),0,0,2(1),1,0,0,0,1,(1,3(0)),0),(2(1),0,0,2(1),1,0,0,0,1,(1,3(0)),0),(2(1),0,0,2(1),1,0,0,0,1,(1,3(0)),0),(2(1),0,0,2(1),1,0,0,0,1,(1,3(0)),0),(2(1),0,0,2(1),1,0,0,0,1,(1,3(0)),0)" CommentFields="" Attributes="0" GroupName="">
+    <Variable Name="U" DataType="STCT_Analog_IO" InitialValue="" Comment="Универсальные вх/вых для c.design" Address="" Modifier="NonRetain" Kind="Var" Alias="" AccessRights="ReadWrite" StringSize="0" RetainFlags="" CommentFields="" Attributes="0" GroupName="">
       <Dimension Lower="1" Upper="10" />
     </Variable>
-    <Variable Name="Y" DataType="STCT_Analog_IO" InitialValue="" Comment="Аналоговые выходы для c.design" Address="" Modifier="Retain" Kind="Var" Alias="" AccessRights="ReadWrite" StringSize="0" RetainFlags="(0,1,0,0,2(0),0,0,0,0,0,(4(0)),0),(0,1,0,0,2(0),0,0,0,0,0,(4(0)),0)" CommentFields="" Attributes="0" GroupName="">
+    <Variable Name="Y" DataType="STCT_Analog_IO" InitialValue="" Comment="Аналоговые выходы для c.design" Address="" Modifier="NonRetain" Kind="Var" Alias="" AccessRights="ReadWrite" StringSize="0" RetainFlags="" CommentFields="" Attributes="0" GroupName="">
       <Dimension Lower="1" Upper="2" />
     </Variable>
     <Variable Name="DIn" DataType="STCT_Digit_IO" InitialValue="" Comment="Цифровые входы для c.design" Address="" Modifier="NonRetain" Kind="Var" Alias="" AccessRights="ReadWrite" StringSize="0" RetainFlags="" CommentFields="" Attributes="0" GroupName="">

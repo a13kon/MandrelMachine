@@ -3,7 +3,7 @@
   <Info ManifestVersion="1.1.0">
     <Name>MandrelMachine</Name>
     <Description>Программа для щита управления вытяжкой паячных постов на участок №7 (новый).</Description>
-    <Version>1.5.3</Version>
+    <Version>1.5.5</Version>
     <CreationDate>2020-11-02T09:48:38.6204209Z</CreationDate>
     <Owner>TechoGroup</Owner>
     <StorageToolManaged>false</StorageToolManaged>
