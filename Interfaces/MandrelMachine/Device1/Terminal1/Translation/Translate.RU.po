@@ -83,6 +83,16 @@ msgid "AL#06"
 msgstr "AL#06"
 
 #: Classes.otsf
+msgctxt "[Class:AlrmNo][Resource:6]"
+msgid "AL#07"
+msgstr "AL#07"
+
+#: Classes.otsf
+msgctxt "[Class:AlrmNo][Resource:7]"
+msgid "AL#08"
+msgstr "AL#08"
+
+#: Classes.otsf
 #| msgctxt "[Class:Copy_UoM_Class][Resource:0]"
 msgctxt "[Class:AnalogType_Class][Resource:0]"
 msgid ""

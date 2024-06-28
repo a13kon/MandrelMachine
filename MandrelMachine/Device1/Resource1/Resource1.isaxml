@@ -175,6 +175,10 @@
     <Variable Name="POn" DataType="BOOL" InitialValue="" Comment="" Address="" Modifier="NonRetain" Kind="Var" Alias="" AccessRights="ReadWrite" StringSize="0" RetainFlags="" CommentFields="" Attributes="0" GroupName="" />
     <Variable Name="PreUpPumpSpeed" DataType="REAL" InitialValue="8.0" Comment="" Address="" Modifier="Retain" Kind="Var" Alias="" AccessRights="ReadWrite" StringSize="0" RetainFlags="" CommentFields="" Attributes="0" GroupName="" />
     <Variable Name="PreUpHPSValue" DataType="REAL" InitialValue="8.0" Comment="" Address="" Modifier="Retain" Kind="Var" Alias="" AccessRights="ReadWrite" StringSize="0" RetainFlags="" CommentFields="" Attributes="0" GroupName="" />
+    <Variable Name="Al_Water" DataType="ALM" InitialValue="" Comment="Авария низкий уровень воды в баке" Address="" Modifier="NonRetain" Kind="Var" Alias="" AccessRights="ReadWrite" StringSize="0" RetainFlags="" CommentFields="" Attributes="0" GroupName="" />
+    <Variable Name="Warning_water" DataType="ALM" InitialValue="" Comment="Предупреждение низкий уровень воды в баке" Address="" Modifier="NonRetain" Kind="Var" Alias="" AccessRights="ReadWrite" StringSize="0" RetainFlags="" CommentFields="" Attributes="0" GroupName="" />
+    <Variable Name="A_Water" DataType="BOOL" InitialValue="" Comment="" Address="" Modifier="NonRetain" Kind="Var" Alias="" AccessRights="ReadWrite" StringSize="0" RetainFlags="" CommentFields="" Attributes="0" GroupName="" />
+    <Variable Name="W_Water" DataType="BOOL" InitialValue="" Comment="" Address="" Modifier="NonRetain" Kind="Var" Alias="" AccessRights="ReadWrite" StringSize="0" RetainFlags="" CommentFields="" Attributes="0" GroupName="" />
   </GlobalVars>
   <Devices />
   <ExportedGroups />

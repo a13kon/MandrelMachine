@@ -27,6 +27,8 @@
       <Index Value="3" Content="AL#04" Type="Text" TextFactor="2" LimitText="false" Font="CAREL_TERM_EAST" FontHeight="9" ProportionalCharWidth="true" />
       <Index Value="4" Content="AL#05" Type="Text" TextFactor="2" LimitText="false" Font="CAREL_TERM_EAST" FontHeight="9" ProportionalCharWidth="true" />
       <Index Value="5" Content="AL#06" Type="Text" TextFactor="2" LimitText="false" Font="CAREL_TERM_EAST" FontHeight="9" ProportionalCharWidth="true" />
+      <Index Value="6" Content="AL#07" Type="Text" TextFactor="2" LimitText="false" Font="CAREL_TERM_EAST" FontHeight="9" ProportionalCharWidth="true" />
+      <Index Value="7" Content="AL#08" Type="Text" TextFactor="2" LimitText="false" Font="CAREL_TERM_EAST" FontHeight="9" ProportionalCharWidth="true" />
     </ResourceUsedOnInt>
   </FormatField>
   <FormatField Name="AnalogType_Class" Format="o1">

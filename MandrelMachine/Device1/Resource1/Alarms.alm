@@ -6,4 +6,6 @@
   <Alarm Name="FLR_Comp" Type="ManualReset" Trigger="FLR_Comp.Trigger" Active="FLR_Comp.Active" Description="Авария компрессора" />
   <Alarm Name="FLR_EmStop" Type="AutoReset" Trigger="FLR_EmStop.Trigger" Active="FLR_EmStop.Active" Description="Аварийный стоп" />
   <Alarm Name="FLR_DifPress" Type="ManualReset" Trigger="FLR_DifPress.Trigger" Active="FLR_DifPress.Active" Description="Авария по перепаду давления" />
+  <Alarm Name="Al_Water" Type="AutoReset" Trigger="Al_Water.Trigger" Active="Al_Water.Active" Description="Авария низкий уровень воды в баке" />
+  <Alarm Name="Warning_water" Type="AutoReset" Trigger="Warning_water.Trigger" Active="Warning_water.Active" Description="Предупреждение низкий уровень воды в баке" />
 </Alarms>

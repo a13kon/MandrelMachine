@@ -382,6 +382,24 @@
       Max=""
       StringSize="0" />
     <Variable
+      Name="A_Water"
+      Comment=""
+      DataType="BOOL"
+      Kind="Var"
+      IO="false"
+      Protocol="false"
+      UI="false"
+      Default="false"
+      LogPV="false"
+      IsRetained="false"
+      Alarm="false"
+      UoM="NoUnits"
+      Access="ReadWrite"
+      Acronym=""
+      Min=""
+      Max=""
+      StringSize="0" />
+    <Variable
       Name="Al_Err_retain_write"
       Comment="Ошибка записи в постоянную память"
       DataType="ALM"
@@ -426,6 +444,48 @@
     <Variable
       Name="Al_retain"
       Comment="Ошибка подсчета числа записей в постоянную память"
+      DataType="ALM"
+      Kind="Var">
+      <Variable
+        Name="Trigger"
+        DataType="BOOL"
+        IO="false"
+        Protocol="true"
+        UI="true"
+        Default="false"
+        LogPV="false"
+        IsRetained="false"
+        Alarm="true"
+        UoM="NoUnits"
+        Comment="Alarm status Trigger"
+        Kind="Var"
+        Access="ReadWrite"
+        Acronym=""
+        Min=""
+        Max=""
+        StringSize="0" />
+      <Variable
+        Name="Active"
+        DataType="BOOL"
+        IO="false"
+        Protocol="true"
+        UI="true"
+        Default="false"
+        LogPV="false"
+        IsRetained="false"
+        Alarm="true"
+        UoM="NoUnits"
+        Comment="Alarm status"
+        Kind="Var"
+        Access="ReadWrite"
+        Acronym=""
+        Min=""
+        Max=""
+        StringSize="0" />
+    </Variable>
+    <Variable
+      Name="Al_Water"
+      Comment="Авария низкий уровень воды в баке"
       DataType="ALM"
       Kind="Var">
       <Variable
@@ -13352,6 +13412,24 @@
         StringSize="0" />
     </Variable>
     <Variable
+      Name="W_Water"
+      Comment=""
+      DataType="BOOL"
+      Kind="Var"
+      IO="false"
+      Protocol="false"
+      UI="false"
+      Default="false"
+      LogPV="false"
+      IsRetained="false"
+      Alarm="false"
+      UoM="NoUnits"
+      Access="ReadWrite"
+      Acronym=""
+      Min=""
+      Max=""
+      StringSize="0" />
+    <Variable
       Name="Warning"
       Comment=""
       DataType="BOOL"
@@ -13369,6 +13447,48 @@
       Min=""
       Max=""
       StringSize="0" />
+    <Variable
+      Name="Warning_water"
+      Comment="Предупреждение низкий уровень воды в баке"
+      DataType="ALM"
+      Kind="Var">
+      <Variable
+        Name="Trigger"
+        DataType="BOOL"
+        IO="false"
+        Protocol="true"
+        UI="true"
+        Default="false"
+        LogPV="false"
+        IsRetained="false"
+        Alarm="true"
+        UoM="NoUnits"
+        Comment="Alarm status Trigger"
+        Kind="Var"
+        Access="ReadWrite"
+        Acronym=""
+        Min=""
+        Max=""
+        StringSize="0" />
+      <Variable
+        Name="Active"
+        DataType="BOOL"
+        IO="false"
+        Protocol="true"
+        UI="true"
+        Default="false"
+        LogPV="false"
+        IsRetained="false"
+        Alarm="true"
+        UoM="NoUnits"
+        Comment="Alarm status"
+        Kind="Var"
+        Access="ReadWrite"
+        Acronym=""
+        Min=""
+        Max=""
+        StringSize="0" />
+    </Variable>
     <Variable
       Name="Y"
       Comment="Аналоговые выходы для c.design"
