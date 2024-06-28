@@ -9,8 +9,8 @@
 00000028 :  00 00 00 44   * Offset -> resource name
 0000002C :  00 00 00 65   * Offset -> module name
 00000030 :  00 00 00 90   * Offset -> beginning of the data block
-00000034 :  66 7E BF 81   * Compilation generation date
-00000038 :  00 00 00 CA   * Compilation version number
+00000034 :  66 7E C1 3E   * Compilation generation date
+00000038 :  00 00 00 CC   * Compilation version number
 0000003C :  00 00 00 00   * User module version number
 00000040 :  00 00 00 76   * Offset -> target auto-validation data
 00000044 :  4D 41 4E 44 52 45 4C 4D  -  41 43 48 49 4E 45 5C 44 
