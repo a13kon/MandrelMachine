@@ -129,16 +129,16 @@
     <Variable Name="__SYSVA_MANUAL_BUZZER_OFF" DataType="USINT" InitialValue="" Comment="Deactivates the alarm buzzer when it has been released from integrated alarm management" Address="" Modifier="NonRetain" Kind="VarGlobal" Alias="" AccessRights="ReadWrite" Attributes="32501" />
     <Variable Name="__SYSVA_MANUAL_BUZZER_ON" DataType="USINT" InitialValue="" Comment="Activates the buzzer when controlled manually" Address="" Modifier="NonRetain" Kind="VarGlobal" Alias="" AccessRights="ReadWrite" Attributes="32501" />
     <Variable Name="__SYSVA_BEEP_ON" DataType="USINT" InitialValue="" Comment="Activates the buzzer for a while" Address="" Modifier="NonRetain" Kind="VarGlobal" Alias="" AccessRights="ReadWrite" Attributes="32501" />
-    <Variable Name="U" DataType="STCT_Analog_IO" InitialValue="" Comment="Универсальные вх/вых для c.design" Address="" Modifier="NonRetain" Kind="Var" Alias="" AccessRights="ReadWrite" StringSize="0" RetainFlags="" CommentFields="" Attributes="0" GroupName="">
+    <Variable Name="U" DataType="STCT_Analog_IO" InitialValue="" Comment="Универсальные вх/вых для c.design" Address="" Modifier="Retain" Kind="Var" Alias="" AccessRights="ReadWrite" StringSize="0" RetainFlags="(2(0),0,0,2(0),0,0,0,0,1,(4(1)),1),(2(0),0,0,2(0),0,0,0,0,1,(4(1)),1),(2(0),0,0,2(0),0,0,0,0,1,(4(1)),1),(2(0),0,0,2(0),0,0,0,0,1,(4(1)),1),(2(0),0,0,2(0),0,0,0,0,1,(4(1)),1),(2(0),0,0,2(0),0,0,0,0,1,(4(1)),1),(2(0),0,0,2(0),0,0,0,0,1,(4(1)),1),(2(0),0,0,2(0),0,0,0,0,1,(4(1)),1),(2(0),0,0,2(0),0,0,0,0,1,(4(1)),1),(2(0),0,0,2(0),0,0,0,0,1,(4(1)),1)" CommentFields="" Attributes="0" GroupName="">
       <Dimension Lower="1" Upper="10" />
     </Variable>
-    <Variable Name="Y" DataType="STCT_Analog_IO" InitialValue="" Comment="Аналоговые выходы для c.design" Address="" Modifier="NonRetain" Kind="Var" Alias="" AccessRights="ReadWrite" StringSize="0" RetainFlags="" CommentFields="" Attributes="0" GroupName="">
+    <Variable Name="Y" DataType="STCT_Analog_IO" InitialValue="" Comment="Аналоговые выходы для c.design" Address="" Modifier="Retain" Kind="Var" Alias="" AccessRights="ReadWrite" StringSize="0" RetainFlags="(2(0),0,0,2(0),0,0,0,0,1,(4(1)),1),(2(0),0,0,2(0),0,0,0,0,1,(4(1)),1)" CommentFields="" Attributes="0" GroupName="">
       <Dimension Lower="1" Upper="2" />
     </Variable>
-    <Variable Name="DIn" DataType="STCT_Digit_IO" InitialValue="" Comment="Цифровые входы для c.design" Address="" Modifier="NonRetain" Kind="Var" Alias="" AccessRights="ReadWrite" StringSize="0" RetainFlags="" CommentFields="" Attributes="0" GroupName="">
+    <Variable Name="DIn" DataType="STCT_Digit_IO" InitialValue="" Comment="Цифровые входы для c.design" Address="" Modifier="Retain" Kind="Var" Alias="" AccessRights="ReadWrite" StringSize="0" RetainFlags="(0,0,2(0),1),(0,0,2(0),1)" CommentFields="" Attributes="0" GroupName="">
       <Dimension Lower="1" Upper="2" />
     </Variable>
-    <Variable Name="DOut" DataType="STCT_Digit_IO" InitialValue="" Comment="Цифровые выходы для c.design" Address="" Modifier="NonRetain" Kind="Var" Alias="" AccessRights="ReadWrite" StringSize="0" RetainFlags="" CommentFields="" Attributes="0" GroupName="">
+    <Variable Name="DOut" DataType="STCT_Digit_IO" InitialValue="" Comment="Цифровые выходы для c.design" Address="" Modifier="Retain" Kind="Var" Alias="" AccessRights="ReadWrite" StringSize="0" RetainFlags="(0,0,2(0),1),(0,0,2(0),1),(0,0,2(0),1),(0,0,2(0),1),(0,0,2(0),1),(0,0,2(0),1)" CommentFields="" Attributes="0" GroupName="">
       <Dimension Lower="1" Upper="6" />
     </Variable>
     <Variable Name="StartupJmp" DataType="BOOL" InitialValue="" Comment="" Address="" Modifier="NonRetain" Kind="Var" Alias="" AccessRights="ReadWrite" StringSize="0" RetainFlags="" CommentFields="" Attributes="0" GroupName="" />
